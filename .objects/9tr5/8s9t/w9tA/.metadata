@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Restaurant365",
+  "Type": "Screen",
+  "Id": "w9tAU2MsuUK8tIJMpJjJ7g",
+  "Reference": "sWPe-Uob5ka5MN8G-3WlKg/w9tAU2MsuUK8tIJMpJjJ7g",
+  "ParentRef": "sWPe-Uob5ka5MN8G-3WlKg/8s9tDIB9OkGgnQfrdj1vKw",
+  "Created": "2025-03-24T16:51:32.2308931Z",
+  "Updated": "2025-03-24T16:51:32.2308931Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

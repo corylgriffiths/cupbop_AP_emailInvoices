@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="deNedrDh-kq0IW9ihAoeLw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="75c144a3-122d-4339-85f9-0bafc5e62b67" CvElementArea="234, 300, 385, 39" CvType="InputBox" DesignTimeRectangle="237, 301, 381, 36" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='APInvoiceNumber' tag='INPUT' type='text' class='k-textbox has-full-width ng-pristine ng-untouched ng-valid ng-empty' aaname='                                     Invoice Number                                 ' /&gt;" Guid="3d18cede-62d5-44ff-a0f7-1ed1ae1a44e7" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="75c144a3-122d-4339-85f9-0bafc5e62b67" CvTextArea="55, 311, 143, 17" CvTextArgument="Invoice Number *" CvType="Text" DesignTimeRectangle="9, 301, 209, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                                     Invoice Number                                 ' parentid='KendoSplitter' tag='LABEL' type='' class='control-label col-sm-4 required-indicator' check:innerText='Invoice Number' /&gt;" Guid="a03f356d-3b14-4472-a0be-a296a29325b6" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3f992f9efa16fd827b4b25782cb88264.png" xmlns="">07rO6bm_cSUCFQ1xvR7Lb6g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

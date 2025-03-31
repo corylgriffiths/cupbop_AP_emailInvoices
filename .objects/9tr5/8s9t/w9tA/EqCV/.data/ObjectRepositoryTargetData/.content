@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="A0NoOQGSYkWbBsG9dczcBg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="identity.restaurant365.com/Account/Login" CVScreenId="1fbd93ee-8c38-40f5-8141-8cbae6a4394d" CvElementArea="767, 598, 403, 73" CvType="InputBox" DesignTimeRectangle="769, 599, 400, 70" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='Password' tag='INPUT' type='password' class='' placeholder='Enter password' aaname='' /&gt;" Guid="c84ba715-65eb-4ef1-aa07-9f0ccdcf5200" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2c6565ff814641e3f0a96364e3765328.png" xmlns="">0OUFt-dBthk2jZatZjFvQ4A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

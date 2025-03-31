@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YMIn6BdJiE-1sf3u7nDAnA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="6b642cd7-5c0b-41a8-a286-1c18413372f5" CvElementArea="234, 203, 388, 40" CvType="InputBox" DesignTimeRectangle="238, 206, 330, 33" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='APInvoiceLocation_input' tag='INPUT' type='text' class='k-input has-full-width ap-invoice-location ng-valid ng-touched ng-dirty ng-empty' placeholder='Select Location' aaname='' /&gt;" Guid="e57f05e9-b090-40ec-93b0-b5437e5e7a91" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="6b642cd7-5c0b-41a8-a286-1c18413372f5" CvTextArea="114, 214, 84, 17" CvTextArgument="Location *" CvType="Text" DesignTimeRectangle="9, 205, 209, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='KendoSplitter' tag='LABEL' type='' class='control-label col-sm-4 col-xs-12 required-indicator' aaname='                                                                                                                   ' check:innerText='Location' /&gt;" Guid="b7231447-4b9f-4dc1-bce2-566edb202303" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="72ca8cfb15ab9ac941c469a3efc256aa.png" xmlns="">044t6iJiGZUCVqKjilgHyyw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

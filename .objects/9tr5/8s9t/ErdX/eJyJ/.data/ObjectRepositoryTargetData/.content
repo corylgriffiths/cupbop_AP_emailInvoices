@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="CdfZNZ47dUKcwZBRDhhY7g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" DesignTimeRectangle="28, 117, 98, 63" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='                                 Save                                                              ' tag='A' /&gt;" Guid="46bb324d-2fa8-4e91-bbfc-b9b106c7b142" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="Selector" Version="V5">
+      <imageRef attrName="InformativeScreenshot" originalValue="c8af4a91a143a8c2b4c29f78337473e8.png" xmlns="">01MAREa2Yd0auYt9NtvWBkw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">KeyboardTrigger</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

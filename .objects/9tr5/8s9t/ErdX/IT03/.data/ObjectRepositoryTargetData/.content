@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="t0XLSLFUyUisnIiwj6ELlQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="2c363a43-1cf8-4af6-be95-63254f382721" CvElementArea="42, 948, 133, 49" CvTextArea="64, 965, 90, 18" CvTextArgument="Upload File" CvType="Button" DesignTimeRectangle="47, 951, 125, 44" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='attachmentsModuleInputButton' parentid='KendoSplitter' tag='BUTTON' type='' class='k-button k-upload-button ng-binding' aaname='Upload File' check:innerText='Upload File' /&gt;" Guid="67c66987-5b95-4ee4-9866-381e72f24cb7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="a3bd9607f18be4ffc757a5339be0064c.png" xmlns="">0qbAg5vAX5UOMKGshqdoNWw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

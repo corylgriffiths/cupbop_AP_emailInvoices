@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="UG3XyLUPr0axM7__FHB_Yg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="9951cca2-caa9-4545-84a8-bdf6236e431d" CvElementArea="964, 643, 62, 39" CvTextArea="977, 652, 33, 16" CvTextArgument="Add" CvType="Button" DesignTimeRectangle="966, 644, 58, 36" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='newRowButtonsContainer' tag='BUTTON' type='' class='btn btn-default grid-add-row-button' aaname='Add' check:innerText='Add' /&gt;" Guid="42090522-718b-4246-a9dc-cc100c14c4cd" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="9951cca2-caa9-4545-84a8-bdf6236e431d" CvElementArea="1026, 642, 72, 40" CvTextArea="1041, 654, 43, 16" CvTextArgument="Clear" CvType="Button" DesignTimeRectangle="1029, 644, 69, 36" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Clear' parentid='newRowButtonsContainer' tag='BUTTON' type='' class='btn btn-default' check:innerText='Clear' /&gt;" Guid="47251f2e-f899-4527-8896-595a406fca27" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="16642bd448bf036638199d6ea592bcd8.png" xmlns="">0PMrmKHhq-0-FnkaL2pfq0Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

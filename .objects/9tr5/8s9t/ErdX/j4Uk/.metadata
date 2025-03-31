@@ -1,0 +1,14 @@
+﻿{
+  "Name": "GL Date",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "j4UkkRr9tEy1wS95MHv08g",
+  "Reference": "sWPe-Uob5ka5MN8G-3WlKg/j4UkkRr9tEy1wS95MHv08g",
+  "ParentRef": "sWPe-Uob5ka5MN8G-3WlKg/ErdXE6VAgUCUbjyQw77Ehg",
+  "Created": "2025-03-25T19:07:15.0701425Z",
+  "Updated": "2025-03-25T19:07:15.0701425Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

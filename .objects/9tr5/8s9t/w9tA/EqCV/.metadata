@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Accountingbot",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "EqCVKY8IQkS_Wn4_2_BWPg",
+  "Reference": "sWPe-Uob5ka5MN8G-3WlKg/EqCVKY8IQkS_Wn4_2_BWPg",
+  "ParentRef": "sWPe-Uob5ka5MN8G-3WlKg/w9tAU2MsuUK8tIJMpJjJ7g",
+  "Created": "2025-03-24T16:51:56.8769862Z",
+  "Updated": "2025-03-24T16:51:56.8769862Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

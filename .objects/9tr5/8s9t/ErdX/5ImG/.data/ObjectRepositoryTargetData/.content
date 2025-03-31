@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="S8qQrOdQpkW_WaSEdLxzeQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="78d426e1-44b5-41f8-a425-816a239568e4" CvElementArea="233, 248, 369, 38" CvType="InputBox" DesignTimeRectangle="238, 251, 330, 33" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='vendor_input' tag='INPUT' type='text' class='k-input has-full-width ng-valid-parse ng-touched ng-dirty ng-empty ng-invalid ng-invalid-required' placeholder='Select Vendor' aaname='' /&gt;" Guid="0b418829-9ac1-4b6d-874b-2dfda0effd82" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="78d426e1-44b5-41f8-a425-816a239568e4" CvTextArea="125, 260, 62, 16" CvTextArgument="Vendor" CvType="Text" DesignTimeRectangle="127, 258, 65, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='ng-scope' parentid='KendoSplitter' tag='A' type='' aaname='         Vendor       ' check:innerText='Vendor' /&gt;" Guid="eed33b6a-d312-4aae-9307-e11008208de8" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="56ac46f4581188eb00e4494c7d7cf4e7.png" xmlns="">05HI99jkClECTBFvlWkdIcQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

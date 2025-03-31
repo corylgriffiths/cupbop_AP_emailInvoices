@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7UBHL-kQRk6PTNLFEG1Efw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="30b1ac08-da75-48f8-984f-141c17daa876" CvElementArea="232, 389, 385, 39" CvType="InputBox" DesignTimeRectangle="238, 392, 330, 33" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='gl-date-picker' tag='INPUT' type='text' class='has-full-width ng-pristine ng-valid k-input ng-empty ng-touched' aaname='             GL Date         ' /&gt;" Guid="4c752cf4-0011-44bf-b48f-ce580fe0554d" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="30b1ac08-da75-48f8-984f-141c17daa876" CvTextArea="116, 401, 82, 17" CvTextArgument="GL Date *" CvType="Text" DesignTimeRectangle="9, 391, 209, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='             GL Date         ' parentid='KendoSplitter' tag='LABEL' type='' class='col-sm-12 control-label required-indicator col-md-4' check:innerText='GL Date' /&gt;" Guid="77bfb9f7-b1ad-4e2c-b4b5-619241628136" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="cf5aa9bf49e9ec404e0d872351cff9ff.png" xmlns="">0n0SNUTGPKUGGOaYDaidhaA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Lg6vekfItUOL2rhFvZaVfg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" DesignTimeRectangle="1873, 182, 56, 56" DesignTimeScaleFactor="1.25" FuzzySelectorArgument="&lt;webctrl aaname='                      ' tag='A' type='' class='' /&gt;" Guid="2a5ec21b-3bc9-4a00-9bb1-53bb52b31cc0" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3e4eede13a98873be2a12844729679be.png" xmlns="">0KUfbYbznBkajX1Qfq-iWmg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

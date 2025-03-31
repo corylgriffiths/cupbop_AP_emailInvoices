@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="K5FzSTSA9UafPnPieaOX7A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="cbc4990a-2239-4b9c-929b-3fa32c01a387" CvElementArea="232, 343, 386, 39" CvType="InputBox" DesignTimeRectangle="238, 347, 330, 33" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='APInvoiceDate' tag='INPUT' type='text' class='has-full-width ng-pristine ng-valid k-input ng-not-empty ng-touched' aaname='                                     Document Date                                 ' /&gt;" Guid="d00abdd2-37f7-421a-9301-dafbf47361d4" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cbc4990a-2239-4b9c-929b-3fa32c01a387" CvTextArea="55, 356, 143, 17" CvTextArgument="Document Date *" CvType="Text" DesignTimeRectangle="9, 346, 209, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                                     Document Date                                 ' parentid='KendoSplitter' tag='LABEL' type='' class='control-label col-sm-4 required-indicator' check:innerText='Document Date' /&gt;" Guid="162f3484-279d-4f2b-b568-f0f4adbda348" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="430b994507e95d0fe80f4fe67b25fe50.png" xmlns="">0N6bDg38bvEqd6zx8Qf2KQw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
