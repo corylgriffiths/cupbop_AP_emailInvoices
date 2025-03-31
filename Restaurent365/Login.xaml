@@ -1,0 +1,442 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Login" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="Browser_Restaurent365" Type="OutArgument(ui:UiElement)" />
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>Microsoft.Win32.SafeHandles</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>System.Configuration.Assemblies</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.CodeDom.Compiler</x:String>
+      <x:String>System.Buffers</x:String>
+      <x:String>System.Buffers.Text</x:String>
+      <x:String>System.Buffers.Binary</x:String>
+      <x:String>System.Threading</x:String>
+      <x:String>System.Threading.Tasks</x:String>
+      <x:String>System.Threading.Tasks.Sources</x:String>
+      <x:String>System.Text.Unicode</x:String>
+      <x:String>System.Security.Principal</x:String>
+      <x:String>System.Security.Permissions</x:String>
+      <x:String>System.Security.Cryptography</x:String>
+      <x:String>System.Runtime</x:String>
+      <x:String>System.Runtime.Remoting</x:String>
+      <x:String>System.Runtime.ExceptionServices</x:String>
+      <x:String>System.Runtime.ConstrainedExecution</x:String>
+      <x:String>System.Runtime.Versioning</x:String>
+      <x:String>System.Runtime.Loader</x:String>
+      <x:String>System.Runtime.Intrinsics</x:String>
+      <x:String>System.Runtime.Intrinsics.Wasm</x:String>
+      <x:String>System.Runtime.Intrinsics.Arm</x:String>
+      <x:String>System.Runtime.Intrinsics.X86</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Runtime.InteropServices.ObjectiveC</x:String>
+      <x:String>System.Runtime.InteropServices.Marshalling</x:String>
+      <x:String>System.Runtime.InteropServices.ComTypes</x:String>
+      <x:String>System.Runtime.CompilerServices</x:String>
+      <x:String>System.Resources</x:String>
+      <x:String>System.Reflection.Metadata</x:String>
+      <x:String>System.Reflection.Emit</x:String>
+      <x:String>System.IO.Enumeration</x:String>
+      <x:String>System.Diagnostics.SymbolStore</x:String>
+      <x:String>System.Diagnostics.Contracts</x:String>
+      <x:String>System.Diagnostics.CodeAnalysis</x:String>
+      <x:String>System.Diagnostics.Tracing</x:String>
+      <x:String>System.Collections.Concurrent</x:String>
+      <x:String>Internal</x:String>
+      <x:String>System.CodeDom</x:String>
+      <x:String>Microsoft.CSharp</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Linq.Expressions.Interpreter</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>UiPath.Workflow.Runtime</x:String>
+      <x:String>UiPath.Workflow.Runtime.Statements</x:String>
+      <x:String>System.Activities.Tracking</x:String>
+      <x:String>System.Activities.Statements.Tracking</x:String>
+      <x:String>System.Activities.Runtime</x:String>
+      <x:String>System.Activities.Runtime.DurableInstancing</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Activities.ParallelTracking</x:String>
+      <x:String>System.Activities.Hosting</x:String>
+      <x:String>System.Activities.Persistence</x:String>
+      <x:String>System.Activities.DurableInstancing</x:String>
+      <x:String>System.ComponentModel.Design.Serialization</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>System.Security.Authentication.ExtendedProtection</x:String>
+      <x:String>System.Timers</x:String>
+      <x:String>System.ComponentModel.Design</x:String>
+      <x:String>System.Xml.Schema</x:String>
+      <x:String>System.Xml.Xsl</x:String>
+      <x:String>System.Xml.Xsl.Runtime</x:String>
+      <x:String>System.Xml.XPath</x:String>
+      <x:String>System.Xml.Resolvers</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>Microsoft.CodeAnalysis</x:String>
+      <x:String>Microsoft.CodeAnalysis.FlowAnalysis</x:String>
+      <x:String>Microsoft.CodeAnalysis.Text</x:String>
+      <x:String>Microsoft.CodeAnalysis.Diagnostics</x:String>
+      <x:String>Microsoft.CodeAnalysis.Diagnostics.Telemetry</x:String>
+      <x:String>Microsoft.CodeAnalysis.Operations</x:String>
+      <x:String>Microsoft.CodeAnalysis.Emit</x:String>
+      <x:String>Microsoft.CodeAnalysis.VisualBasic</x:String>
+      <x:String>Microsoft.CodeAnalysis.VisualBasic.Syntax</x:String>
+      <x:String>Microsoft.VisualBasic.FileIO</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.StudioWeb.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.IO.Pipes</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography</AssemblyReference>
+      <AssemblyReference>System.Security.Principal.Windows</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.IO.MemoryMappedFiles</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Registry</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>System.Threading.AccessControl</AssemblyReference>
+      <AssemblyReference>System.Threading</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Parallel</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.Encodings.Web</AssemblyReference>
+      <AssemblyReference>System.Security.Claims</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.Pkcs</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.ProtectedData</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.VisualC</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms</AssemblyReference>
+      <AssemblyReference>System.Resources.Writer</AssemblyReference>
+      <AssemblyReference>Microsoft.PowerShell.Commands.Diagnostics</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.FileVersionInfo</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.PerformanceCounter</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.StackTrace</AssemblyReference>
+      <AssemblyReference>System.Collections.Concurrent</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Net.Security</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Private.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xml.XPath.XDocument</AssemblyReference>
+      <AssemblyReference>Microsoft.CodeAnalysis</AssemblyReference>
+      <AssemblyReference>Microsoft.CodeAnalysis.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.CodeAnalysis.CSharp</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="916,1553" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="variable1" />
+      <Variable x:TypeArguments="x:String" Name="Username" />
+      <Variable x:TypeArguments="ss:SecureString" Name="Password" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Restaurant365" CacheStrategy="None" DisplayName="Get Credential" FolderPath="CupBop" sap:VirtualizedContainerService.HintSize="486,175" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1">
+      <ui:GetRobotCredential.Password>
+        <OutArgument x:TypeArguments="ss:SecureString">
+          <CSharpReference x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">Password</CSharpReference>
+        </OutArgument>
+      </ui:GetRobotCredential.Password>
+      <ui:GetRobotCredential.Username>
+        <OutArgument x:TypeArguments="x:String">
+          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">Username</CSharpReference>
+        </OutArgument>
+      </ui:GetRobotCredential.Username>
+    </ui:GetRobotCredential>
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Restaurant365" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,1355" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="452,1115" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Boolean" Name="isNotLoggedin" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:UiElementExists DisplayName="Element Exists 'A'" sap:VirtualizedContainerService.HintSize="418,139" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
+              <ui:UiElementExists.Exists>
+                <OutArgument x:TypeArguments="x:Boolean">
+                  <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">isNotLoggedin</CSharpReference>
+                </OutArgument>
+              </ui:UiElementExists.Exists>
+              <ui:UiElementExists.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="126ee280-534e-40ae-a8d6-526db8aeb01a" InformativeScreenshot="c8b1753e9bed95d70d8ed73fcb912a0a" Selector="&lt;webctrl id='Username' tag='INPUT' /&gt;" TimeoutMS="5000">
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:UiElementExists.Target>
+            </ui:UiElementExists>
+            <If sap:VirtualizedContainerService.HintSize="418,914" sap2010:WorkflowViewState.IdRef="If_2">
+              <If.Condition>
+                <InArgument x:TypeArguments="x:Boolean">
+                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">isNotLoggedin == true</CSharpValue>
+                </InArgument>
+              </If.Condition>
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,696" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  Username'" sap:VirtualizedContainerService.HintSize="382,187" sap2010:WorkflowViewState.IdRef="TypeInto_2">
+                    <ui:TypeInto.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="83446764-f697-4ea1-b3fb-113e2e1bf544" InformativeScreenshot="b991be570b3cf95c91febfcf91d69b04" Selector="&lt;webctrl id='Username' tag='INPUT' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:TypeInto.Target>
+                    <ui:TypeInto.Text>
+                      <InArgument x:TypeArguments="x:String">
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">Username</CSharpValue>
+                      </InArgument>
+                    </ui:TypeInto.Text>
+                  </ui:TypeInto>
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                    <ui:CommentOut.Body>
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,301" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayAfter="3" DelayBefore="3" DelayBetweenKeys="0.5" DisplayName="Type Into 'Accountingbot(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,241" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V4">
+                          <uix:NTypeInto.Target>
+                            <uix:TargetAnchorable BrowserURL="identity.restaurant365.com/Account/Login" ContentHash="OziEizdK80iws0XeqG5LLg" DesignTimeRectangle="769, 509, 400, 70" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='Username' tag='INPUT' type='text' class='' placeholder='Enter username' aaname='' /&gt;" Guid="86097575-f2bd-4a9b-9a15-327f446b957e" InformativeScreenshot="05286cfed70c22396e07497a158bc439.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/4o6DPSHKAkKkw3-8EaWFlg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive" />
+                          </uix:NTypeInto.Target>
+                          <uix:NTypeInto.Text>
+                            <InArgument x:TypeArguments="x:String">
+                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">Username</CSharpValue>
+                            </InArgument>
+                          </uix:NTypeInto.Text>
+                        </uix:NTypeInto>
+                      </Sequence>
+                    </ui:CommentOut.Body>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:CommentOut>
+                  <ui:TypeSecureText AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Secure Text" sap:VirtualizedContainerService.HintSize="382,119" sap2010:WorkflowViewState.IdRef="TypeSecureText_1">
+                    <ui:TypeSecureText.SecureText>
+                      <InArgument x:TypeArguments="ss:SecureString">
+                        <CSharpValue x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">Password</CSharpValue>
+                      </InArgument>
+                    </ui:TypeSecureText.SecureText>
+                    <ui:TypeSecureText.Target>
+                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="71babc66-ca0f-41ea-a0f8-043e441f9217" Selector="&lt;webctrl id='Password' tag='INPUT' /&gt;">
+                        <ui:Target.TimeoutMS>
+                          <InArgument x:TypeArguments="x:Int32" />
+                        </ui:Target.TimeoutMS>
+                        <ui:Target.WaitForReady>
+                          <InArgument x:TypeArguments="ui:WaitForReady" />
+                        </ui:Target.WaitForReady>
+                      </ui:Target>
+                    </ui:TypeSecureText.Target>
+                  </ui:TypeSecureText>
+                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+                    <ui:CommentOut.Body>
+                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,310" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBetweenKeys="0.5" DisplayName="Type Into 'Accountingbot'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V4">
+                          <uix:NTypeInto.SecureText>
+                            <InArgument x:TypeArguments="ss:SecureString">
+                              <CSharpValue x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">Password</CSharpValue>
+                            </InArgument>
+                          </uix:NTypeInto.SecureText>
+                          <uix:NTypeInto.Target>
+                            <uix:TargetAnchorable BrowserURL="identity.restaurant365.com/Account/Login" CVScreenId="1fbd93ee-8c38-40f5-8141-8cbae6a4394d" ContentHash="A0NoOQGSYkWbBsG9dczcBg" CvElementArea="767, 598, 403, 73" CvType="InputBox" DesignTimeRectangle="769, 599, 400, 70" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='Password' tag='INPUT' type='password' class='' placeholder='Enter password' aaname='' /&gt;" Guid="c84ba715-65eb-4ef1-aa07-9f0ccdcf5200" InformativeScreenshot="2c6565ff814641e3f0a96364e3765328.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/EqCVKY8IQkS_Wn4_2_BWPg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                          </uix:NTypeInto.Target>
+                        </uix:NTypeInto>
+                      </Sequence>
+                    </ui:CommentOut.Body>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                  </ui:CommentOut>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="10" DelayBefore="5" DisplayName="Click 'Log in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,216" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable BrowserURL="identity.restaurant365.com/Account/Login" CVScreenId="1fbd93ee-8c38-40f5-8141-8cbae6a4394d" ContentHash="NUurkq0pBEmPJSX1dXTC2g" CvElementArea="922, 742, 93, 56" CvTextArea="944, 760, 49, 22" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="925, 744, 88, 50" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='login' tag='BUTTON' type='submit' class='submit-btn login-button' aaname='Log in' check:innerText='Log in' /&gt;" Guid="d3237898-6e80-49bc-b100-edb906f478a3" InformativeScreenshot="7fb36ff8b30ae95cf70be515541a321e.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/P3jqNOndbUaLRD3L1symEg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </If.Else>
+            </If>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.OutUiElement>
+        <OutArgument x:TypeArguments="ui:UiElement">
+          <CSharpReference x:TypeArguments="ui:UiElement" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">Browser_Restaurent365</CSharpReference>
+        </OutArgument>
+      </uix:NApplicationCard.OutUiElement>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-1929, -9, 1938, 1038" BrowserType="Chrome" ContentHash="n6-wZPPcc0uuyJ1-jCyGrg" IconBase64="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" InformativeScreenshot="92f23d1a2e57226d4665dab48beb09a1.jpg" Reference="sWPe-Uob5ka5MN8G-3WlKg/w9tAU2MsuUK8tIJMpJjJ7g" Selector="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" Url="https://cupbop.restaurant365.com" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
