@@ -4,10 +4,11 @@
   "description": "CupBopBot",
   "main": "Main.xaml",
   "dependencies": {
+    "System.Xml.ReaderWriter": "[4.3.1]",
     "UiPath.DocumentUnderstanding.Activities": "[2.12.1]",
     "UiPath.Excel.Activities": "[2.24.4]",
     "UiPath.GSuite.Activities": "[3.0.10]",
-    "UiPath.System.Activities": "25.2.2",
+    "UiPath.System.Activities": "25.2.4",
     "UiPath.Testing.Activities": "[24.10.1]",
     "UiPath.UIAutomation.Activities": "[25.2.1-preview]",
     "UiPath.WebAPI.Activities": "[1.21.1]"

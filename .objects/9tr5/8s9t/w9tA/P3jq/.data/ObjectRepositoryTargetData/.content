@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="NUurkq0pBEmPJSX1dXTC2g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="oBC1rgfMY0up9f0M-duIAA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="identity.restaurant365.com/Account/Login" CVScreenId="1fbd93ee-8c38-40f5-8141-8cbae6a4394d" CvElementArea="922, 742, 93, 56" CvTextArea="944, 760, 49, 22" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="925, 744, 88, 50" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='login' tag='BUTTON' type='submit' class='submit-btn login-button' aaname='Log in' check:innerText='Log in' /&gt;" Guid="d3237898-6e80-49bc-b100-edb906f478a3" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="7fb36ff8b30ae95cf70be515541a321e.png" xmlns="">00mOIO4-llUiPdms0Ct-_Ew</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="identity.restaurant365.com/Account/Login" CVScreenId="2286ecec-b8d9-48a6-9ea3-19e82719a078" CvElementArea="922, 742, 93, 55" CvTextArea="944, 760, 49, 22" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="925, 744, 88, 50" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='login' tag='BUTTON' type='submit' class='submit-btn login-button' aaname='Log in' check:innerText='Log in' /&gt;" Guid="9994a808-6a28-4d35-a954-ab2574177dc7" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="7fb36ff8b30ae95cf70be515541a321e.png" xmlns="">0G4-JFrJxgUyjDCJzcCPoGQ</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">Click</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+{
+  "assemblyStates": {
+    "ExtendedExtractionRe.P0vq02QWlvA18UqeG1jcECc": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor1InvoicesV1.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor1InvoicesV1",
+        "hash": "LTE3OTM4NjYwMjQ",
+        "assemblyName": "ExtendedExtractionRe.P0vq02QWlvA18UqeG1jcECc"
+      }
+    }
+  }
+}
