@@ -246,7 +246,7 @@
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="916,1940" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="916,1385" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="variable1" />
       <Variable x:TypeArguments="x:String" Name="Username" />
@@ -257,7 +257,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Restaurant365" CacheStrategy="None" DisplayName="Get Credential" FolderPath="CupBop" sap:VirtualizedContainerService.HintSize="590,175" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1">
+    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Restaurant365" CacheStrategy="None" DisplayName="Get Credential" FolderPath="CupBop" sap:VirtualizedContainerService.HintSize="486,175" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1">
       <ui:GetRobotCredential.Password>
         <OutArgument x:TypeArguments="ss:SecureString">
           <CSharpReference x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">Password</CSharpReference>
@@ -269,13 +269,13 @@
         </OutArgument>
       </ui:GetRobotCredential.Username>
     </ui:GetRobotCredential>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Restaurant365" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="590,1742" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Restaurant365" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="486,1187" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="556,1502" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="452,947" sap2010:WorkflowViewState.IdRef="Sequence_8">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="isNotLoggedin" />
             </Sequence.Variables>
@@ -284,7 +284,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:UiElementExists DisplayName="Element Exists 'A'" sap:VirtualizedContainerService.HintSize="522,139" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
+            <ui:UiElementExists DisplayName="Element Exists 'A'" sap:VirtualizedContainerService.HintSize="418,139" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
               <ui:UiElementExists.Exists>
                 <OutArgument x:TypeArguments="x:Boolean">
                   <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">isNotLoggedin</CSharpReference>
@@ -298,20 +298,26 @@
                 </ui:Target>
               </ui:UiElementExists.Target>
             </ui:UiElementExists>
-            <If sap:VirtualizedContainerService.HintSize="522,1301" sap2010:WorkflowViewState.IdRef="If_2">
+            <If sap:VirtualizedContainerService.HintSize="418,746" sap2010:WorkflowViewState.IdRef="If_2">
               <If.Condition>
                 <InArgument x:TypeArguments="x:Boolean">
                   <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">isNotLoggedin == true</CSharpValue>
                 </InArgument>
               </If.Condition>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
               <If.Then>
-                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="520,1081" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,526" sap2010:WorkflowViewState.IdRef="Sequence_9">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  Username'" sap:VirtualizedContainerService.HintSize="486,187" sap2010:WorkflowViewState.IdRef="TypeInto_2">
+                  <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  Username'" sap:VirtualizedContainerService.HintSize="382,187" sap2010:WorkflowViewState.IdRef="TypeInto_2">
                     <ui:TypeInto.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="83446764-f697-4ea1-b3fb-113e2e1bf544" InformativeScreenshot="b991be570b3cf95c91febfcf91d69b04" Selector="&lt;webctrl id='Username' tag='INPUT' /&gt;">
                         <ui:Target.TimeoutMS>
@@ -328,34 +334,7 @@
                       </InArgument>
                     </ui:TypeInto.Text>
                   </ui:TypeInto>
-                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,84" sap2010:WorkflowViewState.IdRef="CommentOut_2">
-                    <ui:CommentOut.Body>
-                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,301" sap2010:WorkflowViewState.IdRef="Sequence_11">
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
-                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayAfter="3" DelayBefore="3" DelayBetweenKeys="0.5" DisplayName="Type Into 'Accountingbot(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,241" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V4">
-                          <uix:NTypeInto.Target>
-                            <uix:TargetAnchorable BrowserURL="identity.restaurant365.com/Account/Login" ContentHash="OziEizdK80iws0XeqG5LLg" DesignTimeRectangle="769, 509, 400, 70" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='Username' tag='INPUT' type='text' class='' placeholder='Enter username' aaname='' /&gt;" Guid="86097575-f2bd-4a9b-9a15-327f446b957e" InformativeScreenshot="05286cfed70c22396e07497a158bc439.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/4o6DPSHKAkKkw3-8EaWFlg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive" />
-                          </uix:NTypeInto.Target>
-                          <uix:NTypeInto.Text>
-                            <InArgument x:TypeArguments="x:String">
-                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">Username</CSharpValue>
-                            </InArgument>
-                          </uix:NTypeInto.Text>
-                        </uix:NTypeInto>
-                      </Sequence>
-                    </ui:CommentOut.Body>
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                  </ui:CommentOut>
-                  <ui:TypeSecureText AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Secure Text" sap:VirtualizedContainerService.HintSize="486,119" sap2010:WorkflowViewState.IdRef="TypeSecureText_1">
+                  <ui:TypeSecureText AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Secure Text" sap:VirtualizedContainerService.HintSize="382,119" sap2010:WorkflowViewState.IdRef="TypeSecureText_1">
                     <ui:TypeSecureText.SecureText>
                       <InArgument x:TypeArguments="ss:SecureString">
                         <CSharpValue x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">Password</CSharpValue>
@@ -372,34 +351,7 @@
                       </ui:Target>
                     </ui:TypeSecureText.Target>
                   </ui:TypeSecureText>
-                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,84" sap2010:WorkflowViewState.IdRef="CommentOut_1">
-                    <ui:CommentOut.Body>
-                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,310" sap2010:WorkflowViewState.IdRef="Sequence_12">
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
-                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBetweenKeys="0.5" DisplayName="Type Into 'Accountingbot'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V4">
-                          <uix:NTypeInto.SecureText>
-                            <InArgument x:TypeArguments="ss:SecureString">
-                              <CSharpValue x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">Password</CSharpValue>
-                            </InArgument>
-                          </uix:NTypeInto.SecureText>
-                          <uix:NTypeInto.Target>
-                            <uix:TargetAnchorable BrowserURL="identity.restaurant365.com/Account/Login" CVScreenId="1fbd93ee-8c38-40f5-8141-8cbae6a4394d" ContentHash="A0NoOQGSYkWbBsG9dczcBg" CvElementArea="767, 598, 403, 73" CvType="InputBox" DesignTimeRectangle="769, 599, 400, 70" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" FuzzySelectorArgument="&lt;webctrl id='Password' tag='INPUT' type='password' class='' placeholder='Enter password' aaname='' /&gt;" Guid="c84ba715-65eb-4ef1-aa07-9f0ccdcf5200" InformativeScreenshot="2c6565ff814641e3f0a96364e3765328.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/EqCVKY8IQkS_Wn4_2_BWPg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
-                          </uix:NTypeInto.Target>
-                        </uix:NTypeInto>
-                      </Sequence>
-                    </ui:CommentOut.Body>
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                  </ui:CommentOut>
-                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="486,169" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="enter" KeyModifiers="None" SpecialKey="True">
+                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="382,160" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="enter" KeyModifiers="None" SpecialKey="True">
                     <ui:SendHotkey.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="d5dee9dd-7aaf-4178-bac2-9f6c49667d4c">
                         <ui:Target.TimeoutMS>
@@ -411,36 +363,10 @@
                       </ui:Target>
                     </ui:SendHotkey.Target>
                   </ui:SendHotkey>
-                  <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="486,378" sap2010:WorkflowViewState.IdRef="CommentOut_3">
-                    <ui:CommentOut.Body>
-                      <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,276" sap2010:WorkflowViewState.IdRef="Sequence_13">
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
-                        <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="10" DelayBefore="5" DisplayName="Click 'Log in'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V4">
-                          <uix:NClick.Target>
-                            <uix:TargetAnchorable BrowserURL="identity.restaurant365.com/Account/Login" CVScreenId="2286ecec-b8d9-48a6-9ea3-19e82719a078" ContentHash="oBC1rgfMY0up9f0M-duIAA" CvElementArea="922, 742, 93, 55" CvTextArea="944, 760, 49, 22" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="925, 744, 88, 50" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='login' tag='BUTTON' type='submit' class='submit-btn login-button' aaname='Log in' check:innerText='Log in' /&gt;" Guid="9994a808-6a28-4d35-a954-ab2574177dc7" InformativeScreenshot="7fb36ff8b30ae95cf70be515541a321e.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/P3jqNOndbUaLRD3L1symEg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
-                          </uix:NClick.Target>
-                          <uix:NClick.VerifyOptions>
-                            <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                              <uix:VerifyExecutionOptions.Retry>
-                                <InArgument x:TypeArguments="x:Boolean" />
-                              </uix:VerifyExecutionOptions.Retry>
-                              <uix:VerifyExecutionOptions.Timeout>
-                                <InArgument x:TypeArguments="x:Double" />
-                              </uix:VerifyExecutionOptions.Timeout>
-                            </uix:VerifyExecutionOptions>
-                          </uix:NClick.VerifyOptions>
-                        </uix:NClick>
-                      </Sequence>
-                    </ui:CommentOut.Body>
-                  </ui:CommentOut>
                 </Sequence>
               </If.Then>
               <If.Else>
-                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="520,89" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_10">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>

@@ -281,7 +281,7 @@
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ProcessInvoice" sap:VirtualizedContainerService.HintSize="916,6636" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ProcessInvoice" sap:VirtualizedContainerService.HintSize="916,6861" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="isLoggedin" />
       <Variable x:TypeArguments="ui:UiElement" Name="outputElement">
@@ -299,13 +299,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="640,6613" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="640,6838" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="606,6453" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="606,6678" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="isNewVendorPopup" />
               <Variable x:TypeArguments="x:String" Name="variable1" />
@@ -1060,6 +1060,21 @@
                 </uix:VerifyExecutionOptions>
               </uix:NHover.VerifyOptions>
             </uix:NHover>
+            <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="Click 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="572,225" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="868941e8-e682-4a77-9760-954f932bf314" ContentHash="4Uhn4zLtMEmMsXm2RvJVQw" CvElementArea="91, 137, 22, 24" CvTextArea="45, 139, 43, 18" CvTextArgument="Save" CvType="ArrowButton" DesignTimeRectangle="28, 117, 98, 63" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='A' type='' class='dropdown-toggle' aaname='                                 Save                                                              ' check:innerText='Save' /&gt;" Guid="1115257f-6c2e-49ef-b52b-860fd3e64e8a" InformativeScreenshot="2dc92a5590d997877d7fb6cc43370776.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/iW5V9aduk0qf77qbC8yUeA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
             <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="10" DisplayName="Click ''Save''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="572,218" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="e28ec4cc-304d-4ff3-844d-73ac19da3a9b" CvTextArea="187, 280, 8, 8" CvTextArgument="*" CvType="Text" DesignTimeRectangle="29, 252, 198, 34" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='                                         Save                                     ' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='                                         Save                                     ' tag='A' type='' class='dropdown-toggle' check:innerText='Save' /&gt;" Guid="d609af75-2482-439b-91da-e98bfbe6073f" InformativeScreenshot="a4f9cbaf3bd00586496e344bb83e811d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">

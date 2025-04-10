@@ -1,0 +1,90 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Gmail/ProcessGmails.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "currentDocumentData&Sequence_1",
+        "configPlain&Sequence_1",
+        "configObject&Sequence_1",
+        "vendorList&Sequence_1",
+        "locationList&Sequence_1",
+        "ReportTable&Sequence_1",
+        "StatusNotProcessed&Sequence_1",
+        "StatusProcessed&Sequence_1",
+        "LineMappingTable&Sequence_1",
+        "BotConfigTable&Sequence_1",
+        "currentEmailAttachments&Sequence_4",
+        "folderExists&Sequence_4",
+        "VendorSearchDataRow&Sequence_6",
+        "currentShipLocation&Sequence_12",
+        "invoiceException&Sequence_12",
+        "currentVendorName&Sequence_12",
+        "locationList&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Browser_Restaurent365"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Restaurent365/ProcessInvoice.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "accountCode&Sequence_6",
+        "isLoggedin&Sequence_1",
+        "outputElement&Sequence_1",
+        "LineItemMappingTable&Sequence_1",
+        "isNewVendorPopup&Sequence_5",
+        "variable1&Sequence_5",
+        "currentPageURL&Sequence_5",
+        "lineItemNotExists&Sequence_7"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "VendorDataRow",
+        "Browser_Restaurent365",
+        "currentDocumentData",
+        "currentShipLocation",
+        "exception",
+        "filePath",
+        "currentVendorName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Restaurent365/Login.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "variable1&Sequence_1",
+        "Username&Sequence_1",
+        "Password&Sequence_1",
+        "isNotLoggedin&Sequence_8"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Browser_Restaurent365"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "currentDocumentData&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

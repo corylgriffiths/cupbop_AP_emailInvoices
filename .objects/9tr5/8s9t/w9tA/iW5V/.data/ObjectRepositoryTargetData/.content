@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4Uhn4zLtMEmMsXm2RvJVQw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="868941e8-e682-4a77-9760-954f932bf314" CvElementArea="91, 137, 22, 24" CvTextArea="45, 139, 43, 18" CvTextArgument="Save" CvType="ArrowButton" DesignTimeRectangle="28, 117, 98, 63" DesignTimeScaleFactor="1.25" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='A' type='' class='dropdown-toggle' aaname='                                 Save                                                              ' check:innerText='Save' /&gt;" Guid="1115257f-6c2e-49ef-b52b-860fd3e64e8a" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="2dc92a5590d997877d7fb6cc43370776.png" xmlns="">0m0clpRfX2UeeKBwx4wgNFg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
