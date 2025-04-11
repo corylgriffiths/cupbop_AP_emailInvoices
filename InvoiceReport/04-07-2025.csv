@@ -1,5 +1,0 @@
-﻿Email Subject,Invoice #,Vendor Name,Status,Exception Message
-Sysco,,,,"Gmail loop - Not processing as email subject does not contain ""Inv""."
-UVU Sysco invoice,685426927,Sysco SYSCO INTERMOUNTAIN,,"Process Not Started as Location not exists on restaurent365, looking for :-->  "
-Pay invoice 172389 from Boss Hood Cleaning with a few clicks,172389,Boss Hood Cleaning,,
-Pay invoice 172389 from Boss Hood Cleaning with a few clicks,,BOSS,,"Process Not Started as vendor exists in by pass list, Vendor name - BOSS"
