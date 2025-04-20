@@ -12,6 +12,8 @@
       "Path": "Gmail/ProcessGmails.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "tempLocationExists&Sequence_13",
+        "testRemove&Sequence_1",
         "currentDocumentData&Sequence_1",
         "configPlain&Sequence_1",
         "configObject&Sequence_1",
