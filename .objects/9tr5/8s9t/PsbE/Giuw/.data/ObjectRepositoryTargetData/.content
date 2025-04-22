@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="P1_HFD641Eu3uXyT80Wraw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="a8caebaa-d6e2-4d59-806a-fe5b4d62d1de" CvElementArea="28, 624, 340, 40" CvType="InputBox" DesignTimeRectangle="30, 627, 303, 36" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='newRowItemInputAPInvoiceDetailsGrid_input' tag='INPUT' type='text' class='k-input has-full-width ng-pristine ng-valid ng-empty ng-touched k-valid' placeholder='Select Item' aaname='' /&gt;" Guid="10016686-dc5a-463f-b1e5-401dd6a34b22" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1d69fe7e77c78ae109d332255182256c.png" xmlns="">0t6MhQyMUL0uh9hPid4LScA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

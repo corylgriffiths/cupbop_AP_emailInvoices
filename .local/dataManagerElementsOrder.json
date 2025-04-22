@@ -12,10 +12,8 @@
       "Path": "Gmail/ProcessGmails.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "dateToProcessEmailsAfter&Sequence_1",
-        "tempNoOfEmailsProcessed&Sequence_1",
-        "tempLocationExists&Sequence_13",
-        "testRemove&Sequence_1",
+        "currentInvoiceIndex&Sequence_27",
+        "variable1&Sequence_27",
         "currentDocumentData&Sequence_1",
         "configPlain&Sequence_1",
         "configObject&Sequence_1",
@@ -26,12 +24,16 @@
         "StatusProcessed&Sequence_1",
         "LineMappingTable&Sequence_1",
         "BotConfigTable&Sequence_1",
+        "testRemove&Sequence_1",
+        "dateToProcessEmailsAfter&Sequence_1",
+        "tempNoOfEmailsProcessed&Sequence_1",
         "currentEmailAttachments&Sequence_4",
         "folderExists&Sequence_4",
         "VendorSearchDataRow&Sequence_6",
         "currentShipLocation&Sequence_12",
         "invoiceException&Sequence_12",
         "currentVendorName&Sequence_12",
+        "tempLocationExists&Sequence_13",
         "locationList&Sequence_3"
       ],
       "ArgumentsSectionElementsOrder": [
@@ -44,13 +46,13 @@
       "Path": "Restaurent365/ProcessInvoice.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "accountCode&Sequence_6",
         "isLoggedin&Sequence_1",
         "outputElement&Sequence_1",
         "LineItemMappingTable&Sequence_1",
         "isNewVendorPopup&Sequence_5",
         "variable1&Sequence_5",
         "currentPageURL&Sequence_5",
+        "accountCode&Sequence_6",
         "lineItemNotExists&Sequence_7"
       ],
       "ArgumentsSectionElementsOrder": [
