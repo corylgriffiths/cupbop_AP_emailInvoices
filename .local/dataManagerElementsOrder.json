@@ -46,6 +46,7 @@
       "Path": "Restaurent365/ProcessInvoice.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "ConvertedLineItemDataTable&Sequence_38",
         "isLoggedin&Sequence_1",
         "outputElement&Sequence_1",
         "LineItemMappingTable&Sequence_1",
@@ -87,6 +88,33 @@
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
         "currentDocumentData&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Restaurent365/ConvertLineItemFromMappings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "tempCurrentLine&Sequence_8",
+        "hasLineItemNumber&Sequence_1",
+        "SourceMappingTable&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "LineItemDataTable",
+        "currentDocumentData",
+        "currentVendorName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "TestExtraction/TextExtractionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "currentDocumentData&Sequence_2",
+        "LineItemTableData&Sequence_2"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],

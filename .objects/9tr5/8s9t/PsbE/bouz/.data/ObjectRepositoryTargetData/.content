@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XAfbgDOH5k-7-BFWt24vJQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="da06c612-0556-4fd1-a46e-48e16a99647d" CvElementArea="742, 552, 92, 32" CvType="InputBox" DesignTimeRectangle="744, 553, 90, 29" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='newRowTotalInput' tag='INPUT' type='text' class='k-textbox has-full-width text-right ng-valid ng-isolate-scope ng-valid-required ng-not-empty k-valid ng-dirty ng-touched' aaname='' /&gt;" Guid="b2955cf1-44bb-459e-a068-deedc4663445" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - 30-6747250' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d621d6370f422de82b9b43a8af469791.png" xmlns="">0NyURlLIqQk-umWYyJR5qFw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

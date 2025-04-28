@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="VMvUcfEj9UqlZ0v6kiGpew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="t8bZOy-28UGF8MrV9lqy2w" Reference="sWPe-Uob5ka5MN8G-3WlKg/dukm-FoVBEGeBWgWodS9wQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="d30aeb26-6f2d-4161-b5a5-9eb0d63f61e9" CvTextArea="837, 615, 82, 18" CvTextArgument="108.5664" CvType="Text" DesignTimeRectangle="816, 608, 113, 36" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='newRowEachAmountInput' tag='INPUT' type='text' class='k-textbox has-full-width text-right ng-pristine ng-untouched ng-valid ng-isolate-scope ng-valid-required ng-not-empty' aaname='' /&gt;" Guid="a7cde79f-ec72-4e44-ad0f-b28bc5461deb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-      <imageRef attrName="InformativeScreenshot" originalValue="049033e5a127030c22bf6456ac18314b.png" xmlns="">0x4MZE2nuFk2mbWb3PhnQOQ</imageRef>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="d78322c8-3811-4549-894c-376539479649" CvTextArea="840, 739, 82, 20" CvTextArgument="111.2832" CvType="Text" DesignTimeRectangle="816, 732, 113, 36" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='newRowEachAmountInput' tag='INPUT' type='text' class='k-textbox has-full-width text-right ng-isolate-scope ng-dirty ng-not-empty ng-valid ng-valid-required ng-touched k-valid' aaname='' /&gt;" Guid="f8484b74-5285-4c00-8ce3-096e792d0605" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - 817714' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d78322c8-3811-4549-894c-376539479649" CvElementArea="503, 731, 153, 39" CvTextArea="514, 740, 127, 22" CvTextArgument="BIB (5 Gallon)" CvType="Button" DesignTimeRectangle="505, 733, 153, 36" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='newRowUofMInput_input' tag='INPUT' type='text' class='k-input has-full-width ng-pristine ng-untouched k-valid ng-not-empty ng-valid ng-valid-required' placeholder='Select Unit of Measure' aaname='' /&gt;" Guid="943901f0-add7-4816-b9bf-ff34e199aa98" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b986e76a578dc81690f28020f12e6290.png" xmlns="">0BNQODdCbqkeeBPECpSA1ng</imageRef>
     </TargetAnchorable>
-    <x:String x:Key="ActivityType">TypeInto</x:String>
+    <x:String x:Key="ActivityType">None</x:String>
   </ObjectRepositoryTargetData.Data>
 </ObjectRepositoryTargetData>
