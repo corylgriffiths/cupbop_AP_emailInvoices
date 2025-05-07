@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rC6hMVrnX0uv6Gf31CbzfA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="8b8b1c03-d3bd-4516-887d-7986230283d4" CvElementArea="874, 584, 74, 32" CvTextArea="885, 593, 51, 12" CvTextArgument="Confirm" CvType="Button" DesignTimeRectangle="876, 585, 71, 29" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Confirm' tag='BUTTON' type='' class='btn-default  btn' check:innerText='Confirm' /&gt;" Guid="7aca9bb7-162a-4290-bd43-ca36b78a382b" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - 836421' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8b8b1c03-d3bd-4516-887d-7986230283d4" CvElementArea="949, 584, 68, 31" CvTextArea="960, 593, 45, 13" CvTextArgument="Cancel" CvType="Button" DesignTimeRectangle="952, 585, 65, 29" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Cancel' type='' tag='BUTTON' class='btn-default  btn' check:innerText='Cancel' /&gt;" Guid="8db70242-98bd-446f-871b-91dbfae46246" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b1b014564d9a7deaa02efe888fece028.png" xmlns="">06aNDaIkWp0yUZH4JjKioUA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

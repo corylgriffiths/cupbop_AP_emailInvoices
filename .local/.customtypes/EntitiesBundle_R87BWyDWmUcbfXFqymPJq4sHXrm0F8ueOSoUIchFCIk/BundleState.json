@@ -8,6 +8,15 @@
         "hash": "LTE3OTM4NjYwMjQ",
         "assemblyName": "ExtendedExtractionRe.P0vq02QWlvA18UqeG1jcECc"
       }
+    },
+    "ExtendedExtractionRe.GwoC92mSffN1cn8GO4ZwEIG4": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcesor20InvoicesV2.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcesor20InvoicesV2",
+        "hash": "NDY3NzcyMzQ0",
+        "assemblyName": "ExtendedExtractionRe.GwoC92mSffN1cn8GO4ZwEIG4"
+      }
     }
   }
 }

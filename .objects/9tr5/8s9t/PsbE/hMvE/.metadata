@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Case - 12Pack (31.75 o…",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "hMvEhM77Ykmhw43vsO4xtw",
+  "Reference": "sWPe-Uob5ka5MN8G-3WlKg/hMvEhM77Ykmhw43vsO4xtw",
+  "ParentRef": "sWPe-Uob5ka5MN8G-3WlKg/PsbE1z-DzUevpuGVslhwxA",
+  "Created": "2025-05-01T19:42:45.1309708Z",
+  "Updated": "2025-05-01T19:42:45.1309708Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -12,6 +12,9 @@
       "Path": "Gmail/ProcessGmails.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "tempAttachmentPath&Sequence_6",
+        "stringList&Sequence_19",
+        "LocationTable&Sequence_1",
         "currentInvoiceIndex&Sequence_27",
         "variable1&Sequence_27",
         "currentDocumentData&Sequence_1",
@@ -98,6 +101,8 @@
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
         "tempCurrentLine&Sequence_8",
+        "tempQty&Sequence_10",
+        "isJFC&Sequence_1",
         "hasLineItemNumber&Sequence_1",
         "SourceMappingTable&Sequence_1"
       ],
