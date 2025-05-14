@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="H2KMml0i90K8dHtkLlEX2Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="dfaef387-260a-42ba-8df7-365a8d3513dd" CvTextArea="961, 674, 95, 13" CvTextArgument="X Select None" CvType="Text" DesignTimeRectangle="942, 668, 348, 26" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='deselectAll' tag='A' type='' class='ng-binding' aaname='   Select None' check:innerText='Select None' /&gt;" Guid="296727ef-160e-4e8c-bf34-2c50d7bc5111" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="dfaef387-260a-42ba-8df7-365a8d3513dd" CvTextArea="979, 649, 58, 12" CvTextArgument="Select All" CvType="Text" DesignTimeRectangle="942, 642, 348, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='selectAll' tag='A' type='' class='ng-binding' aaname='  Select All' check:innerText='Select All' /&gt;" Guid="de312714-e5ac-45bd-8db8-5fe9bd6d3280" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="69f53936adcf607550c41d27eb26c8cf.png" xmlns="">0SM4EEwZtK0K4cslowaZySA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

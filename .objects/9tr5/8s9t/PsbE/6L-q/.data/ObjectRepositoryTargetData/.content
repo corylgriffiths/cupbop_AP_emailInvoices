@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="3PWICuPsfkq0FaiH_4z-nw" Reference="sWPe-Uob5ka5MN8G-3WlKg/6L-qNAGKhUSI-pfgIAo0ew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="946e8f59-a2a6-4b71-a67c-e7baea4dfee6" CvElementArea="925, 656, 365, 31" CvType="Button" DesignTimeRectangle="928, 656, 363, 29" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='apInvoiceMultiSelectLocationDropdown' tag='BUTTON' type='button' /&gt;" Guid="9c5de73d-ea1d-4a3f-b0d4-333e248c1e82" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - SI-179987' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ec2810118280a8a150a9a41cb071651c.png" xmlns="">0apsG_mWhoE-KlO_a1q-kGw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

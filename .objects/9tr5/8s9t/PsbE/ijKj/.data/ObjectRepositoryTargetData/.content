@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DIGx4XG9CkK0qmIfoEKSKQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="b81b55cb-404f-4922-b9bb-d321d5217f54" CvElementArea="230, 250, 394, 32" CvType="InputBox" DesignTimeRectangle="236, 253, 351, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-role='combobox' name='APInvoiceLocation_input' tag='INPUT' type='text' /&gt;" Guid="6c9daa1b-5ec0-4d93-a1b2-0bfdd2383a22" ImageBase64="" IsResponsive="True" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b81b55cb-404f-4922-b9bb-d321d5217f54" CvTextArea="136, 261, 58, 13" CvTextArgument="Location" CvType="Text" DesignTimeRectangle="138, 259, 57, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='KendoSplitter' tag='A' type='' class='' aaname='Location' check:innerText='Location' /&gt;" Guid="7ca0156c-8e5f-40cd-a39e-8eb7ec1d7f18" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e75e74c3cbdf43c6d49f5dc290634d58.png" xmlns="">0EFoVJiA1k0C5uk6WW02rzg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
