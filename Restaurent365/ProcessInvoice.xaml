@@ -1,13 +1,14 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="ProcessInvoice" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:sc1="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor25InvoicesV7.Bundle;assembly=ExtendedExtractionRe.9tGQp1YAW0C1IesAe2o7adc" xmlns:uisasecb1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcesor20InvoicesV2.Bundle;assembly=ExtendedExtractionRe.GwoC92mSffN1cn8GO4ZwEIG4" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="ProcessInvoice" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:sc1="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:uggm="clr-namespace:UiPath.GSuite.Gmail.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor40InvoicesV11.Bundle;assembly=ExtendedExtractionRe.tLOAD4s0R8F1oAwRZ2XR1uZ4" xmlns:uisasecb1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor25InvoicesV7.Bundle;assembly=ExtendedExtractionRe.9tGQp1YAW0C1IesAe2o7adc" xmlns:uisasecb2="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcesor20InvoicesV2.Bundle;assembly=ExtendedExtractionRe.GwoC92mSffN1cn8GO4ZwEIG4" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="Browser_Restaurent365" Type="InArgument(ui:UiElement)" />
-    <x:Property Name="currentDocumentData" Type="InArgument(uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor25InvoicesV7))" />
     <x:Property Name="currentShipLocation" Type="InArgument(x:String)" />
     <x:Property Name="exception" Type="OutArgument(x:String)" />
     <x:Property Name="filePath" Type="InArgument(x:String)" />
     <x:Property Name="currentVendorName" Type="InArgument(x:String)" />
     <x:Property Name="VendorDataRow" Type="InArgument(sd:DataRow)" />
     <x:Property Name="LocationList" Type="InArgument(scg:List(x:String))" />
+    <x:Property Name="currentGmailAttachmentLocalItem" Type="InArgument(uggm:GmailAttachmentLocalItem)" />
+    <x:Property Name="currentDocumentData1" Type="InArgument(uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor40InvoicesV11))" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
@@ -158,6 +159,10 @@
       <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor22InvoicesV4.Bundle</x:String>
       <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor23InvoicesV5.Bundle</x:String>
       <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor25InvoicesV7.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor30InvoicesLineItemsV10.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor30InvoicesV10.Bundle</x:String>
+      <x:String>UiPath.GSuite</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor40InvoicesV11.Bundle</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -291,6 +296,9 @@
       <AssemblyReference>ExtendedExtractionRe.c5oIi2y5DSS1X38CH1WjMxL</AssemblyReference>
       <AssemblyReference>ExtendedExtractionRe.OD1Mk2dhtxG1Oha9p3F8cQf</AssemblyReference>
       <AssemblyReference>ExtendedExtractionRe.9tGQp1YAW0C1IesAe2o7adc</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.FMG4H3lwW1F1EgI9x3K9BTQ1</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.ybSHEol1NC15NTD53v9dtE1</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.tLOAD4s0R8F1oAwRZ2XR1uZ4</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -298,7 +306,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="ProcessInvoice" sap:VirtualizedContainerService.HintSize="1070,10889" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ProcessInvoice" sap:VirtualizedContainerService.HintSize="1070,10980" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="isLoggedin" />
       <Variable x:TypeArguments="ui:UiElement" Name="outputElement">
@@ -316,13 +324,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="710,10866" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="708,10934" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="676,10706" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="674,10797" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="isNewVendorPopup" />
               <Variable x:TypeArguments="x:String" Name="variable1" />
@@ -334,7 +342,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="url" DisplayName="Get Attribute" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="642,219" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_1" Version="V4">
+            <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="url" DisplayName="Get Attribute" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="640,219" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_1" Version="V4">
               <uix:NGetAttributeGeneric.InUiElement>
                 <InArgument x:TypeArguments="ui:UiElement">
                   <CSharpValue x:TypeArguments="ui:UiElement" sap2010:WorkflowViewState.IdRef="CSharpValue`1_42">
@@ -352,7 +360,7 @@
                 </OutArgument>
               </uix:NGetAttributeGeneric.Result>
             </uix:NGetAttributeGeneric>
-            <If sap:VirtualizedContainerService.HintSize="642,503" sap2010:WorkflowViewState.IdRef="If_7">
+            <If sap:VirtualizedContainerService.HintSize="640,503" sap2010:WorkflowViewState.IdRef="If_7">
               <If.Condition>
                 <InArgument x:TypeArguments="x:Boolean">
                   <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_46">
@@ -395,8 +403,8 @@
                 </Sequence>
               </If.Else>
             </If>
-            <uix:NGoToUrl DelayAfter="5" DisplayName="Go To URL - restaurant365.com" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="642,114" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="https://cupbop.restaurant365.com/#/form/APInvoiceForm/00000000-0000-0000-0000-000000000000" Version="V4" />
-            <ui:ReadCsvFile PathResource="{x:Null}" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read LineItem Mappings Config" FilePath="ConfigFiles\\LineItemMappingConfig.csv" sap:VirtualizedContainerService.HintSize="642,186" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1">
+            <uix:NGoToUrl DelayAfter="5" DisplayName="Go To URL - restaurant365.com" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="640,114" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" Url="https://cupbop.restaurant365.com/#/form/APInvoiceForm/00000000-0000-0000-0000-000000000000" Version="V4" />
+            <ui:ReadCsvFile PathResource="{x:Null}" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read LineItem Mappings Config" FilePath="ConfigFiles\\LineItemMappingConfig.csv" sap:VirtualizedContainerService.HintSize="640,186" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1">
               <ui:ReadCsvFile.DataTable>
                 <OutArgument x:TypeArguments="sd:DataTable">
                   <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_10">
@@ -406,7 +414,7 @@
                 </OutArgument>
               </ui:ReadCsvFile.DataTable>
             </ui:ReadCsvFile>
-            <Sequence DisplayName="Sequence - add Invoice details" sap:VirtualizedContainerService.HintSize="642,2727" sap2010:WorkflowViewState.IdRef="Sequence_27">
+            <Sequence DisplayName="Sequence - add Invoice details" sap:VirtualizedContainerService.HintSize="640,2685" sap2010:WorkflowViewState.IdRef="Sequence_27">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="tmpLocation" />
                 <Variable x:TypeArguments="x:String" Name="tmpDDLocationValue" />
@@ -421,7 +429,7 @@
                 <uix:NGetText.Target>
                   <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="b81b55cb-404f-4922-b9bb-d321d5217f54" ContentHash="DIGx4XG9CkK0qmIfoEKSKQ" CvElementArea="230, 250, 394, 32" CvType="InputBox" DesignTimeRectangle="236, 253, 351, 26" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl aria-role='combobox' name='APInvoiceLocation_input' tag='INPUT' type='text' /&gt;" Guid="6c9daa1b-5ec0-4d93-a1b2-0bfdd2383a22" ImageBase64="" InformativeScreenshot="e75e74c3cbdf43c6d49f5dc290634d58.png" IsResponsive="True" Reference="sWPe-Uob5ka5MN8G-3WlKg/ijKj06F8tk-My_raqoCiew" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target CVScreenId="b81b55cb-404f-4922-b9bb-d321d5217f54" CvTextArea="136, 261, 58, 13" CvTextArgument="Location" CvType="Text" DesignTimeRectangle="138, 259, 57, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl parentid='KendoSplitter' tag='A' type='' class='' aaname='Location' check:innerText='Location' /&gt;" Guid="7ca0156c-8e5f-40cd-a39e-8eb7ec1d7f18" SearchSteps="FuzzySelector, CV" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
@@ -504,7 +512,7 @@
                     <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_45">
                       <CSharpValue.Result>
                         <OutArgument x:TypeArguments="x:String" />
-                      </CSharpValue.Result>currentVendorName != "" &amp;&amp; currentVendorName != null ? currentVendorName : currentDocumentData.Data.VendorName.Value</CSharpValue>
+                      </CSharpValue.Result>currentVendorName != "" &amp;&amp; currentVendorName != null ? currentVendorName : currentDocumentData1.Data.VendorName.Value</CSharpValue>
                   </InArgument>
                 </uix:NTypeInto.Text>
                 <uix:NTypeInto.VerifyOptions>
@@ -539,7 +547,7 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <Sequence DisplayName="Sequence - check if Vendor does not exists- it will show poup if vendor not exits" sap:VirtualizedContainerService.HintSize="450,99" sap2010:WorkflowViewState.IdRef="Sequence_29">
+              <Sequence DisplayName="Sequence - check if Vendor does not exists- it will show poup if vendor not exits" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_29">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -638,7 +646,7 @@
                     <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">
                       <CSharpValue.Result>
                         <OutArgument x:TypeArguments="x:String" />
-                      </CSharpValue.Result>currentDocumentData.Data.InvoiceNumber.ToString()</CSharpValue>
+                      </CSharpValue.Result>currentDocumentData1.Data.InvoiceNumber.ToString()</CSharpValue>
                   </InArgument>
                 </uix:NTypeInto.Text>
                 <uix:NTypeInto.VerifyOptions>
@@ -667,7 +675,7 @@
                     <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">
                       <CSharpValue.Result>
                         <OutArgument x:TypeArguments="x:String" />
-                      </CSharpValue.Result>currentDocumentData.Data.DocumentDate.ToString()</CSharpValue>
+                      </CSharpValue.Result>currentDocumentData1.Data.DocumentDate.ToString()</CSharpValue>
                   </InArgument>
                 </uix:NTypeInto.Text>
                 <uix:NTypeInto.VerifyOptions>
@@ -696,7 +704,7 @@
                     <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_10">
                       <CSharpValue.Result>
                         <OutArgument x:TypeArguments="x:String" />
-                      </CSharpValue.Result>currentDocumentData.Data.DocumentDate.ToString()</CSharpValue>
+                      </CSharpValue.Result>currentDocumentData1.Data.DocumentDate.ToString()</CSharpValue>
                   </InArgument>
                 </uix:NTypeInto.Text>
                 <uix:NTypeInto.VerifyOptions>
@@ -725,7 +733,7 @@
                     <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_86">
                       <CSharpValue.Result>
                         <OutArgument x:TypeArguments="x:String" />
-                      </CSharpValue.Result>currentDocumentData.Data.TotalAmount.ToString() ?? currentDocumentData.Data.NetAmount.ToString()</CSharpValue>
+                      </CSharpValue.Result>currentDocumentData1.Data.TotalAmount.ToString() ?? currentDocumentData1.Data.NetAmount.ToString()</CSharpValue>
                   </InArgument>
                 </uix:NTypeInto.Text>
                 <uix:NTypeInto.VerifyOptions>
@@ -740,7 +748,7 @@
                 </uix:NTypeInto.VerifyOptions>
               </uix:NTypeInto>
             </Sequence>
-            <Sequence DisplayName="Sequence - Upload nvoice File" sap:VirtualizedContainerService.HintSize="642,99" sap2010:WorkflowViewState.IdRef="Sequence_28">
+            <Sequence DisplayName="Sequence - Upload nvoice File" sap:VirtualizedContainerService.HintSize="640,57" sap2010:WorkflowViewState.IdRef="Sequence_28">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -826,76 +834,106 @@
                 </If.Else>
               </If>
             </Sequence>
-            <Sequence DisplayName="Sequence - Add Invoice Line items" sap:VirtualizedContainerService.HintSize="642,5137" sap2010:WorkflowViewState.IdRef="Sequence_43">
+            <Sequence DisplayName="Sequence - Add Invoice Line items" sap:VirtualizedContainerService.HintSize="640,5312" sap2010:WorkflowViewState.IdRef="Sequence_43">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:Comment sap:VirtualizedContainerService.HintSize="608,88" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Convert lineitems to mapping line names" />
-              <If DisplayName="Convert Line item If its coca-cola or JFC" sap:VirtualizedContainerService.HintSize="608,455" sap2010:WorkflowViewState.IdRef="If_13">
-                <If.Condition>
+              <ui:Comment sap:VirtualizedContainerService.HintSize="606,88" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Convert lineitems to mapping line names" />
+              <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="606,770" sap2010:WorkflowViewState.IdRef="IfElseIfV2_2">
+                <ui:IfElseIfV2.Condition>
                   <InArgument x:TypeArguments="x:Boolean">
-                    <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_82">
-                      <CSharpValue.Result>
-                        <OutArgument x:TypeArguments="x:Boolean" />
-                      </CSharpValue.Result>currentVendorName == "Coca-Cola of Southern Utah" || currentVendorName == "JFC International"</CSharpValue>
+                    <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_127">currentVendorName == "JFC International"</CSharpValue>
                   </InArgument>
-                </If.Condition>
-                <If.Then>
-                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,228" sap2010:WorkflowViewState.IdRef="Sequence_52">
+                </ui:IfElseIfV2.Condition>
+                <ui:IfElseIfV2.Else>
+                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_75">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ConvertLineItemFromMappings - Invoke Workflow File (Restaurent365\\ConvertLineItemFromMappings.xaml)" sap:VirtualizedContainerService.HintSize="382,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_4" UnSafe="False" WorkflowFileName="Restaurent365\\ConvertLineItemFromMappings.xaml">
-                      <ui:InvokeWorkflowFile.Arguments>
-                        <InArgument x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor25InvoicesV7)" x:Key="currentDocumentData">
-                          <CSharpValue x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor25InvoicesV7)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_120">currentDocumentData</CSharpValue>
+                  </Sequence>
+                </ui:IfElseIfV2.Else>
+                <ui:IfElseIfV2.ElseIfs>
+                  <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
+                    <ui:IfElseIfBlock BlockType="ElseIf" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_2">
+                      <ui:IfElseIfBlock.Condition>
+                        <InArgument x:TypeArguments="x:Boolean">
+                          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_128">currentVendorName == "Coca-Cola of Southern Utah"</CSharpValue>
                         </InArgument>
+                      </ui:IfElseIfBlock.Condition>
+                      <ui:IfElseIfBlock.Then>
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,228" sap2010:WorkflowViewState.IdRef="Sequence_73">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ConvertLineItemFromMappings - Invoke Workflow File (Restaurent365\\ConvertLineItemFromMappings.xaml)" sap:VirtualizedContainerService.HintSize="382,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_5" UnSafe="False" WorkflowFileName="Restaurent365\\ConvertLineItemFromMappings.xaml">
+                            <ui:InvokeWorkflowFile.Arguments>
+                              <InArgument x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor40InvoicesV11)" x:Key="currentDocumentData">
+                                <CSharpValue x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor40InvoicesV11)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_134">currentDocumentData1</CSharpValue>
+                              </InArgument>
+                              <InArgument x:TypeArguments="x:String" x:Key="currentVendorName">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_130">currentVendorName</CSharpValue>
+                              </InArgument>
+                              <OutArgument x:TypeArguments="sd:DataTable" x:Key="LineItemDataTable">
+                                <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_27">ConvertedLineItemDataTable</CSharpReference>
+                              </OutArgument>
+                            </ui:InvokeWorkflowFile.Arguments>
+                          </ui:InvokeWorkflowFile>
+                        </Sequence>
+                      </ui:IfElseIfBlock.Then>
+                    </ui:IfElseIfBlock>
+                  </sc:BindingList>
+                </ui:IfElseIfV2.ElseIfs>
+                <ui:IfElseIfV2.Then>
+                  <Sequence DisplayName="Then - generate JFC codument again for line items" sap:VirtualizedContainerService.HintSize="416,228" sap2010:WorkflowViewState.IdRef="Sequence_74">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ConvertLineItemFromMappingsJFC - Invoke Workflow File (Restaurent365\\ConvertLineItemFromMappingsJFC.xaml)" sap:VirtualizedContainerService.HintSize="382,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_6" UnSafe="False" WorkflowFileName="Restaurent365\\ConvertLineItemFromMappingsJFC.xaml">
+                      <ui:InvokeWorkflowFile.Arguments>
                         <InArgument x:TypeArguments="x:String" x:Key="currentVendorName">
-                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_91">currentVendorName</CSharpValue>
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_131">currentVendorName</CSharpValue>
                         </InArgument>
                         <OutArgument x:TypeArguments="sd:DataTable" x:Key="LineItemDataTable">
-                          <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_19">ConvertedLineItemDataTable</CSharpReference>
+                          <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_28">ConvertedLineItemDataTable</CSharpReference>
                         </OutArgument>
+                        <InArgument x:TypeArguments="uggm:GmailAttachmentLocalItem" x:Key="currentDocumentAttachment">
+                          <CSharpValue x:TypeArguments="uggm:GmailAttachmentLocalItem" sap2010:WorkflowViewState.IdRef="CSharpValue`1_132">currentGmailAttachmentLocalItem</CSharpValue>
+                        </InArgument>
                       </ui:InvokeWorkflowFile.Arguments>
                     </ui:InvokeWorkflowFile>
                   </Sequence>
-                </If.Then>
-                <If.Else>
-                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_53">
-                    <sap:WorkflowViewStateService.ViewState>
-                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                      </scg:Dictionary>
-                    </sap:WorkflowViewStateService.ViewState>
-                  </Sequence>
-                </If.Else>
-              </If>
-              <If DisplayName="If R365 Process differently" sap:VirtualizedContainerService.HintSize="608,4500" sap2010:WorkflowViewState.IdRef="If_15">
+                </ui:IfElseIfV2.Then>
+              </ui:IfElseIfV2>
+              <If DisplayName="If R365 Process differently" sap:VirtualizedContainerService.HintSize="606,4360" sap2010:WorkflowViewState.IdRef="If_15">
                 <If.Condition>
                   <InArgument x:TypeArguments="x:Boolean">
                     <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_94">currentVendorName == "Restaurant 365 - R365"</CSharpValue>
                   </InArgument>
                 </If.Condition>
                 <If.Then>
-                  <Sequence DisplayName="Then - Restaurant 365" sap:VirtualizedContainerService.HintSize="606,4046" sap2010:WorkflowViewState.IdRef="Sequence_57">
+                  <Sequence DisplayName="Then - Restaurant 365" sap:VirtualizedContainerService.HintSize="604,3990" sap2010:WorkflowViewState.IdRef="Sequence_57">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="572,3986" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
+                    <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="570,3930" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
                       <ui:IfElseIfV2.Condition>
                         <InArgument x:TypeArguments="x:Boolean">
-                          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_108">currentDocumentData.Data.Items.Count() &lt;= 0</CSharpValue>
+                          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_108">currentDocumentData1.Data.Items.Count() &lt;= 0</CSharpValue>
                         </InArgument>
                       </ui:IfElseIfV2.Condition>
                       <ui:IfElseIfV2.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="504,2976" sap2010:WorkflowViewState.IdRef="Sequence_68">
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="504,2920" sap2010:WorkflowViewState.IdRef="Sequence_68">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -908,13 +946,13 @@
                               </InArgument>
                             </ui:LogMessage.Message>
                           </ui:LogMessage>
-                          <ui:ForEach x:TypeArguments="uisasecb:Items" CurrentIndex="{x:Null}" DisplayName="For Each currentItems" sap:VirtualizedContainerService.HintSize="470,2741" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
+                          <ui:ForEach x:TypeArguments="uisasecb1:Items" CurrentIndex="{x:Null}" DisplayName="For Each currentItems" sap:VirtualizedContainerService.HintSize="470,2685" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
                             <ui:ForEach.Body>
-                              <ActivityAction x:TypeArguments="uisasecb:Items">
+                              <ActivityAction x:TypeArguments="uisasecb1:Items">
                                 <ActivityAction.Argument>
-                                  <DelegateInArgument x:TypeArguments="uisasecb:Items" Name="currentItems" />
+                                  <DelegateInArgument x:TypeArguments="uisasecb1:Items" Name="currentItems" />
                                 </ActivityAction.Argument>
-                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,2620" sap2010:WorkflowViewState.IdRef="Sequence_64">
+                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,2564" sap2010:WorkflowViewState.IdRef="Sequence_64">
                                   <Sequence.Variables>
                                     <Variable x:TypeArguments="x:String" Name="tmpR365Location" />
                                   </Sequence.Variables>
@@ -950,7 +988,7 @@ LocationList.Where(item =&gt;
                                       </InArgument>
                                     </ui:LogMessage.Message>
                                   </ui:LogMessage>
-                                  <If sap:VirtualizedContainerService.HintSize="434,327" sap2010:WorkflowViewState.IdRef="If_19">
+                                  <If sap:VirtualizedContainerService.HintSize="434,271" sap2010:WorkflowViewState.IdRef="If_19">
                                     <If.Condition>
                                       <InArgument x:TypeArguments="x:Boolean">
                                         <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_114">tmpR365Location == null || tmpR365Location == ""</CSharpValue>
@@ -967,7 +1005,7 @@ LocationList.Where(item =&gt;
                                       </Sequence>
                                     </If.Then>
                                     <If.Else>
-                                      <Sequence DisplayName="Else - move next step" sap:VirtualizedContainerService.HintSize="416,81" sap2010:WorkflowViewState.IdRef="Sequence_70">
+                                      <Sequence DisplayName="Else - move next step" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_70">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1104,7 +1142,7 @@ LocationList.Where(item =&gt;
                             </ui:ForEach.Body>
                             <ui:ForEach.Values>
                               <InArgument x:TypeArguments="sc1:IEnumerable">
-                                <CSharpValue x:TypeArguments="sc1:IEnumerable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_98">currentDocumentData.Data.Items</CSharpValue>
+                                <CSharpValue x:TypeArguments="sc1:IEnumerable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_98">currentDocumentData1.Data.Items</CSharpValue>
                               </InArgument>
                             </ui:ForEach.Values>
                           </ui:ForEach>
@@ -1115,7 +1153,7 @@ LocationList.Where(item =&gt;
                           <ui:IfElseIfBlock BlockType="ElseIf" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_1">
                             <ui:IfElseIfBlock.Condition>
                               <InArgument x:TypeArguments="x:Boolean">
-                                <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_110">currentDocumentData.Data.BillingName.Value.IndexOf("Greenlight Holdings") &gt; -1</CSharpValue>
+                                <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_110">currentDocumentData1.Data.BillingName.Value.IndexOf("Greenlight Holdings") &gt; -1</CSharpValue>
                               </InArgument>
                             </ui:IfElseIfBlock.Condition>
                             <ui:IfElseIfBlock.Then>
@@ -1188,14 +1226,14 @@ LocationList.Where(item =&gt;
                   </Sequence>
                 </If.Then>
                 <If.Else>
-                  <Sequence DisplayName="Else Process all other invoices differently" sap:VirtualizedContainerService.HintSize="606,323" sap2010:WorkflowViewState.IdRef="Sequence_58">
+                  <Sequence DisplayName="Else Process all other invoices differently" sap:VirtualizedContainerService.HintSize="604,239" sap2010:WorkflowViewState.IdRef="Sequence_58">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <If DisplayName="If - &quot;Bypass lineitem if No Line Item Found for Invoice or Vendor exists in bypass vendor list" sap:VirtualizedContainerService.HintSize="572,263" sap2010:WorkflowViewState.IdRef="If_1">
+                    <If DisplayName="If - &quot;Bypass lineitem if No Line Item Found for Invoice or Vendor exists in bypass vendor list" sap:VirtualizedContainerService.HintSize="570,179" sap2010:WorkflowViewState.IdRef="If_1">
                       <If.Condition>
                         <InArgument x:TypeArguments="x:Boolean">
                           <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_84">
@@ -1211,7 +1249,7 @@ LocationList.Where(item =&gt;
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="570,67" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="504,3031" sap2010:WorkflowViewState.IdRef="Sequence_6">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="x:String" Name="accountCode" />
                           </Sequence.Variables>
@@ -1221,7 +1259,7 @@ LocationList.Where(item =&gt;
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <Assign sap:VirtualizedContainerService.HintSize="536,114" sap2010:WorkflowViewState.IdRef="Assign_5">
+                          <Assign sap:VirtualizedContainerService.HintSize="470,114" sap2010:WorkflowViewState.IdRef="Assign_5">
                             <Assign.To>
                               <OutArgument x:TypeArguments="x:String">
                                 <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_12">
@@ -1239,7 +1277,7 @@ LocationList.Where(item =&gt;
                               </InArgument>
                             </Assign.Value>
                           </Assign>
-                          <If DisplayName="If - SLCC - get account code calculated" sap:VirtualizedContainerService.HintSize="536,569" sap2010:WorkflowViewState.IdRef="If_14">
+                          <If DisplayName="If - SLCC - get account code calculated" sap:VirtualizedContainerService.HintSize="470,569" sap2010:WorkflowViewState.IdRef="If_14">
                             <If.Condition>
                               <InArgument x:TypeArguments="x:Boolean">
                                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_87">
@@ -1258,10 +1296,10 @@ LocationList.Where(item =&gt;
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="CalculateSLCCAccountCode - Invoke Workflow File (Restaurent365\\CalculateSLCCAccountCode.xaml)" sap:VirtualizedContainerService.HintSize="434,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Restaurent365\\CalculateSLCCAccountCode.xaml">
+                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="CalculateSLCCAccountCode - Invoke Workflow File (Restaurent365\\CalculateSLCCAccountCode.xaml)" sap:VirtualizedContainerService.HintSize="342,145" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Restaurent365\\CalculateSLCCAccountCode.xaml">
                                   <ui:InvokeWorkflowFile.Arguments>
-                                    <InArgument x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor25InvoicesV7)" x:Key="currentDocumentData">
-                                      <CSharpValue x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor25InvoicesV7)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_121">currentDocumentData</CSharpValue>
+                                    <InArgument x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor40InvoicesV11)" x:Key="currentDocumentData">
+                                      <CSharpValue x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor40InvoicesV11)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_135">currentDocumentData1</CSharpValue>
                                     </InArgument>
                                     <OutArgument x:TypeArguments="x:String" x:Key="extractedAccountCode">
                                       <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_17">
@@ -1301,7 +1339,7 @@ LocationList.Where(item =&gt;
                               </Sequence>
                             </If.Else>
                           </If>
-                          <If sap:VirtualizedContainerService.HintSize="536,2288" sap2010:WorkflowViewState.IdRef="If_9">
+                          <If sap:VirtualizedContainerService.HintSize="470,2288" sap2010:WorkflowViewState.IdRef="If_9">
                             <If.Condition>
                               <InArgument x:TypeArguments="x:Boolean">
                                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_56">
@@ -1405,7 +1443,7 @@ LocationList.Where(item =&gt;
                                             <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_62">
                                               <CSharpValue.Result>
                                                 <OutArgument x:TypeArguments="x:String" />
-                                              </CSharpValue.Result>currentDocumentData.Data.TotalAmount.ToString()</CSharpValue>
+                                              </CSharpValue.Result>currentDocumentData1.Data.TotalAmount.ToString()</CSharpValue>
                                           </InArgument>
                                         </uix:NTypeInto.Text>
                                       </uix:NTypeInto>
@@ -1457,7 +1495,7 @@ LocationList.Where(item =&gt;
                         </Sequence>
                       </If.Then>
                       <If.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="570,67" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="568,25" sap2010:WorkflowViewState.IdRef="Sequence_7">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="x:Boolean" Name="lineItemNotExists" />
                           </Sequence.Variables>
@@ -1473,7 +1511,7 @@ LocationList.Where(item =&gt;
                                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_50">
                                   <CSharpValue.Result>
                                     <OutArgument x:TypeArguments="x:Boolean" />
-                                  </CSharpValue.Result>currentDocumentData.Data.Items.Count() &lt;= 0</CSharpValue>
+                                  </CSharpValue.Result>currentDocumentData1.Data.Items.Count() &lt;= 0</CSharpValue>
                               </InArgument>
                             </If.Condition>
                             <sap:WorkflowViewStateService.ViewState>
@@ -1532,8 +1570,8 @@ LocationList.Where(item =&gt;
                                       </sap:WorkflowViewStateService.ViewState>
                                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ConvertLineItemFromMappings - Invoke Workflow File (Restaurent365\\ConvertLineItemFromMappings.xaml)" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Restaurent365\\ConvertLineItemFromMappings.xaml">
                                         <ui:InvokeWorkflowFile.Arguments>
-                                          <InArgument x:TypeArguments="uisad:IDocumentData(uisasecb1:CupBopAPInvoiceProcesor20InvoicesV2)" x:Key="currentDocumentData">
-                                            <CSharpValue x:TypeArguments="uisad:IDocumentData(uisasecb1:CupBopAPInvoiceProcesor20InvoicesV2)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_77">currentDocumentData</CSharpValue>
+                                          <InArgument x:TypeArguments="uisad:IDocumentData(uisasecb2:CupBopAPInvoiceProcesor20InvoicesV2)" x:Key="currentDocumentData">
+                                            <CSharpValue x:TypeArguments="uisad:IDocumentData(uisasecb2:CupBopAPInvoiceProcesor20InvoicesV2)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_77">currentDocumentData1</CSharpValue>
                                           </InArgument>
                                           <InArgument x:TypeArguments="x:String" x:Key="currentVendorName">
                                             <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_65">currentVendorName</CSharpValue>
@@ -1796,7 +1834,7 @@ LocationList.Where(item =&gt;
                 </If.Else>
               </If>
             </Sequence>
-            <Sequence DisplayName="Sequence - Save Invoic details" sap:VirtualizedContainerService.HintSize="642,937" sap2010:WorkflowViewState.IdRef="Sequence_44">
+            <Sequence DisplayName="Sequence - Save Invoic details" sap:VirtualizedContainerService.HintSize="640,937" sap2010:WorkflowViewState.IdRef="Sequence_44">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -1809,7 +1847,7 @@ LocationList.Where(item =&gt;
                     <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_31">
                       <CSharpValue.Result>
                         <OutArgument x:TypeArguments="x:Object" />
-                      </CSharpValue.Result>"Save invoice - " + currentDocumentData.Data.InvoiceNumber</CSharpValue>
+                      </CSharpValue.Result>"Save invoice - " + currentDocumentData1.Data.InvoiceNumber</CSharpValue>
                   </InArgument>
                 </ui:LogMessage.Message>
               </ui:LogMessage>
@@ -1863,7 +1901,7 @@ LocationList.Where(item =&gt;
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
             </Sequence>
-            <Sequence sap:VirtualizedContainerService.HintSize="642,722" sap2010:WorkflowViewState.IdRef="Sequence_49">
+            <Sequence sap:VirtualizedContainerService.HintSize="640,722" sap2010:WorkflowViewState.IdRef="Sequence_49">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:Boolean" Default="False" Name="tmpConfirmationExists" />
               </Sequence.Variables>

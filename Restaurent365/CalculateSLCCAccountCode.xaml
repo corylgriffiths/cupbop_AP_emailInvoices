@@ -1,6 +1,6 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="CalculateSLCCAccountCode" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor25InvoicesV7.Bundle;assembly=ExtendedExtractionRe.9tGQp1YAW0C1IesAe2o7adc" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="CalculateSLCCAccountCode" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor40InvoicesV11.Bundle;assembly=ExtendedExtractionRe.tLOAD4s0R8F1oAwRZ2XR1uZ4" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
-    <x:Property Name="currentDocumentData" Type="InArgument(uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor25InvoicesV7))" />
+    <x:Property Name="currentDocumentData" Type="InArgument(uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor40InvoicesV11))" />
     <x:Property Name="extractedAccountCode" Type="OutArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
@@ -40,6 +40,8 @@
       <x:String>System.Numerics</x:String>
       <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor23InvoicesV5.Bundle</x:String>
       <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor25InvoicesV7.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor30InvoicesV10.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor40InvoicesV11.Bundle</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -92,6 +94,8 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
       <AssemblyReference>ExtendedExtractionRe.OD1Mk2dhtxG1Oha9p3F8cQf</AssemblyReference>
       <AssemblyReference>ExtendedExtractionRe.9tGQp1YAW0C1IesAe2o7adc</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.ybSHEol1NC15NTD53v9dtE1</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.tLOAD4s0R8F1oAwRZ2XR1uZ4</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="CalculateSLCCAccountCode" sap:VirtualizedContainerService.HintSize="1070,1256" sap2010:WorkflowViewState.IdRef="Sequence_1">

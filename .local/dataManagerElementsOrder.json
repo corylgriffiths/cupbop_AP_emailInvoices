@@ -12,6 +12,7 @@
       "Path": "Gmail/ProcessGmails.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "currentDocumentData0&Sequence_1",
         "configPlain&Sequence_1",
         "configObject&Sequence_1",
         "vendorList&Sequence_1",
@@ -25,7 +26,6 @@
         "dateToProcessEmailsAfter&Sequence_1",
         "tempNoOfEmailsProcessed&Sequence_1",
         "LocationTable&Sequence_1",
-        "currentDocumentData&Sequence_1",
         "stringList&Sequence_19",
         "currentEmailAttachments&Sequence_4",
         "folderExists&Sequence_4",
@@ -50,6 +50,8 @@
       "Path": "Restaurent365/ProcessInvoice.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "tmpLocation&Sequence_27",
+        "tmpDDLocationValue&Sequence_27",
         "isLoggedin&Sequence_1",
         "outputElement&Sequence_1",
         "LineItemMappingTable&Sequence_1",
@@ -64,10 +66,11 @@
         "tmpConfirmationExists&Sequence_49"
       ],
       "ArgumentsSectionElementsOrder": [
+        "currentDocumentData1",
+        "currentGmailAttachmentLocalItem",
         "LocationList",
         "VendorDataRow",
         "Browser_Restaurent365",
-        "currentDocumentData",
         "currentShipLocation",
         "exception",
         "filePath",
@@ -125,10 +128,13 @@
       "Path": "TestExtraction/TextExtractionData.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "LineItemTableData&Sequence_2",
         "currentDocumentData&Sequence_2",
-        "LineItemTableData&Sequence_2"
+        "tmpCounter&Sequence_11"
       ],
-      "ArgumentsSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "Browser_Restaurent36512"
+      ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },
@@ -141,6 +147,28 @@
       "ArgumentsSectionElementsOrder": [
         "extractedAccountCode",
         "currentDocumentData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Restaurent365/ConvertLineItemFromMappingsJFC.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "tmpCaseOrPAck&Sequence_10",
+        "currentDocumentData&Sequence_12",
+        "SourceMappingTable&Sequence_1",
+        "hasLineItemNumber&Sequence_1",
+        "isJFC&Sequence_1",
+        "tempCurrentLine&Sequence_8",
+        "tempQty&Sequence_10",
+        "tmpAmount&Sequence_10",
+        "tempItemsLineAmounts&Sequence_10"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "currentDocumentAttachment",
+        "currentVendorName",
+        "LineItemDataTable"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
