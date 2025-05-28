@@ -143,13 +143,13 @@
       <AssemblyReference>ExtendedExtractionRe.8SnvN9c9nN15s6Kr2WR5KG</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TextExtractionData" sap:VirtualizedContainerService.HintSize="1070,1439" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TextExtractionData" sap:VirtualizedContainerService.HintSize="1070,1635" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Sequence Test Data for Extraction" sap:VirtualizedContainerService.HintSize="450,1191" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Sequence Test Data for Extraction" sap:VirtualizedContainerService.HintSize="450,1360" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="sd:DataTable" Name="LineItemTableData" />
         <Variable x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor40InvoicesLineItemsV11)" Name="currentDocumentData" />
@@ -172,7 +172,7 @@
         </p:ExtractDocumentDataWithDocumentData.ExtractionResults>
         <p:ExtractDocumentDataWithDocumentData.FileInput>
           <InArgument x:TypeArguments="upr:IResource">
-            <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_41">LocalResource.FromPath("C:\\Users\\Tushar Parmar\\Downloads\\45-0894411.D-1212.pdf")</CSharpValue>
+            <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_43">LocalResource.FromPath("C:\\Users\\Tushar Parmar\\Downloads\\Today's Invoices\\30-6754089.L-2521-jfc.pdf")</CSharpValue>
           </InArgument>
         </p:ExtractDocumentDataWithDocumentData.FileInput>
         <p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
@@ -207,7 +207,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:CommentOut>
-      <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor40InvoicesLineItemsV11" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="1366563b-d432-f011-a5f1-6045bdd9c86e" GenerateData="True" sap:VirtualizedContainerService.HintSize="416,171" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_2" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" TimeoutInSeconds="3600">
+      <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor40InvoicesLineItemsV11" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="1366563b-d432-f011-a5f1-6045bdd9c86e" GenerateData="True" sap:VirtualizedContainerService.HintSize="416,340" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_2" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" TimeoutInSeconds="3600">
         <p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
           <InArgument x:TypeArguments="s:Nullable(x:Int32)">
             <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />
@@ -262,7 +262,7 @@
         </OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="450,75" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>

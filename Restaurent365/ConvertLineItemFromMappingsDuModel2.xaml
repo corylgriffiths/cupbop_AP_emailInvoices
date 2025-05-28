@@ -1,8 +1,8 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="ConvertLineItemFromMappings" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:sc1="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor40InvoicesV11.Bundle;assembly=ExtendedExtractionRe.tLOAD4s0R8F1oAwRZ2XR1uZ4" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="ConvertLineItemFromMappings" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:sc1="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:uggm="clr-namespace:UiPath.GSuite.Gmail.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor40InvoicesLineItemsV11.Bundle;assembly=ExtendedExtractionRe.8SnvN9c9nN15s6Kr2WR5KG" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
-    <x:Property Name="currentDocumentData" Type="InArgument(uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor40InvoicesV11))" />
     <x:Property Name="currentVendorName" Type="InArgument(x:String)" />
     <x:Property Name="LineItemDataTable" Type="OutArgument(sd:DataTable)" />
+    <x:Property Name="currentDocumentAttachment" Type="InArgument(uggm:GmailAttachmentLocalItem)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
@@ -60,7 +60,15 @@
       <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor22InvoicesV4.Bundle</x:String>
       <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor23InvoicesV5.Bundle</x:String>
       <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor25InvoicesV7.Bundle</x:String>
-      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor30InvoicesV10.Bundle</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.DataExtraction</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Results</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Dom</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor30InvoicesLineItemsV10.Bundle</x:String>
+      <x:String>UiPath.Platform</x:String>
+      <x:String>UiPath.GSuite.Gmail.Models</x:String>
+      <x:String>UiPath.GSuite</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor40InvoicesLineItemsV11.Bundle</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -138,15 +146,19 @@
       <AssemblyReference>ExtendedExtractionRe.c5oIi2y5DSS1X38CH1WjMxL</AssemblyReference>
       <AssemblyReference>ExtendedExtractionRe.OD1Mk2dhtxG1Oha9p3F8cQf</AssemblyReference>
       <AssemblyReference>ExtendedExtractionRe.9tGQp1YAW0C1IesAe2o7adc</AssemblyReference>
-      <AssemblyReference>ExtendedExtractionRe.ybSHEol1NC15NTD53v9dtE1</AssemblyReference>
-      <AssemblyReference>ExtendedExtractionRe.tLOAD4s0R8F1oAwRZ2XR1uZ4</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentProcessing.Contracts</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.FMG4H3lwW1F1EgI9x3K9BTQ1</AssemblyReference>
+      <AssemblyReference>UiPath.CodedWorkflows</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.8SnvN9c9nN15s6Kr2WR5KG</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ConvertLineItemFromMappings" sap:VirtualizedContainerService.HintSize="1070,2775" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ConvertLineItemFromMappings" sap:VirtualizedContainerService.HintSize="1070,2932" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="SourceMappingTable" />
       <Variable x:TypeArguments="x:Boolean" Default="False" Name="hasLineItemNumber" />
       <Variable x:TypeArguments="x:Boolean" Default="False" Name="isJFC" />
+      <Variable x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor40InvoicesLineItemsV11)" Name="currentDocumentData" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -160,14 +172,35 @@
         </OutArgument>
       </ui:BuildDataTable.DataTable>
     </ui:BuildDataTable>
-    <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="506,1306" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
+    <ui:Comment sap:VirtualizedContainerService.HintSize="506,107" sap2010:WorkflowViewState.IdRef="Comment_1" Text="//currentDocumentAttachment - for actual attachment" />
+    <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor40InvoicesLineItemsV11" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="1366563b-d432-f011-a5f1-6045bdd9c86e" GenerateData="True" sap:VirtualizedContainerService.HintSize="506,340" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_1" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" TimeoutInSeconds="3600">
+      <p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
+        <InArgument x:TypeArguments="s:Nullable(x:Int32)">
+          <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />
+        </InArgument>
+      </p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
+      <p:ExtractDocumentDataWithDocumentData.ExtractionResults>
+        <OutArgument x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor40InvoicesLineItemsV11)">
+          <CSharpReference x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor40InvoicesLineItemsV11)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_21">currentDocumentData</CSharpReference>
+        </OutArgument>
+      </p:ExtractDocumentDataWithDocumentData.ExtractionResults>
+      <p:ExtractDocumentDataWithDocumentData.FileInput>
+        <InArgument x:TypeArguments="upr:IResource">
+          <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_62">currentDocumentAttachment</CSharpValue>
+        </InArgument>
+      </p:ExtractDocumentDataWithDocumentData.FileInput>
+      <p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
+        <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
+      </p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
+    </p:ExtractDocumentDataWithDocumentData>
+    <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="506,1016" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
       <ui:IfElseIfV2.Condition>
         <InArgument x:TypeArguments="x:Boolean">
-          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">currentVendorName == "JFC International"</CSharpValue>
+          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_54">currentVendorName == "JFC International"</CSharpValue>
         </InArgument>
       </ui:IfElseIfV2.Condition>
       <ui:IfElseIfV2.Else>
-        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,89" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,89" sap2010:WorkflowViewState.IdRef="Sequence_16">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -180,76 +213,20 @@
           <ui:IfElseIfBlock BlockType="ElseIf" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_1">
             <ui:IfElseIfBlock.Condition>
               <InArgument x:TypeArguments="x:Boolean">
-                <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">currentVendorName == "Action Sales"</CSharpValue>
+                <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_55">currentVendorName == "Coca-Cola of Southern Utah"</CSharpValue>
               </InArgument>
             </ui:IfElseIfBlock.Condition>
             <ui:IfElseIfBlock.Then>
-              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,351" sap2010:WorkflowViewState.IdRef="Sequence_4">
+              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,237" sap2010:WorkflowViewState.IdRef="Sequence_14">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:ReadCsvFile PathResource="{x:Null}" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read Bot Config" FilePath="ConfigFiles\\Action Sales item list 1.csv" sap:VirtualizedContainerService.HintSize="434,186" sap2010:WorkflowViewState.IdRef="ReadCsvFile_2">
+                <ui:ReadCsvFile PathResource="{x:Null}" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read Bot Config" FilePath="ConfigFiles\\Coca-Cola of Southern Utah item list 1.csv" sap:VirtualizedContainerService.HintSize="434,177" sap2010:WorkflowViewState.IdRef="ReadCsvFile_7">
                   <ui:ReadCsvFile.DataTable>
                     <OutArgument x:TypeArguments="sd:DataTable">
-                      <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">SourceMappingTable</CSharpReference>
-                    </OutArgument>
-                  </ui:ReadCsvFile.DataTable>
-                </ui:ReadCsvFile>
-                <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_1">
-                  <Assign.To>
-                    <OutArgument x:TypeArguments="x:Boolean">
-                      <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">hasLineItemNumber</CSharpReference>
-                    </OutArgument>
-                  </Assign.To>
-                  <Assign.Value>
-                    <InArgument x:TypeArguments="x:Boolean">True</InArgument>
-                  </Assign.Value>
-                </Assign>
-              </Sequence>
-            </ui:IfElseIfBlock.Then>
-          </ui:IfElseIfBlock>
-          <ui:IfElseIfBlock BlockType="ElseIf" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_2">
-            <ui:IfElseIfBlock.Condition>
-              <InArgument x:TypeArguments="x:Boolean">
-                <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">currentVendorName == "The WEBstaurant Store"</CSharpValue>
-              </InArgument>
-            </ui:IfElseIfBlock.Condition>
-            <ui:IfElseIfBlock.Then>
-              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,237" sap2010:WorkflowViewState.IdRef="Sequence_5">
-                <sap:WorkflowViewStateService.ViewState>
-                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                  </scg:Dictionary>
-                </sap:WorkflowViewStateService.ViewState>
-                <ui:ReadCsvFile PathResource="{x:Null}" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read Bot Config" FilePath="ConfigFiles\\the WEBstaurant Store item list 1.csv" sap:VirtualizedContainerService.HintSize="434,177" sap2010:WorkflowViewState.IdRef="ReadCsvFile_3">
-                  <ui:ReadCsvFile.DataTable>
-                    <OutArgument x:TypeArguments="sd:DataTable">
-                      <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">SourceMappingTable</CSharpReference>
-                    </OutArgument>
-                  </ui:ReadCsvFile.DataTable>
-                </ui:ReadCsvFile>
-              </Sequence>
-            </ui:IfElseIfBlock.Then>
-          </ui:IfElseIfBlock>
-          <ui:IfElseIfBlock BlockType="ElseIf" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_3">
-            <ui:IfElseIfBlock.Condition>
-              <InArgument x:TypeArguments="x:Boolean">
-                <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">currentVendorName == "Coca-Cola of Southern Utah"</CSharpValue>
-              </InArgument>
-            </ui:IfElseIfBlock.Condition>
-            <ui:IfElseIfBlock.Then>
-              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,237" sap2010:WorkflowViewState.IdRef="Sequence_9">
-                <sap:WorkflowViewStateService.ViewState>
-                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                  </scg:Dictionary>
-                </sap:WorkflowViewStateService.ViewState>
-                <ui:ReadCsvFile PathResource="{x:Null}" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read Bot Config" FilePath="ConfigFiles\\Coca-Cola of Southern Utah item list 1.csv" sap:VirtualizedContainerService.HintSize="434,177" sap2010:WorkflowViewState.IdRef="ReadCsvFile_4">
-                  <ui:ReadCsvFile.DataTable>
-                    <OutArgument x:TypeArguments="sd:DataTable">
-                      <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">SourceMappingTable</CSharpReference>
+                      <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_25">SourceMappingTable</CSharpReference>
                     </OutArgument>
                   </ui:ReadCsvFile.DataTable>
                 </ui:ReadCsvFile>
@@ -258,19 +235,40 @@
           </ui:IfElseIfBlock>
         </sc:BindingList>
       </ui:IfElseIfV2.ElseIfs>
-      <sap:WorkflowViewStateService.ViewState>
-        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-        </scg:Dictionary>
-      </sap:WorkflowViewStateService.ViewState>
       <ui:IfElseIfV2.Then>
-        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,89" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,465" sap2010:WorkflowViewState.IdRef="Sequence_15">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
+          <ui:ReadCsvFile PathResource="{x:Null}" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read Bot Config" FilePath="ConfigFiles\\JFC international item list 1.csv" sap:VirtualizedContainerService.HintSize="434,186" sap2010:WorkflowViewState.IdRef="ReadCsvFile_6">
+            <ui:ReadCsvFile.DataTable>
+              <OutArgument x:TypeArguments="sd:DataTable">
+                <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_22">SourceMappingTable</CSharpReference>
+              </OutArgument>
+            </ui:ReadCsvFile.DataTable>
+          </ui:ReadCsvFile>
+          <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_12">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Boolean">
+                <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_23">isJFC</CSharpReference>
+              </OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+            </Assign.Value>
+          </Assign>
+          <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_13">
+            <Assign.To>
+              <OutArgument x:TypeArguments="x:Boolean">
+                <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_24">hasLineItemNumber</CSharpReference>
+              </OutArgument>
+            </Assign.To>
+            <Assign.Value>
+              <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+            </Assign.Value>
+          </Assign>
         </Sequence>
       </ui:IfElseIfV2.Then>
     </ui:IfElseIfV2>
@@ -297,22 +295,13 @@
               </Assign.To>
               <Assign.Value>
                 <InArgument x:TypeArguments="sd:DataRow">
-                  <CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24" xml:space="preserve">SourceMappingTable.AsEnumerable().Where(row =&gt; 
-(hasLineItemNumber == false &amp;&amp; 
-(	currentIinetems.ItemsDescriptions.ToString().ToLower().Replace(" ", "").Contains(row.Field&lt;string&gt;	("VendorItemNameOnTheInvoice").ToLower().Replace(" ", "")) == true
+                  <CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_60" xml:space="preserve">SourceMappingTable.AsEnumerable().Where(row =&gt; 
+	(currentIinetems.ItemsPartNumber.ToString() != ""  &amp;&amp; row.Field&lt;string&gt;("VendorItemNumber") !="" &amp;&amp;
+	currentIinetems.ItemsPartNumber.ToString().ToLower().Replace(" ", "").Contains(row.Field&lt;string&gt;("VendorItemNumber").ToLower().Replace(" ", "")) == true)
 	||
-	row.Field&lt;string&gt;("VendorItemNameOnTheInvoice").ToLower().Replace(" ", "").Contains(currentIinetems.ItemsDescriptions.ToString().ToLower().Replace(" ", "")) == true
-)
-
-) || 
-(
-hasLineItemNumber == true &amp;&amp; 
-	(
-	currentIinetems.ItemsLineNumbers.ToString().ToLower().Replace(" ", "").Contains(row.Field&lt;string&gt;("VendorItemNumber").ToLower().Replace(" ", "")) == true
-	||
-	currentIinetems.ItemsPartNumber.ToString().ToLower().Replace(" ", "").Contains(row.Field&lt;string&gt;("VendorItemNumber").ToLower().Replace(" ", "")) == true
-	)
-)).FirstOrDefault()</CSharpValue>
+(currentIinetems.ItemsDescription.ToString() != ""  &amp;&amp; row.Field&lt;string&gt;("VendorItemNameOnTheInvoice") !="" &amp;&amp;
+	currentIinetems.ItemsDescription.ToString().ToLower().Replace(" ", "").Contains(row.Field&lt;string&gt;("VendorItemNameOnTheInvoice").ToLower().Replace(" ", "")) == true)
+).FirstOrDefault()</CSharpValue>
                 </InArgument>
               </Assign.Value>
             </Assign>
@@ -335,7 +324,7 @@ hasLineItemNumber == true &amp;&amp;
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Assign DisplayName="Assign - get Qty - try 1" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_6">
+                  <Assign DisplayName="Assign - get Qty - try 1 using ItemsQuanitity" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_6">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">
                         <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_12">tempQty</CSharpReference>
@@ -343,11 +332,11 @@ hasLineItemNumber == true &amp;&amp;
                     </Assign.To>
                     <Assign.Value>
                       <InArgument x:TypeArguments="x:String">
-                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_27">currentIinetems.ItemsQuantities.Value.HasValue ? currentIinetems.ItemsQuantities.Value.Value.ToString() : null</CSharpValue>
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_41">currentIinetems.ItemsQuanitity.Value.HasValue ? currentIinetems.ItemsQuanitity.Value.Value.ToString() : null</CSharpValue>
                       </InArgument>
                     </Assign.Value>
                   </Assign>
-                  <Assign DisplayName="Assign - get Qty" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_3">
+                  <Assign DisplayName="Assign - get Qty - using ItemsQuanityCase" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_3">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">
                         <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">tempQty</CSharpReference>
@@ -355,7 +344,7 @@ hasLineItemNumber == true &amp;&amp;
                     </Assign.To>
                     <Assign.Value>
                       <InArgument x:TypeArguments="x:String">
-                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_29">(currentVendorName == "Coca-Cola of Southern Utah" || tempQty == null || tempQty == "") &amp;&amp; currentIinetems.ItemsQuantityCase.Value.HasValue ? currentIinetems.ItemsQuantityCase.Value.Value.ToString() : tempQty</CSharpValue>
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_42">(tempQty == null || tempQty == "") &amp;&amp; currentIinetems.ItemsQuanityCase.Value.HasValue ? currentIinetems.ItemsQuanityCase.Value.Value.ToString() : tempQty</CSharpValue>
                       </InArgument>
                     </Assign.Value>
                   </Assign>
@@ -383,27 +372,28 @@ hasLineItemNumber == true &amp;&amp;
                       </InArgument>
                     </Assign.Value>
                   </Assign>
-                  <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_9">
+                  <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_11">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:String">
-                        <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_17">tmpCaseOrPAck</CSharpReference>
+                        <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_20">tmpCaseOrPAck</CSharpReference>
                       </OutArgument>
                     </Assign.To>
                     <Assign.Value>
                       <InArgument x:TypeArguments="x:String">
-                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_38" xml:space="preserve">(string)tempCurrentLine["PurchasingUofM"] != null &amp;&amp; (string)tempCurrentLine["PurchasingUofM"]  != "" 
-	&amp;&amp; tempCurrentLine["PurchasingUofM"] != DBNull.Value 
-	?
-	(string)tempCurrentLine["PurchasingUofM"] 
-	:
-	null</CSharpValue>
+                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_56" xml:space="preserve">isJFC ? (
+	currentIinetems.ItemsQuanityCase.Value.HasValue ?
+	(string)tempCurrentLine["PurchasingUofM"] : 
+	(tempCurrentLine["SplitUofM"] != null &amp;&amp; tempCurrentLine["SplitUofM"] != DBNull.Value &amp;&amp; tempCurrentLine["SplitUofM"].ToString() != "" ? tempCurrentLine["SplitUofM"].ToString() : null)
+) : (
+	(string)tempCurrentLine["PurchasingUofM"]
+)</CSharpValue>
                       </InArgument>
                     </Assign.Value>
                   </Assign>
                   <ui:AddDataRow DataRow="{x:Null}" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="434,209" sap2010:WorkflowViewState.IdRef="AddDataRow_1">
                     <ui:AddDataRow.ArrayRow>
                       <InArgument x:TypeArguments="s:Object[]">
-                        <CSharpValue x:TypeArguments="s:Object[]" sap2010:WorkflowViewState.IdRef="CSharpValue`1_39" xml:space="preserve">new object[] { 
+                        <CSharpValue x:TypeArguments="s:Object[]" sap2010:WorkflowViewState.IdRef="CSharpValue`1_57" xml:space="preserve">new object[] { 
 	tempCurrentLine["ItemNameInTheSystemR365"],
 	tempQty,
 	tmpAmount,
@@ -434,9 +424,15 @@ hasLineItemNumber == true &amp;&amp;
       </ui:ForEach.Body>
       <ui:ForEach.Values>
         <InArgument x:TypeArguments="sc1:IEnumerable">
-          <CSharpValue x:TypeArguments="sc1:IEnumerable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">currentDocumentData.Data.Items</CSharpValue>
+          <CSharpValue x:TypeArguments="sc1:IEnumerable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_39">currentDocumentData.Data.Items</CSharpValue>
         </InArgument>
       </ui:ForEach.Values>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
     </ui:ForEach>
   </Sequence>
 </Activity>
