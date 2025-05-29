@@ -12,6 +12,7 @@
       "Path": "Gmail/ProcessGmails.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "tempFilePath&Sequence_6",
         "currentDocumentData0&Sequence_1",
         "configPlain&Sequence_1",
         "configObject&Sequence_1",
@@ -108,6 +109,7 @@
       "Path": "Restaurent365/ConvertLineItemFromMappings.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "tmpCaseOrPAck&Sequence_10",
         "tempItemsLineAmounts&Sequence_10",
         "tmpAmount&Sequence_10",
         "tempCurrentLine&Sequence_8",
@@ -152,18 +154,18 @@
       "AddedNamespaces": null
     },
     {
-      "Path": "Restaurent365/ConvertLineItemFromMappingsJFC.xaml",
+      "Path": "Restaurent365/ConvertLineItemFromMappingsDuModel2.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "tmpCaseOrPAck&Sequence_10",
-        "currentDocumentData&Sequence_12",
+        "tmpCaseOrPAck&Sequence_8",
+        "tempQty&Sequence_8",
+        "tmpAmount&Sequence_8",
+        "tempItemsLineAmounts&Sequence_8",
+        "currentDocumentData&Sequence_1",
         "SourceMappingTable&Sequence_1",
         "hasLineItemNumber&Sequence_1",
         "isJFC&Sequence_1",
-        "tempCurrentLine&Sequence_8",
-        "tempQty&Sequence_10",
-        "tmpAmount&Sequence_10",
-        "tempItemsLineAmounts&Sequence_10"
+        "tempCurrentLine&Sequence_8"
       ],
       "ArgumentsSectionElementsOrder": [
         "currentDocumentAttachment",
