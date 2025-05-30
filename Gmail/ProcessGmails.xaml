@@ -301,7 +301,7 @@
       <AssemblyReference>ExtendedExtractionRe.tLOAD4s0R8F1oAwRZ2XR1uZ4</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ProcessGmails" sap:VirtualizedContainerService.HintSize="1070,11432" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ProcessGmails" sap:VirtualizedContainerService.HintSize="1070,10270" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="configPlain" />
       <Variable x:TypeArguments="njl:JObject" Name="configObject" />
@@ -323,13 +323,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Sequence - Load config values and Data table" sap:VirtualizedContainerService.HintSize="678,1261" sap2010:WorkflowViewState.IdRef="Sequence_19">
+    <Sequence DisplayName="Sequence - Load config values and Data table" sap:VirtualizedContainerService.HintSize="678,99" sap2010:WorkflowViewState.IdRef="Sequence_19">
       <Sequence.Variables>
         <Variable x:TypeArguments="scg:List(x:String)" Name="stringList" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
@@ -364,7 +364,7 @@
           </InArgument>
         </Assign.Value>
       </Assign>
-      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="434,84" sap2010:WorkflowViewState.IdRef="CommentOut_9">
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="CommentOut_9">
         <ui:CommentOut.Body>
           <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="468,165" sap2010:WorkflowViewState.IdRef="Sequence_50">
             <sap:WorkflowViewStateService.ViewState>
@@ -393,7 +393,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:CommentOut>
-      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="434,84" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="CommentOut_2">
         <ui:CommentOut.Body>
           <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="468,165" sap2010:WorkflowViewState.IdRef="Sequence_21">
             <sap:WorkflowViewStateService.ViewState>
@@ -422,7 +422,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:CommentOut>
-      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="434,84" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="CommentOut_1">
         <ui:CommentOut.Body>
           <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="468,165" sap2010:WorkflowViewState.IdRef="Sequence_22">
             <sap:WorkflowViewStateService.ViewState>
@@ -916,7 +916,7 @@ row.Field&lt;string&gt;("PossibleAlternativeName").ToLower().Contains(currentDoc
                                 <If DisplayName="If GL date is more then 15 days after- skip invoice" sap:VirtualizedContainerService.HintSize="534,335" sap2010:WorkflowViewState.IdRef="If_15">
                                   <If.Condition>
                                     <InArgument x:TypeArguments="x:Boolean">
-                                      <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_326" xml:space="preserve">currentDocumentData0.Data.DocumentDate != null 
+                                      <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_356" xml:space="preserve">currentDocumentData0.Data.DocumentDate != null 
 	&amp;&amp; currentDocumentData0.Data.DocumentDate.ToString() != ""
 	&amp;&amp; DateTime.Parse(currentDocumentData0.Data.DocumentDate.ToString()) &gt; DateTime.Now.AddDays(15)</CSharpValue>
                                     </InArgument>
