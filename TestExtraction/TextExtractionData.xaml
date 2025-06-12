@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TextExtractionData" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor50InvoicesR365V12.Bundle;assembly=ExtendedExtractionRe.JNQUHsDYrK1nGlnh3tLPEM1" xmlns:uisasecb1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor40InvoicesLineItemsV11.Bundle;assembly=ExtendedExtractionRe.8SnvN9c9nN15s6Kr2WR5KG" xmlns:uisasecb2="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor1InvoicesV1.Bundle;assembly=ExtendedExtractionRe.P0vq02QWlvA18UqeG1jcECc" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TextExtractionData" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesJoltV18.Bundle;assembly=ExtendedExtractionRe.i1PL610vQjK1jCXlT3d0IY51" xmlns:uisasecb1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor1InvoicesV1.Bundle;assembly=ExtendedExtractionRe.P0vq02QWlvA18UqeG1jcECc" xmlns:uisasecb2="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor40InvoicesLineItemsV11.Bundle;assembly=ExtendedExtractionRe.8SnvN9c9nN15s6Kr2WR5KG" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="Browser_Restaurent36512" Type="InArgument(ui:UiElement)" />
   </x:Members>
@@ -69,6 +69,17 @@
       <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor40InvoicesLineItemsV11.Bundle</x:String>
       <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor50InvoicesR365V12.Bundle</x:String>
       <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor50InvoicesV12.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor54InvoicesLineItemsV15.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor54InvoicesR365V15.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor54InvoicesV15.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor60InvoicesV16.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor60InvoicesLineItemsV16.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor60InvoicesR365V16.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor60InvoicesJoltV16.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor61InvoicesR365MultiLinesV17.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor61InvoicesR365V17.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor61InvoicesV17.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesJoltV18.Bundle</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -145,59 +156,51 @@
       <AssemblyReference>ExtendedExtractionRe.8SnvN9c9nN15s6Kr2WR5KG</AssemblyReference>
       <AssemblyReference>ExtendedExtractionRe.JNQUHsDYrK1nGlnh3tLPEM1</AssemblyReference>
       <AssemblyReference>ExtendedExtractionRe.Hx1qP4BS7bC1FiAu9smNFt</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.ltwvsVkLD1tU21N2Afzru</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.DBLRi3nju7G1RnVVq1pw7BW2</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.PjGYe3Sr6mN1V9Qp24lQ4cM</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.Od5kO2abLMS1LYItV29YvPs</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.lnGOM1h89dB1cdfdV3cbWe</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.w4S2c4eN44M1pxiUv2jq7fr</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.10Y1c2IDlmB10BVjK3FrFA52</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.IsTJq1pwSER11Pa2J1mxYH4</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.xF9Xn2Pa1QR1dg1OHjRTzm</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.cliwo1EvNOF1Foj4J2FYoJ81</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.zYFNuoq9NN1iPyfV2e1ino2</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.i1PL610vQjK1jCXlT3d0IY51</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TextExtractionData" sap:VirtualizedContainerService.HintSize="1070,1948" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TextExtractionData" sap:VirtualizedContainerService.HintSize="1070,940" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Sequence Test Data for Extraction" sap:VirtualizedContainerService.HintSize="450,1700" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Sequence Test Data for Extraction" sap:VirtualizedContainerService.HintSize="450,665" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="sd:DataTable" Name="LineItemTableData" />
-        <Variable x:TypeArguments="uisad:IDocumentData(uisasecb1:CupBopAPInvoiceProcessor40InvoicesLineItemsV11)" Name="currentDocumentData" />
-        <Variable x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor50InvoicesR365V12)" Name="currentDocumentData2" />
+        <Variable x:TypeArguments="uisad:IDocumentData(uisasecb2:CupBopAPInvoiceProcessor40InvoicesLineItemsV11)" Name="currentDocumentData" />
+        <Variable x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesJoltV18)" Name="currentDocumentData2" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor50InvoicesR365V12" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="28a8533d-2f40-f011-a5f1-6045bdd9c86e" GenerateData="True" sap:VirtualizedContainerService.HintSize="416,340" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_5" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" TimeoutInSeconds="3600">
+      <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor62InvoicesJoltV18" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="a22a76f9-bc47-f011-8f7c-6045bdf0504f" GenerateData="True" sap:VirtualizedContainerService.HintSize="416,325" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_5" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" TimeoutInSeconds="3600">
         <p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
           <InArgument x:TypeArguments="s:Nullable(x:Int32)">
             <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />
           </InArgument>
         </p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
         <p:ExtractDocumentDataWithDocumentData.ExtractionResults>
-          <OutArgument x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor50InvoicesR365V12)">
-            <CSharpReference x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor50InvoicesR365V12)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_46">currentDocumentData2</CSharpReference>
+          <OutArgument x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesJoltV18)">
+            <CSharpReference x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesJoltV18)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_59">currentDocumentData2</CSharpReference>
           </OutArgument>
         </p:ExtractDocumentDataWithDocumentData.ExtractionResults>
         <p:ExtractDocumentDataWithDocumentData.FileInput>
           <InArgument x:TypeArguments="upr:IResource">
-            <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_47">LocalResource.FromPath("C:\\Users\\Tushar Parmar\\Downloads\\invoice-SI-190313 (1).pdf")</CSharpValue>
-          </InArgument>
-        </p:ExtractDocumentDataWithDocumentData.FileInput>
-        <p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
-          <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
-        </p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
-      </p:ExtractDocumentDataWithDocumentData>
-      <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb1:CupBopAPInvoiceProcessor40InvoicesLineItemsV11" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="1366563b-d432-f011-a5f1-6045bdd9c86e" GenerateData="True" sap:VirtualizedContainerService.HintSize="416,340" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_4" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" TimeoutInSeconds="3600">
-        <p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
-          <InArgument x:TypeArguments="s:Nullable(x:Int32)">
-            <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />
-          </InArgument>
-        </p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
-        <p:ExtractDocumentDataWithDocumentData.ExtractionResults>
-          <OutArgument x:TypeArguments="uisad:IDocumentData(uisasecb1:CupBopAPInvoiceProcessor40InvoicesLineItemsV11)">
-            <CSharpReference x:TypeArguments="uisad:IDocumentData(uisasecb1:CupBopAPInvoiceProcessor40InvoicesLineItemsV11)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_41">currentDocumentData</CSharpReference>
-          </OutArgument>
-        </p:ExtractDocumentDataWithDocumentData.ExtractionResults>
-        <p:ExtractDocumentDataWithDocumentData.FileInput>
-          <InArgument x:TypeArguments="upr:IResource">
-            <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_46">LocalResource.FromPath("C:\\Users\\Tushar Parmar\\Downloads\\invoice-SI-190313 (1).pdf")</CSharpValue>
+            <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_63">LocalResource.FromPath("C:\\Users\\Tushar Parmar\\Downloads\\JOLT-105v32rl.auk.pdf")</CSharpValue>
           </InArgument>
         </p:ExtractDocumentDataWithDocumentData.FileInput>
         <p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
@@ -214,8 +217,8 @@
             </sap:WorkflowViewStateService.ViewState>
             <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ConvertLineItemFromMappings - Invoke Workflow File (Restaurent365\\ConvertLineItemFromMappings.xaml)" sap:VirtualizedContainerService.HintSize="416,224" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Restaurent365\\ConvertLineItemFromMappings.xaml">
               <ui:InvokeWorkflowFile.Arguments>
-                <InArgument x:TypeArguments="uisad:IDocumentData(uisasecb2:CupBopAPInvoiceProcessor1InvoicesV1)" x:Key="currentDocumentData">
-                  <CSharpValue x:TypeArguments="uisad:IDocumentData(uisasecb2:CupBopAPInvoiceProcessor1InvoicesV1)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">currentDocumentData</CSharpValue>
+                <InArgument x:TypeArguments="uisad:IDocumentData(uisasecb1:CupBopAPInvoiceProcessor1InvoicesV1)" x:Key="currentDocumentData">
+                  <CSharpValue x:TypeArguments="uisad:IDocumentData(uisasecb1:CupBopAPInvoiceProcessor1InvoicesV1)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_7">currentDocumentData</CSharpValue>
                 </InArgument>
                 <InArgument x:TypeArguments="x:String" x:Key="currentVendorName">Coca-Cola of Southern Utah</InArgument>
                 <OutArgument x:TypeArguments="sd:DataTable" x:Key="LineItemDataTable">
@@ -232,46 +235,6 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:CommentOut>
-      <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb1:CupBopAPInvoiceProcessor40InvoicesLineItemsV11" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="1366563b-d432-f011-a5f1-6045bdd9c86e" GenerateData="True" sap:VirtualizedContainerService.HintSize="416,340" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_2" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" TimeoutInSeconds="3600">
-        <p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
-          <InArgument x:TypeArguments="s:Nullable(x:Int32)">
-            <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />
-          </InArgument>
-        </p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
-        <p:ExtractDocumentDataWithDocumentData.ExtractionResults>
-          <OutArgument x:TypeArguments="uisad:IDocumentData(uisasecb1:CupBopAPInvoiceProcessor40InvoicesLineItemsV11)">
-            <CSharpReference x:TypeArguments="uisad:IDocumentData(uisasecb1:CupBopAPInvoiceProcessor40InvoicesLineItemsV11)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_39">currentDocumentData</CSharpReference>
-          </OutArgument>
-        </p:ExtractDocumentDataWithDocumentData.ExtractionResults>
-        <p:ExtractDocumentDataWithDocumentData.FileInput>
-          <InArgument x:TypeArguments="upr:IResource">
-            <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_39">LocalResource.FromPath("C:\\Users\\Tushar Parmar\\Downloads\\JFC-New-45-0889000.D-1210.pdf")</CSharpValue>
-          </InArgument>
-        </p:ExtractDocumentDataWithDocumentData.FileInput>
-        <p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
-          <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
-        </p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
-      </p:ExtractDocumentDataWithDocumentData>
-      <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb1:CupBopAPInvoiceProcessor40InvoicesLineItemsV11" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="1366563b-d432-f011-a5f1-6045bdd9c86e" GenerateData="True" sap:VirtualizedContainerService.HintSize="416,340" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_3" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" TimeoutInSeconds="3600">
-        <p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
-          <InArgument x:TypeArguments="s:Nullable(x:Int32)">
-            <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />
-          </InArgument>
-        </p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
-        <p:ExtractDocumentDataWithDocumentData.ExtractionResults>
-          <OutArgument x:TypeArguments="uisad:IDocumentData(uisasecb1:CupBopAPInvoiceProcessor40InvoicesLineItemsV11)">
-            <CSharpReference x:TypeArguments="uisad:IDocumentData(uisasecb1:CupBopAPInvoiceProcessor40InvoicesLineItemsV11)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_38">currentDocumentData</CSharpReference>
-          </OutArgument>
-        </p:ExtractDocumentDataWithDocumentData.ExtractionResults>
-        <p:ExtractDocumentDataWithDocumentData.FileInput>
-          <InArgument x:TypeArguments="upr:IResource">
-            <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_40">LocalResource.FromPath("C:\\Users\\Tushar Parmar\\Downloads\\JFC-45-0828741.D-1210.pdf")</CSharpValue>
-          </InArgument>
-        </p:ExtractDocumentDataWithDocumentData.FileInput>
-        <p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
-          <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
-        </p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
-      </p:ExtractDocumentDataWithDocumentData>
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,164" sap2010:WorkflowViewState.IdRef="LogMessage_1">
         <ui:LogMessage.Message>
           <InArgument x:TypeArguments="x:Object">
@@ -287,7 +250,7 @@
         </OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="450,48" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="450,75" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>

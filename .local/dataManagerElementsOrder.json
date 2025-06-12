@@ -12,7 +12,19 @@
       "Path": "Gmail/ProcessGmails.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "currentEmailAttachments&Sequence_4",
+        "folderExists&Sequence_4",
+        "variable1&Sequence_27",
+        "currentInvoiceIndex&Sequence_27",
+        "VendorSearchDataRow&Sequence_6",
+        "tempAttachmentPath&Sequence_6",
         "tempFilePath&Sequence_6",
+        "currentShipLocation&Sequence_12",
+        "invoiceException&Sequence_12",
+        "currentVendorName&Sequence_12",
+        "tmpItemDesc&Sequence_55",
+        "tempLocationExists&Sequence_13",
+        "locationList&Sequence_3",
         "currentDocumentData0&Sequence_1",
         "configPlain&Sequence_1",
         "configObject&Sequence_1",
@@ -27,19 +39,7 @@
         "dateToProcessEmailsAfter&Sequence_1",
         "tempNoOfEmailsProcessed&Sequence_1",
         "LocationTable&Sequence_1",
-        "stringList&Sequence_19",
-        "currentEmailAttachments&Sequence_4",
-        "folderExists&Sequence_4",
-        "variable1&Sequence_27",
-        "currentInvoiceIndex&Sequence_27",
-        "VendorSearchDataRow&Sequence_6",
-        "tempAttachmentPath&Sequence_6",
-        "currentShipLocation&Sequence_12",
-        "invoiceException&Sequence_12",
-        "currentVendorName&Sequence_12",
-        "tmpItemDesc&Sequence_55",
-        "tempLocationExists&Sequence_13",
-        "locationList&Sequence_3"
+        "stringList&Sequence_19"
       ],
       "ArgumentsSectionElementsOrder": [
         "Browser_Restaurent365"
@@ -51,6 +51,7 @@
       "Path": "Restaurent365/ProcessInvoice.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "currentDocumentDataR365&Sequence_43",
         "tmpLocation&Sequence_27",
         "tmpDDLocationValue&Sequence_27",
         "isLoggedin&Sequence_1",
@@ -130,6 +131,7 @@
       "Path": "TestExtraction/TextExtractionData.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "currentDocumentData2&Sequence_2",
         "LineItemTableData&Sequence_2",
         "currentDocumentData&Sequence_2",
         "tmpCounter&Sequence_11"

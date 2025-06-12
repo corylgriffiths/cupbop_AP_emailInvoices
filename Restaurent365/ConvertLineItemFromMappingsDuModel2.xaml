@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="ConvertLineItemFromMappings" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:sc1="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:uggm="clr-namespace:UiPath.GSuite.Gmail.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor50InvoicesLineItemsV12.Bundle;assembly=ExtendedExtractionRe.cqGZXg4WFR1ecai41Hr6fv2" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="ConvertLineItemFromMappings" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:sc1="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:uggm="clr-namespace:UiPath.GSuite.Gmail.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesLineItemsV18.Bundle;assembly=ExtendedExtractionRe.dRmo532HMfI1pZZQ41DUP6G3" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="currentVendorName" Type="InArgument(x:String)" />
     <x:Property Name="LineItemDataTable" Type="OutArgument(sd:DataTable)" />
@@ -70,6 +70,11 @@
       <x:String>UiPath.GSuite</x:String>
       <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor40InvoicesLineItemsV11.Bundle</x:String>
       <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor50InvoicesLineItemsV12.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor53InvoicesLineItemsV14.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor54InvoicesLineItemsV15.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor60InvoicesLineItemsV16.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor61InvoicesLineItemsV17.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesLineItemsV18.Bundle</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -155,6 +160,16 @@
       <AssemblyReference>ExtendedExtractionRe.JNQUHsDYrK1nGlnh3tLPEM1</AssemblyReference>
       <AssemblyReference>ExtendedExtractionRe.Hx1qP4BS7bC1FiAu9smNFt</AssemblyReference>
       <AssemblyReference>ExtendedExtractionRe.cqGZXg4WFR1ecai41Hr6fv2</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.JLO723EXf4L1eyarq2T9VFO</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.ltwvsVkLD1tU21N2Afzru</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.DBLRi3nju7G1RnVVq1pw7BW2</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.PjGYe3Sr6mN1V9Qp24lQ4cM</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.lnGOM1h89dB1cdfdV3cbWe</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.zYFNuoq9NN1iPyfV2e1ino2</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.i1PL610vQjK1jCXlT3d0IY51</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.vNclvAWfrE1cspXj1K4Quh2</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.Qax3e4PeJcF1MIsgj197uIu3</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.dRmo532HMfI1pZZQ41DUP6G3</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="ConvertLineItemFromMappings" sap:VirtualizedContainerService.HintSize="1070,3744" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -162,7 +177,7 @@
       <Variable x:TypeArguments="sd:DataTable" Name="SourceMappingTable" />
       <Variable x:TypeArguments="x:Boolean" Default="False" Name="hasLineItemNumber" />
       <Variable x:TypeArguments="x:Boolean" Default="False" Name="isJFC" />
-      <Variable x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor50InvoicesLineItemsV12)" Name="currentDocumentData" />
+      <Variable x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesLineItemsV18)" Name="currentDocumentData" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -177,20 +192,20 @@
       </ui:BuildDataTable.DataTable>
     </ui:BuildDataTable>
     <ui:Comment sap:VirtualizedContainerService.HintSize="506,107" sap2010:WorkflowViewState.IdRef="Comment_1" Text="//currentDocumentAttachment - for actual attachment" />
-    <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor50InvoicesLineItemsV12" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="25a8533d-2f40-f011-a5f1-6045bdd9c86e" GenerateData="True" sap:VirtualizedContainerService.HintSize="506,340" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_1" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" TimeoutInSeconds="3600">
+    <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor62InvoicesLineItemsV18" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data - DuModel2" DocType="a02a76f9-bc47-f011-8f7c-6045bdf0504f" GenerateData="True" sap:VirtualizedContainerService.HintSize="506,340" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_1" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" TimeoutInSeconds="3600">
       <p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
         <InArgument x:TypeArguments="s:Nullable(x:Int32)">
           <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />
         </InArgument>
       </p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
       <p:ExtractDocumentDataWithDocumentData.ExtractionResults>
-        <OutArgument x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor50InvoicesLineItemsV12)">
-          <CSharpReference x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor50InvoicesLineItemsV12)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_32">currentDocumentData</CSharpReference>
+        <OutArgument x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesLineItemsV18)">
+          <CSharpReference x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesLineItemsV18)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_37">currentDocumentData</CSharpReference>
         </OutArgument>
       </p:ExtractDocumentDataWithDocumentData.ExtractionResults>
       <p:ExtractDocumentDataWithDocumentData.FileInput>
         <InArgument x:TypeArguments="upr:IResource">
-          <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_72">currentDocumentAttachment</CSharpValue>
+          <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_79">currentDocumentAttachment</CSharpValue>
         </InArgument>
       </p:ExtractDocumentDataWithDocumentData.FileInput>
       <p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
@@ -276,7 +291,7 @@
         </Sequence>
       </ui:IfElseIfV2.Then>
     </ui:IfElseIfV2>
-    <ui:ForEach x:TypeArguments="uisasecb:Items" CurrentIndex="{x:Null}" DisplayName="For Each currentIinetems" sap:VirtualizedContainerService.HintSize="506,2166" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
+    <ui:ForEach x:TypeArguments="uisasecb:Items" CurrentIndex="{x:Null}" DisplayName="For Loop - Extract Document Data - DuModel2 - For Each currentIinetems" sap:VirtualizedContainerService.HintSize="506,2166" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="uisasecb:Items">
           <ActivityAction.Argument>
@@ -303,24 +318,28 @@
               </Assign.To>
               <Assign.Value>
                 <InArgument x:TypeArguments="sd:DataRow">
-                  <CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_60" xml:space="preserve">SourceMappingTable.AsEnumerable().Where(row =&gt; 
-	(currentIinetems.ItemsPartNumber.ToString() != ""  &amp;&amp; row.Field&lt;string&gt;("VendorItemNumber") !="" &amp;&amp;
+                  <CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_74" xml:space="preserve">SourceMappingTable.AsEnumerable().Where(row =&gt; 
+	(
+	isJFC == true &amp;&amp;
+	currentIinetems.ItemsPartNumber.ToString() != ""  &amp;&amp; row.Field&lt;string&gt;("VendorItemNumber") !="" &amp;&amp;
 	currentIinetems.ItemsPartNumber.ToString().ToLower().Replace(" ", "").Contains(row.Field&lt;string&gt;("VendorItemNumber").ToLower().Replace(" ", "")) == true)
 	||
-(currentIinetems.ItemsDescription.ToString() != ""  &amp;&amp; row.Field&lt;string&gt;("VendorItemNameOnTheInvoice") !="" &amp;&amp;
+	(
+	isJFC == false &amp;&amp;
+	currentIinetems.ItemsDescription.ToString() != ""  &amp;&amp; row.Field&lt;string&gt;("VendorItemNameOnTheInvoice") !="" &amp;&amp;
 	currentIinetems.ItemsDescription.ToString().ToLower().Replace(" ", "").Contains(row.Field&lt;string&gt;("VendorItemNameOnTheInvoice").ToLower().Replace(" ", "")) == true)
 ).FirstOrDefault()</CSharpValue>
                 </InArgument>
               </Assign.Value>
             </Assign>
-            <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="470,1870" sap2010:WorkflowViewState.IdRef="IfElseIfV2_2">
+            <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="470,1870" sap2010:WorkflowViewState.IdRef="IfElseIfV2_3">
               <ui:IfElseIfV2.Condition>
                 <InArgument x:TypeArguments="x:Boolean">
-                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_63">tempCurrentLine != null</CSharpValue>
+                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_76">tempCurrentLine != null</CSharpValue>
                 </InArgument>
               </ui:IfElseIfV2.Condition>
               <ui:IfElseIfV2.Else>
-                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,89" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,89" sap2010:WorkflowViewState.IdRef="Sequence_22">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -330,14 +349,15 @@
               </ui:IfElseIfV2.Else>
               <ui:IfElseIfV2.ElseIfs>
                 <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                  <ui:IfElseIfBlock BlockType="ElseIf" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_2">
+                  <ui:IfElseIfBlock BlockType="ElseIf" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_3">
                     <ui:IfElseIfBlock.Condition>
                       <InArgument x:TypeArguments="x:Boolean">
-                        <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_64">tempCurrentLine == null &amp;&amp; isJFC == true &amp;&amp; currentIinetems.ItemsPartNumber.ToString() != ""</CSharpValue>
+                        <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_77" xml:space="preserve">tempCurrentLine == null &amp;&amp; isJFC == true 
+	&amp;&amp; currentIinetems.ItemsPartNumber.ToString() != ""</CSharpValue>
                       </InArgument>
                     </ui:IfElseIfBlock.Condition>
                     <ui:IfElseIfBlock.Then>
-                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,725" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,725" sap2010:WorkflowViewState.IdRef="Sequence_21">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -426,7 +446,7 @@
                 </sc:BindingList>
               </ui:IfElseIfV2.ElseIfs>
               <ui:IfElseIfV2.Then>
-                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,840" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,840" sap2010:WorkflowViewState.IdRef="Sequence_20">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -501,10 +521,10 @@
                   <ui:AddDataRow DataRow="{x:Null}" DisplayName="Add Data Row" sap:VirtualizedContainerService.HintSize="434,209" sap2010:WorkflowViewState.IdRef="AddDataRow_1">
                     <ui:AddDataRow.ArrayRow>
                       <InArgument x:TypeArguments="s:Object[]">
-                        <CSharpValue x:TypeArguments="s:Object[]" sap2010:WorkflowViewState.IdRef="CSharpValue`1_57" xml:space="preserve">new object[] { 
+                        <CSharpValue x:TypeArguments="s:Object[]" sap2010:WorkflowViewState.IdRef="CSharpValue`1_80" xml:space="preserve">new object[] { 
 	tempCurrentLine["ItemNameInTheSystemR365"],
 	tempQty,
-	tmpAmount,
+	tmpAmount == null ? null : tmpAmount.Replace("-",""),
 	tmpCaseOrPAck
 }</CSharpValue>
                       </InArgument>
