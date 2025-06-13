@@ -1,7 +1,7 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="CalculateSLCCAccountCode" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesV18.Bundle;assembly=ExtendedExtractionRe.vNclvAWfrE1cspXj1K4Quh2" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="CalculateSLCCAccountCode" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
-    <x:Property Name="currentDocumentData" Type="InArgument(uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesV18))" />
     <x:Property Name="extractedAccountCode" Type="OutArgument(x:String)" />
+    <x:Property Name="ItemsDescriptions" Type="InArgument(x:String)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
@@ -115,7 +115,7 @@
       <AssemblyReference>ExtendedExtractionRe.Qax3e4PeJcF1MIsgj197uIu3</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="CalculateSLCCAccountCode" sap:VirtualizedContainerService.HintSize="1070,1256" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="CalculateSLCCAccountCode" sap:VirtualizedContainerService.HintSize="561,1256" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="tmpItemDesc" />
     </Sequence.Variables>
@@ -132,7 +132,7 @@
       </Assign.To>
       <Assign.Value>
         <InArgument x:TypeArguments="x:String">
-          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">currentDocumentData.Data.Items.Count &gt; 0 &amp;&amp; currentDocumentData.Data.Items[0].ItemsDescriptions != null ? currentDocumentData.Data.Items[0].ItemsDescriptions.Value : ""</CSharpValue>
+          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">ItemsDescriptions != null ? ItemsDescriptions : ""</CSharpValue>
         </InArgument>
       </Assign.Value>
     </Assign>

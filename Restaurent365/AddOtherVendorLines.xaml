@@ -1,0 +1,413 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="AddR365Lines" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesR365MultiLinesV18.Bundle;assembly=ExtendedExtractionRe.Qax3e4PeJcF1MIsgj197uIu3" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="Browser_Restaurent365" Type="InArgument(ui:UiElement)" />
+    <x:Property Name="ConvertedLineItemDataTable" Type="InArgument(sd:DataTable)" />
+    <x:Property Name="lineExceptionOut" Type="OutArgument(x:String)" />
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesR365MultiLinesV18.Bundle</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DocumentClassification</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.CSV</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.DataExtraction</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Results</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Dom</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.DataTableUtilities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.StudioWeb.Activities</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.Qax3e4PeJcF1MIsgj197uIu3</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentProcessing.Contracts</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="AddR365Lines" sap:VirtualizedContainerService.HintSize="709,2921" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesR365MultiLinesV18)" Name="currentDocumentDataR365" />
+      <Variable x:TypeArguments="ui:UiElement" Name="outputElement">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:String x:Key="SourceIdRef">NApplicationCard_3</x:String>
+            <x:String x:Key="SourcePropertyName">OutUiElement</x:String>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="574,2898" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="540,2738" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Boolean" Name="isNewVendorPopup" />
+              <Variable x:TypeArguments="x:String" Name="variable1" />
+              <Variable x:TypeArguments="x:String" Name="currentPageURL" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:Comment sap:VirtualizedContainerService.HintSize="506,107" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// currentGmailAttachmentLocalItem as loal item&#xA;" />
+            <ui:ForEach x:TypeArguments="sd:DataRow" CurrentIndex="{x:Null}" DisplayName="For Each currentDataRow" sap:VirtualizedContainerService.HintSize="506,2569" sap2010:WorkflowViewState.IdRef="ForEach`1_4">
+              <ui:ForEach.Body>
+                <ActivityAction x:TypeArguments="sd:DataRow">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:DataRow" Name="currentDataRow" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="504,2448" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                    <Sequence.Variables>
+                      <Variable x:TypeArguments="x:Boolean" Name="lineItemNotExists" />
+                    </Sequence.Variables>
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Line desc'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,250" sap2010:WorkflowViewState.IdRef="NTypeInto_5" InteractionMode="DebuggerApi" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
+                      <uix:NTypeInto.Target>
+                        <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="25df7f0f-6829-496b-bcad-4bb57eed0a0d" ContentHash="5xJtGhO6JUSfUcRaRwvxPQ" CvTextArea="37, 570, 101, 18" CvTextArgument="Select Item" CvType="Text" DesignTimeRectangle="30, 562, 303, 36" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='newRowItemInputAPInvoiceDetailsGrid_input' tag='INPUT' type='text' class='k-input has-full-width ng-pristine ng-untouched ng-valid ng-empty' placeholder='Select Item' aaname='' /&gt;" Guid="102ff0de-68ef-4b46-86f2-a6f2402d0a41" InformativeScreenshot="6c47553a394f7e46bc55da463f3cf4cf.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/YZdvKLtFxUODLygyjXE8dw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                      </uix:NTypeInto.Target>
+                      <uix:NTypeInto.Text>
+                        <InArgument x:TypeArguments="x:String">
+                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">
+                            <CSharpValue.Result>
+                              <OutArgument x:TypeArguments="x:String" />
+                            </CSharpValue.Result>currentDataRow["Description"].ToString()</CSharpValue>
+                        </InArgument>
+                      </uix:NTypeInto.Text>
+                    </uix:NTypeInto>
+                    <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="470,169" sap2010:WorkflowViewState.IdRef="SendHotkey_3" Key="tab" KeyModifiers="None" SpecialKey="True">
+                      <ui:SendHotkey.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="4f24e431-af79-44d6-88e4-68e391430108">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:SendHotkey.Target>
+                    </ui:SendHotkey>
+                    <ui:UiElementExists DisplayName="Element Exists 'BUTTON'" sap:VirtualizedContainerService.HintSize="470,139" sap2010:WorkflowViewState.IdRef="UiElementExists_1">
+                      <ui:UiElementExists.Exists>
+                        <OutArgument x:TypeArguments="x:Boolean">
+                          <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">
+                            <CSharpReference.Result>
+                              <OutArgument x:TypeArguments="Location(x:Boolean)" />
+                            </CSharpReference.Result>lineItemNotExists</CSharpReference>
+                        </OutArgument>
+                      </ui:UiElementExists.Exists>
+                      <ui:UiElementExists.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ee6c9cfa-2f1c-4076-927b-d48b26a31f32" InformativeScreenshot="911f4d06062fd0ca8a5f482cf18c916d" Selector="&lt;html app='chrome.exe' title='AP Invoice*' /&gt;&lt;webctrl css-selector='div[data-role=&amp;quot;draggable&amp;quot;]:not([style*=&amp;quot;display:none&amp;quot;]):not([style*=&amp;quot;display: none&amp;quot;])' tag='div' /&gt;" TimeoutMS="4000">
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </ui:UiElementExists.Target>
+                    </ui:UiElementExists>
+                    <If sap:VirtualizedContainerService.HintSize="470,1830" sap2010:WorkflowViewState.IdRef="If_14">
+                      <If.Condition>
+                        <InArgument x:TypeArguments="x:Boolean">
+                          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">
+                            <CSharpValue.Result>
+                              <OutArgument x:TypeArguments="x:Boolean" />
+                            </CSharpValue.Result>lineItemNotExists == true</CSharpValue>
+                        </InArgument>
+                      </If.Condition>
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                      <If.Then>
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,397" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,175" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Trace">
+                            <ui:LogMessage.Message>
+                              <InArgument x:TypeArguments="x:Object">
+                                <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">
+                                  <CSharpValue.Result>
+                                    <OutArgument x:TypeArguments="x:Object" />
+                                  </CSharpValue.Result>"Exception - Invoice LineItem not exists"</CSharpValue>
+                              </InArgument>
+                            </ui:LogMessage.Message>
+                          </ui:LogMessage>
+                          <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_7">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_10">
+                                  <CSharpReference.Result>
+                                    <OutArgument x:TypeArguments="Location(x:String)" />
+                                  </CSharpReference.Result>lineExceptionOut</CSharpReference>
+                              </OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">Exception - Invoice LineItem not exists</InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <ui:Break sap:VirtualizedContainerService.HintSize="434,48" sap2010:WorkflowViewState.IdRef="Break_1" />
+                        </Sequence>
+                      </If.Then>
+                      <If.Else>
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,1304" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <If DisplayName="If SplitUofM exists, update its value to restaurent line item" sap:VirtualizedContainerService.HintSize="434,528" sap2010:WorkflowViewState.IdRef="If_15">
+                            <If.Condition>
+                              <InArgument x:TypeArguments="x:Boolean">
+                                <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">
+                                  <CSharpValue.Result>
+                                    <OutArgument x:TypeArguments="x:Boolean" />
+                                  </CSharpValue.Result>currentDataRow["SplitUofM"] != null &amp;&amp; currentDataRow["SplitUofM"] != "" &amp;&amp; currentDataRow["SplitUofM"] != DBNull.Value</CSharpValue>
+                              </InArgument>
+                            </If.Condition>
+                            <If.Then>
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,301" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Case - 12Pack (31.75 o…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,241" sap2010:WorkflowViewState.IdRef="NTypeInto_6" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
+                                  <uix:NTypeInto.Target>
+                                    <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="a6561814-2451-4429-ac2f-6c54f15105cf" ContentHash="wE0jr2nxHkGXws8gjaUpUQ" CvElementArea="502, 625, 156, 38" CvTextArea="514, 635, 138, 18" CvTextArgument="Case - 12/Pack" CvType="Button" DesignTimeRectangle="505, 674, 153, 36" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='newRowUofMInput_input' tag='INPUT' type='text' class='k-input has-full-width ng-touched ng-dirty ng-not-empty ng-valid ng-valid-required' placeholder='Select Unit of Measure' aaname='' /&gt;" Guid="21a290d0-2889-497c-9d6a-5a11426d4d39" InformativeScreenshot="9f13e42ce0f1c736355fd44275fd7190.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/hMvEhM77Ykmhw43vsO4xtw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                      <uix:TargetAnchorable.Anchors>
+                                        <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                          <uix:Target CVScreenId="a6561814-2451-4429-ac2f-6c54f15105cf" CvElementArea="378, 625, 126, 39" CvType="InputBox" DesignTimeRectangle="379, 673, 125, 36" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='newRowVendorItemField' tag='DIV' type='' class='input-container ng-scope' aaname='                                               ' /&gt;" Guid="e785992a-76d4-416a-abb0-f40a0338d00b" SearchSteps="FuzzySelector, CV" />
+                                        </scg:List>
+                                      </uix:TargetAnchorable.Anchors>
+                                    </uix:TargetAnchorable>
+                                  </uix:NTypeInto.Target>
+                                  <uix:NTypeInto.Text>
+                                    <InArgument x:TypeArguments="x:String">
+                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_26">
+                                        <CSharpValue.Result>
+                                          <OutArgument x:TypeArguments="x:String" />
+                                        </CSharpValue.Result>currentDataRow["SplitUofM"].ToString()</CSharpValue>
+                                    </InArgument>
+                                  </uix:NTypeInto.Text>
+                                </uix:NTypeInto>
+                              </Sequence>
+                            </If.Then>
+                            <If.Else>
+                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </Sequence>
+                            </If.Else>
+                          </If>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into Quantity" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="NTypeInto_7" InteractionMode="DebuggerApi" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="a80f4f4a-c927-4352-a980-a2ce9d328f2f" ContentHash="Ovi_g5_Jxkq-gBLdv0VQfw" CvElementArea="702, 398, 114, 38" CvType="InputBox" DesignTimeRectangle="704, 399, 112, 36" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='newRowQuantityInput' tag='INPUT' type='text' class='k-textbox has-full-width text-right ng-isolate-scope ng-dirty ng-not-empty ng-valid ng-valid-required ng-touched k-valid' aaname='' /&gt;" Guid="755bec7c-1f4f-465a-a21f-30856af9211b" InformativeScreenshot="027d90626227af167c44370c459a2bef.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/hoG8kDuNykWyuGB72IE8fw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - 817714' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="a80f4f4a-c927-4352-a980-a2ce9d328f2f" CvElementArea="502, 398, 154, 39" CvTextArea="514, 407, 127, 22" CvTextArgument="BIB (5 Gallon)" CvType="Button" DesignTimeRectangle="505, 400, 153, 36" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='newRowUofMInput_input' tag='INPUT' type='text' class='k-input has-full-width ng-pristine ng-untouched k-valid ng-not-empty ng-valid ng-valid-required' placeholder='Select Unit of Measure' aaname='' /&gt;" Guid="133365e2-a239-4998-9cc3-8b1b4c659b94" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                            <uix:NTypeInto.Text>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_27">
+                                  <CSharpValue.Result>
+                                    <OutArgument x:TypeArguments="x:String" />
+                                  </CSharpValue.Result>currentDataRow["Quantity"].ToString()</CSharpValue>
+                              </InArgument>
+                            </uix:NTypeInto.Text>
+                          </uix:NTypeInto>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Priice'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="NTypeInto_8" InteractionMode="DebuggerApi" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="d78322c8-3811-4549-894c-376539479649" ContentHash="t8bZOy-28UGF8MrV9lqy2w" CvTextArea="840, 739, 82, 20" CvTextArgument="111.2832" CvType="Text" DesignTimeRectangle="816, 732, 113, 36" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='newRowEachAmountInput' tag='INPUT' type='text' class='k-textbox has-full-width text-right ng-isolate-scope ng-dirty ng-not-empty ng-valid ng-valid-required ng-touched k-valid' aaname='' /&gt;" Guid="f8484b74-5285-4c00-8ce3-096e792d0605" InformativeScreenshot="b986e76a578dc81690f28020f12e6290.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/dukm-FoVBEGeBWgWodS9wQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - 817714' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="d78322c8-3811-4549-894c-376539479649" CvElementArea="503, 731, 153, 39" CvTextArea="514, 740, 127, 22" CvTextArgument="BIB (5 Gallon)" CvType="Button" DesignTimeRectangle="505, 733, 153, 36" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='newRowUofMInput_input' tag='INPUT' type='text' class='k-input has-full-width ng-pristine ng-untouched k-valid ng-not-empty ng-valid ng-valid-required' placeholder='Select Unit of Measure' aaname='' /&gt;" Guid="943901f0-add7-4816-b9bf-ff34e199aa98" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                            <uix:NTypeInto.Text>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_28">
+                                  <CSharpValue.Result>
+                                    <OutArgument x:TypeArguments="x:String" />
+                                  </CSharpValue.Result>currentDataRow["Amount"].ToString()</CSharpValue>
+                              </InArgument>
+                            </uix:NTypeInto.Text>
+                          </uix:NTypeInto>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="3" DisplayName="Click 'Add(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,216" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="4d6a1c10-79e4-4360-baa8-a441b9d1b5de" CvElementArea="964, 643, 62, 39" CvTextArea="977, 652, 33, 16" CvTextArgument="Add" CvType="Button" DesignTimeRectangle="966, 644, 58, 36" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='newRowButtonsContainer' tag='BUTTON' type='' class='btn btn-default grid-add-row-button' aaname='Add' check:innerText='Add' /&gt;" Guid="73a214e1-da83-4231-9723-f0d0d101ce14" InformativeScreenshot="54c2e81c9e10a318cb9a2f38760d6262.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                            </uix:NClick.Target>
+                            <uix:NClick.VerifyOptions>
+                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                <uix:VerifyExecutionOptions.Retry>
+                                  <InArgument x:TypeArguments="x:Boolean" />
+                                </uix:VerifyExecutionOptions.Retry>
+                                <uix:VerifyExecutionOptions.Timeout>
+                                  <InArgument x:TypeArguments="x:Double" />
+                                </uix:VerifyExecutionOptions.Timeout>
+                              </uix:VerifyExecutionOptions>
+                            </uix:NClick.VerifyOptions>
+                          </uix:NClick>
+                        </Sequence>
+                      </If.Else>
+                    </If>
+                  </Sequence>
+                </ActivityAction>
+              </ui:ForEach.Body>
+              <ui:ForEach.Values>
+                <InArgument x:TypeArguments="sc:IEnumerable">
+                  <CSharpValue x:TypeArguments="sc:IEnumerable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_29">ConvertedLineItemDataTable.Rows</CSharpValue>
+                </InArgument>
+              </ui:ForEach.Values>
+            </ui:ForEach>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.InUiElement>
+        <InArgument x:TypeArguments="ui:UiElement">
+          <CSharpValue x:TypeArguments="ui:UiElement" sap2010:WorkflowViewState.IdRef="CSharpValue`1_19">
+            <CSharpValue.Result>
+              <OutArgument x:TypeArguments="ui:UiElement" />
+            </CSharpValue.Result>Browser_Restaurent365</CSharpValue>
+        </InArgument>
+      </uix:NApplicationCard.InUiElement>
+      <uix:NApplicationCard.OutUiElement>
+        <OutArgument x:TypeArguments="ui:UiElement">
+          <CSharpReference x:TypeArguments="ui:UiElement" sap2010:WorkflowViewState.IdRef="CSharpReference`1_8">
+            <CSharpReference.Result>
+              <OutArgument x:TypeArguments="Location(ui:UiElement)" />
+            </CSharpReference.Result>outputElement</CSharpReference>
+        </OutArgument>
+      </uix:NApplicationCard.OutUiElement>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-1929, -9, 1938, 1038" BrowserType="Chrome" ContentHash="OxdDYHfyskKmWAxOOUXySQ" IconBase64="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" InformativeScreenshot="571d052a2c24c6828fc17b3343340816.jpg" Reference="sWPe-Uob5ka5MN8G-3WlKg/PsbE1z-DzUevpuGVslhwxA" Selector="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" Url="https://cupbop.restaurant365.com/#/form/APInvoiceForm/00000000-0000-0000-0000-000000000000" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>

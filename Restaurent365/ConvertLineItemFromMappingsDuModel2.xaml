@@ -172,7 +172,7 @@
       <AssemblyReference>ExtendedExtractionRe.dRmo532HMfI1pZZQ41DUP6G3</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ConvertLineItemFromMappings" sap:VirtualizedContainerService.HintSize="1070,3744" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ConvertLineItemFromMappings" sap:VirtualizedContainerService.HintSize="1443,3744" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="SourceMappingTable" />
       <Variable x:TypeArguments="x:Boolean" Default="False" Name="hasLineItemNumber" />
@@ -205,7 +205,7 @@
       </p:ExtractDocumentDataWithDocumentData.ExtractionResults>
       <p:ExtractDocumentDataWithDocumentData.FileInput>
         <InArgument x:TypeArguments="upr:IResource">
-          <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_79">currentDocumentAttachment</CSharpValue>
+          <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_83">currentDocumentAttachment</CSharpValue>
         </InArgument>
       </p:ExtractDocumentDataWithDocumentData.FileInput>
       <p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>

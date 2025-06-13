@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="ProcessInvoice" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:sc1="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:uggm="clr-namespace:UiPath.GSuite.Gmail.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesV18.Bundle;assembly=ExtendedExtractionRe.vNclvAWfrE1cspXj1K4Quh2" xmlns:uisasecb1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor40InvoicesV11.Bundle;assembly=ExtendedExtractionRe.tLOAD4s0R8F1oAwRZ2XR1uZ4" xmlns:uisasecb2="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesR365MultiLinesV18.Bundle;assembly=ExtendedExtractionRe.Qax3e4PeJcF1MIsgj197uIu3" xmlns:uisasecb3="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor60InvoicesV16.Bundle;assembly=ExtendedExtractionRe.Od5kO2abLMS1LYItV29YvPs" xmlns:uisasecb4="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcesor20InvoicesV2.Bundle;assembly=ExtendedExtractionRe.GwoC92mSffN1cn8GO4ZwEIG4" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="ProcessInvoice" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:uggm="clr-namespace:UiPath.GSuite.Gmail.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesV18.Bundle;assembly=ExtendedExtractionRe.vNclvAWfrE1cspXj1K4Quh2" xmlns:uisasecb1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor40InvoicesV11.Bundle;assembly=ExtendedExtractionRe.tLOAD4s0R8F1oAwRZ2XR1uZ4" xmlns:uisasecb2="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcesor20InvoicesV2.Bundle;assembly=ExtendedExtractionRe.GwoC92mSffN1cn8GO4ZwEIG4" xmlns:uisasecb3="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesR365MultiLinesV18.Bundle;assembly=ExtendedExtractionRe.Qax3e4PeJcF1MIsgj197uIu3" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="Browser_Restaurent365" Type="InArgument(ui:UiElement)" />
     <x:Property Name="currentShipLocation" Type="InArgument(x:String)" />
@@ -336,7 +336,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="ProcessInvoice" sap:VirtualizedContainerService.HintSize="1070,19431" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ProcessInvoice" sap:VirtualizedContainerService.HintSize="1443,6257" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="isLoggedin" />
       <Variable x:TypeArguments="ui:UiElement" Name="outputElement">
@@ -354,13 +354,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="716,19408" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="716,6234" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="682,19248" sap2010:WorkflowViewState.IdRef="Sequence_5">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="682,6074" sap2010:WorkflowViewState.IdRef="Sequence_5">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="isNewVendorPopup" />
               <Variable x:TypeArguments="x:String" Name="variable1" />
@@ -444,14 +444,14 @@
                 </OutArgument>
               </ui:ReadCsvFile.DataTable>
             </ui:ReadCsvFile>
-            <Sequence DisplayName="Sequence - add Invoice details" sap:VirtualizedContainerService.HintSize="648,2860" sap2010:WorkflowViewState.IdRef="Sequence_27">
+            <Sequence DisplayName="Sequence - add Invoice details" sap:VirtualizedContainerService.HintSize="648,57" sap2010:WorkflowViewState.IdRef="Sequence_27">
               <Sequence.Variables>
                 <Variable x:TypeArguments="x:String" Name="tmpLocation" />
                 <Variable x:TypeArguments="x:String" Name="tmpDDLocationValue" />
               </Sequence.Variables>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
@@ -579,7 +579,7 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <Sequence DisplayName="Sequence - check if Vendor does not exists- it will show poup if vendor not exits" sap:VirtualizedContainerService.HintSize="450,99" sap2010:WorkflowViewState.IdRef="Sequence_29">
+              <Sequence DisplayName="Sequence - check if Vendor does not exists- it will show poup if vendor not exits" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_29">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -777,10 +777,10 @@
                 </uix:NTypeInto.VerifyOptions>
               </uix:NTypeInto>
             </Sequence>
-            <Sequence DisplayName="Sequence - Upload nvoice File" sap:VirtualizedContainerService.HintSize="648,1002" sap2010:WorkflowViewState.IdRef="Sequence_28">
+            <Sequence DisplayName="Sequence - Upload nvoice File" sap:VirtualizedContainerService.HintSize="648,57" sap2010:WorkflowViewState.IdRef="Sequence_28">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
@@ -863,9 +863,9 @@
                 </If.Else>
               </If>
             </Sequence>
-            <Sequence DisplayName="Sequence - Add Invoice Line items" sap:VirtualizedContainerService.HintSize="648,12643" sap2010:WorkflowViewState.IdRef="Sequence_43">
+            <Sequence DisplayName="Sequence - Add Invoice Line items" sap:VirtualizedContainerService.HintSize="648,3217" sap2010:WorkflowViewState.IdRef="Sequence_43">
               <Sequence.Variables>
-                <Variable x:TypeArguments="uisad:IDocumentData(uisasecb2:CupBopAPInvoiceProcessor62InvoicesR365MultiLinesV18)" Name="currentDocumentDataR365" />
+                <Variable x:TypeArguments="uisad:IDocumentData(uisasecb3:CupBopAPInvoiceProcessor62InvoicesR365MultiLinesV18)" Name="currentDocumentDataR365" />
               </Sequence.Variables>
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -873,8 +873,8 @@
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:Comment sap:VirtualizedContainerService.HintSize="614,88" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Convert lineitems to mapping line names" />
-              <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="614,854" sap2010:WorkflowViewState.IdRef="IfElseIfV2_2">
+              <ui:Comment sap:VirtualizedContainerService.HintSize="608,88" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Convert lineitems to mapping line names" />
+              <ui:IfElseIfV2 DisplayName="Convert Lines as per Mappping Table- Else If" sap:VirtualizedContainerService.HintSize="608,827" sap2010:WorkflowViewState.IdRef="IfElseIfV2_2">
                 <ui:IfElseIfV2.Condition>
                   <InArgument x:TypeArguments="x:Boolean">
                     <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_127">currentVendorName == "JFC International"</CSharpValue>
@@ -898,13 +898,13 @@
                         </InArgument>
                       </ui:IfElseIfBlock.Condition>
                       <ui:IfElseIfBlock.Then>
-                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,312" sap2010:WorkflowViewState.IdRef="Sequence_73">
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,285" sap2010:WorkflowViewState.IdRef="Sequence_73">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="382,84" sap2010:WorkflowViewState.IdRef="CommentOut_3">
+                          <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="CommentOut_3">
                             <ui:CommentOut.Body>
                               <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,228" sap2010:WorkflowViewState.IdRef="Sequence_76">
                                 <sap:WorkflowViewStateService.ViewState>
@@ -975,424 +975,51 @@
                   </Sequence>
                 </ui:IfElseIfV2.Then>
               </ui:IfElseIfV2>
-              <If DisplayName="If R365 Process differently" sap:VirtualizedContainerService.HintSize="614,11607" sap2010:WorkflowViewState.IdRef="If_15">
+              <If DisplayName="If R365 Process differently" sap:VirtualizedContainerService.HintSize="608,2208" sap2010:WorkflowViewState.IdRef="If_15">
                 <If.Condition>
                   <InArgument x:TypeArguments="x:Boolean">
                     <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_94">currentVendorName == "Restaurant 365 - R365"</CSharpValue>
                   </InArgument>
                 </If.Condition>
                 <If.Then>
-                  <Sequence DisplayName="Then - Restaurant 365" sap:VirtualizedContainerService.HintSize="612,4751" sap2010:WorkflowViewState.IdRef="Sequence_57">
+                  <Sequence DisplayName="Then - Restaurant 365" sap:VirtualizedContainerService.HintSize="606,335" sap2010:WorkflowViewState.IdRef="Sequence_57">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:Comment sap:VirtualizedContainerService.HintSize="578,107" sap2010:WorkflowViewState.IdRef="Comment_3" Text="// currentGmailAttachmentLocalItem as loal item&#xA;" />
-                    <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb2:CupBopAPInvoiceProcessor62InvoicesR365MultiLinesV18" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data - R365" DocType="9f2a76f9-bc47-f011-8f7c-6045bdf0504f" GenerateData="True" sap:VirtualizedContainerService.HintSize="578,340" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_1" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" TimeoutInSeconds="3600">
-                      <p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
-                        <InArgument x:TypeArguments="s:Nullable(x:Int32)">
-                          <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />
+                    <ui:Comment sap:VirtualizedContainerService.HintSize="572,107" sap2010:WorkflowViewState.IdRef="Comment_3" Text="// currentGmailAttachmentLocalItem as loal item&#xA;" />
+                    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AddR365Lines - Invoke Workflow File (Restaurent365\\AddR365Lines.xaml)" sap:VirtualizedContainerService.HintSize="572,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_9" UnSafe="False" WorkflowFileName="Restaurent365\\AddR365Lines.xaml">
+                      <ui:InvokeWorkflowFile.Arguments>
+                        <InArgument x:TypeArguments="uggm:GmailAttachmentLocalItem" x:Key="currentGmailAttachmentLocalItem">
+                          <CSharpValue x:TypeArguments="uggm:GmailAttachmentLocalItem" sap2010:WorkflowViewState.IdRef="CSharpValue`1_163">currentGmailAttachmentLocalItem</CSharpValue>
                         </InArgument>
-                      </p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
-                      <p:ExtractDocumentDataWithDocumentData.ExtractionResults>
-                        <OutArgument x:TypeArguments="uisad:IDocumentData(uisasecb2:CupBopAPInvoiceProcessor62InvoicesR365MultiLinesV18)">
-                          <CSharpReference x:TypeArguments="uisad:IDocumentData(uisasecb2:CupBopAPInvoiceProcessor62InvoicesR365MultiLinesV18)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_39">currentDocumentDataR365</CSharpReference>
+                        <OutArgument x:TypeArguments="x:String" x:Key="addR365LineException">
+                          <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_40">exception</CSharpReference>
                         </OutArgument>
-                      </p:ExtractDocumentDataWithDocumentData.ExtractionResults>
-                      <p:ExtractDocumentDataWithDocumentData.FileInput>
-                        <InArgument x:TypeArguments="upr:IResource">
-                          <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_161">LocalResource.FromPath("C:\\Users\\Tushar Parmar\\Downloads\\invoice-SI-190313.pdf")</CSharpValue>
+                        <InArgument x:TypeArguments="scg:List(x:String)" x:Key="LocationList">
+                          <CSharpValue x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_164">LocationList</CSharpValue>
                         </InArgument>
-                      </p:ExtractDocumentDataWithDocumentData.FileInput>
-                      <p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
-                        <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
-                      </p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
-                    </p:ExtractDocumentDataWithDocumentData>
-                    <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="578,4244" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
-                      <ui:IfElseIfV2.Condition>
-                        <InArgument x:TypeArguments="x:Boolean">
-                          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_146">currentDocumentDataR365.Data.Items.Count() &lt;= 0</CSharpValue>
+                        <InArgument x:TypeArguments="sd:DataRow" x:Key="VendorDataRow">
+                          <CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_165">VendorDataRow</CSharpValue>
                         </InArgument>
-                      </ui:IfElseIfV2.Condition>
-                      <ui:IfElseIfV2.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="504,3606" sap2010:WorkflowViewState.IdRef="Sequence_68">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ui:LogMessage DisplayName="Log Message - start adding lines" sap:VirtualizedContainerService.HintSize="470,175" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info">
-                            <ui:LogMessage.Message>
-                              <InArgument x:TypeArguments="x:Object">
-                                <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_97">"R365 - Start adding line item entry"</CSharpValue>
-                              </InArgument>
-                            </ui:LogMessage.Message>
-                          </ui:LogMessage>
-                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Document Amount'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,286" sap2010:WorkflowViewState.IdRef="NTypeInto_22" InteractionMode="DebuggerApi" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
-                            <uix:NTypeInto.Target>
-                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="5bc2dcee-7253-4a5f-a423-adfa05882179" ContentHash="5fcFQzJm80SrvWQwBIhPGA" CvElementArea="233, 434, 386, 39" CvType="InputBox" DesignTimeRectangle="237, 436, 381, 36" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='APInvoiceAmount' tag='INPUT' type='text' class='k-textbox has-full-width ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty k-valid' aaname='                                     Document Amount                                 ' /&gt;" Guid="533fa2a3-d377-4157-ac65-1d0cf2f1eb2e" InformativeScreenshot="6f16b0eadbe2693c7b3b3e5d1e3a9d64.png" IsResponsive="True" Reference="sWPe-Uob5ka5MN8G-3WlKg/aw7PUim4Bk2YkOnxOEhHHw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                                <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                    <uix:Target CVScreenId="5bc2dcee-7253-4a5f-a423-adfa05882179" CvTextArea="44, 446, 155, 17" CvTextArgument="Document Amount" CvType="Text" DesignTimeRectangle="9, 436, 209, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                                     Document Amount                                 ' parentid='KendoSplitter' tag='LABEL' type='' class='control-label col-sm-4' check:innerText='Document Amount' /&gt;" Guid="0b4c5717-35a6-432b-812d-f40207ea8086" SearchSteps="FuzzySelector, CV" />
-                                  </scg:List>
-                                </uix:TargetAnchorable.Anchors>
-                              </uix:TargetAnchorable>
-                            </uix:NTypeInto.Target>
-                            <uix:NTypeInto.Text>
-                              <InArgument x:TypeArguments="x:String">
-                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_159">currentDocumentDataR365.Data.TotalAmount.ToString() ?? currentDocumentData1.Data.NetAmount.ToString()</CSharpValue>
-                              </InArgument>
-                            </uix:NTypeInto.Text>
-                            <uix:NTypeInto.VerifyOptions>
-                              <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                                <uix:VerifyExecutionTypeIntoOptions.Retry>
-                                  <InArgument x:TypeArguments="x:Boolean" />
-                                </uix:VerifyExecutionTypeIntoOptions.Retry>
-                                <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                                  <InArgument x:TypeArguments="x:Double" />
-                                </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                              </uix:VerifyExecutionTypeIntoOptions>
-                            </uix:NTypeInto.VerifyOptions>
-                          </uix:NTypeInto>
-                          <ui:ForEach x:TypeArguments="uisasecb2:Items" CurrentIndex="{x:Null}" DisplayName="ForLoop- Extract Document Data - R365 - For Each currentItems" sap:VirtualizedContainerService.HintSize="470,3085" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
-                            <ui:ForEach.Body>
-                              <ActivityAction x:TypeArguments="uisasecb2:Items">
-                                <ActivityAction.Argument>
-                                  <DelegateInArgument x:TypeArguments="uisasecb2:Items" Name="currentItems" />
-                                </ActivityAction.Argument>
-                                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,2964" sap2010:WorkflowViewState.IdRef="Sequence_64">
-                                  <Sequence.Variables>
-                                    <Variable x:TypeArguments="x:String" Name="tmpR365Location" />
-                                  </Sequence.Variables>
-                                  <sap:WorkflowViewStateService.ViewState>
-                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                    </scg:Dictionary>
-                                  </sap:WorkflowViewStateService.ViewState>
-                                  <Assign sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_12">
-                                    <Assign.To>
-                                      <OutArgument x:TypeArguments="x:String">
-                                        <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_25">tmpR365Location</CSharpReference>
-                                      </OutArgument>
-                                    </Assign.To>
-                                    <Assign.Value>
-                                      <InArgument x:TypeArguments="x:String">
-                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_162" xml:space="preserve">currentItems.ItemsDescriptions.Value.IndexOf ("CupBop") &gt; -1
-?
-"Corporate" 
-:
-LocationList.Where(item =&gt; 
-	currentItems.ItemsMemo.Value.ToLower().Contains(item.ToLower())
-||
-	currentItems.ItemsMemo.Value.ToLower().Replace("fort","ft").Contains(item.ToLower())	
-||
-	currentItems.ItemsShippingLocation.Value.ToLower().Contains(item.ToLower())	
-||
-	currentItems.ItemsShippingLocation.Value.ToLower().Replace("fort","ft").Contains(item.ToLower())	
-).FirstOrDefault()</CSharpValue>
-                                      </InArgument>
-                                    </Assign.Value>
-                                  </Assign>
-                                  <Assign DisplayName="Assign - &quot;Mountain Home AFB&quot; check" sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_13">
-                                    <Assign.To>
-                                      <OutArgument x:TypeArguments="x:String">
-                                        <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_31">tmpR365Location</CSharpReference>
-                                      </OutArgument>
-                                    </Assign.To>
-                                    <Assign.Value>
-                                      <InArgument x:TypeArguments="x:String">
-                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_150" xml:space="preserve">currentItems.ItemsMemo.Value.ToLower().Contains("mountain home airforce base")
-	||	
-currentItems.ItemsShippingLocation.Value.ToLower().Contains("mhafb")
-	||
-currentItems.ItemsMemo.Value.ToLower().Contains("mountain home airforce base")
-	||	
-currentItems.ItemsShippingLocation.Value.ToLower().Contains("mhafb") ? "Mountain Home AFB" : tmpR365Location</CSharpValue>
-                                      </InArgument>
-                                    </Assign.Value>
-                                  </Assign>
-                                  <Assign DisplayName="Assign - &quot;Hill Air Force Base&quot; check" sap:VirtualizedContainerService.HintSize="434,115" sap2010:WorkflowViewState.IdRef="Assign_14">
-                                    <Assign.To>
-                                      <OutArgument x:TypeArguments="x:String">
-                                        <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_32">tmpR365Location</CSharpReference>
-                                      </OutArgument>
-                                    </Assign.To>
-                                    <Assign.Value>
-                                      <InArgument x:TypeArguments="x:String">
-                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_151" xml:space="preserve">currentItems.ItemsShippingLocation.Value.ToLower().Contains("hill afb")
-	||
-currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Base" : tmpR365Location</CSharpValue>
-                                      </InArgument>
-                                    </Assign.Value>
-                                  </Assign>
-                                  <Assign DisplayName="Assign - &quot;Hill Air Force Base&quot; check" sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_15">
-                                    <Assign.To>
-                                      <OutArgument x:TypeArguments="x:String">
-                                        <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_33">tmpR365Location</CSharpReference>
-                                      </OutArgument>
-                                    </Assign.To>
-                                    <Assign.Value>
-                                      <InArgument x:TypeArguments="x:String">
-                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_143">tmpR365Location == "" || tmpR365Location == null ? "Corporate" : tmpR365Location</CSharpValue>
-                                      </InArgument>
-                                    </Assign.Value>
-                                  </Assign>
-                                  <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,175" sap2010:WorkflowViewState.IdRef="LogMessage_16">
-                                    <ui:LogMessage.Message>
-                                      <InArgument x:TypeArguments="x:Object">
-                                        <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_152">"Amount-"+currentItems.ItemsTotalAmounts.Value.ToString() + ", Location-"+tmpR365Location</CSharpValue>
-                                      </InArgument>
-                                    </ui:LogMessage.Message>
-                                  </ui:LogMessage>
-                                  <If sap:VirtualizedContainerService.HintSize="434,327" sap2010:WorkflowViewState.IdRef="If_19">
-                                    <If.Condition>
-                                      <InArgument x:TypeArguments="x:Boolean">
-                                        <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_114">tmpR365Location == null || tmpR365Location == ""</CSharpValue>
-                                      </InArgument>
-                                    </If.Condition>
-                                    <If.Then>
-                                      <Sequence DisplayName="Then - Skip line" sap:VirtualizedContainerService.HintSize="416,108" sap2010:WorkflowViewState.IdRef="Sequence_69">
-                                        <sap:WorkflowViewStateService.ViewState>
-                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                          </scg:Dictionary>
-                                        </sap:WorkflowViewStateService.ViewState>
-                                        <ui:Continue sap:VirtualizedContainerService.HintSize="382,48" sap2010:WorkflowViewState.IdRef="Continue_1" />
-                                      </Sequence>
-                                    </If.Then>
-                                    <If.Else>
-                                      <Sequence DisplayName="Else - move next step" sap:VirtualizedContainerService.HintSize="416,81" sap2010:WorkflowViewState.IdRef="Sequence_70">
-                                        <sap:WorkflowViewStateService.ViewState>
-                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                          </scg:Dictionary>
-                                        </sap:WorkflowViewStateService.ViewState>
-                                      </Sequence>
-                                    </If.Else>
-                                  </If>
-                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Clear' - 5 Sec Delay" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,225" sap2010:WorkflowViewState.IdRef="NClick_24" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
-                                    <uix:NClick.Target>
-                                      <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="946e8f59-a2a6-4b71-a67c-e7baea4dfee6" ContentHash="dKVv4lmxnkmzOdXnADzrDg" CvTextArea="1767, 664, 36, 13" CvTextArgument="Clear" CvType="Text" DesignTimeRectangle="1758, 657, 55, 29" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Clear' parentid='newRowButtonsContainer' tag='BUTTON' type='' class='btn btn-default' check:innerText='Clear' /&gt;" Guid="e960911b-b753-4974-aad2-fae66fd1adc1" InformativeScreenshot="6886343e8946a0f57ac1695b4c031895.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/FbV7ZN8mM0O-QGHlKRMs8A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - SI-179987' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
-                                    </uix:NClick.Target>
-                                    <uix:NClick.VerifyOptions>
-                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                        <uix:VerifyExecutionOptions.Retry>
-                                          <InArgument x:TypeArguments="x:Boolean" />
-                                        </uix:VerifyExecutionOptions.Retry>
-                                        <uix:VerifyExecutionOptions.Timeout>
-                                          <InArgument x:TypeArguments="x:Double" />
-                                        </uix:VerifyExecutionOptions.Timeout>
-                                      </uix:VerifyExecutionOptions>
-                                    </uix:NClick.VerifyOptions>
-                                  </uix:NClick>
-                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayAfter="2" DelayBefore="1" DisplayName="Type Into 'INPUT(3)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="NTypeInto_19" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
-                                    <uix:NTypeInto.Target>
-                                      <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="1cb0e2a5-17ef-4fc7-9b5d-8535d8764972" ContentHash="5Z2fC-w5pkiWW-R1zh9euw" CvTextArea="32, 516, 108, 15" CvTextArgument="Select Account" CvType="Text" DesignTimeRectangle="26, 575, 383, 29" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='newRowAccountFieldInput_input' tag='INPUT' type='text' class='k-input has-full-width ng-touched ng-dirty ng-empty ng-invalid ng-invalid-required k-invalid' placeholder='Select Account' aaname='' /&gt;" Guid="16d62eff-550d-4254-ad67-5b7a1abacea8" InformativeScreenshot="b21f89b3c28c7e57fd08485dd8d4a604.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/21hxgA5vx0ipeGDzZ3GFuQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                                        <uix:TargetAnchorable.Anchors>
-                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                            <uix:Target CVScreenId="1cb0e2a5-17ef-4fc7-9b5d-8535d8764972" CvTextArea="532, 586, 43, 12" CvTextArgument="Amount" CvType="Text" DesignTimeRectangle="446, 574, 126, 29" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='newRowAmountInput' tag='INPUT' type='text' class='k-textbox has-full-width text-right ng-valid ng-isolate-scope ng-not-empty ng-touched ng-dirty k-valid' aaname='' /&gt;" Guid="969893cf-6381-4724-8f74-c0648bddbda9" SearchSteps="FuzzySelector, CV" />
-                                          </scg:List>
-                                        </uix:TargetAnchorable.Anchors>
-                                      </uix:TargetAnchorable>
-                                    </uix:NTypeInto.Target>
-                                    <uix:NTypeInto.Text>
-                                      <InArgument x:TypeArguments="x:String">
-                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_107">VendorDataRow["AccountCode"].ToString()</CSharpValue>
-                                      </InArgument>
-                                    </uix:NTypeInto.Text>
-                                  </uix:NTypeInto>
-                                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="434,169" sap2010:WorkflowViewState.IdRef="SendHotkey_3" Key="tab" KeyModifiers="None" SpecialKey="True">
-                                    <ui:SendHotkey.Target>
-                                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="4f24e431-af79-44d6-88e4-68e391430108">
-                                        <ui:Target.TimeoutMS>
-                                          <InArgument x:TypeArguments="x:Int32" />
-                                        </ui:Target.TimeoutMS>
-                                        <ui:Target.WaitForReady>
-                                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                                        </ui:Target.WaitForReady>
-                                      </ui:Target>
-                                    </ui:SendHotkey.Target>
-                                  </ui:SendHotkey>
-                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into Amount'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="NTypeInto_21" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
-                                    <uix:NTypeInto.Target>
-                                      <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="057df7e7-5f53-4bfc-be6e-19956524a195" ContentHash="9BMOqdac_Emm8VplnAtdsQ" CvTextArea="535, 544, 28, 15" CvTextArgument="0.00" CvType="Text" DesignTimeRectangle="446, 537, 126, 29" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='newRowAmountInput' tag='INPUT' type='text' class='k-textbox has-full-width text-right ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty' aaname='' /&gt;" Guid="f5935818-62ab-4dfa-a452-4ecccc8081f2" InformativeScreenshot="2b082a7798beb5b2e4b0f43daeb806da.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/ahsH8fsJAkilIY-9vaDRZQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                                        <uix:TargetAnchorable.Anchors>
-                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                            <uix:Target CVScreenId="057df7e7-5f53-4bfc-be6e-19956524a195" CvTextArea="32, 545, 108, 15" CvTextArgument="Select Account" CvType="Text" DesignTimeRectangle="26, 538, 383, 29" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='newRowAccountFieldInput_input' tag='INPUT' type='text' class='k-input has-full-width ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required' placeholder='Select Account' aaname='' /&gt;" Guid="c77e5eed-4acf-48e9-92ce-9bc87d1bc07c" SearchSteps="FuzzySelector, CV" />
-                                          </scg:List>
-                                        </uix:TargetAnchorable.Anchors>
-                                      </uix:TargetAnchorable>
-                                    </uix:NTypeInto.Target>
-                                    <uix:NTypeInto.Text>
-                                      <InArgument x:TypeArguments="x:String">
-                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_153">currentItems.ItemsTotalAmounts.Value.ToString()</CSharpValue>
-                                      </InArgument>
-                                    </uix:NTypeInto.Text>
-                                  </uix:NTypeInto>
-                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '1013 - 1013 Arvada'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,189" sap2010:WorkflowViewState.IdRef="NClick_21" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
-                                    <uix:NClick.Target>
-                                      <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="946e8f59-a2a6-4b71-a67c-e7baea4dfee6" ContentHash="3PWICuPsfkq0FaiH_4z-nw" CvElementArea="925, 656, 365, 31" CvType="Button" DesignTimeRectangle="928, 656, 363, 29" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='apInvoiceMultiSelectLocationDropdown' tag='BUTTON' type='button' /&gt;" Guid="9c5de73d-ea1d-4a3f-b0d4-333e248c1e82" InformativeScreenshot="ec2810118280a8a150a9a41cb071651c.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/6L-qNAGKhUSI-pfgIAo0ew" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - SI-179987' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive" />
-                                    </uix:NClick.Target>
-                                  </uix:NClick>
-                                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Select None'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,225" sap2010:WorkflowViewState.IdRef="NClick_22" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
-                                    <uix:NClick.Target>
-                                      <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="dfaef387-260a-42ba-8df7-365a8d3513dd" ContentHash="H2KMml0i90K8dHtkLlEX2Q" CvTextArea="961, 674, 95, 13" CvTextArgument="X Select None" CvType="Text" DesignTimeRectangle="942, 668, 348, 26" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='deselectAll' tag='A' type='' class='ng-binding' aaname='   Select None' check:innerText='Select None' /&gt;" Guid="296727ef-160e-4e8c-bf34-2c50d7bc5111" InformativeScreenshot="69f53936adcf607550c41d27eb26c8cf.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/VFwCBjzO9kCVjEde-PwM6Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                                        <uix:TargetAnchorable.Anchors>
-                                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                            <uix:Target CVScreenId="dfaef387-260a-42ba-8df7-365a8d3513dd" CvTextArea="979, 649, 58, 12" CvTextArgument="Select All" CvType="Text" DesignTimeRectangle="942, 642, 348, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='selectAll' tag='A' type='' class='ng-binding' aaname='  Select All' check:innerText='Select All' /&gt;" Guid="de312714-e5ac-45bd-8db8-5fe9bd6d3280" SearchSteps="FuzzySelector, CV" />
-                                          </scg:List>
-                                        </uix:TargetAnchorable.Anchors>
-                                      </uix:TargetAnchorable>
-                                    </uix:NClick.Target>
-                                    <uix:NClick.VerifyOptions>
-                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                        <uix:VerifyExecutionOptions.Retry>
-                                          <InArgument x:TypeArguments="x:Boolean" />
-                                        </uix:VerifyExecutionOptions.Retry>
-                                        <uix:VerifyExecutionOptions.Timeout>
-                                          <InArgument x:TypeArguments="x:Double" />
-                                        </uix:VerifyExecutionOptions.Timeout>
-                                      </uix:VerifyExecutionOptions>
-                                    </uix:NClick.VerifyOptions>
-                                  </uix:NClick>
-                                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Select All'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="NTypeInto_20" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
-                                    <uix:NTypeInto.Target>
-                                      <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="946e8f59-a2a6-4b71-a67c-e7baea4dfee6" ContentHash="SPdMPDTu0k6PJZoemE8bMQ" DesignTimeRectangle="949, 696, 302, 29" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid='apInvoiceMultiSelectLocationDropdown' tag='INPUT' type='text' class='form-control searchField ng-pristine ng-valid ng-empty ng-touched' placeholder='Search...' aaname='' /&gt;" Guid="3a99f645-8a73-4b7e-b21d-5f3998754eab" InformativeScreenshot="a52fae2247f67e8b677e720c8d47442d.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/7GdwBz2h6Eitao3tiizkhQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - SI-179987' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive" />
-                                    </uix:NTypeInto.Target>
-                                    <uix:NTypeInto.Text>
-                                      <InArgument x:TypeArguments="x:String">
-                                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_115">tmpR365Location</CSharpValue>
-                                      </InArgument>
-                                    </uix:NTypeInto.Text>
-                                  </uix:NTypeInto>
-                                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="434,169" sap2010:WorkflowViewState.IdRef="SendHotkey_4" Key="enter" KeyModifiers="None" SpecialKey="True">
-                                    <ui:SendHotkey.Target>
-                                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="4f24e431-af79-44d6-88e4-68e391430108">
-                                        <ui:Target.TimeoutMS>
-                                          <InArgument x:TypeArguments="x:Int32" />
-                                        </ui:Target.TimeoutMS>
-                                        <ui:Target.WaitForReady>
-                                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                                        </ui:Target.WaitForReady>
-                                      </ui:Target>
-                                    </ui:SendHotkey.Target>
-                                  </ui:SendHotkey>
-                                  <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DisplayName="Click 'Add'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,216" sap2010:WorkflowViewState.IdRef="NClick_23" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
-                                    <uix:NClick.Target>
-                                      <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="10dd43e3-666c-420d-9f36-4a39cd228ee6" ContentHash="z-ZPRoZre0GbZeJJm7_lOA" CvElementArea="1730, 550, 50, 32" CvTextArea="1741, 560, 26, 12" CvTextArgument="Add" CvType="Button" DesignTimeRectangle="1732, 551, 47, 29" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='newRowButtonsContainer' tag='BUTTON' type='' class='btn btn-default grid-add-row-button' aaname='Add' check:innerText='Add' /&gt;" Guid="67e1fee3-1f50-450a-b3e8-34dfbb9b1f69" InformativeScreenshot="b21c32646406d9d2a83a4ec034c5e90c.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/YNxXJ7xY8Uqc9g9fJ-WF0A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
-                                    </uix:NClick.Target>
-                                    <uix:NClick.VerifyOptions>
-                                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                        <uix:VerifyExecutionOptions.Retry>
-                                          <InArgument x:TypeArguments="x:Boolean" />
-                                        </uix:VerifyExecutionOptions.Retry>
-                                        <uix:VerifyExecutionOptions.Timeout>
-                                          <InArgument x:TypeArguments="x:Double" />
-                                        </uix:VerifyExecutionOptions.Timeout>
-                                      </uix:VerifyExecutionOptions>
-                                    </uix:NClick.VerifyOptions>
-                                  </uix:NClick>
-                                </Sequence>
-                              </ActivityAction>
-                            </ui:ForEach.Body>
-                            <ui:ForEach.Values>
-                              <InArgument x:TypeArguments="sc1:IEnumerable">
-                                <CSharpValue x:TypeArguments="sc1:IEnumerable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_148">currentDocumentDataR365.Data.Items</CSharpValue>
-                              </InArgument>
-                            </ui:ForEach.Values>
-                          </ui:ForEach>
-                        </Sequence>
-                      </ui:IfElseIfV2.Else>
-                      <ui:IfElseIfV2.ElseIfs>
-                        <sc:BindingList x:TypeArguments="ui:IfElseIfBlock" AllowEdit="True" AllowNew="True" AllowRemove="True" RaiseListChangedEvents="True">
-                          <ui:IfElseIfBlock BlockType="ElseIf" DisplayName="If else if block" sap2010:WorkflowViewState.IdRef="IfElseIfBlock_1">
-                            <ui:IfElseIfBlock.Condition>
-                              <InArgument x:TypeArguments="x:Boolean">
-                                <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_147">currentDocumentDataR365.Data.BillingName.Value.IndexOf("Greenlight Holdings") &gt; -1</CSharpValue>
-                              </InArgument>
-                            </ui:IfElseIfBlock.Condition>
-                            <ui:IfElseIfBlock.Then>
-                              <Sequence DisplayName="Body - ignore of billing to is &quot;Greenlight Holdings&quot;" sap:VirtualizedContainerService.HintSize="504,397" sap2010:WorkflowViewState.IdRef="Sequence_67">
-                                <sap:WorkflowViewStateService.ViewState>
-                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                  </scg:Dictionary>
-                                </sap:WorkflowViewStateService.ViewState>
-                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="470,175" sap2010:WorkflowViewState.IdRef="LogMessage_15" Level="Trace">
-                                  <ui:LogMessage.Message>
-                                    <InArgument x:TypeArguments="x:Object">
-                                      <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_111">"Exception - Ignore as Bill to is 'Greenlight Holdings'"</CSharpValue>
-                                    </InArgument>
-                                  </ui:LogMessage.Message>
-                                </ui:LogMessage>
-                                <Assign sap:VirtualizedContainerService.HintSize="470,114" sap2010:WorkflowViewState.IdRef="Assign_11">
-                                  <Assign.To>
-                                    <OutArgument x:TypeArguments="x:String">
-                                      <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_24">
-                                        <CSharpReference.Result>
-                                          <OutArgument x:TypeArguments="Location(x:String)" />
-                                        </CSharpReference.Result>exception</CSharpReference>
-                                    </OutArgument>
-                                  </Assign.To>
-                                  <Assign.Value>
-                                    <InArgument x:TypeArguments="x:String">Exception - Ignore as Bill to is 'Greenlight Holdings'</InArgument>
-                                  </Assign.Value>
-                                </Assign>
-                                <ui:Return sap:VirtualizedContainerService.HintSize="470,48" sap2010:WorkflowViewState.IdRef="Return_3" />
-                              </Sequence>
-                            </ui:IfElseIfBlock.Then>
-                          </ui:IfElseIfBlock>
-                        </sc:BindingList>
-                      </ui:IfElseIfV2.ElseIfs>
-                      <ui:IfElseIfV2.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="504,25" sap2010:WorkflowViewState.IdRef="Sequence_66">
-                          <sap:WorkflowViewStateService.ViewState>
-                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
-                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                            </scg:Dictionary>
-                          </sap:WorkflowViewStateService.ViewState>
-                          <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="470,175" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Trace">
-                            <ui:LogMessage.Message>
-                              <InArgument x:TypeArguments="x:Object">
-                                <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_109">
-                                  <CSharpValue.Result>
-                                    <OutArgument x:TypeArguments="x:Object" />
-                                  </CSharpValue.Result>"Exception - Invoice LineItems not exists"</CSharpValue>
-                              </InArgument>
-                            </ui:LogMessage.Message>
-                          </ui:LogMessage>
-                          <Assign sap:VirtualizedContainerService.HintSize="470,114" sap2010:WorkflowViewState.IdRef="Assign_10">
-                            <Assign.To>
-                              <OutArgument x:TypeArguments="x:String">
-                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_23">
-                                  <CSharpReference.Result>
-                                    <OutArgument x:TypeArguments="Location(x:String)" />
-                                  </CSharpReference.Result>exception</CSharpReference>
-                              </OutArgument>
-                            </Assign.To>
-                            <Assign.Value>
-                              <InArgument x:TypeArguments="x:String">Exception - Invoice LineItem not exists</InArgument>
-                            </Assign.Value>
-                          </Assign>
-                          <ui:Return sap:VirtualizedContainerService.HintSize="470,48" sap2010:WorkflowViewState.IdRef="Return_2" />
-                        </Sequence>
-                      </ui:IfElseIfV2.Then>
-                    </ui:IfElseIfV2>
+                        <InArgument x:TypeArguments="ui:UiElement" x:Key="Browser_Restaurent365">
+                          <CSharpValue x:TypeArguments="ui:UiElement" sap2010:WorkflowViewState.IdRef="CSharpValue`1_166">Browser_Restaurent365</CSharpValue>
+                        </InArgument>
+                      </ui:InvokeWorkflowFile.Arguments>
+                    </ui:InvokeWorkflowFile>
                   </Sequence>
                 </If.Then>
                 <If.Else>
-                  <Sequence DisplayName="Else Process all other invoices differently" sap:VirtualizedContainerService.HintSize="612,6725" sap2010:WorkflowViewState.IdRef="Sequence_58">
+                  <Sequence DisplayName="Else Process all other invoices differently" sap:VirtualizedContainerService.HintSize="606,1742" sap2010:WorkflowViewState.IdRef="Sequence_58">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <If DisplayName="If - &quot;Bypass lineitem if No Line Item Found for Invoice or Vendor exists in bypass vendor list" sap:VirtualizedContainerService.HintSize="578,6665" sap2010:WorkflowViewState.IdRef="If_1">
+                    <If DisplayName="If - &quot;Bypass lineitem if No Line Item Found for Invoice or Vendor exists in bypass vendor list" sap:VirtualizedContainerService.HintSize="572,1682" sap2010:WorkflowViewState.IdRef="If_1">
                       <If.Condition>
                         <InArgument x:TypeArguments="x:Boolean">
                           <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_84">
@@ -1408,7 +1035,7 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="576,3031" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="570,791" sap2010:WorkflowViewState.IdRef="Sequence_6">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="x:String" Name="accountCode" />
                           </Sequence.Variables>
@@ -1418,7 +1045,7 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <Assign sap:VirtualizedContainerService.HintSize="542,114" sap2010:WorkflowViewState.IdRef="Assign_5">
+                          <Assign sap:VirtualizedContainerService.HintSize="536,114" sap2010:WorkflowViewState.IdRef="Assign_5">
                             <Assign.To>
                               <OutArgument x:TypeArguments="x:String">
                                 <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_12">
@@ -1436,7 +1063,7 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                               </InArgument>
                             </Assign.Value>
                           </Assign>
-                          <If DisplayName="If - SLCC - get account code calculated" sap:VirtualizedContainerService.HintSize="542,569" sap2010:WorkflowViewState.IdRef="If_14">
+                          <If DisplayName="If - SLCC - get account code calculated" sap:VirtualizedContainerService.HintSize="536,569" sap2010:WorkflowViewState.IdRef="If_14">
                             <If.Condition>
                               <InArgument x:TypeArguments="x:Boolean">
                                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_87">
@@ -1457,13 +1084,15 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                                 </sap:WorkflowViewStateService.ViewState>
                                 <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="CalculateSLCCAccountCode - Invoke Workflow File (Restaurent365\\CalculateSLCCAccountCode.xaml)" sap:VirtualizedContainerService.HintSize="434,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Restaurent365\\CalculateSLCCAccountCode.xaml">
                                   <ui:InvokeWorkflowFile.Arguments>
-                                    <InArgument x:TypeArguments="uisad:IDocumentData(uisasecb3:CupBopAPInvoiceProcessor60InvoicesV16)" x:Key="currentDocumentData" />
                                     <OutArgument x:TypeArguments="x:String" x:Key="extractedAccountCode">
                                       <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_17">
                                         <CSharpReference.Result>
                                           <OutArgument x:TypeArguments="Location(x:String)" />
                                         </CSharpReference.Result>extractedAccountCodeForSLCC</CSharpReference>
                                     </OutArgument>
+                                    <InArgument x:TypeArguments="x:String" x:Key="ItemsDescriptions">
+                                      <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_167">currentDocumentData1.Data.Items.Count &gt; 0 ? currentDocumentData1.Data.Items[0].ItemsDescriptions.Value : null</CSharpValue>
+                                    </InArgument>
                                   </ui:InvokeWorkflowFile.Arguments>
                                 </ui:InvokeWorkflowFile>
                                 <Assign sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_7">
@@ -1496,7 +1125,7 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                               </Sequence>
                             </If.Else>
                           </If>
-                          <If sap:VirtualizedContainerService.HintSize="542,2288" sap2010:WorkflowViewState.IdRef="If_9">
+                          <If DisplayName="If  - no alue for AccountCode - add exception" sap:VirtualizedContainerService.HintSize="536,48" sap2010:WorkflowViewState.IdRef="If_9">
                             <If.Condition>
                               <InArgument x:TypeArguments="x:Boolean">
                                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_56">
@@ -1505,6 +1134,12 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                                   </CSharpValue.Result>accountCode == "" || accountCode == null || accountCode == "ignore"</CSharpValue>
                               </InArgument>
                             </If.Condition>
+                            <sap:WorkflowViewStateService.ViewState>
+                              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                              </scg:Dictionary>
+                            </sap:WorkflowViewStateService.ViewState>
                             <If.Then>
                               <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,340" sap2010:WorkflowViewState.IdRef="Sequence_39">
                                 <sap:WorkflowViewStateService.ViewState>
@@ -1652,7 +1287,7 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                         </Sequence>
                       </If.Then>
                       <If.Else>
-                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="576,3505" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="570,762" sap2010:WorkflowViewState.IdRef="Sequence_7">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="x:Boolean" Name="lineItemNotExists" />
                           </Sequence.Variables>
@@ -1662,7 +1297,7 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                               <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <If sap:VirtualizedContainerService.HintSize="542,3445" sap2010:WorkflowViewState.IdRef="If_8">
+                          <If DisplayName="If no Items for invoice - add exeption" sap:VirtualizedContainerService.HintSize="536,702" sap2010:WorkflowViewState.IdRef="If_8">
                             <If.Condition>
                               <InArgument x:TypeArguments="x:Boolean">
                                 <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_50">
@@ -1678,10 +1313,11 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                             <If.Then>
-                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="540,340" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_37">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
                                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="506,175" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Fatal">
@@ -1710,14 +1346,14 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                               </Sequence>
                             </If.Then>
                             <If.Else>
-                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="540,2976" sap2010:WorkflowViewState.IdRef="Sequence_38">
+                              <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,548" sap2010:WorkflowViewState.IdRef="Sequence_38">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:Comment sap:VirtualizedContainerService.HintSize="506,88" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// Convert lineitems to mapping line names" />
-                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="506,84" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+                                <ui:Comment sap:VirtualizedContainerService.HintSize="382,88" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// Convert lineitems to mapping line names" />
+                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="382,57" sap2010:WorkflowViewState.IdRef="CommentOut_2">
                                   <ui:CommentOut.Body>
                                     <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,228" sap2010:WorkflowViewState.IdRef="Sequence_54">
                                       <sap:WorkflowViewStateService.ViewState>
@@ -1727,8 +1363,8 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                                       </sap:WorkflowViewStateService.ViewState>
                                       <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ConvertLineItemFromMappings - Invoke Workflow File (Restaurent365\\ConvertLineItemFromMappings.xaml)" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Restaurent365\\ConvertLineItemFromMappings.xaml">
                                         <ui:InvokeWorkflowFile.Arguments>
-                                          <InArgument x:TypeArguments="uisad:IDocumentData(uisasecb4:CupBopAPInvoiceProcesor20InvoicesV2)" x:Key="currentDocumentData">
-                                            <CSharpValue x:TypeArguments="uisad:IDocumentData(uisasecb4:CupBopAPInvoiceProcesor20InvoicesV2)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_77">currentDocumentData1</CSharpValue>
+                                          <InArgument x:TypeArguments="uisad:IDocumentData(uisasecb2:CupBopAPInvoiceProcesor20InvoicesV2)" x:Key="currentDocumentData">
+                                            <CSharpValue x:TypeArguments="uisad:IDocumentData(uisasecb2:CupBopAPInvoiceProcesor20InvoicesV2)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_77">currentDocumentData1</CSharpValue>
                                           </InArgument>
                                           <InArgument x:TypeArguments="x:String" x:Key="currentVendorName">
                                             <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_65">currentVendorName</CSharpValue>
@@ -1747,7 +1383,7 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:CommentOut>
-                                <ui:LogMessage DisplayName="Log Message - start adding lines" sap:VirtualizedContainerService.HintSize="506,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
+                                <ui:LogMessage DisplayName="Log Message - start adding lines" sap:VirtualizedContainerService.HintSize="382,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
                                   <ui:LogMessage.Message>
                                     <InArgument x:TypeArguments="x:Object">
                                       <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_16">
@@ -1757,230 +1393,19 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                                     </InArgument>
                                   </ui:LogMessage.Message>
                                 </ui:LogMessage>
-                                <ui:ForEach x:TypeArguments="sd:DataRow" CurrentIndex="{x:Null}" DisplayName="For Each currentDataRow" sap:VirtualizedContainerService.HintSize="506,2569" sap2010:WorkflowViewState.IdRef="ForEach`1_1">
-                                  <ui:ForEach.Body>
-                                    <ActivityAction x:TypeArguments="sd:DataRow">
-                                      <ActivityAction.Argument>
-                                        <DelegateInArgument x:TypeArguments="sd:DataRow" Name="currentDataRow" />
-                                      </ActivityAction.Argument>
-                                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="504,2448" sap2010:WorkflowViewState.IdRef="Sequence_13">
-                                        <sap:WorkflowViewStateService.ViewState>
-                                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                          </scg:Dictionary>
-                                        </sap:WorkflowViewStateService.ViewState>
-                                        <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Line desc'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="470,250" sap2010:WorkflowViewState.IdRef="NTypeInto_8" InteractionMode="DebuggerApi" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
-                                          <uix:NTypeInto.Target>
-                                            <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="25df7f0f-6829-496b-bcad-4bb57eed0a0d" ContentHash="5xJtGhO6JUSfUcRaRwvxPQ" CvTextArea="37, 570, 101, 18" CvTextArgument="Select Item" CvType="Text" DesignTimeRectangle="30, 562, 303, 36" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='newRowItemInputAPInvoiceDetailsGrid_input' tag='INPUT' type='text' class='k-input has-full-width ng-pristine ng-untouched ng-valid ng-empty' placeholder='Select Item' aaname='' /&gt;" Guid="102ff0de-68ef-4b46-86f2-a6f2402d0a41" InformativeScreenshot="6c47553a394f7e46bc55da463f3cf4cf.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/YZdvKLtFxUODLygyjXE8dw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
-                                          </uix:NTypeInto.Target>
-                                          <uix:NTypeInto.Text>
-                                            <InArgument x:TypeArguments="x:String">
-                                              <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_70">
-                                                <CSharpValue.Result>
-                                                  <OutArgument x:TypeArguments="x:String" />
-                                                </CSharpValue.Result>currentDataRow["Description"].ToString()</CSharpValue>
-                                            </InArgument>
-                                          </uix:NTypeInto.Text>
-                                        </uix:NTypeInto>
-                                        <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="470,169" sap2010:WorkflowViewState.IdRef="SendHotkey_2" Key="tab" KeyModifiers="None" SpecialKey="True">
-                                          <ui:SendHotkey.Target>
-                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="4f24e431-af79-44d6-88e4-68e391430108">
-                                              <ui:Target.TimeoutMS>
-                                                <InArgument x:TypeArguments="x:Int32" />
-                                              </ui:Target.TimeoutMS>
-                                              <ui:Target.WaitForReady>
-                                                <InArgument x:TypeArguments="ui:WaitForReady" />
-                                              </ui:Target.WaitForReady>
-                                            </ui:Target>
-                                          </ui:SendHotkey.Target>
-                                        </ui:SendHotkey>
-                                        <ui:UiElementExists DisplayName="Element Exists 'BUTTON'" sap:VirtualizedContainerService.HintSize="470,139" sap2010:WorkflowViewState.IdRef="UiElementExists_3">
-                                          <ui:UiElementExists.Exists>
-                                            <OutArgument x:TypeArguments="x:Boolean">
-                                              <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_5">
-                                                <CSharpReference.Result>
-                                                  <OutArgument x:TypeArguments="Location(x:Boolean)" />
-                                                </CSharpReference.Result>lineItemNotExists</CSharpReference>
-                                            </OutArgument>
-                                          </ui:UiElementExists.Exists>
-                                          <ui:UiElementExists.Target>
-                                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="ee6c9cfa-2f1c-4076-927b-d48b26a31f32" InformativeScreenshot="911f4d06062fd0ca8a5f482cf18c916d" Selector="&lt;html app='chrome.exe' title='AP Invoice*' /&gt;&lt;webctrl css-selector='div[data-role=&amp;quot;draggable&amp;quot;]:not([style*=&amp;quot;display:none&amp;quot;]):not([style*=&amp;quot;display: none&amp;quot;])' tag='div' /&gt;" TimeoutMS="4000">
-                                              <ui:Target.WaitForReady>
-                                                <InArgument x:TypeArguments="ui:WaitForReady" />
-                                              </ui:Target.WaitForReady>
-                                            </ui:Target>
-                                          </ui:UiElementExists.Target>
-                                        </ui:UiElementExists>
-                                        <If sap:VirtualizedContainerService.HintSize="470,1830" sap2010:WorkflowViewState.IdRef="If_4">
-                                          <If.Condition>
-                                            <InArgument x:TypeArguments="x:Boolean">
-                                              <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_32">
-                                                <CSharpValue.Result>
-                                                  <OutArgument x:TypeArguments="x:Boolean" />
-                                                </CSharpValue.Result>lineItemNotExists == true</CSharpValue>
-                                            </InArgument>
-                                          </If.Condition>
-                                          <If.Then>
-                                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,397" sap2010:WorkflowViewState.IdRef="Sequence_17">
-                                              <sap:WorkflowViewStateService.ViewState>
-                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                </scg:Dictionary>
-                                              </sap:WorkflowViewStateService.ViewState>
-                                              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,175" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Trace">
-                                                <ui:LogMessage.Message>
-                                                  <InArgument x:TypeArguments="x:Object">
-                                                    <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_33">
-                                                      <CSharpValue.Result>
-                                                        <OutArgument x:TypeArguments="x:Object" />
-                                                      </CSharpValue.Result>"Exception - Invoice LineItem not exists"</CSharpValue>
-                                                  </InArgument>
-                                                </ui:LogMessage.Message>
-                                              </ui:LogMessage>
-                                              <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_3">
-                                                <Assign.To>
-                                                  <OutArgument x:TypeArguments="x:String">
-                                                    <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_6">
-                                                      <CSharpReference.Result>
-                                                        <OutArgument x:TypeArguments="Location(x:String)" />
-                                                      </CSharpReference.Result>exception</CSharpReference>
-                                                  </OutArgument>
-                                                </Assign.To>
-                                                <Assign.Value>
-                                                  <InArgument x:TypeArguments="x:String">Exception - Invoice LineItem not exists</InArgument>
-                                                </Assign.Value>
-                                              </Assign>
-                                              <ui:Break sap:VirtualizedContainerService.HintSize="434,48" sap2010:WorkflowViewState.IdRef="Break_2" />
-                                            </Sequence>
-                                          </If.Then>
-                                          <If.Else>
-                                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,1304" sap2010:WorkflowViewState.IdRef="Sequence_18">
-                                              <sap:WorkflowViewStateService.ViewState>
-                                                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                </scg:Dictionary>
-                                              </sap:WorkflowViewStateService.ViewState>
-                                              <If DisplayName="If SplitUofM exists, update its value to restaurent line item" sap:VirtualizedContainerService.HintSize="434,528" sap2010:WorkflowViewState.IdRef="If_11">
-                                                <If.Condition>
-                                                  <InArgument x:TypeArguments="x:Boolean">
-                                                    <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_78">
-                                                      <CSharpValue.Result>
-                                                        <OutArgument x:TypeArguments="x:Boolean" />
-                                                      </CSharpValue.Result>currentDataRow["SplitUofM"] != null &amp;&amp; currentDataRow["SplitUofM"] != "" &amp;&amp; currentDataRow["SplitUofM"] != DBNull.Value</CSharpValue>
-                                                  </InArgument>
-                                                </If.Condition>
-                                                <If.Then>
-                                                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,301" sap2010:WorkflowViewState.IdRef="Sequence_46">
-                                                    <sap:WorkflowViewStateService.ViewState>
-                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                      </scg:Dictionary>
-                                                    </sap:WorkflowViewStateService.ViewState>
-                                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Case - 12Pack (31.75 o…'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382,241" sap2010:WorkflowViewState.IdRef="NTypeInto_14" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
-                                                      <uix:NTypeInto.Target>
-                                                        <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="a6561814-2451-4429-ac2f-6c54f15105cf" ContentHash="wE0jr2nxHkGXws8gjaUpUQ" CvElementArea="502, 625, 156, 38" CvTextArea="514, 635, 138, 18" CvTextArgument="Case - 12/Pack" CvType="Button" DesignTimeRectangle="505, 674, 153, 36" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='newRowUofMInput_input' tag='INPUT' type='text' class='k-input has-full-width ng-touched ng-dirty ng-not-empty ng-valid ng-valid-required' placeholder='Select Unit of Measure' aaname='' /&gt;" Guid="21a290d0-2889-497c-9d6a-5a11426d4d39" InformativeScreenshot="9f13e42ce0f1c736355fd44275fd7190.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/hMvEhM77Ykmhw43vsO4xtw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                                                          <uix:TargetAnchorable.Anchors>
-                                                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                              <uix:Target CVScreenId="a6561814-2451-4429-ac2f-6c54f15105cf" CvElementArea="378, 625, 126, 39" CvType="InputBox" DesignTimeRectangle="379, 673, 125, 36" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='newRowVendorItemField' tag='DIV' type='' class='input-container ng-scope' aaname='                                               ' /&gt;" Guid="e785992a-76d4-416a-abb0-f40a0338d00b" SearchSteps="FuzzySelector, CV" />
-                                                            </scg:List>
-                                                          </uix:TargetAnchorable.Anchors>
-                                                        </uix:TargetAnchorable>
-                                                      </uix:NTypeInto.Target>
-                                                      <uix:NTypeInto.Text>
-                                                        <InArgument x:TypeArguments="x:String">
-                                                          <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_75">
-                                                            <CSharpValue.Result>
-                                                              <OutArgument x:TypeArguments="x:String" />
-                                                            </CSharpValue.Result>currentDataRow["SplitUofM"].ToString()</CSharpValue>
-                                                        </InArgument>
-                                                      </uix:NTypeInto.Text>
-                                                    </uix:NTypeInto>
-                                                  </Sequence>
-                                                </If.Then>
-                                                <If.Else>
-                                                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_47">
-                                                    <sap:WorkflowViewStateService.ViewState>
-                                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                                      </scg:Dictionary>
-                                                    </sap:WorkflowViewStateService.ViewState>
-                                                  </Sequence>
-                                                </If.Else>
-                                              </If>
-                                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into Quantity" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="NTypeInto_9" InteractionMode="DebuggerApi" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
-                                                <uix:NTypeInto.Target>
-                                                  <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="a80f4f4a-c927-4352-a980-a2ce9d328f2f" ContentHash="Ovi_g5_Jxkq-gBLdv0VQfw" CvElementArea="702, 398, 114, 38" CvType="InputBox" DesignTimeRectangle="704, 399, 112, 36" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='newRowQuantityInput' tag='INPUT' type='text' class='k-textbox has-full-width text-right ng-isolate-scope ng-dirty ng-not-empty ng-valid ng-valid-required ng-touched k-valid' aaname='' /&gt;" Guid="755bec7c-1f4f-465a-a21f-30856af9211b" InformativeScreenshot="027d90626227af167c44370c459a2bef.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/hoG8kDuNykWyuGB72IE8fw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - 817714' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                                                    <uix:TargetAnchorable.Anchors>
-                                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                        <uix:Target CVScreenId="a80f4f4a-c927-4352-a980-a2ce9d328f2f" CvElementArea="502, 398, 154, 39" CvTextArea="514, 407, 127, 22" CvTextArgument="BIB (5 Gallon)" CvType="Button" DesignTimeRectangle="505, 400, 153, 36" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='newRowUofMInput_input' tag='INPUT' type='text' class='k-input has-full-width ng-pristine ng-untouched k-valid ng-not-empty ng-valid ng-valid-required' placeholder='Select Unit of Measure' aaname='' /&gt;" Guid="133365e2-a239-4998-9cc3-8b1b4c659b94" SearchSteps="FuzzySelector, CV" />
-                                                      </scg:List>
-                                                    </uix:TargetAnchorable.Anchors>
-                                                  </uix:TargetAnchorable>
-                                                </uix:NTypeInto.Target>
-                                                <uix:NTypeInto.Text>
-                                                  <InArgument x:TypeArguments="x:String">
-                                                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_71">
-                                                      <CSharpValue.Result>
-                                                        <OutArgument x:TypeArguments="x:String" />
-                                                      </CSharpValue.Result>currentDataRow["Quantity"].ToString()</CSharpValue>
-                                                  </InArgument>
-                                                </uix:NTypeInto.Text>
-                                              </uix:NTypeInto>
-                                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Priice'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="NTypeInto_10" InteractionMode="DebuggerApi" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
-                                                <uix:NTypeInto.Target>
-                                                  <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="d78322c8-3811-4549-894c-376539479649" ContentHash="t8bZOy-28UGF8MrV9lqy2w" CvTextArea="840, 739, 82, 20" CvTextArgument="111.2832" CvType="Text" DesignTimeRectangle="816, 732, 113, 36" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='newRowEachAmountInput' tag='INPUT' type='text' class='k-textbox has-full-width text-right ng-isolate-scope ng-dirty ng-not-empty ng-valid ng-valid-required ng-touched k-valid' aaname='' /&gt;" Guid="f8484b74-5285-4c00-8ce3-096e792d0605" InformativeScreenshot="b986e76a578dc81690f28020f12e6290.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/dukm-FoVBEGeBWgWodS9wQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - 817714' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
-                                                    <uix:TargetAnchorable.Anchors>
-                                                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                                                        <uix:Target CVScreenId="d78322c8-3811-4549-894c-376539479649" CvElementArea="503, 731, 153, 39" CvTextArea="514, 740, 127, 22" CvTextArgument="BIB (5 Gallon)" CvType="Button" DesignTimeRectangle="505, 733, 153, 36" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='newRowUofMInput_input' tag='INPUT' type='text' class='k-input has-full-width ng-pristine ng-untouched k-valid ng-not-empty ng-valid ng-valid-required' placeholder='Select Unit of Measure' aaname='' /&gt;" Guid="943901f0-add7-4816-b9bf-ff34e199aa98" SearchSteps="FuzzySelector, CV" />
-                                                      </scg:List>
-                                                    </uix:TargetAnchorable.Anchors>
-                                                  </uix:TargetAnchorable>
-                                                </uix:NTypeInto.Target>
-                                                <uix:NTypeInto.Text>
-                                                  <InArgument x:TypeArguments="x:String">
-                                                    <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_72">
-                                                      <CSharpValue.Result>
-                                                        <OutArgument x:TypeArguments="x:String" />
-                                                      </CSharpValue.Result>currentDataRow["Amount"].ToString()</CSharpValue>
-                                                  </InArgument>
-                                                </uix:NTypeInto.Text>
-                                              </uix:NTypeInto>
-                                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="3" DisplayName="Click 'Add(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,216" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="DebuggerApi" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
-                                                <uix:NClick.Target>
-                                                  <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="4d6a1c10-79e4-4360-baa8-a441b9d1b5de" CvElementArea="964, 643, 62, 39" CvTextArea="977, 652, 33, 16" CvTextArgument="Add" CvType="Button" DesignTimeRectangle="966, 644, 58, 36" DesignTimeScaleFactor="1.25" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='newRowButtonsContainer' tag='BUTTON' type='' class='btn btn-default grid-add-row-button' aaname='Add' check:innerText='Add' /&gt;" Guid="73a214e1-da83-4231-9723-f0d0d101ce14" InformativeScreenshot="54c2e81c9e10a318cb9a2f38760d6262.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
-                                                </uix:NClick.Target>
-                                                <uix:NClick.VerifyOptions>
-                                                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                                                    <uix:VerifyExecutionOptions.Retry>
-                                                      <InArgument x:TypeArguments="x:Boolean" />
-                                                    </uix:VerifyExecutionOptions.Retry>
-                                                    <uix:VerifyExecutionOptions.Timeout>
-                                                      <InArgument x:TypeArguments="x:Double" />
-                                                    </uix:VerifyExecutionOptions.Timeout>
-                                                  </uix:VerifyExecutionOptions>
-                                                </uix:NClick.VerifyOptions>
-                                              </uix:NClick>
-                                            </Sequence>
-                                          </If.Else>
-                                        </If>
-                                      </Sequence>
-                                    </ActivityAction>
-                                  </ui:ForEach.Body>
-                                  <ui:ForEach.Values>
-                                    <InArgument x:TypeArguments="sc1:IEnumerable">
-                                      <CSharpValue x:TypeArguments="sc1:IEnumerable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_66">
-                                        <CSharpValue.Result>
-                                          <OutArgument x:TypeArguments="sc1:IEnumerable" />
-                                        </CSharpValue.Result>ConvertedLineItemDataTable.Rows</CSharpValue>
+                                <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="AddOtherVendorLines - Invoke Workflow File (Restaurent365\\AddOtherVendorLines.xaml)" sap:VirtualizedContainerService.HintSize="382,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_10" UnSafe="False" WorkflowFileName="Restaurent365\\AddOtherVendorLines.xaml">
+                                  <ui:InvokeWorkflowFile.Arguments>
+                                    <InArgument x:TypeArguments="ui:UiElement" x:Key="Browser_Restaurent365">
+                                      <CSharpValue x:TypeArguments="ui:UiElement" sap2010:WorkflowViewState.IdRef="CSharpValue`1_168">Browser_Restaurent365</CSharpValue>
                                     </InArgument>
-                                  </ui:ForEach.Values>
-                                  <sap:WorkflowViewStateService.ViewState>
-                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                                    </scg:Dictionary>
-                                  </sap:WorkflowViewStateService.ViewState>
-                                </ui:ForEach>
+                                    <InArgument x:TypeArguments="sd:DataTable" x:Key="ConvertedLineItemDataTable">
+                                      <CSharpValue x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpValue`1_169">ConvertedLineItemDataTable</CSharpValue>
+                                    </InArgument>
+                                    <OutArgument x:TypeArguments="x:String" x:Key="lineExceptionOut">
+                                      <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_41">exception</CSharpReference>
+                                    </OutArgument>
+                                  </ui:InvokeWorkflowFile.Arguments>
+                                </ui:InvokeWorkflowFile>
                               </Sequence>
                             </If.Else>
                           </If>
@@ -1998,7 +1423,7 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                   <x:Boolean x:Key="IsPinned">False</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Fatal">
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Trace">
                 <ui:LogMessage.Message>
                   <InArgument x:TypeArguments="x:Object">
                     <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_31">
