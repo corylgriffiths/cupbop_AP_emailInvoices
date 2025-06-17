@@ -172,7 +172,7 @@
       <AssemblyReference>ExtendedExtractionRe.dRmo532HMfI1pZZQ41DUP6G3</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ConvertLineItemFromMappings" sap:VirtualizedContainerService.HintSize="1443,3744" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ConvertLineItemFromMappings" sap:VirtualizedContainerService.HintSize="920,3744" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="SourceMappingTable" />
       <Variable x:TypeArguments="x:Boolean" Default="False" Name="hasLineItemNumber" />
@@ -318,7 +318,7 @@
               </Assign.To>
               <Assign.Value>
                 <InArgument x:TypeArguments="sd:DataRow">
-                  <CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_74" xml:space="preserve">SourceMappingTable.AsEnumerable().Where(row =&gt; 
+                  <CSharpValue x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpValue`1_84" xml:space="preserve">SourceMappingTable.AsEnumerable().Where(row =&gt; 
 	(
 	isJFC == true &amp;&amp;
 	currentIinetems.ItemsPartNumber.ToString() != ""  &amp;&amp; row.Field&lt;string&gt;("VendorItemNumber") !="" &amp;&amp;
@@ -327,7 +327,7 @@
 	(
 	isJFC == false &amp;&amp;
 	currentIinetems.ItemsDescription.ToString() != ""  &amp;&amp; row.Field&lt;string&gt;("VendorItemNameOnTheInvoice") !="" &amp;&amp;
-	currentIinetems.ItemsDescription.ToString().ToLower().Replace(" ", "").Contains(row.Field&lt;string&gt;("VendorItemNameOnTheInvoice").ToLower().Replace(" ", "")) == true)
+	currentIinetems.ItemsDescription.ToString().ToLower().Replace(" ", "").Replace("-", "").Contains(row.Field&lt;string&gt;("VendorItemNameOnTheInvoice").ToLower().Replace(" ", "").Replace("-", "")) == true)
 ).FirstOrDefault()</CSharpValue>
                 </InArgument>
               </Assign.Value>
