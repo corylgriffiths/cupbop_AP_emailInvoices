@@ -170,9 +170,10 @@
       <AssemblyReference>ExtendedExtractionRe.vNclvAWfrE1cspXj1K4Quh2</AssemblyReference>
       <AssemblyReference>ExtendedExtractionRe.Qax3e4PeJcF1MIsgj197uIu3</AssemblyReference>
       <AssemblyReference>ExtendedExtractionRe.dRmo532HMfI1pZZQ41DUP6G3</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.YbjN5SbMOP1jUlww2Y1uwt2</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ConvertLineItemFromMappings" sap:VirtualizedContainerService.HintSize="920,3744" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ConvertLineItemFromMappings" sap:VirtualizedContainerService.HintSize="1555,3650" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="SourceMappingTable" />
       <Variable x:TypeArguments="x:Boolean" Default="False" Name="hasLineItemNumber" />
@@ -184,15 +185,15 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:BuildDataTable DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="506,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Description&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Quantity&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Amount&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;SplitUofM&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;">
+    <ui:BuildDataTable DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="596,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Description&quot; msdata:Caption=&quot;&quot; minOccurs=&quot;0&quot;&gt;&#xA;                  &lt;xs:simpleType&gt;&#xA;                    &lt;xs:restriction base=&quot;xs:string&quot;&gt;&#xA;                      &lt;xs:maxLength value=&quot;100&quot; /&gt;&#xA;                    &lt;/xs:restriction&gt;&#xA;                  &lt;/xs:simpleType&gt;&#xA;                &lt;/xs:element&gt;&#xA;                &lt;xs:element name=&quot;Quantity&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Amount&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;SplitUofM&quot; msdata:Caption=&quot;&quot; type=&quot;xs:string&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;">
       <ui:BuildDataTable.DataTable>
         <OutArgument x:TypeArguments="sd:DataTable">
           <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_6">LineItemDataTable</CSharpReference>
         </OutArgument>
       </ui:BuildDataTable.DataTable>
     </ui:BuildDataTable>
-    <ui:Comment sap:VirtualizedContainerService.HintSize="506,107" sap2010:WorkflowViewState.IdRef="Comment_1" Text="//currentDocumentAttachment - for actual attachment" />
-    <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor62InvoicesLineItemsV18" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data - DuModel2" DocType="a02a76f9-bc47-f011-8f7c-6045bdf0504f" GenerateData="True" sap:VirtualizedContainerService.HintSize="506,340" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_1" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" TimeoutInSeconds="3600">
+    <ui:Comment sap:VirtualizedContainerService.HintSize="596,107" sap2010:WorkflowViewState.IdRef="Comment_1" Text="//currentDocumentAttachment - for actual attachment" />
+    <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor62InvoicesLineItemsV18" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data - DuModel2" DocType="a02a76f9-bc47-f011-8f7c-6045bdf0504f" GenerateData="True" sap:VirtualizedContainerService.HintSize="596,389" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_1" ModernDocumentTypeId="761aeb2b-ea30-f011-a5f1-002248237dcc" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" ProjectVersionNumber="18" TimeoutInSeconds="3600">
       <p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
         <InArgument x:TypeArguments="s:Nullable(x:Int32)">
           <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />
@@ -211,15 +212,30 @@
       <p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
         <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
       </p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
+      <p:ExtractDocumentDataWithDocumentData.ProjectTag>
+        <InArgument x:TypeArguments="x:String">
+          <Literal x:TypeArguments="x:String" Value="" />
+        </InArgument>
+      </p:ExtractDocumentDataWithDocumentData.ProjectTag>
+      <p:ExtractDocumentDataWithDocumentData.RuntimeAssetPath>
+        <InArgument x:TypeArguments="x:String">
+          <Literal x:TypeArguments="x:String" Value="" />
+        </InArgument>
+      </p:ExtractDocumentDataWithDocumentData.RuntimeAssetPath>
+      <p:ExtractDocumentDataWithDocumentData.RuntimeTenantUrl>
+        <InArgument x:TypeArguments="x:String">
+          <Literal x:TypeArguments="x:String" Value="" />
+        </InArgument>
+      </p:ExtractDocumentDataWithDocumentData.RuntimeTenantUrl>
     </p:ExtractDocumentDataWithDocumentData>
-    <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="506,1016" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
+    <ui:IfElseIfV2 DisplayName="If JFC" sap:VirtualizedContainerService.HintSize="596,809" sap2010:WorkflowViewState.IdRef="IfElseIfV2_1">
       <ui:IfElseIfV2.Condition>
         <InArgument x:TypeArguments="x:Boolean">
           <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_54">currentVendorName == "JFC International"</CSharpValue>
         </InArgument>
       </ui:IfElseIfV2.Condition>
       <ui:IfElseIfV2.Else>
-        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,89" sap2010:WorkflowViewState.IdRef="Sequence_16">
+        <Sequence DisplayName="Else create an new exeption for the new mapping" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_16">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -236,13 +252,13 @@
               </InArgument>
             </ui:IfElseIfBlock.Condition>
             <ui:IfElseIfBlock.Then>
-              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,237" sap2010:WorkflowViewState.IdRef="Sequence_14">
+              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="416,219" sap2010:WorkflowViewState.IdRef="Sequence_14">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:ReadCsvFile PathResource="{x:Null}" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read Bot Config" FilePath="ConfigFiles\\Coca-Cola of Southern Utah item list 1.csv" sap:VirtualizedContainerService.HintSize="434,177" sap2010:WorkflowViewState.IdRef="ReadCsvFile_7">
+                <ui:ReadCsvFile PathResource="{x:Null}" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read Bot Config" FilePath="ConfigFiles\\Coca-Cola of Southern Utah item list 1.csv" sap:VirtualizedContainerService.HintSize="382,159" sap2010:WorkflowViewState.IdRef="ReadCsvFile_7">
                   <ui:ReadCsvFile.DataTable>
                     <OutArgument x:TypeArguments="sd:DataTable">
                       <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_25">SourceMappingTable</CSharpReference>
@@ -255,13 +271,14 @@
         </sc:BindingList>
       </ui:IfElseIfV2.ElseIfs>
       <ui:IfElseIfV2.Then>
-        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,465" sap2010:WorkflowViewState.IdRef="Sequence_15">
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,447" sap2010:WorkflowViewState.IdRef="Sequence_15">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <ui:ReadCsvFile PathResource="{x:Null}" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read Bot Config" FilePath="ConfigFiles\\JFC international item list 1.csv" sap:VirtualizedContainerService.HintSize="434,186" sap2010:WorkflowViewState.IdRef="ReadCsvFile_6">
+          <ui:ReadCsvFile PathResource="{x:Null}" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read Bot Config" FilePath="ConfigFiles\\JFC international item list 1.csv" sap:VirtualizedContainerService.HintSize="434,168" sap2010:WorkflowViewState.IdRef="ReadCsvFile_6">
             <ui:ReadCsvFile.DataTable>
               <OutArgument x:TypeArguments="sd:DataTable">
                 <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_22">SourceMappingTable</CSharpReference>
@@ -291,13 +308,13 @@
         </Sequence>
       </ui:IfElseIfV2.Then>
     </ui:IfElseIfV2>
-    <ui:ForEach x:TypeArguments="uisasecb:Items" CurrentIndex="{x:Null}" DisplayName="For Loop - Extract Document Data - DuModel2 - For Each currentIinetems" sap:VirtualizedContainerService.HintSize="506,2166" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
+    <ui:ForEach x:TypeArguments="uisasecb:Items" CurrentIndex="{x:Null}" DisplayName="For Loop - Extract Document Data - DuModel2 - For Each currentIinetems" sap:VirtualizedContainerService.HintSize="596,2230" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
       <ui:ForEach.Body>
         <ActivityAction x:TypeArguments="uisasecb:Items">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="uisasecb:Items" Name="currentIinetems" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="504,2045" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="562,2093" sap2010:WorkflowViewState.IdRef="Sequence_8">
             <Sequence.Variables>
               <Variable x:TypeArguments="sd:DataRow" Name="tempCurrentLine" />
               <Variable x:TypeArguments="x:String" Name="tmpCaseOrPAck" />
@@ -310,7 +327,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <Assign sap:VirtualizedContainerService.HintSize="470,115" sap2010:WorkflowViewState.IdRef="Assign_2">
+            <Assign sap:VirtualizedContainerService.HintSize="528,115" sap2010:WorkflowViewState.IdRef="Assign_2">
               <Assign.To>
                 <OutArgument x:TypeArguments="sd:DataRow">
                   <CSharpReference x:TypeArguments="sd:DataRow" sap2010:WorkflowViewState.IdRef="CSharpReference`1_7">tempCurrentLine</CSharpReference>
@@ -332,14 +349,14 @@
                 </InArgument>
               </Assign.Value>
             </Assign>
-            <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="470,1870" sap2010:WorkflowViewState.IdRef="IfElseIfV2_3">
+            <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="528,1918" sap2010:WorkflowViewState.IdRef="IfElseIfV2_3">
               <ui:IfElseIfV2.Condition>
                 <InArgument x:TypeArguments="x:Boolean">
                   <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_76">tempCurrentLine != null</CSharpValue>
                 </InArgument>
               </ui:IfElseIfV2.Condition>
               <ui:IfElseIfV2.Else>
-                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="468,89" sap2010:WorkflowViewState.IdRef="Sequence_22">
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_22">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>

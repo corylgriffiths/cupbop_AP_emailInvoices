@@ -48,11 +48,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -96,11 +92,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -128,11 +120,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -176,11 +164,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -220,11 +204,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -264,11 +244,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -296,11 +272,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -328,11 +300,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -360,11 +328,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -408,11 +372,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -492,11 +452,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -524,11 +480,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -580,11 +532,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -624,11 +572,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -656,11 +600,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -688,11 +628,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -720,11 +656,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -752,11 +684,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -784,11 +712,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -843,11 +767,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
-            "ValueSource": "Constant"
-          },
-          "SolutionsSupport": {
-            "Value": "true",
+            "Value": "2.2",
             "ValueSource": "Constant"
           }
         },
@@ -871,7 +791,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -942,7 +862,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -974,7 +894,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -1006,7 +926,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -1042,7 +962,7 @@
             "ValueSource": "Property"
           },
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -1137,7 +1057,7 @@
             "ValueSource": "Property"
           },
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -1232,7 +1152,7 @@
             "ValueSource": "Property"
           },
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -1327,7 +1247,7 @@
             "ValueSource": "Property"
           },
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -1418,7 +1338,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -1450,7 +1370,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -1559,7 +1479,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -1630,7 +1550,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -1701,7 +1621,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -1772,7 +1692,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -1843,7 +1763,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -1875,7 +1795,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -1907,7 +1827,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -1978,7 +1898,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2010,7 +1930,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2042,7 +1962,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2113,7 +2033,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2184,7 +2104,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2255,7 +2175,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2326,7 +2246,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2358,7 +2278,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2390,7 +2310,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2461,7 +2381,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2493,7 +2413,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2525,7 +2445,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2557,7 +2477,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2628,7 +2548,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2664,7 +2584,7 @@
             "ValueSource": "Property"
           },
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2751,7 +2671,7 @@
             "ValueSource": "Property"
           },
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2838,7 +2758,7 @@
             "ValueSource": "Property"
           },
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2921,7 +2841,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -2992,7 +2912,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -3063,7 +2983,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -3134,7 +3054,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -3205,7 +3125,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -3245,8 +3165,8 @@
                 "ValueSource": "Constant"
               },
               "ObjectName": {
-                "Value": "ObjectName",
-                "ValueSource": "Property"
+                "Value": "CuratedFolder",
+                "ValueSource": "Constant"
               },
               "DisplayLabel": {
                 "Value": "FullName",
@@ -3314,7 +3234,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -3385,7 +3305,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -3460,7 +3380,7 @@
             "ValueSource": "Property"
           },
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -3551,7 +3471,7 @@
             "ValueSource": "Property"
           },
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -3638,7 +3558,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -3670,7 +3590,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -3702,7 +3622,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -3734,7 +3654,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -3766,7 +3686,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -3798,7 +3718,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -3869,7 +3789,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -3940,7 +3860,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4011,7 +3931,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4089,8 +4009,8 @@
                 "ValueSource": "Constant"
               },
               "ObjectName": {
-                "Value": "ObjectName",
-                "ValueSource": "Property"
+                "Value": "CuratedFolder",
+                "ValueSource": "Constant"
               },
               "DisplayLabel": {
                 "Value": "FullName",
@@ -4120,7 +4040,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4191,7 +4111,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4231,8 +4151,8 @@
                 "ValueSource": "Constant"
               },
               "ObjectName": {
-                "Value": "ObjectName",
-                "ValueSource": "Property"
+                "Value": "CuratedFolder",
+                "ValueSource": "Constant"
               },
               "DisplayLabel": {
                 "Value": "FullName",
@@ -4300,7 +4220,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4371,7 +4291,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4442,7 +4362,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4474,7 +4394,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4506,7 +4426,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4577,7 +4497,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4609,7 +4529,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4641,7 +4561,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4673,7 +4593,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4709,7 +4629,7 @@
             "ValueSource": "Property"
           },
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4753,7 +4673,7 @@
             "ValueSource": "Property"
           },
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4832,7 +4752,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4864,7 +4784,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4896,7 +4816,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4928,7 +4848,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -4999,7 +4919,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -5108,7 +5028,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -5179,7 +5099,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -5250,7 +5170,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -5321,7 +5241,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -5353,7 +5273,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -5385,7 +5305,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -5456,7 +5376,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -5488,7 +5408,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -5520,7 +5440,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -5552,7 +5472,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -5584,7 +5504,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -5655,7 +5575,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -5691,7 +5611,7 @@
             "ValueSource": "Property"
           },
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -5832,7 +5752,7 @@
             "ValueSource": "Property"
           },
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -5977,7 +5897,7 @@
             "ValueSource": "Property"
           },
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -6072,7 +5992,7 @@
             "ValueSource": "Property"
           },
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -6163,7 +6083,7 @@
             "ValueSource": "Property"
           },
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -6250,7 +6170,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -6282,7 +6202,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -6314,7 +6234,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -6346,7 +6266,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -6417,7 +6337,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -6488,7 +6408,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -6520,7 +6440,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -6591,7 +6511,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -6662,7 +6582,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -6733,7 +6653,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -6804,7 +6724,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -6875,7 +6795,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -6946,7 +6866,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -7017,7 +6937,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -7088,7 +7008,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -7159,7 +7079,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -7230,7 +7150,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -7301,7 +7221,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -7372,7 +7292,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -7443,7 +7363,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -7514,7 +7434,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {
@@ -7585,7 +7505,7 @@
         },
         "Arguments": {
           "BindingsVersion": {
-            "Value": "2.1",
+            "Value": "2.2",
             "ValueSource": "Constant"
           },
           "Connector": {

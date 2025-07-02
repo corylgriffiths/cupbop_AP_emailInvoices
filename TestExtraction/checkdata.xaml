@@ -1,0 +1,266 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="checkdata" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataValidation;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisad1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesV18.Bundle;assembly=ExtendedExtractionRe.vNclvAWfrE1cspXj1K4Quh2" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="validateData" Type="InOutArgument(uisad:CreatedValidationAction(uisasecb:CupBopAPInvoiceProcessor62InvoicesV18))" />
+    <x:Property Name="VendorSearchDataRow" Type="InOutArgument(sd:DataRow)" />
+    <x:Property Name="ReportTable" Type="InOutArgument(sd:DataTable)" />
+    <x:Property Name="LineMappingTable" Type="InOutArgument(sd:DataTable)" />
+    <x:Property Name="BotConfigTable" Type="InOutArgument(sd:DataTable)" />
+    <x:Property Name="LocationTable" Type="InOutArgument(sd:DataTable)" />
+    <x:Property Name="currentDocumentData0" Type="InOutArgument(uisad1:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesV18))" />
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>Microsoft.CodeAnalysis</x:String>
+      <x:String>Microsoft.CodeAnalysis.VisualBasic</x:String>
+      <x:String>Newtonsoft.Json</x:String>
+      <x:String>Newtonsoft.Json.Linq</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Collections.Specialized</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.CSV</x:String>
+      <x:String>UiPath.CSV.Activities</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.DataExtraction</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Dom</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Results</x:String>
+      <x:String>UiPath.Excel</x:String>
+      <x:String>UiPath.GSuite.Activities</x:String>
+      <x:String>UiPath.GSuite.Activities.Filters</x:String>
+      <x:String>UiPath.GSuite.Activities.Gmail.Enums</x:String>
+      <x:String>UiPath.GSuite.Activities.Gmail.Filters</x:String>
+      <x:String>UiPath.GSuite.Activities.Gmail.Models</x:String>
+      <x:String>UiPath.GSuite.Gmail.Enums</x:String>
+      <x:String>UiPath.GSuite.Gmail.Models</x:String>
+      <x:String>UiPath.GSuite.Models</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DocumentClassification</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesV18.Bundle</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Shared.Activities.Business</x:String>
+      <x:String>UiPath.Shared.Activities.ConnectionService.Contracts</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.Shared.Api.Google.Gmail.Models</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.DataValidation</x:String>
+      <x:String>UiPath.IntelligentOCR.Actions.Abstractions</x:String>
+      <x:String>UiPath.DocumentProcessing.Contracts.Actions</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>ExtendedExtractionRe.P0vq02QWlvA18UqeG1jcECc</AssemblyReference>
+      <AssemblyReference>Microsoft.CodeAnalysis</AssemblyReference>
+      <AssemblyReference>Microsoft.CodeAnalysis.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.CodeAnalysis.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.PowerShell.Commands.Diagnostics</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Registry</AssemblyReference>
+      <AssemblyReference>Newtonsoft.Json</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.Concurrent</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Collections.Specialized</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.FileVersionInfo</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.PerformanceCounter</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.StackTrace</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.MemoryMappedFiles</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.Pipes</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.Security</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Private.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Resources.Writer</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.VisualC</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Claims</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.Pkcs</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.ProtectedData</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Security.Principal.Windows</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.Encodings.Web</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Threading</AssemblyReference>
+      <AssemblyReference>System.Threading.AccessControl</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Parallel</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xml.ReaderWriter</AssemblyReference>
+      <AssemblyReference>System.Xml.XPath.XDocument</AssemblyReference>
+      <AssemblyReference>UiPath.CodedWorkflows</AssemblyReference>
+      <AssemblyReference>UiPath.DocumentProcessing.Contracts</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.StudioWeb.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.GwoC92mSffN1cn8GO4ZwEIG4</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.sLGZF4S51QR17qC4P4rLwWD</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.c5oIi2y5DSS1X38CH1WjMxL</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.OD1Mk2dhtxG1Oha9p3F8cQf</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.9tGQp1YAW0C1IesAe2o7adc</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.ybSHEol1NC15NTD53v9dtE1</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.FMG4H3lwW1F1EgI9x3K9BTQ1</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.tLOAD4s0R8F1oAwRZ2XR1uZ4</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.JNQUHsDYrK1nGlnh3tLPEM1</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.Hx1qP4BS7bC1FiAu9smNFt</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.cqGZXg4WFR1ecai41Hr6fv2</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.7RqHlPq0KM1dxhyu4Ftbo2</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.JLO723EXf4L1eyarq2T9VFO</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.zvC3j3R4IRE1IETyfYOHou3</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.ltwvsVkLD1tU21N2Afzru</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.DBLRi3nju7G1RnVVq1pw7BW2</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.PjGYe3Sr6mN1V9Qp24lQ4cM</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.Od5kO2abLMS1LYItV29YvPs</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.lnGOM1h89dB1cdfdV3cbWe</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.w4S2c4eN44M1pxiUv2jq7fr</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.10Y1c2IDlmB10BVjK3FrFA52</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.cliwo1EvNOF1Foj4J2FYoJ81</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.zYFNuoq9NN1iPyfV2e1ino2</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.i1PL610vQjK1jCXlT3d0IY51</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.vNclvAWfrE1cspXj1K4Quh2</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.Qax3e4PeJcF1MIsgj197uIu3</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.dRmo532HMfI1pZZQ41DUP6G3</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="2278,855.024" sap2010:WorkflowViewState.IdRef="Sequence_72">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="check data" sap:VirtualizedContainerService.HintSize="450,371" sap2010:WorkflowViewState.IdRef="Sequence_71">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uisad:CreateValidationAction x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor62InvoicesV18" BucketId="{x:Null}" BucketName="{x:Null}" ContainsDocument="{x:Null}" ContainsTaxonomy="{x:Null}" FieldsValidationConfidence="{x:Null}" OrchestratorFolderId="{x:Null}" OriginalFilePath="{x:Null}" ActionCatalogue="default_du_actions" ActionPriority="Medium" ActionTitle="validate data" DisplayName="Create Validation Task" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="CreateValidationAction`1_1" OrchestratorBucketName="du_storage_bucket" OrchestratorFolderName="cory.griffiths@connectwithsky.com's workspace">
+        <uisad:CreateValidationAction.AutomaticExtractionResults>
+          <InArgument x:TypeArguments="uisad1:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesV18)">
+            <CSharpValue x:TypeArguments="uisad1:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesV18)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_421">currentDocumentData0</CSharpValue>
+          </InArgument>
+        </uisad:CreateValidationAction.AutomaticExtractionResults>
+        <uisad:CreateValidationAction.CreatedValidationAction>
+          <OutArgument x:TypeArguments="uisad:CreatedValidationAction(uisasecb:CupBopAPInvoiceProcessor62InvoicesV18)">
+            <CSharpReference x:TypeArguments="uisad:CreatedValidationAction(uisasecb:CupBopAPInvoiceProcessor62InvoicesV18)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_82">validateData</CSharpReference>
+          </OutArgument>
+        </uisad:CreateValidationAction.CreatedValidationAction>
+      </uisad:CreateValidationAction>
+      <uisad:WaitForValidationAction x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor62InvoicesV18" RemoveDataAfterProcessing="{x:Null}" ValidatedExtractionResults="{x:Null}" WaitItemDataObject="{x:Null}" DisplayName="Wait for Validation Task and Resume" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="WaitForValidationAction`1_1">
+        <uisad:WaitForValidationAction.CreatedValidationAction>
+          <InArgument x:TypeArguments="uisad:CreatedValidationAction(uisasecb:CupBopAPInvoiceProcessor62InvoicesV18)">
+            <CSharpValue x:TypeArguments="uisad:CreatedValidationAction(uisasecb:CupBopAPInvoiceProcessor62InvoicesV18)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_422">validateData</CSharpValue>
+          </InArgument>
+        </uisad:WaitForValidationAction.CreatedValidationAction>
+      </uisad:WaitForValidationAction>
+    </Sequence>
+  </Sequence>
+</Activity>

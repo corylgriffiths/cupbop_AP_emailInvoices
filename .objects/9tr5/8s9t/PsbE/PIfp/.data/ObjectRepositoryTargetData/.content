@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AsrX7Qn_Q0uj6ZawoFlUvg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" DesignTimeRectangle="0, 0, 0, 0" Guid="51ee0164-a07d-48fc-8dd3-82d34af3c6cf" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - INV-68261' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="908, 121, 300, 59" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-role='button' tag='DIV' type='' class='' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:text='×&amp;#xA;  &amp;#xA;    &amp;#xA;    &amp;#xA;    &amp;#xA;    Saved Successfully' /&gt;" Guid="a4e106a6-e682-47b8-a31f-afc50896b1aa" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6b0531f9c075524d17cd7a589c7246c3.png" xmlns="">0z0RXIf3ps0uqybRksZTgqg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

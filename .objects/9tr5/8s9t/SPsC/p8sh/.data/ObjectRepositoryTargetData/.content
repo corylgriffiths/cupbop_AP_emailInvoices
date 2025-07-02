@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="aFJpshejtk60RtZwsviiRg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" DesignTimeRectangle="24, 177, 158, 27" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='                                         Save                                     ' tag='A' /&gt;" Guid="9528ef3a-8077-4e1f-9e51-9743654e17a5" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - INV-68261' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="c682c405164183426383e45c119ef380.png" xmlns="">0bXasUE7zB0aaD15Z-WlQbw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

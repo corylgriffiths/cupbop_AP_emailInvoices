@@ -12,23 +12,7 @@
       "Path": "Gmail/ProcessGmails.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "currentEmailAttachments&Sequence_4",
-        "folderExists&Sequence_4",
-        "variable1&Sequence_27",
-        "currentInvoiceIndex&Sequence_27",
-        "VendorSearchDataRow&Sequence_6",
-        "tempAttachmentPath&Sequence_6",
-        "tempFilePath&Sequence_6",
-        "currentShipLocation&Sequence_12",
-        "invoiceException&Sequence_12",
-        "currentVendorName&Sequence_12",
-        "tmpItemDesc&Sequence_55",
-        "tempLocationExists&Sequence_13",
-        "locationList&Sequence_3",
-        "currentDocumentData0&Sequence_1",
-        "configPlain&Sequence_1",
         "configObject&Sequence_1",
-        "vendorList&Sequence_1",
         "locationList&Sequence_1",
         "ReportTable&Sequence_1",
         "StatusNotProcessed&Sequence_1",
@@ -39,7 +23,21 @@
         "dateToProcessEmailsAfter&Sequence_1",
         "tempNoOfEmailsProcessed&Sequence_1",
         "LocationTable&Sequence_1",
-        "stringList&Sequence_19"
+        "currentDocumentData0&Sequence_1",
+        "stringList&Sequence_19",
+        "currentEmailAttachments&Sequence_4",
+        "folderExists&Sequence_4",
+        "variable1&Sequence_27",
+        "currentInvoiceIndex&Sequence_27",
+        "VendorSearchDataRow&Sequence_6",
+        "tempFilePath&Sequence_6",
+        "currentShipLocation&Sequence_12",
+        "invoiceException&Sequence_12",
+        "currentVendorName&Sequence_12",
+        "validateData&Sequence_12",
+        "tmpItemDesc&Sequence_55",
+        "tempLocationExists&Sequence_13",
+        "locationList&Sequence_3"
       ],
       "ArgumentsSectionElementsOrder": [
         "Browser_Restaurent365"
@@ -56,12 +54,10 @@
         "tmpDDLocationValue&Sequence_27",
         "isLoggedin&Sequence_1",
         "outputElement&Sequence_1",
-        "LineItemMappingTable&Sequence_1",
         "isNewVendorPopup&Sequence_5",
         "variable1&Sequence_5",
         "currentPageURL&Sequence_5",
         "ConvertedLineItemDataTable&Sequence_5",
-        "tmpR365Location&Sequence_64",
         "accountCode&Sequence_6",
         "extractedAccountCodeForSLCC&Sequence_55",
         "lineItemNotExists&Sequence_7",
@@ -170,9 +166,66 @@
         "tempCurrentLine&Sequence_8"
       ],
       "ArgumentsSectionElementsOrder": [
-        "currentDocumentAttachment",
         "currentVendorName",
-        "LineItemDataTable"
+        "LineItemDataTable",
+        "currentDocumentAttachment"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "TestExtraction/checkdata.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "validateData",
+        "VendorSearchDataRow",
+        "ReportTable",
+        "LineMappingTable",
+        "BotConfigTable",
+        "LocationTable",
+        "currentDocumentData0"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Restaurent365/AddOtherVendorLines.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "AccountText&Sequence_23",
+        "outputElement&Sequence_1",
+        "isNewVendorPopup&Sequence_2",
+        "variable1&Sequence_2",
+        "currentPageURL&Sequence_2",
+        "lineItemNotExists&Sequence_23"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "Browser_Restaurent365",
+        "ConvertedLineItemDataTable",
+        "lineExceptionOut"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Restaurent365/AddR365Lines.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "currentDocumentDataR365&Sequence_1",
+        "outputElement&Sequence_1",
+        "isNewVendorPopup&Sequence_2",
+        "variable1&Sequence_2",
+        "currentPageURL&Sequence_2",
+        "ConvertedLineItemDataTable&Sequence_2",
+        "tmpR365Location&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "currentGmailAttachmentLocalItem",
+        "addR365LineException",
+        "LocationList",
+        "VendorDataRow",
+        "Browser_Restaurent365"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
