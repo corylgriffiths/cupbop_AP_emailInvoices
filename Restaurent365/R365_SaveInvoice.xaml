@@ -215,20 +215,20 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Sequence - Save Invoic details" sap:VirtualizedContainerService.HintSize="1090,1257" sap2010:WorkflowViewState.IdRef="Sequence_44">
+    <Sequence DisplayName="Sequence - Save Invoic details" sap:VirtualizedContainerService.HintSize="1090,1259" sap2010:WorkflowViewState.IdRef="Sequence_44">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice - INV-68261" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1056,1174" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="2b74db17-77bc-4a30-8eae-0b1c6d2bc84a" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="invoice screen" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1056,1176" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="2b74db17-77bc-4a30-8eae-0b1c6d2bc84a" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1022,934" sap2010:WorkflowViewState.IdRef="Sequence_92">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1022,936" sap2010:WorkflowViewState.IdRef="Sequence_92">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -267,7 +267,7 @@
                         <uix:NClick.Target>
                           <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="0625b26c-27e2-4027-b063-918959a0328e" CvTextArea="43, 183, 36, 14" CvTextArgument="Save" CvType="Text" DesignTimeRectangle="44, 182, 34, 17" ElementType="Text" FullSelectorArgument="&lt;webctrl class='ng-binding' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;ui-view&amp;gt;div&amp;gt;r365-forms-ribbon&amp;gt;div&amp;gt;div&amp;gt;nav&amp;gt;div&amp;gt;div&amp;gt;ul&amp;gt;li&amp;gt;ul&amp;gt;li&amp;gt;a&amp;gt;span' parentid='Save' tag='SPAN' /&gt;" Guid="fbb6dbe1-eba9-42da-9102-1e0d86a1e6ef" InformativeScreenshot="15898d2e6ab4010b77e14a2b3c13555d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - INV-68261' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CVScreenId="0625b26c-27e2-4027-b063-918959a0328e" CvElementArea="72, 136, 19, 20" CvTextArea="37, 138, 36, 14" CvTextArgument="Save" CvType="ArrowButton" DesignTimeRectangle="23, 121, 78, 50" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='A' type='' class='dropdown-toggle' aaname='                                 Save                                                              ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Save' /&gt;" Guid="af304057-2668-467a-a46e-fce85885a248" SearchSteps="FuzzySelector, CV" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
@@ -310,7 +310,7 @@
           </ActivityAction>
         </uix:NApplicationCard.Body>
         <uix:NApplicationCard.TargetApp>
-          <uix:TargetApp Area="1701, 90, 2131, 1732" BrowserType="Chrome" ContentHash="sz5V8U1ZS0ecqEboK8CaQA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFLSURBVDhPzVK7SgNREN0kKFEMarRQFB+FIJJCVBTB9wNEsRA7LU5zJC5ncTXEq5Vio70/4E9Y+HkyMoHdRK1zYBjuvTNnZs7cKOo63D08R3EazIpxGipxGqpxGvrjNBTs7V/chqcIlNkkqD1Qu6A2QR2A2gA1dH1zHzUeX9pTc8lznlAFVfC7IqgpUEegRowkB2vNAytetexnsxaJ2biTl3Lj2MygFkC9g3oDte6Baxm/DWrLRxuznHaCHVAfTnIFasXJAqgLUA1Qx6CWQc3/RmAVPkF9edUlUK+gzkBdevI5qBPTKUfgGsyCOgR16jqY6rV60rRxFp1w1WNGcwQGUxZUH6h9UIMmWj1p/ryZdxFnvNPOP5HZxISvaxpUbz1p2gqNuObVBzrW2IKReCfDmU1YR+ZtjPKfHymLzHfuidNQjtNQsnNH212BbwyAxDpX6zTnAAAAAElFTkSuQmCC" InformativeScreenshot="08637f84f6f150626c2741361f74d7ea.jpg" Reference="sWPe-Uob5ka5MN8G-3WlKg/SPsCfAXi8kmHElA12k5o0Q" Selector="&lt;html app='chrome.exe' title='AP Invoice - INV-*' /&gt;" Url="https://cupbop.restaurant365.com/*" Version="V2" />
+          <uix:TargetApp Area="1693, 162, 2131, 1732" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFLSURBVDhPzVK7SgNREN0kKFEMarRQFB+FIJJCVBTB9wNEsRA7LU5zJC5ncTXEq5Vio70/4E9Y+HkyMoHdRK1zYBjuvTNnZs7cKOo63D08R3EazIpxGipxGqpxGvrjNBTs7V/chqcIlNkkqD1Qu6A2QR2A2gA1dH1zHzUeX9pTc8lznlAFVfC7IqgpUEegRowkB2vNAytetexnsxaJ2biTl3Lj2MygFkC9g3oDte6Baxm/DWrLRxuznHaCHVAfTnIFasXJAqgLUA1Qx6CWQc3/RmAVPkF9edUlUK+gzkBdevI5qBPTKUfgGsyCOgR16jqY6rV60rRxFp1w1WNGcwQGUxZUH6h9UIMmWj1p/ryZdxFnvNPOP5HZxISvaxpUbz1p2gqNuObVBzrW2IKReCfDmU1YR+ZtjPKfHymLzHfuidNQjtNQsnNH212BbwyAxDpX6zTnAAAAAElFTkSuQmCC" InformativeScreenshot="d0522a681b88949bb393f0f868f3d194.jpg" Selector="&lt;html app='chrome.exe' url='https://cupbop.restaurant365.com/#/form/APInvoiceForm/*' /&gt;" Version="V2" />
         </uix:NApplicationCard.TargetApp>
       </uix:NApplicationCard>
     </Sequence>

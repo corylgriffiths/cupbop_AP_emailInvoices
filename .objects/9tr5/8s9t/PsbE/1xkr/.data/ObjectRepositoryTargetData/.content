@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="jv94vDQKJEGBTSRaMto6MA" Reference="sWPe-Uob5ka5MN8G-3WlKg/1xkruxuEs0Kp5Dd6vIrxjw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="7f68b1a8-0ffb-47e4-b8bb-a49a7437d257" DesignTimeRectangle="113, 1000, 113, 16" ElementType="Text" FullSelectorArgument="&lt;webctrl class='ng-binding' parentid='KendoSplitter' tag='A' /&gt;" Guid="32a07170-5058-44e8-a2d5-e7101eb6767e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - 1508365' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="7f68b1a8-0ffb-47e4-b8bb-a49a7437d257" CvElementArea="35, 919, 107, 42" CvTextArea="52, 933, 72, 16" CvTextArgument="Upload File" CvType="Button" DesignTimeRectangle="38, 922, 101, 36" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='attachmentsModuleInputButton' parentid='KendoSplitter' tag='BUTTON' type='' class='k-button k-upload-button ng-binding' aaname='Upload File' matching:id='fuzzy' fuzzylevel:id='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Upload File' /&gt;" Guid="e8962123-fb1a-41aa-97a8-2c22a2883150" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.FuzzySelectorArgument>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">"&lt;webctrl class='ng-binding' parentid='KendoSplitter' tag='A' type='' aaname='"+fileName+"' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='"+fileName+"' /&gt;"</p:CSharpValue>
+        </p:InArgument>
+      </TargetAnchorable.FuzzySelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="21f9ae56fd589e6ee5c63951f7954e31.png" xmlns="">0VUr7rk2FqUWj1nbxBno9hg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

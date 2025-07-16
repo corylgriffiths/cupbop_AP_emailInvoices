@@ -180,7 +180,7 @@
       <AssemblyReference>ExtendedExtractionRe.YbjN5SbMOP1jUlww2Y1uwt2</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TextExtractionData" sap:VirtualizedContainerService.HintSize="1555,3309" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TextExtractionData" sap:VirtualizedContainerService.HintSize="1226,3269" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -210,7 +210,7 @@
         </p:ExtractDocumentDataWithDocumentData.ExtractionResults>
         <p:ExtractDocumentDataWithDocumentData.FileInput>
           <InArgument x:TypeArguments="upr:IResource">
-            <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_68">LocalResource.FromPath("C:\\Users\\Praxio\\Downloads\\2025_06_20_11_54_54.pdf")</CSharpValue>
+            <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_69">LocalResource.FromPath("C:\\Users\\Praxio\\Downloads\\INVOICE_CB1-100-2507_from_Restaurant Systems.pdf")</CSharpValue>
           </InArgument>
         </p:ExtractDocumentDataWithDocumentData.FileInput>
         <p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
@@ -275,7 +275,7 @@
         </OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="570,2407" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="570,2367" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>

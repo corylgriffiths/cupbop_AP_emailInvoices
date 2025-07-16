@@ -49,15 +49,16 @@
       "Path": "Restaurent365/ProcessInvoice.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "currentDocumentDataR365&Sequence_43",
-        "tmpLocation&Sequence_27",
-        "tmpDDLocationValue&Sequence_27",
         "isLoggedin&Sequence_1",
         "outputElement&Sequence_1",
         "isNewVendorPopup&Sequence_5",
         "variable1&Sequence_5",
         "currentPageURL&Sequence_5",
         "ConvertedLineItemDataTable&Sequence_5",
+        "fileName&Sequence_5",
+        "tmpLocation&Sequence_27",
+        "tmpDDLocationValue&Sequence_27",
+        "currentDocumentDataR365&Sequence_43",
         "accountCode&Sequence_6",
         "extractedAccountCodeForSLCC&Sequence_55",
         "lineItemNotExists&Sequence_7",
@@ -210,6 +211,65 @@
     },
     {
       "Path": "Restaurent365/AddR365Lines.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "currentDocumentDataR365&Sequence_1",
+        "outputElement&Sequence_1",
+        "isNewVendorPopup&Sequence_2",
+        "variable1&Sequence_2",
+        "currentPageURL&Sequence_2",
+        "ConvertedLineItemDataTable&Sequence_2",
+        "tmpR365Location&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "currentGmailAttachmentLocalItem",
+        "addR365LineException",
+        "LocationList",
+        "VendorDataRow",
+        "Browser_Restaurent365"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Restaurent365/R365_SaveInvoice.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "ConvertedLineItemDataTable",
+        "outputElement",
+        "Browser_Restaurent365",
+        "VendorDataRow",
+        "currentGmailAttachmentLocalItem",
+        "currentDocumentData1"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Restaurent365/AddJoltLines.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "outputElement&Sequence_1",
+        "currentDocumentDataJolt&Sequence_1",
+        "isNewVendorPopup&Sequence_2",
+        "variable1&Sequence_2",
+        "currentPageURL&Sequence_2",
+        "ConvertedLineItemDataTable&Sequence_2",
+        "tmpJoltLocation&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "currentGmailAttachmentLocalItem",
+        "LocationList",
+        "VendorDataRow",
+        "Browser_Restaurent365",
+        "addJoltLineException"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Restaurent365/Add_RestaurantSystems_LineItems.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
         "currentDocumentDataR365&Sequence_1",
