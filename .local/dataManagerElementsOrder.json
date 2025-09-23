@@ -40,6 +40,7 @@
         "locationList&Sequence_3"
       ],
       "ArgumentsSectionElementsOrder": [
+        "in_stakeholderlist",
         "Browser_Restaurent365"
       ],
       "ConstantsSectionElementsOrder": [],
@@ -99,7 +100,10 @@
       "VariablesSectionElementsOrder": [
         "currentDocumentData&Sequence_1"
       ],
-      "ArgumentsSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_StakeHolderList",
+        "argument1"
+      ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },

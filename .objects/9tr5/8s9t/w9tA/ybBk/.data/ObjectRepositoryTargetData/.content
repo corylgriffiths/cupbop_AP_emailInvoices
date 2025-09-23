@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="X1og7FHgD0ehjcV2tWPYdA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="identity.restaurant365.com/Account/Login" CVScreenId="d9fede66-d4ea-4e5f-92d5-93b9e6f0064a" CvTextArea="972, 624, 184, 27" CvTextArgument="Log in to Cupbop" CvType="Text" DesignTimeRectangle="850, 623, 428, 26" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" Guid="f6ef2080-332e-4d60-9c03-8d502a8e5baf" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d9fede66-d4ea-4e5f-92d5-93b9e6f0064a" CvElementArea="903, 680, 322, 58" CvType="InputBox" DesignTimeRectangle="904, 681, 320, 56" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='Username' tag='INPUT' /&gt;" Guid="ba2de99e-be32-4fb1-99c5-d808b7782ead" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="23a28bc9a2d274e3f5edd97e27cbe1ff.png" xmlns="">0gWRQTd7Dtk2zkHaZ2fRqzA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

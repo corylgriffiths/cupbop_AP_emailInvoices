@@ -139,7 +139,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="AddR365Lines" sap:VirtualizedContainerService.HintSize="1235,5399" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="AddR365Lines" sap:VirtualizedContainerService.HintSize="3103,5399" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesR365MultiLinesV18)" Name="currentDocumentDataR365" />
       <Variable x:TypeArguments="ui:UiElement" Name="outputElement">

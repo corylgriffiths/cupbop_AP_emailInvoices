@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="AddR365Lines" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:sc1="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:uggm="clr-namespace:UiPath.GSuite.Gmail.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesR365V18.Bundle;assembly=ExtendedExtractionRe.YbjN5SbMOP1jUlww2Y1uwt2" xmlns:uisasecb1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesR365MultiLinesV18.Bundle;assembly=ExtendedExtractionRe.Qax3e4PeJcF1MIsgj197uIu3" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="AddR365Lines" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:sc1="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:uggm="clr-namespace:UiPath.GSuite.Gmail.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesR365V18.Bundle;assembly=ExtendedExtractionRe.YbjN5SbMOP1jUlww2Y1uwt2" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="currentGmailAttachmentLocalItem" Type="InArgument(uggm:GmailAttachmentLocalItem)" />
     <x:Property Name="addR365LineException" Type="OutArgument(x:String)" />
@@ -141,7 +141,7 @@
       <AssemblyReference>ExtendedExtractionRe.YbjN5SbMOP1jUlww2Y1uwt2</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="AddR365Lines" sap:VirtualizedContainerService.HintSize="1230,4639" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="AddR365Lines" sap:VirtualizedContainerService.HintSize="1166,4867" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:UiElement" Name="outputElement">
         <sap:WorkflowViewStateService.ViewState>
@@ -158,13 +158,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="654,4616" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="654,4844" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="620,4456" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="620,4684" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="isNewVendorPopup" />
               <Variable x:TypeArguments="x:String" Name="variable1" />
@@ -177,7 +177,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <ui:Comment sap:VirtualizedContainerService.HintSize="586,107" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// currentGmailAttachmentLocalItem as loal item&#xA;" />
-            <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor62InvoicesR365V18" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data - R365" DocType="9e2a76f9-bc47-f011-8f7c-6045bdf0504f" GenerateData="True" sap:VirtualizedContainerService.HintSize="586,389" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_1" ModernDocumentTypeId="2be173ea-fb3f-f011-a5f1-002248237dcc" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" ProjectVersionNumber="18" TimeoutInSeconds="3600">
+            <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor62InvoicesR365V18" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="9e2a76f9-bc47-f011-8f7c-6045bdf0504f" GenerateData="True" sap:VirtualizedContainerService.HintSize="586,389" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_2" ModernDocumentTypeId="2be173ea-fb3f-f011-a5f1-002248237dcc" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" ProjectVersionNumber="18" TimeoutInSeconds="3600">
               <p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
                 <InArgument x:TypeArguments="s:Nullable(x:Int32)">
                   <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />
@@ -185,12 +185,12 @@
               </p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
               <p:ExtractDocumentDataWithDocumentData.ExtractionResults>
                 <OutArgument x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesR365V18)">
-                  <CSharpReference x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesR365V18)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_9">currentDocumentDataR365</CSharpReference>
+                  <CSharpReference x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesR365V18)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_12">currentDocumentDataR365</CSharpReference>
                 </OutArgument>
               </p:ExtractDocumentDataWithDocumentData.ExtractionResults>
               <p:ExtractDocumentDataWithDocumentData.FileInput>
                 <InArgument x:TypeArguments="upr:IResource">
-                  <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">currentGmailAttachmentLocalItem</CSharpValue>
+                  <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_28">currentGmailAttachmentLocalItem</CSharpValue>
                 </InArgument>
               </p:ExtractDocumentDataWithDocumentData.FileInput>
               <p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
@@ -212,14 +212,14 @@
                 </InArgument>
               </p:ExtractDocumentDataWithDocumentData.RuntimeTenantUrl>
             </p:ExtractDocumentDataWithDocumentData>
-            <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="586,3898" sap2010:WorkflowViewState.IdRef="IfElseIfV2_2">
+            <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="586,4126" sap2010:WorkflowViewState.IdRef="IfElseIfV2_2">
               <ui:IfElseIfV2.Condition>
                 <InArgument x:TypeArguments="x:Boolean">
                   <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">currentDocumentDataR365.Data.Items.Count() &lt;= 0</CSharpValue>
                 </InArgument>
               </ui:IfElseIfV2.Condition>
               <ui:IfElseIfV2.Else>
-                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="552,3662" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="552,3890" sap2010:WorkflowViewState.IdRef="Sequence_17">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -258,13 +258,13 @@
                       </uix:VerifyExecutionTypeIntoOptions>
                     </uix:NTypeInto.VerifyOptions>
                   </uix:NTypeInto>
-                  <ui:ForEach x:TypeArguments="uisasecb1:Items" CurrentIndex="{x:Null}" DisplayName="ForLoop- Extract Document Data - R365 - For Each currentItems" sap:VirtualizedContainerService.HintSize="518,3141" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
+                  <ui:ForEach x:TypeArguments="uisasecb:Items" CurrentIndex="{x:Null}" DisplayName="ForLoop- Extract Document Data - R365 - For Each currentItems" sap:VirtualizedContainerService.HintSize="518,3369" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
                     <ui:ForEach.Body>
-                      <ActivityAction x:TypeArguments="uisasecb1:Items">
+                      <ActivityAction x:TypeArguments="uisasecb:Items">
                         <ActivityAction.Argument>
-                          <DelegateInArgument x:TypeArguments="uisasecb1:Items" Name="currentItems" />
+                          <DelegateInArgument x:TypeArguments="uisasecb:Items" Name="currentItems" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484,3004" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484,3232" sap2010:WorkflowViewState.IdRef="Sequence_5">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="x:String" Name="tmpR365Location" />
                           </Sequence.Variables>
@@ -273,6 +273,18 @@
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
+                          <Assign sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_8">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_13">tmpR365Location</CSharpReference>
+                              </OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">
+                                <Literal x:TypeArguments="x:String" Value="" />
+                              </InArgument>
+                            </Assign.Value>
+                          </Assign>
                           <Assign sap:VirtualizedContainerService.HintSize="450,115" sap2010:WorkflowViewState.IdRef="Assign_3">
                             <Assign.To>
                               <OutArgument x:TypeArguments="x:String">
@@ -338,6 +350,18 @@ currentItems.ItemsDescriptions.Value.ToLower().Contains("hill afb") ? "Hill Air 
                             <Assign.Value>
                               <InArgument x:TypeArguments="x:String">
                                 <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">tmpR365Location == "" || tmpR365Location == null ? "Corporate" : tmpR365Location</CSharpValue>
+                              </InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <Assign DisplayName="Assign - &quot;Hill Air Force Base&quot; check" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_7">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_10">tmpR365Location</CSharpReference>
+                              </OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_27">tmpR365Location.Replace("Multi-Site Discounted Rate", "")</CSharpValue>
                               </InArgument>
                             </Assign.Value>
                           </Assign>

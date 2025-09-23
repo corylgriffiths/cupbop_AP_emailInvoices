@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="L-VjXRJ-_ECuTHQvnpFBQQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="identity.restaurant365.com/Account/Login" CVScreenId="88860ca5-ef94-4f72-962b-726078ddd34b" CvElementArea="1027, 867, 74, 45" CvTextArea="1043, 880, 41, 18" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="1029, 869, 70, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl id='login' tag='BUTTON' /&gt;" Guid="da58737d-23a4-4caa-b0f4-6d7693b12f7f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="fe4e023d0dee71d068f4b504044d3fe6.png" xmlns="">0Oi1q_H4QB0WpRxrMTvBANA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

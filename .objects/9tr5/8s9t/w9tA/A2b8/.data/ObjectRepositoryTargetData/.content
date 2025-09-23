@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rrogt4QvDUq-RjIwkKXwhw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="identity.restaurant365.com/Account/Login" CVScreenId="d9fede66-d4ea-4e5f-92d5-93b9e6f0064a" CvElementArea="903, 680, 322, 58" CvType="InputBox" DesignTimeRectangle="904, 681, 320, 56" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='Username' tag='INPUT' /&gt;" Guid="ba647a64-75b8-450f-bcdf-ee0ed03d9293" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="d9fede66-d4ea-4e5f-92d5-93b9e6f0064a" CvTextArea="972, 624, 184, 27" CvTextArgument="Log in to Cupbop" CvType="Text" DesignTimeRectangle="850, 623, 428, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='form-heading' aaname='Log in to Cupbop' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Log in to Cupbop' /&gt;" Guid="f07e72b4-bfa6-4b7d-9d9a-22f99d7acec4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="26ffe17a98feb85fabb705d3db8bde32.png" xmlns="">0mLFq4niZu0aoG8r_EwuFRA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">VerifyTypeIntoExecution</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

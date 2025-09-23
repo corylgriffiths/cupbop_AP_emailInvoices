@@ -1,9 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Login" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-  <x:Members>
-    <x:Property Name="Browser_Restaurent365" Type="OutArgument(ui:UiElement)" />
-  </x:Members>
-  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
-  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
+<Activity mc:Ignorable="sap sap2010" x:Class="Login" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>GlobalConstantsNamespace</x:String>
@@ -243,9 +238,10 @@
       <AssemblyReference>Microsoft.CodeAnalysis.CSharp</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities.ViewModels</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="1572,1425.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="1111,1153" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="variable1" />
       <Variable x:TypeArguments="x:String" Name="Username" />
@@ -256,7 +252,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Restaurant365" CacheStrategy="None" DisplayName="Get Credential" FolderPath="CupBop" sap:VirtualizedContainerService.HintSize="518,175" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1">
+    <ui:GetRobotCredential TimeoutMS="{x:Null}" AssetName="Restaurant365" CacheStrategy="None" DisplayName="Get Credential" FolderPath="CupBop" sap:VirtualizedContainerService.HintSize="1064,175" sap2010:WorkflowViewState.IdRef="GetRobotCredential_1">
       <ui:GetRobotCredential.Password>
         <OutArgument x:TypeArguments="ss:SecureString">
           <CSharpReference x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">Password</CSharpReference>
@@ -268,13 +264,13 @@
         </OutArgument>
       </ui:GetRobotCredential.Username>
     </ui:GetRobotCredential>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Restaurant365" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,1219" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Restaurant365" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1064,955" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,979" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1030,715" sap2010:WorkflowViewState.IdRef="Sequence_8">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="isNotLoggedin" />
             </Sequence.Variables>
@@ -283,97 +279,154 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:UiElementExists DisplayName="Element Exists 'A'" sap:VirtualizedContainerService.HintSize="450,139" sap2010:WorkflowViewState.IdRef="UiElementExists_2">
-              <ui:UiElementExists.Exists>
-                <OutArgument x:TypeArguments="x:Boolean">
-                  <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">isNotLoggedin</CSharpReference>
-                </OutArgument>
-              </ui:UiElementExists.Exists>
-              <ui:UiElementExists.Target>
-                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="126ee280-534e-40ae-a8d6-526db8aeb01a" InformativeScreenshot="c8b1753e9bed95d70d8ed73fcb912a0a" Selector="&lt;webctrl id='Username' tag='INPUT' /&gt;" TimeoutMS="10000">
-                  <ui:Target.WaitForReady>
-                    <InArgument x:TypeArguments="ui:WaitForReady" />
-                  </ui:Target.WaitForReady>
-                </ui:Target>
-              </ui:UiElementExists.Target>
-            </ui:UiElementExists>
-            <If sap:VirtualizedContainerService.HintSize="450,778" sap2010:WorkflowViewState.IdRef="If_2">
-              <If.Condition>
-                <InArgument x:TypeArguments="x:Boolean">
-                  <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_6">isNotLoggedin == true</CSharpValue>
-                </InArgument>
-              </If.Condition>
-              <sap:WorkflowViewStateService.ViewState>
-                <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                  <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                </scg:Dictionary>
-              </sap:WorkflowViewStateService.ViewState>
-              <If.Then>
-                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,526" sap2010:WorkflowViewState.IdRef="Sequence_9">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                  <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Into 'INPUT  Username'" EmptyField="True" sap:VirtualizedContainerService.HintSize="382,187" sap2010:WorkflowViewState.IdRef="TypeInto_2">
-                    <ui:TypeInto.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="83446764-f697-4ea1-b3fb-113e2e1bf544" InformativeScreenshot="b991be570b3cf95c91febfcf91d69b04" Selector="&lt;webctrl id='Username' tag='INPUT' /&gt;">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:TypeInto.Target>
-                    <ui:TypeInto.Text>
-                      <InArgument x:TypeArguments="x:String">
-                        <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">Username</CSharpValue>
-                      </InArgument>
-                    </ui:TypeInto.Text>
-                  </ui:TypeInto>
-                  <ui:TypeSecureText AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" DisplayName="Type Secure Text" EmptyField="True" sap:VirtualizedContainerService.HintSize="382,119" sap2010:WorkflowViewState.IdRef="TypeSecureText_1">
-                    <ui:TypeSecureText.SecureText>
-                      <InArgument x:TypeArguments="ss:SecureString">
-                        <CSharpValue x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">Password</CSharpValue>
-                      </InArgument>
-                    </ui:TypeSecureText.SecureText>
-                    <ui:TypeSecureText.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="71babc66-ca0f-41ea-a0f8-043e441f9217" Selector="&lt;webctrl id='Password' tag='INPUT' /&gt;">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:TypeSecureText.Target>
-                  </ui:TypeSecureText>
-                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="382,160" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="enter" KeyModifiers="None" SpecialKey="True">
-                    <ui:SendHotkey.Target>
-                      <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="d5dee9dd-7aaf-4178-bac2-9f6c49667d4c">
-                        <ui:Target.TimeoutMS>
-                          <InArgument x:TypeArguments="x:Int32" />
-                        </ui:Target.TimeoutMS>
-                        <ui:Target.WaitForReady>
-                          <InArgument x:TypeArguments="ui:WaitForReady" />
-                        </ui:Target.WaitForReady>
-                      </ui:Target>
-                    </ui:SendHotkey.Target>
-                  </ui:SendHotkey>
-                </Sequence>
-              </If.Then>
-              <If.Else>
-                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_10">
-                  <sap:WorkflowViewStateService.ViewState>
-                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                    </scg:Dictionary>
-                  </sap:WorkflowViewStateService.ViewState>
-                </Sequence>
-              </If.Else>
-            </If>
+            <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="996,655" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="3" RetryInterval="00:00:02">
+              <ui:RetryScope.ActivityBody>
+                <ActivityAction>
+                  <Sequence DisplayName="Login if needed" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                        <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NCheckState DisplayName="check to see if already logged in" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="954,925" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="ff73d15a-0986-4d41-b173-38c1147df3c0" Timeout="10" Version="V4">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,685" sap2010:WorkflowViewState.IdRef="Sequence_11">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'Log in to Cupbop'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V4">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable BrowserURL="identity.restaurant365.com/Account/Login" CVScreenId="d9fede66-d4ea-4e5f-92d5-93b9e6f0064a" ContentHash="NW2flpME1U6jN1yi4GpZsA" CvElementArea="903, 680, 322, 58" CvType="InputBox" DesignTimeRectangle="904, 681, 320, 56" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='Username' tag='INPUT' /&gt;" Guid="4aaf23c1-d5ba-47ca-a58f-1eda6cef19b3" InformativeScreenshot="189bd46efc8a03892d16b9f12cf33719.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/x-Y_M8upX0WV6dpKJnKqJg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                    <uix:Target CVScreenId="d9fede66-d4ea-4e5f-92d5-93b9e6f0064a" CvTextArea="972, 624, 184, 27" CvTextArgument="Log in to Cupbop" CvType="Text" DesignTimeRectangle="850, 623, 428, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='form-heading' aaname='Log in to Cupbop' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Log in to Cupbop' /&gt;" Guid="c95648fa-328e-4b03-bd98-74eb0732ed3d" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NTypeInto.Target>
+                            <uix:NTypeInto.Text>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_12">Username</CSharpValue>
+                              </InArgument>
+                            </uix:NTypeInto.Text>
+                            <uix:NTypeInto.VerifyOptions>
+                              <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                                <uix:VerifyExecutionTypeIntoOptions.Retry>
+                                  <InArgument x:TypeArguments="x:Boolean" />
+                                </uix:VerifyExecutionTypeIntoOptions.Retry>
+                                <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                                  <InArgument x:TypeArguments="x:Double" />
+                                </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                              </uix:VerifyExecutionTypeIntoOptions>
+                            </uix:NTypeInto.VerifyOptions>
+                          </uix:NTypeInto>
+                          <ui:TypeSecureText AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type Secure Text" EmptyField="True" sap:VirtualizedContainerService.HintSize="416,119" sap2010:WorkflowViewState.IdRef="TypeSecureText_1">
+                            <ui:TypeSecureText.SecureText>
+                              <InArgument x:TypeArguments="ss:SecureString">
+                                <CSharpValue x:TypeArguments="ss:SecureString" sap2010:WorkflowViewState.IdRef="CSharpValue`1_11">Password</CSharpValue>
+                              </InArgument>
+                            </ui:TypeSecureText.SecureText>
+                            <ui:TypeSecureText.Target>
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="71babc66-ca0f-41ea-a0f8-043e441f9217" Selector="&lt;webctrl id='Password' tag='INPUT' /&gt;">
+                                <ui:Target.TimeoutMS>
+                                  <InArgument x:TypeArguments="x:Int32" />
+                                </ui:Target.TimeoutMS>
+                                <ui:Target.WaitForReady>
+                                  <InArgument x:TypeArguments="ui:WaitForReady" />
+                                </ui:Target.WaitForReady>
+                              </ui:Target>
+                            </ui:TypeSecureText.Target>
+                          </ui:TypeSecureText>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log in(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V4">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable BrowserURL="identity.restaurant365.com/Account/Login" CVScreenId="88860ca5-ef94-4f72-962b-726078ddd34b" ContentHash="L-VjXRJ-_ECuTHQvnpFBQQ" CvElementArea="1027, 867, 74, 45" CvTextArea="1043, 880, 41, 18" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="1029, 869, 70, 40" ElementType="Button" FullSelectorArgument="&lt;webctrl id='login' tag='BUTTON' /&gt;" Guid="da58737d-23a4-4caa-b0f4-6d7693b12f7f" InformativeScreenshot="fe4e023d0dee71d068f4b504044d3fe6.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/IDJFucP9pEe1wlX5D8R1mQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                            </uix:NClick.Target>
+                            <uix:NClick.VerifyOptions>
+                              <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                                <uix:VerifyExecutionOptions.Retry>
+                                  <InArgument x:TypeArguments="x:Boolean" />
+                                </uix:VerifyExecutionOptions.Retry>
+                                <uix:VerifyExecutionOptions.Timeout>
+                                  <InArgument x:TypeArguments="x:Double" />
+                                </uix:VerifyExecutionOptions.Timeout>
+                              </uix:VerifyExecutionOptions>
+                            </uix:NClick.VerifyOptions>
+                          </uix:NClick>
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,91" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable BrowserURL="identity.restaurant365.com/Account/Login" CVScreenId="d9fede66-d4ea-4e5f-92d5-93b9e6f0064a" ContentHash="X1og7FHgD0ehjcV2tWPYdA" CvTextArea="972, 624, 184, 27" CvTextArgument="Log in to Cupbop" CvType="Text" DesignTimeRectangle="850, 623, 428, 26" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" Guid="f6ef2080-332e-4d60-9c03-8d502a8e5baf" InformativeScreenshot="23a28bc9a2d274e3f5edd97e27cbe1ff.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/ybBktLyhlkuQgHRKcUW1-Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                          <uix:TargetAnchorable.Anchors>
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <uix:Target CVScreenId="d9fede66-d4ea-4e5f-92d5-93b9e6f0064a" CvElementArea="903, 680, 322, 58" CvType="InputBox" DesignTimeRectangle="904, 681, 320, 56" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='Username' tag='INPUT' /&gt;" Guid="ba2de99e-be32-4fb1-99c5-d808b7782ead" SearchSteps="Selector, CV" />
+                            </scg:List>
+                          </uix:TargetAnchorable.Anchors>
+                        </uix:TargetAnchorable>
+                      </uix:NCheckState.Target>
+                    </uix:NCheckState>
+                  </Sequence>
+                </ActivityAction>
+              </ui:RetryScope.ActivityBody>
+              <ui:RetryScope.Condition>
+                <ActivityFunc x:TypeArguments="x:Boolean">
+                  <uix:NCheckState DisplayName="Check App State 'Home'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="954,447" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V4">
+                    <uix:NCheckState.IfExists>
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,228" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_1">
+                          <ui:LogMessage.Message>
+                            <InArgument x:TypeArguments="x:Object">
+                              <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">"logged in"</CSharpValue>
+                            </InArgument>
+                          </ui:LogMessage.Message>
+                        </ui:LogMessage>
+                      </Sequence>
+                    </uix:NCheckState.IfExists>
+                    <uix:NCheckState.IfNotExists>
+                      <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,230" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_2">
+                          <ui:LogMessage.Message>
+                            <InArgument x:TypeArguments="x:Object">
+                              <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_14">"logged in Failed: retrying"</CSharpValue>
+                            </InArgument>
+                          </ui:LogMessage.Message>
+                        </ui:LogMessage>
+                      </Sequence>
+                    </uix:NCheckState.IfNotExists>
+                    <uix:NCheckState.Target>
+                      <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com/react/accounting/legacy/AllTransactions" CVScreenId="1adda0e0-17e2-42c7-9645-313bed69cfd1" ContentHash="iGkKPwEGTk6WGe91-hwHKw" CvTextArea="29, 244, 29, 10" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="14, 203, 60, 61" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Home' tag='BUTTON' /&gt;" Guid="38a8b031-ec67-4d16-9bb7-04fd0eceae65" InformativeScreenshot="15f8090d6277a4eb9a56da33cc035ba3.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/pTEfw9A-HUuIYUrdDoA1Dw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='All Transactions | Transactions' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <uix:Target CVScreenId="1adda0e0-17e2-42c7-9645-313bed69cfd1" CvElementArea="24, 134, 40, 37" CvType="Icon" DesignTimeRectangle="19, 129, 50, 50" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;svg' tag='svg' /&gt;" Guid="4f8fb3c0-0d86-49e4-b732-f1b94c8781f3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUCSURBVGhD7Zj9b1NVGMf5S/zBiAZ0E5JGCZkEx+RtvmQaN+KGwBjCYiDIBgOmQAAnIGLEiLJkhIAQQGQQFTALURAYorwOcG23dn1Z23Xrum5ru7XdvuZ59F53z8ba3nsb06Wf5Cbtc869t5+ec5/nnDsJE5RJYmCikBFLNzJi6UZGLN3IiKUbGTGtDLZaELp1GwMmM6JuD4aDIbGLrqRMrP/XK+jYugOW2XNhfSUf9qIS2AqLYS8shiVvIYxPToF52ovwVG9D8PoN8XTN6C7Wd+Fn2AqKYJ33Grr2H8BAs1HswgxHowg/fISuL7+GNXc+y/b+dEHsphrdxAZNZrSvXofmJybDs+kjDPX1iV3GJXznHuxvv4OOLdsR6+kRm5NGFzGSsuYtRIthJk9BLbjXbYB1/uuI2OxiU1JoFpOkuj7fLzapJnitkadzrNsvNiWMZjHrgjfgWFwqhjUT+O4MHO8ux3A0JjYlhCaxzn1fwDR1OhBTd/N4eD/ezYcaNImZnslG8HqjGNaVlukzOLEki2oxGi06Uk334aOwL1oshuOSsBgVUfEINz3gepRq7CXLELp7XwyPS1JiVKPEw/jUs2ijDOb/r/Z4Nn4Ic7YBlpfmwFuzR3Edz+YtMGcZ0L5qNXp/PC/He06cGnVtaUXi3bmLi30yqBKTpiEJSDF3RRX3o4e9Lb8AfQ2XOG1TKfAfPc5tJNWxbSci7S6WovMkOVp++Q4cRKjxd/mQxPrOX4S9sGTEr4mPKrGRkCCP3OTn+DvVtViHV27vv/wb/6hBo4lLw1Bo7MUvrSX7f7kshpmoy833SGba6yZmeXmeIk5yoT9uwVGyjKej//hJuKuq4Vy+ikuE7a1F6K49JPc3ZRn4TwicPD1mUqJ7REf8YfFQJSZNRUmKDueKckV/GiWKt5ev4e/uyo1ozcnlc+h5DNSfQ+vM2eg59T2GIxHuS8+l95NP4XzvfS7OEWubfD1qf9yCeixUiYmHs3Qlou0u8RREHE4W9O7ay4Luyk2K9uCVq2iZMQvhe02ysAQ9s9KzSdB9ktneqBITRytw9gexuwydR3KcbKq3KtpooWuZs0ARk6D+UkIi6D5D/UFFn/FQJSZB2wz63vJCDmJdPo7RyIycMpT1SIx2z1RoaRQlKIPSKJKEmPVsbxbBd7COP4du/om2VwsU7fHQJDbwl1GOuTds5pg0kp179sG1puKfEa0/x220A6AaZissYRFH8VJZ1LV2PY8e7cdaZ+VxyZDwffWNfP1ESUqMfoz4z3bXHZbjgdP1HBt41MxJgSRDt+8q+ocfPJRXLpQ0FG33m+A/dgK9FxsUcZL0HzmmiMUjYTERX20dBltaxbDuBG/chOnfGpkMqsVonUjPQapxlpWjc/deMRwX1WIEpfHOz0YXU72glzs0DZN9f0JoEosFArDk5KK/4ZLYpBkqBaYpz6t+h6JJjKAH3ZRtQPiOMklohTLkWEurRNEsRlAmoxQdbEx8ZfA4Yr5ufiepRYrQRYygVwT0qkDL2yq5BmqUInQTI6jYuj5YD+vcfN4YRtpsYpfRxGIInDkL59IVvPClPZwe6ComQcWZfqTx6Sw4SlfCu6MG/iPf8n6LEg21+2oP8drRNHUar0BoB60nKRGTkLYnvCasqIJjSRmcS8rgWluJju01/KJmrF2BHqRU7P8kI5ZuZMTSjYxYupERSzcyYunGhBX7G7Ja2zLDUI76AAAAAElFTkSuQmCC" SearchSteps="Selector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NCheckState.Target>
+                  </uix:NCheckState>
+                </ActivityFunc>
+              </ui:RetryScope.Condition>
+            </ui:RetryScope>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
