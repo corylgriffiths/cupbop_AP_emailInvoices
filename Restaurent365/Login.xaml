@@ -1,4 +1,9 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Login" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Login" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ss="clr-namespace:System.Security;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="Browser_Restaurent365" Type="OutArgument(ui:UiElement)" />
+  </x:Members>
+  <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
+  <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
       <x:String>GlobalConstantsNamespace</x:String>
@@ -241,7 +246,7 @@
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="1111,1153" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="1111,1197" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="variable1" />
       <Variable x:TypeArguments="x:String" Name="Username" />
@@ -264,13 +269,13 @@
         </OutArgument>
       </ui:GetRobotCredential.Username>
     </ui:GetRobotCredential>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Restaurant365" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1064,955" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V2" WindowResize="Maximize">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome Restaurant365" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1064,999" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V2" WindowResize="Maximize">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1030,715" sap2010:WorkflowViewState.IdRef="Sequence_8">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="1030,759" sap2010:WorkflowViewState.IdRef="Sequence_8">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="isNotLoggedin" />
             </Sequence.Variables>
@@ -279,7 +284,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="996,655" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="3" RetryInterval="00:00:02">
+            <ui:RetryScope DisplayName="Retry Scope" sap:VirtualizedContainerService.HintSize="996,697" sap2010:WorkflowViewState.IdRef="RetryScope_1" NumberOfRetries="3" RetryInterval="00:00:02">
               <ui:RetryScope.ActivityBody>
                 <ActivityAction>
                   <Sequence DisplayName="Login if needed" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_13">
@@ -301,7 +306,7 @@
                             <uix:NTypeInto.Target>
                               <uix:TargetAnchorable BrowserURL="identity.restaurant365.com/Account/Login" CVScreenId="d9fede66-d4ea-4e5f-92d5-93b9e6f0064a" ContentHash="NW2flpME1U6jN1yi4GpZsA" CvElementArea="903, 680, 322, 58" CvType="InputBox" DesignTimeRectangle="904, 681, 320, 56" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='Username' tag='INPUT' /&gt;" Guid="4aaf23c1-d5ba-47ca-a58f-1eda6cef19b3" InformativeScreenshot="189bd46efc8a03892d16b9f12cf33719.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/x-Y_M8upX0WV6dpKJnKqJg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                                 <uix:TargetAnchorable.Anchors>
-                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                     <uix:Target CVScreenId="d9fede66-d4ea-4e5f-92d5-93b9e6f0064a" CvTextArea="972, 624, 184, 27" CvTextArgument="Log in to Cupbop" CvType="Text" DesignTimeRectangle="850, 623, 428, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl tag='H3' type='' class='form-heading' aaname='Log in to Cupbop' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Log in to Cupbop' /&gt;" Guid="c95648fa-328e-4b03-bd98-74eb0732ed3d" SearchSteps="FuzzySelector, CV" />
                                   </scg:List>
                                 </uix:TargetAnchorable.Anchors>
@@ -369,7 +374,7 @@
                       <uix:NCheckState.Target>
                         <uix:TargetAnchorable BrowserURL="identity.restaurant365.com/Account/Login" CVScreenId="d9fede66-d4ea-4e5f-92d5-93b9e6f0064a" ContentHash="X1og7FHgD0ehjcV2tWPYdA" CvTextArea="972, 624, 184, 27" CvTextArgument="Log in to Cupbop" CvType="Text" DesignTimeRectangle="850, 623, 428, 26" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" Guid="f6ef2080-332e-4d60-9c03-8d502a8e5baf" InformativeScreenshot="23a28bc9a2d274e3f5edd97e27cbe1ff.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/ybBktLyhlkuQgHRKcUW1-Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                               <uix:Target CVScreenId="d9fede66-d4ea-4e5f-92d5-93b9e6f0064a" CvElementArea="903, 680, 322, 58" CvType="InputBox" DesignTimeRectangle="904, 681, 320, 56" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='Username' tag='INPUT' /&gt;" Guid="ba2de99e-be32-4fb1-99c5-d808b7782ead" SearchSteps="Selector, CV" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
@@ -381,9 +386,9 @@
               </ui:RetryScope.ActivityBody>
               <ui:RetryScope.Condition>
                 <ActivityFunc x:TypeArguments="x:Boolean">
-                  <uix:NCheckState DisplayName="Check App State 'Home'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="954,447" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V4">
+                  <uix:NCheckState DisplayName="Check App State 'Home'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="954,487" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="ff73d15a-0986-4d41-b173-38c1147df3c0" Version="V4">
                     <uix:NCheckState.IfExists>
-                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,228" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                      <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,230" sap2010:WorkflowViewState.IdRef="Sequence_14">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -417,7 +422,7 @@
                     <uix:NCheckState.Target>
                       <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com/react/accounting/legacy/AllTransactions" CVScreenId="1adda0e0-17e2-42c7-9645-313bed69cfd1" ContentHash="iGkKPwEGTk6WGe91-hwHKw" CvTextArea="29, 244, 29, 10" CvTextArgument="Home" CvType="Text" DesignTimeRectangle="14, 203, 60, 61" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='Home' tag='BUTTON' /&gt;" Guid="38a8b031-ec67-4d16-9bb7-04fd0eceae65" InformativeScreenshot="15f8090d6277a4eb9a56da33cc035ba3.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/pTEfw9A-HUuIYUrdDoA1Dw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='All Transactions | Transactions' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                         <uix:TargetAnchorable.Anchors>
-                          <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                             <uix:Target CVScreenId="1adda0e0-17e2-42c7-9645-313bed69cfd1" CvElementArea="24, 134, 40, 37" CvType="Icon" DesignTimeRectangle="19, 129, 50, 50" ElementType="Icon" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;svg' tag='svg' /&gt;" Guid="4f8fb3c0-0d86-49e4-b732-f1b94c8781f3" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAADYAAAA2CAYAAACMRWrdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAUCSURBVGhD7Zj9b1NVGMf5S/zBiAZ0E5JGCZkEx+RtvmQaN+KGwBjCYiDIBgOmQAAnIGLEiLJkhIAQQGQQFTALURAYorwOcG23dn1Z23Xrum5ru7XdvuZ59F53z8ba3nsb06Wf5Cbtc869t5+ec5/nnDsJE5RJYmCikBFLNzJi6UZGLN3IiKUbGTGtDLZaELp1GwMmM6JuD4aDIbGLrqRMrP/XK+jYugOW2XNhfSUf9qIS2AqLYS8shiVvIYxPToF52ovwVG9D8PoN8XTN6C7Wd+Fn2AqKYJ33Grr2H8BAs1HswgxHowg/fISuL7+GNXc+y/b+dEHsphrdxAZNZrSvXofmJybDs+kjDPX1iV3GJXznHuxvv4OOLdsR6+kRm5NGFzGSsuYtRIthJk9BLbjXbYB1/uuI2OxiU1JoFpOkuj7fLzapJnitkadzrNsvNiWMZjHrgjfgWFwqhjUT+O4MHO8ux3A0JjYlhCaxzn1fwDR1OhBTd/N4eD/ezYcaNImZnslG8HqjGNaVlukzOLEki2oxGi06Uk334aOwL1oshuOSsBgVUfEINz3gepRq7CXLELp7XwyPS1JiVKPEw/jUs2ijDOb/r/Z4Nn4Ic7YBlpfmwFuzR3Edz+YtMGcZ0L5qNXp/PC/He06cGnVtaUXi3bmLi30yqBKTpiEJSDF3RRX3o4e9Lb8AfQ2XOG1TKfAfPc5tJNWxbSci7S6WovMkOVp++Q4cRKjxd/mQxPrOX4S9sGTEr4mPKrGRkCCP3OTn+DvVtViHV27vv/wb/6hBo4lLw1Bo7MUvrSX7f7kshpmoy833SGba6yZmeXmeIk5yoT9uwVGyjKej//hJuKuq4Vy+ikuE7a1F6K49JPc3ZRn4TwicPD1mUqJ7REf8YfFQJSZNRUmKDueKckV/GiWKt5ev4e/uyo1ozcnlc+h5DNSfQ+vM2eg59T2GIxHuS8+l95NP4XzvfS7OEWubfD1qf9yCeixUiYmHs3Qlou0u8RREHE4W9O7ay4Luyk2K9uCVq2iZMQvhe02ysAQ9s9KzSdB9ktneqBITRytw9gexuwydR3KcbKq3KtpooWuZs0ARk6D+UkIi6D5D/UFFn/FQJSZB2wz63vJCDmJdPo7RyIycMpT1SIx2z1RoaRQlKIPSKJKEmPVsbxbBd7COP4du/om2VwsU7fHQJDbwl1GOuTds5pg0kp179sG1puKfEa0/x220A6AaZissYRFH8VJZ1LV2PY8e7cdaZ+VxyZDwffWNfP1ESUqMfoz4z3bXHZbjgdP1HBt41MxJgSRDt+8q+ocfPJRXLpQ0FG33m+A/dgK9FxsUcZL0HzmmiMUjYTERX20dBltaxbDuBG/chOnfGpkMqsVonUjPQapxlpWjc/deMRwX1WIEpfHOz0YXU72glzs0DZN9f0JoEosFArDk5KK/4ZLYpBkqBaYpz6t+h6JJjKAH3ZRtQPiOMklohTLkWEurRNEsRlAmoxQdbEx8ZfA4Yr5ufiepRYrQRYygVwT0qkDL2yq5BmqUInQTI6jYuj5YD+vcfN4YRtpsYpfRxGIInDkL59IVvPClPZwe6ComQcWZfqTx6Sw4SlfCu6MG/iPf8n6LEg21+2oP8drRNHUar0BoB60nKRGTkLYnvCasqIJjSRmcS8rgWluJju01/KJmrF2BHqRU7P8kI5ZuZMTSjYxYupERSzcyYunGhBX7G7Ja2zLDUI76AAAAAElFTkSuQmCC" SearchSteps="Selector, CV" />
                           </scg:List>
                         </uix:TargetAnchorable.Anchors>
@@ -432,7 +437,7 @@
       </uix:NApplicationCard.Body>
       <uix:NApplicationCard.OutUiElement>
         <OutArgument x:TypeArguments="ui:UiElement">
-          <CSharpReference x:TypeArguments="ui:UiElement" sap2010:WorkflowViewState.IdRef="CSharpReference`1_4">Browser_Restaurent365</CSharpReference>
+          <CSharpReference x:TypeArguments="ui:UiElement" sap2010:WorkflowViewState.IdRef="CSharpReference`1_3">Browser_Restaurent365</CSharpReference>
         </OutArgument>
       </uix:NApplicationCard.OutUiElement>
       <uix:NApplicationCard.TargetApp>

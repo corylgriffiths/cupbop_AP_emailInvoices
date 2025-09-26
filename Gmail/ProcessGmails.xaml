@@ -349,6 +349,7 @@
       <Variable x:TypeArguments="x:Int32" Name="tempNoOfEmailsProcessed" />
       <Variable x:TypeArguments="sd:DataTable" Name="LocationTable" />
       <Variable x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesV18)" Name="currentDocumentData0" />
+      <Variable x:TypeArguments="ui:UiElement" Name="Browser_Restaurent365" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -401,7 +402,9 @@
     </Sequence>
     <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Login - Invoke Workflow File (Restaurent365\\Login.xaml)" sap:VirtualizedContainerService.HintSize="1289,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_8" UnSafe="False" WorkflowFileName="Restaurent365\\Login.xaml">
       <ui:InvokeWorkflowFile.Arguments>
-        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+        <OutArgument x:TypeArguments="ui:UiElement" x:Key="Browser_Restaurent365">
+          <CSharpReference x:TypeArguments="ui:UiElement" sap2010:WorkflowViewState.IdRef="CSharpReference`1_111">Browser_Restaurent365</CSharpReference>
+        </OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
     <Assign DisplayName="emails - check how many old days" sap:VirtualizedContainerService.HintSize="1289,114" sap2010:WorkflowViewState.IdRef="Assign_15">
@@ -1798,6 +1801,9 @@ currentDocumentData0.Data.VendorName.ToString().ToLower().IndexOf("boss hood cle
                                           </InArgument>
                                           <InArgument x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesV18)" x:Key="currentDocumentData1">
                                             <CSharpValue x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesV18)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_410">currentDocumentData0</CSharpValue>
+                                          </InArgument>
+                                          <InArgument x:TypeArguments="ui:UiElement" x:Key="Browser_Restaurent365">
+                                            <CSharpValue x:TypeArguments="ui:UiElement" sap2010:WorkflowViewState.IdRef="CSharpValue`1_471">Browser_Restaurent365</CSharpValue>
                                           </InArgument>
                                         </ui:InvokeWorkflowFile.Arguments>
                                       </ui:InvokeWorkflowFile>

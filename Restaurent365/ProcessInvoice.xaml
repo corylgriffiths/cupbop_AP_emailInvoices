@@ -8,6 +8,7 @@
     <x:Property Name="LocationList" Type="InArgument(scg:List(x:String))" />
     <x:Property Name="currentGmailAttachmentLocalItem" Type="InArgument(uggm:GmailAttachmentLocalItem)" />
     <x:Property Name="currentDocumentData1" Type="InArgument(uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesV18))" />
+    <x:Property Name="Browser_Restaurent365" Type="InArgument(ui:UiElement)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
