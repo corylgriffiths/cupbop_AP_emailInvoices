@@ -12,6 +12,7 @@
       "Path": "Gmail/ProcessGmails.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "test&Sequence_6",
         "configObject&Sequence_1",
         "locationList&Sequence_1",
         "ReportTable&Sequence_1",
@@ -23,6 +24,7 @@
         "dateToProcessEmailsAfter&Sequence_1",
         "tempNoOfEmailsProcessed&Sequence_1",
         "LocationTable&Sequence_1",
+        "Browser_Restaurent365&Sequence_1",
         "currentDocumentData0&Sequence_1",
         "stringList&Sequence_19",
         "currentEmailAttachments&Sequence_4",
@@ -66,11 +68,11 @@
         "tmpConfirmationExists&Sequence_49"
       ],
       "ArgumentsSectionElementsOrder": [
+        "Browser_Restaurent365",
         "currentDocumentData1",
         "currentGmailAttachmentLocalItem",
         "LocationList",
         "VendorDataRow",
-        "Browser_Restaurent365",
         "currentShipLocation",
         "exception",
         "filePath",
@@ -132,9 +134,10 @@
       "Path": "TestExtraction/TextExtractionData.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "currentDocumentData2&Sequence_2",
+        "currentDocumentData_lineItems&Sequence_2",
+        "currentDocumentData2_R365Multi&Sequence_2",
+        "currentDocumentData_Invoice&Sequence_2",
         "LineItemTableData&Sequence_2",
-        "currentDocumentData&Sequence_2",
         "tmpCounter&Sequence_11"
       ],
       "ArgumentsSectionElementsOrder": [
@@ -244,8 +247,7 @@
         "outputElement",
         "Browser_Restaurent365",
         "VendorDataRow",
-        "currentGmailAttachmentLocalItem",
-        "currentDocumentData1"
+        "currentGmailAttachmentLocalItem"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
