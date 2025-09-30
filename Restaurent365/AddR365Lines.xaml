@@ -141,7 +141,7 @@
       <AssemblyReference>ExtendedExtractionRe.07UAT8bUtE1z2WXR3BUlHA4</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="AddR365Lines" sap:VirtualizedContainerService.HintSize="725,5455" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="AddR365Lines" sap:VirtualizedContainerService.HintSize="1217,5027" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:UiElement" Name="outputElement">
         <sap:WorkflowViewStateService.ViewState>
@@ -158,13 +158,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="725,5432" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="725,5004" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="691,5272" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="691,4844" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="isNewVendorPopup" />
               <Variable x:TypeArguments="x:String" Name="variable1" />
@@ -177,7 +177,7 @@
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <ui:Comment sap:VirtualizedContainerService.HintSize="657,107" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// currentGmailAttachmentLocalItem as loal item&#xA;" />
-            <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor63InvoicesR365MultiLinesV19" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="20db8da5-0a9b-f011-8e61-7c1e520ceb9a" GenerateData="True" sap:VirtualizedContainerService.HintSize="657,445" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_2" ModernDocumentTypeId="47a631ef-dd46-f011-8f7c-002248237461" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" ProjectTag="[Nothing]" ProjectVersionNumber="19" TimeoutInSeconds="3600">
+            <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor63InvoicesR365MultiLinesV19" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" RuntimeAssetPath="{x:Null}" RuntimeTenantUrl="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="20db8da5-0a9b-f011-8e61-7c1e520ceb9a" GenerateData="True" sap:VirtualizedContainerService.HintSize="657,389" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_3" ModernDocumentTypeId="47a631ef-dd46-f011-8f7c-002248237461" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" ProjectTag="Production" ProjectVersionNumber="19" TimeoutInSeconds="3600">
               <p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
                 <InArgument x:TypeArguments="s:Nullable(x:Int32)">
                   <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />
@@ -185,29 +185,19 @@
               </p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
               <p:ExtractDocumentDataWithDocumentData.ExtractionResults>
                 <OutArgument x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor63InvoicesR365MultiLinesV19)">
-                  <CSharpReference x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor63InvoicesR365MultiLinesV19)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_11">currentDocumentDataR365</CSharpReference>
+                  <CSharpReference x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor63InvoicesR365MultiLinesV19)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_12">currentDocumentDataR365</CSharpReference>
                 </OutArgument>
               </p:ExtractDocumentDataWithDocumentData.ExtractionResults>
               <p:ExtractDocumentDataWithDocumentData.FileInput>
                 <InArgument x:TypeArguments="upr:IResource">
-                  <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_22">currentGmailAttachmentLocalItem</CSharpValue>
+                  <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_23">currentGmailAttachmentLocalItem</CSharpValue>
                 </InArgument>
               </p:ExtractDocumentDataWithDocumentData.FileInput>
               <p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
                 <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
               </p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
-              <p:ExtractDocumentDataWithDocumentData.RuntimeAssetPath>
-                <InArgument x:TypeArguments="x:String">
-                  <Literal x:TypeArguments="x:String" Value="" />
-                </InArgument>
-              </p:ExtractDocumentDataWithDocumentData.RuntimeAssetPath>
-              <p:ExtractDocumentDataWithDocumentData.RuntimeTenantUrl>
-                <InArgument x:TypeArguments="x:String">
-                  <Literal x:TypeArguments="x:String" Value="" />
-                </InArgument>
-              </p:ExtractDocumentDataWithDocumentData.RuntimeTenantUrl>
             </p:ExtractDocumentDataWithDocumentData>
-            <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="657,4658" sap2010:WorkflowViewState.IdRef="IfElseIfV2_2">
+            <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="657,4286" sap2010:WorkflowViewState.IdRef="IfElseIfV2_2">
               <ui:IfElseIfV2.Condition>
                 <InArgument x:TypeArguments="x:Boolean">
                   <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">currentDocumentDataR365.Data.Items.Count() &lt;= 0</CSharpValue>
@@ -266,6 +256,7 @@
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                              <x:Boolean x:Key="IsPinned">False</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <Assign sap:VirtualizedContainerService.HintSize="450,115" sap2010:WorkflowViewState.IdRef="Assign_3">
@@ -512,10 +503,11 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                       </InArgument>
                     </ui:IfElseIfBlock.Condition>
                     <ui:IfElseIfBlock.Then>
-                      <Sequence DisplayName="Body - ignore of billing to is &quot;Greenlight Holdings&quot;" sap:VirtualizedContainerService.HintSize="468,397" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                      <Sequence DisplayName="Body - ignore of billing to is &quot;Greenlight Holdings&quot;" sap:VirtualizedContainerService.HintSize="416,25" sap2010:WorkflowViewState.IdRef="Sequence_14">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,175" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info">

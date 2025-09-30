@@ -35,7 +35,7 @@
           "Microsoft.WindowsDesktop.App"
         ]
       },
-      "BitMiracle.Docotic.Pdf/9.6.17981-dev": {
+      "BitMiracle.Docotic.Pdf/9.7.18475-dev": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {
@@ -4437,7 +4437,7 @@
           "lib/net6.0/ConnectionClient.dll": {}
         }
       },
-      "UiPath.DocumentProcessing.Contracts/1.29.4": {
+      "UiPath.DocumentProcessing.Contracts/1.30.2": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1"
@@ -4453,7 +4453,7 @@
           }
         }
       },
-      "UiPath.DocumentUnderstanding.Activities/2.14.0": {
+      "UiPath.DocumentUnderstanding.Activities/2.16.1": {
         "type": "package",
         "dependencies": {
           "BitMiracle.LibTiff.NET": "2.4.649",
@@ -4461,22 +4461,22 @@
           "Microsoft.Rest.ClientRuntime": "2.3.24",
           "Newtonsoft.Json": "13.0.1",
           "Polly": "7.1.0",
-          "System.Activities.ViewModels": "1.0.0-20250124.2",
+          "System.Activities.ViewModels": "1.0.0-20250430.5",
           "System.Collections.Immutable": "6.0.0",
           "System.Net.Http": "4.3.4",
           "System.Runtime": "4.3.1",
           "System.Runtime.InteropServices.RuntimeInformation": "4.3.0",
           "System.Threading.Tasks.Extensions": "4.5.4",
           "System.ValueTuple": "4.5.0",
-          "UiPath.DocumentProcessing.Contracts": "1.29.4",
-          "UiPath.DocumentUnderstanding.Common.SDK": "2.1.0",
-          "UiPath.DocumentUnderstanding.Digitizer": "4.6.4",
+          "UiPath.DocumentProcessing.Contracts": "1.30.2",
+          "UiPath.DocumentUnderstanding.Common.SDK": "2.3.0",
+          "UiPath.DocumentUnderstanding.Digitizer": "4.8.0",
           "UiPath.EmguCVBundle": "1.3.0",
-          "UiPath.OCR.Activities": "3.22.0",
-          "UiPath.OCR.Contracts": "2.17.1",
-          "UiPath.Platform": "24.12.0",
+          "UiPath.OCR.Activities": "3.23.0",
+          "UiPath.OCR.Contracts": "2.18.0",
+          "UiPath.Platform": "24.12.3",
           "UiPath.Telemetry.Client": "2.1.3",
-          "UiPath.Vision": "3.15.0"
+          "UiPath.Vision": "3.16.0"
         },
         "compile": {
           "lib/net6.0/_._": {}
@@ -4571,11 +4571,11 @@
           }
         }
       },
-      "UiPath.DocumentUnderstanding.Common.SDK/2.1.0": {
+      "UiPath.DocumentUnderstanding.Common.SDK/2.3.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Http": "6.0.0",
-          "UiPath.DocumentProcessing.Contracts": "1.29.4"
+          "UiPath.DocumentProcessing.Contracts": "1.30.2"
         },
         "compile": {
           "lib/net6.0/_._": {}
@@ -4584,17 +4584,18 @@
           "lib/net6.0/UiPath.DocumentUnderstanding.Common.SDK.dll": {}
         }
       },
-      "UiPath.DocumentUnderstanding.Digitizer/4.6.4": {
+      "UiPath.DocumentUnderstanding.Digitizer/4.8.0": {
         "type": "package",
         "dependencies": {
-          "BitMiracle.Docotic.Pdf": "9.6.17981-dev",
+          "BitMiracle.Docotic.Pdf": "9.7.18475-dev",
           "BitMiracle.LibTiff.NET": "2.4.649",
           "Mime-Detective": "23.6.1",
           "Mime-Detective.Definitions.Exhaustive": "23.6.1",
           "NTextCat": "0.3.65",
           "System.Buffers": "4.5.1",
           "System.Collections.Immutable": "6.0.0",
-          "UiPath.DocumentProcessing.Contracts": "1.29.4"
+          "UiPath.DocumentProcessing.Contracts": "1.30.2",
+          "UiPath.DocumentUnderstanding.Digitizer.Contracts": "1.0.0"
         },
         "compile": {
           "lib/net6.0/_._": {}
@@ -4608,6 +4609,18 @@
             "codeLanguage": "any",
             "copyToOutput": false
           }
+        }
+      },
+      "UiPath.DocumentUnderstanding.Digitizer.Contracts/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "UiPath.DocumentProcessing.Contracts": "1.30.2"
+        },
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/UiPath.DocumentUnderstanding.Digitizer.Contracts.dll": {}
         }
       },
       "UiPath.EmguCVBundle/1.3.0": {
@@ -4962,7 +4975,7 @@
           "lib/net6.0-windows7.0/UiPath.ImageProcessingInterop.dll": {}
         }
       },
-      "UiPath.OCR.Activities/3.22.0": {
+      "UiPath.OCR.Activities/3.23.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": "7.0.1",
@@ -4975,7 +4988,7 @@
           "System.Text.RegularExpressions": "4.3.1",
           "System.ValueTuple": "4.5.0",
           "UiPath.EmguCVBundle": "1.3.0",
-          "UiPath.OCR.Contracts": "2.17.1",
+          "UiPath.OCR.Contracts": "2.18.0",
           "UiPath.Platform": "23.4.0"
         },
         "compile": {
@@ -5067,7 +5080,7 @@
           }
         }
       },
-      "UiPath.OCR.Contracts/2.17.1": {
+      "UiPath.OCR.Contracts/2.18.0": {
         "type": "package",
         "dependencies": {
           "System.Drawing.Common": "5.0.3"
@@ -5884,11 +5897,11 @@
           "lib/net6.0/UiPath.UIAutomation.Design.RecoveryPanel.dll": {}
         }
       },
-      "UiPath.Vision/3.15.0": {
+      "UiPath.Vision/3.16.0": {
         "type": "package",
         "dependencies": {
           "UiPath.EmguCVBundle": "1.3.0",
-          "UiPath.OCR.Contracts": "2.17.1"
+          "UiPath.OCR.Contracts": "2.18.0"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -6062,7 +6075,7 @@
           "Microsoft.WindowsDesktop.App"
         ]
       },
-      "BitMiracle.Docotic.Pdf/9.6.17981-dev": {
+      "BitMiracle.Docotic.Pdf/9.7.18475-dev": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {
@@ -10338,7 +10351,7 @@
           "lib/net6.0/ConnectionClient.dll": {}
         }
       },
-      "UiPath.DocumentProcessing.Contracts/1.29.4": {
+      "UiPath.DocumentProcessing.Contracts/1.30.2": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1"
@@ -10354,7 +10367,7 @@
           }
         }
       },
-      "UiPath.DocumentUnderstanding.Activities/2.14.0": {
+      "UiPath.DocumentUnderstanding.Activities/2.16.1": {
         "type": "package",
         "dependencies": {
           "BitMiracle.LibTiff.NET": "2.4.649",
@@ -10362,22 +10375,22 @@
           "Microsoft.Rest.ClientRuntime": "2.3.24",
           "Newtonsoft.Json": "13.0.1",
           "Polly": "7.1.0",
-          "System.Activities.ViewModels": "1.0.0-20250124.2",
+          "System.Activities.ViewModels": "1.0.0-20250430.5",
           "System.Collections.Immutable": "6.0.0",
           "System.Net.Http": "4.3.4",
           "System.Runtime": "4.3.1",
           "System.Runtime.InteropServices.RuntimeInformation": "4.3.0",
           "System.Threading.Tasks.Extensions": "4.5.4",
           "System.ValueTuple": "4.5.0",
-          "UiPath.DocumentProcessing.Contracts": "1.29.4",
-          "UiPath.DocumentUnderstanding.Common.SDK": "2.1.0",
-          "UiPath.DocumentUnderstanding.Digitizer": "4.6.4",
+          "UiPath.DocumentProcessing.Contracts": "1.30.2",
+          "UiPath.DocumentUnderstanding.Common.SDK": "2.3.0",
+          "UiPath.DocumentUnderstanding.Digitizer": "4.8.0",
           "UiPath.EmguCVBundle": "1.3.0",
-          "UiPath.OCR.Activities": "3.22.0",
-          "UiPath.OCR.Contracts": "2.17.1",
-          "UiPath.Platform": "24.12.0",
+          "UiPath.OCR.Activities": "3.23.0",
+          "UiPath.OCR.Contracts": "2.18.0",
+          "UiPath.Platform": "24.12.3",
           "UiPath.Telemetry.Client": "2.1.3",
-          "UiPath.Vision": "3.15.0"
+          "UiPath.Vision": "3.16.0"
         },
         "compile": {
           "lib/net6.0/_._": {}
@@ -10472,11 +10485,11 @@
           }
         }
       },
-      "UiPath.DocumentUnderstanding.Common.SDK/2.1.0": {
+      "UiPath.DocumentUnderstanding.Common.SDK/2.3.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Http": "6.0.0",
-          "UiPath.DocumentProcessing.Contracts": "1.29.4"
+          "UiPath.DocumentProcessing.Contracts": "1.30.2"
         },
         "compile": {
           "lib/net6.0/_._": {}
@@ -10485,17 +10498,18 @@
           "lib/net6.0/UiPath.DocumentUnderstanding.Common.SDK.dll": {}
         }
       },
-      "UiPath.DocumentUnderstanding.Digitizer/4.6.4": {
+      "UiPath.DocumentUnderstanding.Digitizer/4.8.0": {
         "type": "package",
         "dependencies": {
-          "BitMiracle.Docotic.Pdf": "9.6.17981-dev",
+          "BitMiracle.Docotic.Pdf": "9.7.18475-dev",
           "BitMiracle.LibTiff.NET": "2.4.649",
           "Mime-Detective": "23.6.1",
           "Mime-Detective.Definitions.Exhaustive": "23.6.1",
           "NTextCat": "0.3.65",
           "System.Buffers": "4.5.1",
           "System.Collections.Immutable": "6.0.0",
-          "UiPath.DocumentProcessing.Contracts": "1.29.4"
+          "UiPath.DocumentProcessing.Contracts": "1.30.2",
+          "UiPath.DocumentUnderstanding.Digitizer.Contracts": "1.0.0"
         },
         "compile": {
           "lib/net6.0/_._": {}
@@ -10509,6 +10523,18 @@
             "codeLanguage": "any",
             "copyToOutput": false
           }
+        }
+      },
+      "UiPath.DocumentUnderstanding.Digitizer.Contracts/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "UiPath.DocumentProcessing.Contracts": "1.30.2"
+        },
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/UiPath.DocumentUnderstanding.Digitizer.Contracts.dll": {}
         }
       },
       "UiPath.EmguCVBundle/1.3.0": {
@@ -10863,7 +10889,7 @@
           "lib/net6.0-windows7.0/UiPath.ImageProcessingInterop.dll": {}
         }
       },
-      "UiPath.OCR.Activities/3.22.0": {
+      "UiPath.OCR.Activities/3.23.0": {
         "type": "package",
         "dependencies": {
           "Microsoft.Azure.CognitiveServices.Vision.ComputerVision": "7.0.1",
@@ -10876,7 +10902,7 @@
           "System.Text.RegularExpressions": "4.3.1",
           "System.ValueTuple": "4.5.0",
           "UiPath.EmguCVBundle": "1.3.0",
-          "UiPath.OCR.Contracts": "2.17.1",
+          "UiPath.OCR.Contracts": "2.18.0",
           "UiPath.Platform": "23.4.0"
         },
         "compile": {
@@ -10968,7 +10994,7 @@
           }
         }
       },
-      "UiPath.OCR.Contracts/2.17.1": {
+      "UiPath.OCR.Contracts/2.18.0": {
         "type": "package",
         "dependencies": {
           "System.Drawing.Common": "5.0.3"
@@ -11785,11 +11811,11 @@
           "lib/net6.0/UiPath.UIAutomation.Design.RecoveryPanel.dll": {}
         }
       },
-      "UiPath.Vision/3.15.0": {
+      "UiPath.Vision/3.16.0": {
         "type": "package",
         "dependencies": {
           "UiPath.EmguCVBundle": "1.3.0",
-          "UiPath.OCR.Contracts": "2.17.1"
+          "UiPath.OCR.Contracts": "2.18.0"
         },
         "compile": {
           "lib/net6.0-windows7.0/_._": {}
@@ -11970,15 +11996,15 @@
         "lib/netcoreapp3.1/ICSharpCode.AvalonEdit.xml"
       ]
     },
-    "BitMiracle.Docotic.Pdf/9.6.17981-dev": {
-      "sha512": "PNuVza2Jpfy4SnSTmR8ua8MbSv5pW+9TRZewoWlxjQonlvO1tOKKY+ONww2LwTeg/8tEsh3W3CsHJZdItfGn5A==",
+    "BitMiracle.Docotic.Pdf/9.7.18475-dev": {
+      "sha512": "yqYJxyb/OACzFcviXY5XOEPCWJ0zILKBSDL/p7IMwZxkrEvzs18Swcjd4dYpJENP+c8W7BBJg0ydpon3TB/Ueg==",
       "type": "package",
-      "path": "bitmiracle.docotic.pdf/9.6.17981-dev",
+      "path": "bitmiracle.docotic.pdf/9.7.18475-dev",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "bitmiracle.docotic.pdf.9.6.17981-dev.nupkg.sha512",
+        "bitmiracle.docotic.pdf.9.7.18475-dev.nupkg.sha512",
         "bitmiracle.docotic.pdf.nuspec",
         "lib/netstandard2.0/BitMiracle.Docotic.Pdf.dll",
         "lib/netstandard2.0/BitMiracle.Docotic.Pdf.xml",
@@ -20758,10 +20784,10 @@
         "uipath.connectionclient.nuspec"
       ]
     },
-    "UiPath.DocumentProcessing.Contracts/1.29.4": {
-      "sha512": "XMy/pBA/ycQXwazAIurRdrz/p+XK34E9hHP3juhVPNNk3UWA7xUrAlXRgsESCiz9XueTD/KHcuG7Q/GuxYgzww==",
+    "UiPath.DocumentProcessing.Contracts/1.30.2": {
+      "sha512": "TWUpsGcquxwSroSVCGxVHaBvCpUA7/Dwnii3rk67wYa4bmLZZwt3gbhDeeI1FGM+MDjnUiFNSUMrQitoixlfgw==",
       "type": "package",
-      "path": "uipath.documentprocessing.contracts/1.29.4",
+      "path": "uipath.documentprocessing.contracts/1.30.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -20769,14 +20795,14 @@
         "lib/net461/UiPath.DocumentProcessing.Contracts.xml",
         "lib/net6.0/UiPath.DocumentProcessing.Contracts.dll",
         "lib/net6.0/UiPath.DocumentProcessing.Contracts.xml",
-        "uipath.documentprocessing.contracts.1.29.4.nupkg.sha512",
+        "uipath.documentprocessing.contracts.1.30.2.nupkg.sha512",
         "uipath.documentprocessing.contracts.nuspec"
       ]
     },
-    "UiPath.DocumentUnderstanding.Activities/2.14.0": {
-      "sha512": "x3M4EJ/TNEx7NI8bD5kOkrVtrULpIOmMGgaJOdvM5wmCz9bG5+t9IpDix7YbATio6s8ezchxrcIwlOcI6tHV/A==",
+    "UiPath.DocumentUnderstanding.Activities/2.16.1": {
+      "sha512": "1eEyZcs+PN805TbEMf1R6aiejB+rD0pW5OrbxE1mekwsHuVgx8hhubs5pV5OVHFJaNE4Bz/cZ0kO3yAFN0Nwtg==",
       "type": "package",
-      "path": "uipath.documentunderstanding.activities/2.14.0",
+      "path": "uipath.documentunderstanding.activities/2.16.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -20815,27 +20841,27 @@
         "lib/net6.0/zh-TW/UiPath.IntelligentOCR.resources.dll",
         "lib/net6.0/zu/UiPath.IntelligentOCR.StudioWeb.Activities.resources.dll",
         "lib/net6.0/zu/UiPath.IntelligentOCR.resources.dll",
-        "uipath.documentunderstanding.activities.2.14.0.nupkg.sha512",
+        "uipath.documentunderstanding.activities.2.16.1.nupkg.sha512",
         "uipath.documentunderstanding.activities.nuspec"
       ]
     },
-    "UiPath.DocumentUnderstanding.Common.SDK/2.1.0": {
-      "sha512": "Decg+waxY6HhoWiwQMzi48aNCMPN93qVWKEoJr/Fvv0USVkLBuiGPucWT+EefbdTkOzeLVpch9t2oD9uTb5fxQ==",
+    "UiPath.DocumentUnderstanding.Common.SDK/2.3.0": {
+      "sha512": "WobU/S91gZTlIPGP0xH2A+oOeo1pAYccKBV7vM2R31NtBGidJvBGaQl99z5smjNpW8YJvQfGgYO8kWIu3bjijw==",
       "type": "package",
-      "path": "uipath.documentunderstanding.common.sdk/2.1.0",
+      "path": "uipath.documentunderstanding.common.sdk/2.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net461/UiPath.DocumentUnderstanding.Common.SDK.dll",
         "lib/net6.0/UiPath.DocumentUnderstanding.Common.SDK.dll",
-        "uipath.documentunderstanding.common.sdk.2.1.0.nupkg.sha512",
+        "uipath.documentunderstanding.common.sdk.2.3.0.nupkg.sha512",
         "uipath.documentunderstanding.common.sdk.nuspec"
       ]
     },
-    "UiPath.DocumentUnderstanding.Digitizer/4.6.4": {
-      "sha512": "3xub+4RHYReYGpc2vQSAiJ606NGS+ZZMvGd6AcrpPrG7MUfEDyYcwgbbbpBa+D9IxVF+mYYJVWrDZldlj8vqUw==",
+    "UiPath.DocumentUnderstanding.Digitizer/4.8.0": {
+      "sha512": "AbGjxdfFBEpo7HijjOcrQrQ2sxEdh2K/9aZJqABqfpzA2vG63js81RNGTF6yzvABR/s2TK2PrF3YF9a3gNjJLg==",
       "type": "package",
-      "path": "uipath.documentunderstanding.digitizer/4.6.4",
+      "path": "uipath.documentunderstanding.digitizer/4.8.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -20845,8 +20871,21 @@
         "contentfiles/any/any/fonts/embedded/license.txt",
         "lib/net461/UiPath.DocumentUnderstanding.Digitizer.dll",
         "lib/net6.0/UiPath.DocumentUnderstanding.Digitizer.dll",
-        "uipath.documentunderstanding.digitizer.4.6.4.nupkg.sha512",
+        "uipath.documentunderstanding.digitizer.4.8.0.nupkg.sha512",
         "uipath.documentunderstanding.digitizer.nuspec"
+      ]
+    },
+    "UiPath.DocumentUnderstanding.Digitizer.Contracts/1.0.0": {
+      "sha512": "HNU2OBhrKkZiZ8HtDmHZYnKxj5TO4rPA/Jni9F73b6Ku3h3/6ap+xLxwalPCvASoXM5NgezLHxRdAUwnNubyyQ==",
+      "type": "package",
+      "path": "uipath.documentunderstanding.digitizer.contracts/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/UiPath.DocumentUnderstanding.Digitizer.Contracts.dll",
+        "lib/net6.0/UiPath.DocumentUnderstanding.Digitizer.Contracts.dll",
+        "uipath.documentunderstanding.digitizer.contracts.1.0.0.nupkg.sha512",
+        "uipath.documentunderstanding.digitizer.contracts.nuspec"
       ]
     },
     "UiPath.EmguCVBundle/1.3.0": {
@@ -21085,10 +21124,10 @@
         "uipath.imageprocessing.nuspec"
       ]
     },
-    "UiPath.OCR.Activities/3.22.0": {
-      "sha512": "AGdvIXW5cUkTMoo4YuFZ39vfaKkeHDfJl4QBn+kXE2ODZ5wJe8RiDSCFdAf6J4InXxOwbjGeM6VNVohZRhTZfQ==",
+    "UiPath.OCR.Activities/3.23.0": {
+      "sha512": "ElzVaEfxKy3TKza98Lm1zqdROvWGbNHBguWQQrW5j7SULU+oAcuxj6jpUUeuZ3LsvnE7VjOayLcB/tUsq0fyoQ==",
       "type": "package",
-      "path": "uipath.ocr.activities/3.22.0",
+      "path": "uipath.ocr.activities/3.23.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -21403,14 +21442,14 @@
         "lib/net6.0/zh-CN/UiPath.OCR.Activities.resources.dll",
         "lib/net6.0/zh-TW/UiPath.OCR.Activities.resources.dll",
         "lib/net6.0/zu/UiPath.OCR.Activities.resources.dll",
-        "uipath.ocr.activities.3.22.0.nupkg.sha512",
+        "uipath.ocr.activities.3.23.0.nupkg.sha512",
         "uipath.ocr.activities.nuspec"
       ]
     },
-    "UiPath.OCR.Contracts/2.17.1": {
-      "sha512": "FzdfistHGCM1Y/oB/tXC1SqCzWAfe9J7leHtws7npeb061n2iqhaMZasyPJUU2h6x/BSkSw0SYVyzrExqt+vSg==",
+    "UiPath.OCR.Contracts/2.18.0": {
+      "sha512": "R7uh7NBcOWRLwIDc7T1qem7FN28pQNbBqlARrmJzCSxDIfyd3vf1MgUhghUc7qmFOiP2aZb9vYcumbT6pcte8w==",
       "type": "package",
-      "path": "uipath.ocr.contracts/2.17.1",
+      "path": "uipath.ocr.contracts/2.18.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -21420,7 +21459,7 @@
         "lib/net6.0-windows7.0/UiPath.OCR.Contracts.xml",
         "lib/net6.0/UiPath.OCR.Contracts.dll",
         "lib/net6.0/UiPath.OCR.Contracts.xml",
-        "uipath.ocr.contracts.2.17.1.nupkg.sha512",
+        "uipath.ocr.contracts.2.18.0.nupkg.sha512",
         "uipath.ocr.contracts.nuspec"
       ]
     },
@@ -22166,6 +22205,346 @@
         "build/net6.0-windows/UiPath.Studio.Api.Base.dll",
         "build/net6.0-windows/UiPath.UIAutomation.dll",
         "build/net6.0-windows/UiPath.UIAutomation.exe",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/AutoLaunchProtocolsComponent/1.0.0.9/manifest.fingerprint",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/AutoLaunchProtocolsComponent/1.0.0.9/manifest.json",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/AutoLaunchProtocolsComponent/1.0.0.9/protocols.json",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/BrowserMetrics-spare.pma",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/BrowserMetrics/BrowserMetrics-6865A8A3-7378.pma",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/CertificateRevocation/6498.2024.12.2/crl-set",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/CertificateRevocation/6498.2024.12.2/manifest.fingerprint",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/CertificateRevocation/6498.2024.12.2/manifest.json",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Crashpad/metadata",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Crashpad/settings.dat",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Crashpad/throttle_store.dat",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/CrashpadMetrics-active.pma",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/AutofillStrikeDatabase/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/AutofillStrikeDatabase/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/BookmarkMergedSurfaceOrdering",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/BrowsingTopicsSiteData",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/BrowsingTopicsSiteData-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/BrowsingTopicsState",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/BudgetDatabase/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/BudgetDatabase/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/data_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/data_1",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/data_2",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/data_3",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_000001",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_000002",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_000003",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_000004",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_000005",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_000006",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_000007",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_000008",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_000009",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_00000a",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_00000b",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_00000c",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_00000d",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_00000e",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_00000f",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_000010",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_000011",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_000012",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/f_000013",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Cache/Cache_Data/index",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/ClientCertificates/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/ClientCertificates/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/06a30cb7444fff24_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/094deea8c88f05be_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/107f9f0385710cb8_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/164646c17bce5e76_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/1bb7459f2e9d0d66_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/1de9d69470e4a311_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/1ff7d86afdeddbd4_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/26c8173336ce44ce_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/5bbba2d076dc1a56_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/6a0524079d4592ab_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/ba3fecf72e06497a_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/dcacfd0d42eb7944_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/de43603678b184be_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/e2b8ccac12a93571_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/e3e532f6081dbd88_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/f14afe60f2cc74fa_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/index",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/js/index-dir/the-real-index",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/wasm/index",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Code Cache/wasm/index-dir/the-real-index",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/DIPS",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/DashTrackerDatabase",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/DashTrackerDatabase-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/DawnGraphiteCache/data_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/DawnGraphiteCache/data_1",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/DawnGraphiteCache/data_2",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/DawnGraphiteCache/data_3",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/DawnGraphiteCache/index",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/DawnWebGPUCache/data_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/DawnWebGPUCache/data_1",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/DawnWebGPUCache/data_2",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/DawnWebGPUCache/data_3",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/DawnWebGPUCache/index",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Download Service/EntryDB/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Download Service/EntryDB/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/EdgeEDrop/EdgeEDropSQLite.db",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/EdgeEDrop/EdgeEDropSQLite.db-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Extension Rules/000003.log",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Extension Rules/CURRENT",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Extension Rules/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Extension Rules/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Extension Rules/MANIFEST-000001",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Extension Scripts/000003.log",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Extension Scripts/CURRENT",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Extension Scripts/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Extension Scripts/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Extension Scripts/MANIFEST-000001",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Extension State/000003.log",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Extension State/CURRENT",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Extension State/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Extension State/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Extension State/MANIFEST-000001",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/ExtensionActivityComp",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/ExtensionActivityComp-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/ExtensionActivityEdge",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/ExtensionActivityEdge-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Favicons",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Favicons-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Feature Engagement Tracker/AvailabilityDB/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Feature Engagement Tracker/AvailabilityDB/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Feature Engagement Tracker/EventDB/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Feature Engagement Tracker/EventDB/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/GPUCache/data_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/GPUCache/data_1",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/GPUCache/data_2",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/GPUCache/data_3",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/GPUCache/index",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/History",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/History-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Local Storage/leveldb/000003.log",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Local Storage/leveldb/CURRENT",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Local Storage/leveldb/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Local Storage/leveldb/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Local Storage/leveldb/MANIFEST-000001",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Login Data",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Login Data-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Network Action Predictor",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Network Action Predictor-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Network/Cookies",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Network/Cookies-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Network/Network Persistent State",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Network/NetworkDataMigrated",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Network/Reporting and NEL",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Network/Reporting and NEL-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Network/SCT Auditing Pending Reports",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Network/Sdch Dictionaries",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Network/TransportSecurity",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Network/Trust Tokens",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Network/Trust Tokens-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/PersistentOriginTrials/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/PersistentOriginTrials/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Preferences",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/PreferredApps",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/README",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Safe Browsing Network/NetworkDataMigrated",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Safe Browsing Network/Safe Browsing Cookies",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Safe Browsing Network/Safe Browsing Cookies-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Secure Preferences",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/ServerCertificate",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/ServerCertificate-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Session Storage/000003.log",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Session Storage/CURRENT",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Session Storage/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Session Storage/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Session Storage/MANIFEST-000001",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Sessions/Session_13395966537905826",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Shared Dictionary/cache/index",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Shared Dictionary/cache/index-dir/the-real-index",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Shared Dictionary/db",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Shared Dictionary/db-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/SharedStorage",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Shortcuts",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Shortcuts-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Site Characteristics Database/000003.log",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Site Characteristics Database/CURRENT",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Site Characteristics Database/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Site Characteristics Database/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Site Characteristics Database/MANIFEST-000001",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Sync Data/LevelDB/000003.log",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Sync Data/LevelDB/CURRENT",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Sync Data/LevelDB/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Sync Data/LevelDB/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Sync Data/LevelDB/MANIFEST-000001",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Top Sites",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Top Sites-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Web Data",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/Web Data-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/commerce_subscription_db/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/commerce_subscription_db/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/discounts_db/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/discounts_db/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/favorites_diagnostic.log",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/heavy_ad_intervention_opt_out.db",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/heavy_ad_intervention_opt_out.db-journal",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/optimization_guide_hint_cache_store/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/optimization_guide_hint_cache_store/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/parcel_tracking_db/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/parcel_tracking_db/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/shared_proto_db/000003.log",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/shared_proto_db/CURRENT",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/shared_proto_db/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/shared_proto_db/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/shared_proto_db/MANIFEST-000001",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/shared_proto_db/metadata/000003.log",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/shared_proto_db/metadata/CURRENT",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/shared_proto_db/metadata/LOCK",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/shared_proto_db/metadata/LOG",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Default/shared_proto_db/metadata/MANIFEST-000001",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Domain Actions/3.0.0.14/domain_actions.dll",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Domain Actions/3.0.0.14/manifest.fingerprint",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Domain Actions/3.0.0.14/manifest.json",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/GrShaderCache/data_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/GrShaderCache/data_1",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/GrShaderCache/data_2",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/GrShaderCache/data_3",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/GrShaderCache/f_000001",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/GrShaderCache/f_000002",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/GrShaderCache/f_000003",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/GrShaderCache/f_000004",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/GrShaderCache/index",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/GraphiteDawnCache/data_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/GraphiteDawnCache/data_1",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/GraphiteDawnCache/data_2",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/GraphiteDawnCache/data_3",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/GraphiteDawnCache/index",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Last Version",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Local State",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/OriginTrials/0.0.1.7/manifest.fingerprint",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/OriginTrials/0.0.1.7/manifest.json",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/PKIMetadata/24.0.0.0/crs.pb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/PKIMetadata/24.0.0.0/ct_config.pb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/PKIMetadata/24.0.0.0/kp_pinslist.pb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/PKIMetadata/24.0.0.0/manifest.fingerprint",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/PKIMetadata/24.0.0.0/manifest.json",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/RevisitationBloomfilter",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/ShaderCache/data_0",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/ShaderCache/data_1",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/ShaderCache/data_2",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/ShaderCache/data_3",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/ShaderCache/index",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/SmartScreen/RemoteData/customSettings",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/SmartScreen/RemoteData/customSettings_F95BA787499AB4FA9EFFF472CE383A14",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/SmartScreen/RemoteData/edgeSettings",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/SmartScreen/RemoteData/edgeSettings_2.0-48b11410dc937a1723bf4c5ad33ecdb286d8ec69544241bc373f753e64b396c1",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/SmartScreen/RemoteData/topTraffic",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/SmartScreen/RemoteData/topTraffic_638004170464094982",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/SmartScreen/local/downloadCache",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/SmartScreen/local/downloadCache_",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/SmartScreen/local/uriCache",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/SmartScreen/local/uriCache_",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Speech Recognition/1.15.0.1/Microsoft.CognitiveServices.Speech.core.dll",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Speech Recognition/1.15.0.1/manifest.fingerprint",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Speech Recognition/1.15.0.1/manifest.json",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Subresource Filter/Indexed Rules/36/10.34.0.80/LICENSE",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Subresource Filter/Indexed Rules/36/10.34.0.80/Ruleset Data",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.80/Filtering Rules",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.80/Filtering Rules-AA",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.80/Filtering Rules-CA",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.80/LICENSE",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.80/Part-DE",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.80/Part-ES",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.80/Part-FR",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.80/Part-IT",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.80/Part-NL",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.80/Part-RU",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.80/Part-ZH",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.80/adblock_snippet.js",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.80/manifest.fingerprint",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Subresource Filter/Unindexed Rules/10.34.0.80/manifest.json",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/TrustTokenKeyCommitments/2025.5.15.1/LICENSE",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/TrustTokenKeyCommitments/2025.5.15.1/_metadata/verified_contents.json",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/TrustTokenKeyCommitments/2025.5.15.1/keys.json",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/TrustTokenKeyCommitments/2025.5.15.1/manifest.fingerprint",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/TrustTokenKeyCommitments/2025.5.15.1/manifest.json",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/Variations",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/ZxcvbnData/3.1.0.0/english_wikipedia.txt",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/ZxcvbnData/3.1.0.0/female_names.txt",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/ZxcvbnData/3.1.0.0/male_names.txt",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/ZxcvbnData/3.1.0.0/manifest.fingerprint",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/ZxcvbnData/3.1.0.0/manifest.json",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/ZxcvbnData/3.1.0.0/passwords.txt",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/ZxcvbnData/3.1.0.0/ranked_dicts",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/ZxcvbnData/3.1.0.0/surnames.txt",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/ZxcvbnData/3.1.0.0/test.txt",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/ZxcvbnData/3.1.0.0/us_tv_and_film.txt",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/component_crx_cache/00AF3F07B5ABB71F6D30337E1EEF62FA280F06EF19485C0CF6B72171F92CCC0A",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/component_crx_cache/1AB07E887ACCA305058EEAB9053C96DC531C2C5C067AB4F30AFA2B31F1EDD966",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/component_crx_cache/455D1A3B5F7FA199F27CB165FA6F54DF7972FBB6C62D422A14C2415791175931",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/component_crx_cache/4B81B4DF3AD971287E1AE02C449344FCFA5D20431DE17B2BA8854CC9CDCE4089",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/component_crx_cache/5110A67904F33F66A66CC9BE4DD3DA419A596DE32DAAE8F62BAA998D3BE5CA83",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/component_crx_cache/56E96B6819FAF673A2CC4750059D5D42BB2E89FEFC7C4D81896F64B01B35E789",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/component_crx_cache/6B1561D18D6D7D238C1FA4FB8AEF54E1F1E6B574D958BC0A41CA955F90AFD7DC",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/component_crx_cache/95FD9D48E4FC245A3F3A99A3A16ECD1355050BA3F4AFC555F19A97C7F9B49677",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/component_crx_cache/A81D1959892AE4180554347DF1B97834ABBA2E1A5E6B9AEBA000ECEA26EABECC",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/component_crx_cache/A99D66CFCE8CA170740CE0403956F4DFAF4683829A89F4B7AD9C95303871E284",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/component_crx_cache/metadata.json",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/extensions_crx_cache/metadata.json",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/_metadata/verified_contents.json",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-af.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-as.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-be.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-bg.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-bn.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-cs.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-cu.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-cy.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-da.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-de-1901.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-de-1996.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-de-ch-1901.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-el.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-en-gb.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-en-us.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-es.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-et.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-eu.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-fr.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-ga.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-gl.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-gu.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-hi.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-hr.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-hu.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-hy.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-it.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-ka.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-kn.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-la.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-lt.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-lv.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-ml.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-mn-cyrl.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-mr.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-mul-ethi.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-nb.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-nl.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-nn.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-or.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-pa.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-pt.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-ru.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-sk.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-sl.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-sq.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-sv.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-ta.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-te.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-tk.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-uk.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/hyph-und-ethi.hyb",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/manifest.fingerprint",
+        "build/net6.0-windows/UiPath.UIAutomation.exe.WebView2/EBWebView/hyphen-data/120.0.6050.0/manifest.json",
         "build/net6.0-windows/UiPath.UIAutomation.runtimeconfig.json",
         "build/net6.0-windows/UiPath.UIAutomationCore.dll",
         "build/net6.0-windows/UiPath.UIAutomationNext.Activities.Design.dll",
@@ -22423,10 +22802,10 @@
         "uipath.uiautomation.design.recoverypanel.nuspec"
       ]
     },
-    "UiPath.Vision/3.15.0": {
-      "sha512": "L2PorIsQAnrbVUBnztJyhzSZst0qceEhfKKcIFQhm7vPRcs+r4PiYQAg4ON/M1ZWx39k16DwNAOxyxsHCG9STw==",
+    "UiPath.Vision/3.16.0": {
+      "sha512": "aTZQsCud1D6myxSqBCKeKmuP5OHU0NBV2SOW9eP24LH6TEZali/SIrSpDyrV1MXWPo6otyzh5f3DoiuDrQzJvw==",
       "type": "package",
-      "path": "uipath.vision/3.15.0",
+      "path": "uipath.vision/3.16.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -22661,7 +23040,7 @@
         "lib/net6.0/UiPath.Vision.Host.dll",
         "lib/net6.0/UiPath.Vision.Package.dll",
         "lib/net6.0/UiPath.Vision.dll",
-        "uipath.vision.3.15.0.nupkg.sha512",
+        "uipath.vision.3.16.0.nupkg.sha512",
         "uipath.vision.nuspec"
       ]
     },
@@ -22672,8 +23051,6 @@
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "content/.objects/.metadata",
-        "content/.objects/.type",
         "content/Runtime.Mapping.json",
         "lib/net461/UiPath.Web.Activities.Design.dll",
         "lib/net461/UiPath.Web.Activities.RulesLibrary.dll",
@@ -22782,7 +23159,7 @@
     "": [],
     "net8.0-windows7.0": [
       "System.Xml.ReaderWriter >= 4.3.1 <= 4.3.1",
-      "UiPath.DocumentUnderstanding.Activities >= 2.14.0 <= 2.14.0",
+      "UiPath.DocumentUnderstanding.Activities >= 2.16.1 <= 2.16.1",
       "UiPath.Excel.Activities >= 3.0.1 <= 3.0.1",
       "UiPath.GSuite.Activities >= 3.1.21 <= 3.1.21",
       "UiPath.System.Activities >= 25.4.4 <= 25.4.4",
@@ -22813,7 +23190,7 @@
           "UiPath.DocumentUnderstanding.Activities": {
             "include": "Runtime",
             "target": "Package",
-            "version": "[2.14.0, 2.14.0]"
+            "version": "[2.16.1, 2.16.1]"
           },
           "UiPath.Excel.Activities": {
             "include": "Runtime",

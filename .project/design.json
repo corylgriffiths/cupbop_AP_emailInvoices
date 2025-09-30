@@ -1,9 +1,5 @@
 {
-  "Tags": [
-    {
-      "Key": "cupbop"
-    }
-  ],
+  "Tags": [],
   "SeparateRuntimeDependencies": true,
   "IncludeSources": true
 }

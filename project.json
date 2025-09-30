@@ -5,7 +5,7 @@
   "main": "Main.xaml",
   "dependencies": {
     "System.Xml.ReaderWriter": "[4.3.1]",
-    "UiPath.DocumentUnderstanding.Activities": "[2.14.0]",
+    "UiPath.DocumentUnderstanding.Activities": "[2.16.1]",
     "UiPath.Excel.Activities": "[3.0.1]",
     "UiPath.GSuite.Activities": "[3.1.21]",
     "UiPath.System.Activities": "25.4.4",
