@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome AP Invoice(1)",
+  "Type": "Screen",
+  "Id": "qNk5ak_Gt0GmVs4M4WTUXw",
+  "Reference": "sWPe-Uob5ka5MN8G-3WlKg/qNk5ak_Gt0GmVs4M4WTUXw",
+  "ParentRef": "sWPe-Uob5ka5MN8G-3WlKg/8s9tDIB9OkGgnQfrdj1vKw",
+  "Created": "2025-10-01T16:17:11.1753493Z",
+  "Updated": "2025-10-01T16:17:11.1753493Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.7.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
