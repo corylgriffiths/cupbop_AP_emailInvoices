@@ -43,5 +43,10 @@
   "UiPath.UIAutomationNext.Activities.ApplicationCard.DialogHandlingPromptDialogResponseText": "",
   "UiPath.UIAutomationNext.Activities.KeyboardEvents.TypeIntoClipboardMode": "Never",
   "UiPath.UIAutomationNext.Activities.Logging.TargetSearchLogLevel": "Off",
-  "UiPath.UIAutomationNext.Activities.Logging.TargetSearchPerformanceLogLevel": "Off"
+  "UiPath.UIAutomationNext.Activities.Logging.TargetSearchPerformanceLogLevel": "Off",
+  "UiPath.UIAutomationNext.Activities.UITask.UITaskAgentType": "DOMBasedGPT41",
+  "UiPath.UIAutomationNext.Activities.UITask.UITaskClipboardMode": "Never",
+  "UiPath.UIAutomationNext.Activities.UITask.UITaskMaxIterations": "100",
+  "UiPath.UIAutomationNext.Activities.UITask.UITaskIsDOMEnabled": "True",
+  "UiPath.UIAutomationNext.Activities.UITask.UITaskLogLevel": "Info"
 }

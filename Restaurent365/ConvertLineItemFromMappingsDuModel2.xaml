@@ -177,7 +177,7 @@
       <AssemblyReference>ExtendedExtractionRe.UHxaL3eTNPQ1UnRzu3HRHOK4</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="ConvertLineItemFromMappings" sap:VirtualizedContainerService.HintSize="1039,3925" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ConvertLineItemFromMappings" sap:VirtualizedContainerService.HintSize="1442,3869" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="SourceMappingTable" />
       <Variable x:TypeArguments="x:Boolean" Default="False" Name="hasLineItemNumber" />
@@ -197,7 +197,7 @@
       </ui:BuildDataTable.DataTable>
     </ui:BuildDataTable>
     <ui:Comment sap:VirtualizedContainerService.HintSize="596,107" sap2010:WorkflowViewState.IdRef="Comment_1" Text="//currentDocumentAttachment - for actual attachment" />
-    <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor63InvoicesLineItemsV19" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data - DuModel2" DocType="22db8da5-0a9b-f011-8e61-7c1e520ceb9a" GenerateData="True" sap:VirtualizedContainerService.HintSize="596,445" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_1" ModernDocumentTypeId="761aeb2b-ea30-f011-a5f1-002248237dcc" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" ProjectTag="Production" ProjectVersionNumber="19" TimeoutInSeconds="3600">
+    <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor63InvoicesLineItemsV19" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data - DuModel2" DocType="22db8da5-0a9b-f011-8e61-7c1e520ceb9a" GenerateData="True" sap:VirtualizedContainerService.HintSize="596,389" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_1" ModernDocumentTypeId="761aeb2b-ea30-f011-a5f1-002248237dcc" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" ProjectTag="Production" ProjectVersionNumber="19" TimeoutInSeconds="3600">
       <p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
         <InArgument x:TypeArguments="s:Nullable(x:Int32)">
           <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />

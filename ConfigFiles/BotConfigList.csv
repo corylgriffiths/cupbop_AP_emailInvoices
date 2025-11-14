@@ -1,182 +1,185 @@
-﻿VendorName,PossibleAlternativeName,AutoApprove,ToleranceAmount,LineItemEntry,AccountCode,DefaultAddress,Location,
-A1 Disposal,A-1 Disposal,F,0,F,5950,9004 Central Kitchen,9004 Central Kitchen,
-A1 Pumping,,F,0,F,5775,,Based on location in invoice,
-A&R Glassworks,,F,0,F,5501,1011 Park City,1011 Park City,
-AAFES,,F,0,F,5810,,"1034 HillAFB, 1046 LukeAFB, 1037 Mountian HomeAFB, or 1038 Fort Huachuca ",
-Aardvark Waste Services,,F,0,F,5775,1016 Washington,1016 Washington,
-ACE Recycling & Disposal,ACE Recycling,F,0,F,5950,1031 Cedar Hills,1031 Cedar Hills,
-Action Sales,,F,0,T,1615,,Based on location in invoice,
-Alpha Brothers Glass,,F,0,F,5501,1011 Park City,1011 Park City,
-Alliance Fire & Safety,,F,0,F,5780,,1016 Washington or 1003 Draper,
-American United,,F,0,F,7013,9001 Corporate,9001 Corporate,
-Ampleo,,F,0,F,7600,9001 Corporate,9001 Corporate,
-Analytical Resource Laboratories,,F,0,F,7650,9004 Central Kitchen,9004 Central Kitchen,
-Anderson Express Cleaners,,F,0,F,7008,9001 Corporate ,9001 Corporate ,
-Arizona Department of Revenue,,F,0,F,7012,9001 Corporate,9001 Corporate,
-Article,,F,0,F,5510,1021 Saratoga Springs,1021 Saratoga Springs,
-Arvada Prime 1,Arvada Prime,F,0,F,6395,1013 Arvada ,1013 Arvada ,
-ASAP Freight,,F,0,F,5655,9003 Marketing Fund,9003 Marketing Fund,
-Auraria Higher Education Center,,F,0,F,7570,9001 Corporate,9001 Corporate,
-Auto-Chlor System,,F,0,F,5685,,"1015 Highland Square, 1014 Aurora, or 1013 Arvada ",
-Auto-Chlor System of Las Vegas,,F,0,F,5685,1016 Washington,1016 Washington,
-B&B Western Properties,,F,0,F,6395,1011 Park City,1011 Park City,
-Base Exchange,,F,0,F,5810,1034 HillAFB,1034 HillAFB,
-Bear Creek High School,,F,0,F,7570,9001 Corporate,9001 Corporate,
-Birdeye,,F,0,F,7001,9003 Marketing Fund,9003 Marketing Fund,
-Bonc N Bonk,,F,0,F,5655,9004 Central Kitchen,9004 Central Kitchen,
-bopsim,,F,0,F,ignore,,,
-Boss Fire Protection,,F,0,F,5780,,Based on location in invoice,
-Boss Hood Cleaning - SF Ahchee Enterprises,Boss Hood Cleaning,F,0,F,5765,,Based on location in invoice,
-Bountiful Department of Utilities,,F,0,F,5900,1036 Bountiful,1036 Bountiful,
-Brothers Window Washing,,F,0,F,5501,1005 Fashion Place ,1005 Fashion Place ,
-Brookfield Properties,,F,0,F,6395,1005 Fashion Place ,1005 Fashion Place ,
-BT Customs,,F,0,F,1635,,Based on location in invoice,
-BTX Global Logistics,,F,0,F,5655,9004 Central Kitchen,9004 Central Kitchen,
-Bull Market Development LC,Bull Market Development,F,0,F,6395,1020 Logan,1020 Logan,
-BYU,,F,0,F,6370,1000 Truck and Concessions,1000 Truck and Concessions,
-BYU Athletics,,F,0,F,7830,9001 Corporate,9001 Corporate,
-California State Disbursement Unit,,F,0,F,ignore,9001 Corporate,9001 Corporate,
-Canyon Rim Plaza,,F,0,F,6395,1022 Millcreek,1022 Millcreek,
-Cedar Hills Retail 3,Cedar Hills Retail,F,0,F,6395,1031 Cedar Hills,1031 Cedar Hills,
-CF III SH Valley Fair - Valley Fair Holdings,SH Valley Fair,F,0,F,6395,1008 West Valley,1008 West Valley,
-Chameleon Graphic Solutions,,F,0,F,5612,,Based on location in invoice,
-CHUBB,,F,0,F,7013,9001 Corporate,9001 Corporate,
-Chinatown Supermarket,,F,0,F,ignore,,,
-City Centre Shoppes - Wasatch Commercial Management,City Centre Shoppes,F,0,F,5775,,1003 Draper or 1007 Downtown SLC,
-City of Denver,,F,0,F,ignore,,,
-Cobalt Refrigeration,,F,0,F,5501,1030 Roy,1030 Roy,
-Coca-Cola of Southern Utah,,F,0,T,5075,,1016 Washington or 1033 Cedar City,
-Cold Front Heating & Air,Cold Front Heating,F,0,F,5501,,Based on location in invoice,
-Colorado Commercial Real Estate Services/Den High,Colorado Commercial Real Estate ,F,0,F,6395,1015 Highland Sq.,1015 Highland Sq.,
-Comcast,,F,0,F,5911,,Based on location in invoice,
-Cornaby's LLC,Cornaby,F,0,F,5070,9004 Central Kitchen,9004 Central Kitchen,
-Corporate Services Consultants,,F,0,F,5950,1017 Fort Union,1017 Fort Union,
-Creative Media Solutions - Jukeboxy Music,Creative Media Solutions,F,0,F,ignore,,,
-Davis County,,F,0,F,ignore,,,
-Delphi Display Systems,,F,0,F,1635,,Based on location in invoice,
-Desert Ice and Cooling,,F,0,F,5501,1016 Washington,1016 Washington,
-DH services,,F,0,F,7600,9001 Corporate,9001 Corporate,
-Divvy,,F,0,F,ignore,,,
-Enbridge Gas,,F,0,F,5900,,Based on location in invoice,
-Don R. Petersen (Property 0543),Don R,F,0,F,6395,1018 Hunter,1018 Hunter,
-DPQUE,,F,0,F,6380,9001 Corporate,9001 Corporate,
-Easy Ice,,F,0,F,5501,1013 Arvada,1013 Arvada,
-Ecolab,,F,0,F,5685,,Based on location in invoice,
-EZ Cater,,F,0,F,ignore,,,
-Flexpak,flexprk,F,0,T,5655,9004 Central Kitchen,9004 Central Kitchen,
-Fort Union Shopping Center,,F,0,F,6395,1017 Fort Union,1017 Fort Union,
-FORVIS LLP,FORVIS,F,0,F,5975,,Cupbop Franchise,
-Franchise Elevator,,F,0,F,7650,,Cupbop Franchise,
-Freedom Fab & Powder,Freedom Fab,F,0,F,1615,,1040 LukeAFB or 1038 Fort Huachuca,
-Gallagher - Arthur J. Gallagher Risk Management Services,Gallagher Risk Management,F,0,F,7650,,9001 Corporate or 9007 Bopism ,
-GFC Glendale Associates,,F,0,F,6395,1002 Daybreak,1002 Daybreak,
-Gold Bowl Corporation,,F,0,F,ignore,,,
-Google,,F,0,F,7001,9003 Marketing Fund,9003 Marketing Fund,
-Griffco Partners,,F,0,F,5612,,Based on location in invoice,
-Hanover,,F,0,F,1420,9001 Corporate,9001 Corporate,
-HD Green Springs,,F,0,F,6395,1016 Washington,1016 Washington,
-Herriman City Building Department,,F,0,F,6352,9001 Corporate,9001 Corporate,
-Idaho Press Tribune,,F,0,F,ignore,,,
-Iliad Media Group,,F,0,F,5602,9003 Marketing Fund,9003 Marketing Fund,
-Indeed,,F,0,F,7006,9001 Corporate,9001 Corporate,
-IP Advertising & Promotions,IP ☒,F,0,F,5440,,9001 Corporate or 9003 Marketing Fund,
-JENSEN AND SULLIVAN,,F,0,F,2247,9001 Corporate,9001 Corporate,
-Jersey Stainless,,F,0,F,1615,,Based on Locations in Invoice,
-JFC International,International INC,F,0,T,5070,,Based on Locations in Invoice,
-JLJ Law Group,,F,0,F,7600,9001 Corporate,9001 Corporate,
-Jolt Software,Jolt Software,F,0,F,6380,,Based on Locations in Invoice,
-Julio Gamboni,,F,0,F,ignore,,,
-KACCUT,,F,0,F,ignore,,,
-KDK Accounting,,F,0,F,5975,,Based on Locations in Invoice,
-Keter Environmental Services,,F,0,F,5950,1005 Fashion Place,1005 Fashion Place,
-Kirkorian Enterprises,,F,0,F,6395,1006 Midvale,1006 Midvale,
-Kirton McConkie,,F,0,F,7600,,if has 12184 then use 9001 Corporate else use 9002 Cupbop Franchise,
-KoCa,,F,0,F,ignore,,,
-LBSOL,,F,0,F,5423,9001 Corporate ,9001 Corporate ,
-Levy Restaurants,,F,0,F,ignore,,,
-License Plate Toll,,F,0,F,5671,1015 Highland Sq.,1015 Highland Sq.,
-LMG Law Group,,F,0,F,7600,9001 Corporate,9001 Corporate,
-LOTTE INT'L AMERICA CORP.,LOTTE INT'L AMERICA,F,0,F,5070,,9004 Central Kitchen or 9001 Corporate,
-Marqii,,F,0,F,5400,9003 Marketing Fund,9003 Marketing Fund,
-"Mike Bachman Plumbing, Inc",Mike Bachman Plumbing,F,0,F ,5501,,Based on Locations in Invoice,
-Mitch Andrews Visual,,F,0,F,7600,9003 Marketing Fund,9003 Marketing Fund,
-Mount Olympus Primo,ympUs PRIMO WATER,F,0,F,7002,9001 Corporate,9001 Corporate,
-Mountain View High School,,F,0,F,7570,9001 Corporate,9001 Corporate,
-Mr. P The Plumber,P The Plumber,F,0,F,5501,,Based on Locations in Invoice,
-Muhlstein House - Campus Plaza Park,Muhlstein House,F,0,F,ignore,,,
-Mutual Trading Co,Mutual Trading,F,0,F,5070,,Based on Locations in Invoice,
-Nai Excel,,F,0,F,6395,1030 Roy,1030 Roy,
-NetGain Solutions,,F,0,F,7001,9001 Corporate,9001 Corporate,
-Northwest Parkway,,F,0,F,5671,1015 Highland Sq.,1015 Highland Sq.,
-NUCO2,,F,0,F,5075,,Based on Locations in Invoice,
-Nutricostmfg,,F,0,F,ignore,,,
-Ogden City Utilities,,F,0,F,5900,1019 Ogden,1019 Ogden,
-Olo,Olo,F,0,F,ignore,,,
-Omar Cabral,,F,0,F,5501,,"1015 Highland Square, 1014 Aurora, or 1013 Arvada ",
-Orem Lock,,F,0,F,5501,,Based on Locations in Invoice,
-PanTerra Networks,,F,0,F,ignore,,5910-Based on Locations in Invoice,
-Paycom,,F,0,F,ignore,,,
-Passive Capital,,F,0,F,ignore,,,
-PCN1 Fitzsimons,,F,0,F,6395,1014 Aurora,1014 Aurora,
-Praxio LLC,,F,0,F,7600,,9001 Cororate,
-Precision Plumbing,,F,0,F,5501,1016 Washington,1016 Washington,
-Preventive Pest Control,,F,0,F,5770,,Based on Locations in Invoice,
-Priority1,,F,0,F,ignore,,,
-PROFESSIONAL FUN HAVERS ASSOCIATION,,F,0,F,6395,9001 Corporate,9001 Corporate,
-Qu POS,,F,0,F,6353,,Based on Locations in Invoice,
-R B Leasing,,F,0,F,6395,1036 Bountiful,1036 Bountiful,
-Renegade Oil,,F,0,F,5775,,"Either 9004 - 9004 Central Kitchen ( if it has 12184 S Business Park Drive) or Stores based on Invoices. Don't use 9001, 9002, 9003. ",
-Resco - Restaurant & Store Equipment,Resco,F,0,F,5510, 9004 Central Kitchen, 9004 Central Kitchen,
-Restaurant 365 - R365,Restaurant365,F,0,F,6380 - Dues & Subscriptions,,Based on Locations in Invoice,
-Restaurant Systems,,F,0,T,6380,,Based on Locations in Invoice,
-Rhett Morehouse,,F,0,F,5655,9004 Central Kitchen,9004 Central Kitchen,
-Rico's Custom Upholstery,Ricos Custom Upholstery,F,0,F,5501,1021 - 1021 Saratoga Springs,1021 - 1021 Saratoga Springs,
-Robinson Waste Services,robnson waste services,F,0,F,5950,1019 - 1019 Ogden 1,1019 - 1019 Ogden 1. It says Cupbop Ogden in the invoice,
-Rockworth (Asana Partners Fund II REIT 17),Rockworth,F,0,F,6395,1029 - 1029 Foothill,1029 - 1029 Foothill,
-RS Mobile Diesel Repair,,F,0,F,5671,1000 - 1000 Truck and Concessions,1000 - 1000 Truck and Concessions,
-Salt Lake Community College,,F,0,F,5900,,"Either 1007 or 1032
-If had the word ""South City: uses 1007 - 1007 Downtown SLC
-Other than that, use 1032 - 1032 SLCC","5075, 5501, 5900, 5770, 5075, 5501"
-Savi Solutions,,F,0,F,ignore,,,
-Sharptek Supply,,F,0,F,ignore,,,
-Skyline HIgh School,,F,0,F,7570,9001 Corporate,9001 Corporate,
-Skyline Lacrosse SSO,Skyline Lacrosse,F,0,F,ignore,,,
-South Valley Glass,,F,0,F,5671,1000 Truck and Concessions,1000 Truck and Concessions,
-Southeast Township Days / WCTCC,Southeast Township Days,F,0,F,7012,1000 Truck and Concessions,1000 Truck and Concessions,
-Standard Pest Control ,,F,0,F,5770,,Based on Locations in Invoice,
-Standard Restaurant Equipment,,F,0,F,5685,,9004 Central Kitchen or 1011 Park City,
-StateFire,State Fire,F,0,F,5780,,Based on Locations in Invoice,
-Stone Ground Bakery,,F,0,F,5070,,Based on Locations in Invoice,
-Superorder,,F,0,F,6380,,Based on Locations in Invoice,
-Supreme Heating and Air Conditioning,,F,0,F,5501,1011 Park City,1011 Park City,
-TDS,,F,0,F,5911,1016 Washington,1016 Washington,
-Thanx,,F,0,F,6380,9001 Corporate,9001 Corporate,
-The Korean American Federation of Utah,,F,0,F,ignore,,,
-The WEBstaurant Store,,F,0,T,5510,1040 Luke AFB,1040 Luke AFB,
-Time To Reply Limited,,F,0,F,6380,9001 Corporate,9001 Corporate,
-Touchstone Commercial Services,TCS Commercial Services,F,0,F,5501,,Based on Locations in Invoice,
-TPark Retail One,,F,0,F,6395,1028 Lehi,1028 Lehi,
-Trust 1 Sales,Trust 1,F,0,T,1615,,Based on Locations in Invoice,
-United Angels Foundation,,F,0,F,7570,9001 Corporate,9001 Corporate,
-United States Treasury,,F,0,F,2520,,Cupbop Franchise or 9004 Central Kitchen,
-University of Utah,,F,0,F,ignore,,,
-University of Utah Union,,F,0,F,ignore,,,
-Utah Broadband,,F,0,F,5911,,1008 West Valley or 1019 Ogden 1,
-Utah State Fair,,F,0,F,ignore,,,
-Ute Conference Football,,F,0,F,6370,1000 Truck and Concessions,1000 Truck and Concessions,
-Venture Electric,,F,0,F,5501,,Based on Locations in Invoice,
-Visi Marketing Solutions,,F,0,F,5400,9003 Marketing Fund,9003 Marketing Fund,
-Wasatch Plaza Holdings,,F,0,F,5775,1007 Downtown SLC,1007 Downtown SLC,
-Washington County Assessor,,F,0,F,6365,1016 Washington,1016 Washington,
-Weber State University,,F,0,F,6370,1019 Ogden 1,1019 Ogden 1,
-Woodbury Corporation,,F,0,F,6395,1004 Americain Fork,1004 Americain Fork,
-Xcel Energy,,F,0,F,5930,,"Based on Locations in Invoice, Either 1013 Arvada , 1015 Highland Sq, or 1014 Aurora",
-YOUNGHA TRADING,,F,0,F,5070,9004 Central Kitchen,9004 Central Kitchen,
-TRUST1SALES TRUSTISALES,Trust 1,F,0,T,1615,,Based on Locations in Invoice,
-TRUST 1 RESTAURANT EQUIPMENT,Trust 1,F,0,T,1615,,Based on Locations in Invoice,
-Waste Harmonics Keter,,f,0,F,5950,,Based on Locations in Invoice,
-Servicestar,Servicestar Landmark,F,0,F,6395,1042 Ft Bliss,Based on Locations in Invoice,
-Beck's Sanitation Inc,BSI,F,0,F,5775,,Based on Locations in Invoice,
-Backdoor Piping & HVAC Inc,Backdoor Piping and HVAC,F,0,F,5501,,Based on Locations in Invoice,
-Second Life Method,2LM,F,0,F,7008,,9001 Corporate,
-Unik Studios,,F,0,F,7600,,9003 Marketing Fund,
+﻿VendorName,PossibleAlternativeName,AutoApprove,ToleranceAmount,LineItemEntry,AccountCode,DefaultAddress,Location
+A&R Glassworks,,F,0,F,5501,1011 Park City,1011 Park City
+A1 Disposal,A-1 Disposal,F,0,F,5950,9004 Central Kitchen,9004 Central Kitchen
+A1 Pumping,A-1 Pumping,F,0,F,5775,,Based on location in invoice
+AAFES,,F,0,F,5810,,"1034 HillAFB, 1046 LukeAFB, 1037 Mountian HomeAFB, or 1038 Fort Huachuca "
+Aardvark Waste Services,Aardvark Waste Services,F,0,F,5960,,1016 Washington
+ACE Recycling & Disposal,ACE Recycling,F,0,F,5950,1031 Cedar Hills,1031 Cedar Hills
+Action Sales,,F,0,T,1615,,Based on location in invoice
+Alliance Fire & Safety,,F,0,F,5780,,1016 Washington or 1003 Draper
+Alpha Brothers Glass,,F,0,F,5501,1011 Park City,1011 Park City
+American United,,F,0,F,7013,9001 Corporate,9001 Corporate
+Ampleo,,F,0,F,7600,9001 Corporate,9001 Corporate
+Analytical Resource Laboratories,,F,0,F,7650,9004 Central Kitchen,9004 Central Kitchen
+Anderson Express Cleaners,,F,0,F,7008,9001 Corporate ,9001 Corporate 
+Arizona Department of Revenue,,F,0,F,7012,9001 Corporate,9001 Corporate
+Article,,F,0,F,5510,1021 Saratoga Springs,1021 Saratoga Springs
+Arvada Prime 1,Arvada Prime,F,0,F,6395,1013 Arvada ,1013 Arvada 
+ASAP Freight,,F,0,F,5655,9003 Marketing Fund,9003 Marketing Fund
+Auraria Higher Education Center,,F,0,F,7570,9001 Corporate,9001 Corporate
+Auto-Chlor System,,F,0,F,5685,,"1015 Highland Square, 1014 Aurora, or 1013 Arvada "
+Auto-Chlor System of Las Vegas,"Auto-Chlor System of Las Vegas, Inc",F,0,F,5685,1016 Washington,1016 Washington
+B&B Western Properties,,F,0,F,6395,,Based on Locations in Invoice
+Backdoor Piping & HVAC Inc,Backdoor Piping and HVAC,F,0,F,5501,,Based on Locations in Invoice
+Base Exchange,,F,0,F,5810,1034 HillAFB,1034 HillAFB
+Bear Creek High School,,F,0,F,7570,9001 Corporate,9001 Corporate
+Beck's Sanitation Inc,BSI,F,0,F,5775,,Based on Locations in Invoice
+Birdeye,,F,0,F,7001,9003 Marketing Fund,9003 Marketing Fund
+Bonc N Bonk,,F,0,F,5655,9004 Central Kitchen,9004 Central Kitchen
+bopsim,,F,0,F,ignore,,
+Boss Fire Protection,,F,0,F,5780,,Based on location in invoice
+Boss Hood Cleaning - SF Ahchee Enterprises,Boss Hood Cleaning,F,0,F,5765,,Based on location in invoice
+Bountiful Department of Utilities,,F,0,F,5900,1036 Bountiful,1036 Bountiful
+Brookfield Properties,,F,0,F,6395,1005 Fashion Place ,1005 Fashion Place 
+Brotherhood Cleaning,Brotherhood Cleaning,F,0,F,5675,,If address is 7450 W 52nd Ave Arvada then 1013 else 1014 Aurora
+Brothers Window Washing,Brothers 2 Vjindow Lashing,F,0,F,5501,1005 Fashion Place ,1005 Fashion Place 
+BT Customs,,F,0,F,1635,,Based on location in invoice
+BTX Global Logistics,,F,0,F,5655,9004 Central Kitchen,9004 Central Kitchen
+Bull Market Development LC,Bull Market Development,F,0,F,6395,1020 Logan,1020 Logan
+BYU,,F,0,F,6370,1000 Truck and Concessions,1000 Truck and Concessions
+BYU Athletics,,F,0,F,7830,9001 Corporate,9001 Corporate
+California State Disbursement Unit,,F,0,F,ignore,9001 Corporate,9001 Corporate
+Canyon Rim Plaza,,F,0,F,6395,1022 Millcreek,1022 Millcreek
+Cedar Hills Retail 3,Cedar Hills Retail,F,0,F,6395,1031 Cedar Hills,1031 Cedar Hills
+CF III SH Valley Fair - Valley Fair Holdings,SH Valley Fair,F,0,F,6395,1008 West Valley,1008 West Valley
+Chameleon Graphic Solutions,,F,0,F,5612,,Based on location in invoice
+Chinatown Supermarket,,F,0,F,ignore,,
+CHUBB,,F,0,F,7013,9001 Corporate,9001 Corporate
+City Centre Shoppes - Wasatch Commercial Management,City Centre Shoppes,F,0,F,5775,,1003 Draper or 1007 Downtown SLC
+City of Denver,,F,0,F,ignore,,
+Cobalt Refrigeration,,F,0,F,5501,1030 Roy,1030 Roy
+Coca-Cola of Southern Utah,,F,0,T,5075,,1016 Washington or 1033 Cedar City
+Cold Front Heating & Air,Cold Front Heating,F,0,F,5501,,Based on location in invoice
+Colorado Commercial Real Estate Services/Den High,Colorado Commercial Real Estate ,F,0,F,6395,1015 Highland Sq.,1015 Highland Sq.
+Comcast,,F,0,F,5911,,Based on location in invoice
+Cornaby's LLC,Cornaby,F,0,F,5070,9004 Central Kitchen,9004 Central Kitchen
+Corporate Services Consultants,,F,0,F,5950,1017 Fort Union,1017 Fort Union
+Creative Media Solutions - Jukeboxy Music,Creative Media Solutions,F,0,F,ignore,,
+Davis County,,F,0,F,ignore,,
+Delphi Display Systems,,F,0,F,1635,,Based on location in invoice
+Desert Ice and Cooling,,F,0,F,5501,1016 Washington,1016 Washington
+DH services,,F,0,F,7600,9001 Corporate,9001 Corporate
+Divvy,,F,0,F,ignore,,
+Don R. Petersen (Property 0543),Don R,F,0,F,6395,1018 Hunter,1018 Hunter
+DPQUE,,F,0,F,6380,9001 Corporate,9001 Corporate
+Easy Ice,,F,0,F,5501,1013 Arvada,1013 Arvada
+Ecolab,,F,0,F,5685,,Based on location in invoice
+Enbridge Gas,,F,0,F,5900,,Based on location in invoice
+EZ Cater,,F,0,F,ignore,,
+Flexpak,flexprk,F,0,T,5655,9004 Central Kitchen,9004 Central Kitchen
+Fort Union Shopping Center,,F,0,F,6395,1017 Fort Union,1017 Fort Union
+FORVIS LLP,FORVIS,F,0,F,5975,,Cupbop Franchise
+Franchise Elevator,,F,0,F,7650,,Cupbop Franchise
+Freedom Fab & Powder,Freedom Fab,F,0,F,1615,,1040 LukeAFB or 1038 Fort Huachuca
+Gallagher - Arthur J. Gallagher Risk Management Services,Gallagher Risk Management,F,0,F,7650,,9001 Corporate or 9007 Bopism 
+GFC Glendale Associates,,F,0,F,6395,1002 Daybreak,1002 Daybreak
+Gold Bowl Corporation,,F,0,F,ignore,,
+Google,,F,0,F,7001,9003 Marketing Fund,9003 Marketing Fund
+Griffco Partners,,F,0,F,5612,,Based on location in invoice
+Hanover,,F,0,F,1420,9001 Corporate,9001 Corporate
+HD Green Springs,,F,0,F,6395,1016 Washington,1016 Washington
+Herriman City Building Department,,F,0,F,6352,9001 Corporate,9001 Corporate
+Idaho Press Tribune,,F,0,F,ignore,,
+Iliad Media Group,,F,0,F,5602,9003 Marketing Fund,9003 Marketing Fund
+Indeed,,F,0,F,7006,9001 Corporate,9001 Corporate
+IP Advertising & Promotions,IP ☒,F,0,F,5440,,9001 Corporate or 9003 Marketing Fund
+JENSEN AND SULLIVAN,,F,0,F,2247,9001 Corporate,9001 Corporate
+Jersey Stainless,,F,0,F,1615,,Based on Locations in Invoice
+JFC International,International INC,F,0,T,5070,,Based on Locations in Invoice
+JLJ Law Group,,F,0,F,7600,9001 Corporate,9001 Corporate
+Jolt Software,Jolt Software,F,0,F,6380,,Based on Locations in Invoice
+Julio Gamboni,,F,0,F,ignore,,
+KACCUT,,F,0,F,ignore,,
+KDK Accounting,,F,0,F,5975,,Based on Locations in Invoice
+Keter Environmental Services,,F,0,F,5950,1005 Fashion Place,1005 Fashion Place
+Kirkorian Enterprises,,F,0,F,6395,1006 Midvale,1006 Midvale
+Kirton McConkie,,F,0,F,7600,,if has 12184 then use 9001 Corporate else use 9002 Cupbop Franchise
+KoCa,,F,0,F,ignore,,
+LBSOL,,F,0,F,5423,9001 Corporate ,9001 Corporate 
+Levy Restaurants,,F,0,F,ignore,,
+License Plate Toll,,F,0,F,5671,1015 Highland Sq.,1015 Highland Sq.
+LMG Law Group,,F,0,F,7600,9001 Corporate,9001 Corporate
+LOTTE INT'L AMERICA CORP.,LOTTE INT'L AMERICA,F,0,F,5070,,9004 Central Kitchen or 9001 Corporate
+Marqii,,F,0,F,5400,9003 Marketing Fund,9003 Marketing Fund
+"Mike Bachman Plumbing, Inc",Mike Bachman Plumbing,F,0,F ,5501,,Based on Locations in Invoice
+Mitch Andrews Visual,,F,0,F,7600,9003 Marketing Fund,9003 Marketing Fund
+Mount Olympus Primo,ympUs PRIMO WATER,F,0,F,7002,9001 Corporate,9001 Corporate
+Mountain View High School,,F,0,F,7570,9001 Corporate,9001 Corporate
+Mr. P The Plumber,P The Plumber,F,0,F,5501,,Based on Locations in Invoice
+Muhlstein House - Campus Plaza Park,Muhlstein House,F,0,F,ignore,,
+Mutual Trading Co,Mutual Trading,F,0,F,5070,,Based on Locations in Invoice
+Nai Excel,,F,0,F,6395,1030 Roy,1030 Roy
+NetGain Solutions,,F,0,F,7001,9001 Corporate,9001 Corporate
+Northwest Parkway,,F,0,F,5671,1015 Highland Sq.,1015 Highland Sq.
+NUCO2,,F,0,F,5075,,Based on Locations in Invoice
+Nutricostmfg,,F,0,F,ignore,,
+Ogden City Utilities,,F,0,F,5900,1019 Ogden,1019 Ogden
+Olo,Olo,F,0,F,ignore,,
+Omar Cabral,,F,0,F,5501,,"1015 Highland Square, 1014 Aurora, or 1013 Arvada "
+Orem Lock,,F,0,F,5501,,Based on Locations in Invoice
+PanTerra Networks,,F,0,F,ignore,,5910-Based on Locations in Invoice
+Passive Capital,,F,0,F,ignore,,
+Paycom,,F,0,F,ignore,,
+PCN1 Fitzsimons,,F,0,F,6395,1014 Aurora,1014 Aurora
+Praxio LLC,,F,0,F,7600,,9001 Cororate
+Precision Plumbing,,F,0,F,5501,1016 Washington,1016 Washington
+Preventive Pest Control,,F,0,F,5770,,Based on Locations in Invoice
+Priority1,,F,0,F,ignore,,
+PROFESSIONAL FUN HAVERS ASSOCIATION,,F,0,F,6395,9001 Corporate,9001 Corporate
+Qu POS,,F,0,F,6353,,Based on Locations in Invoice
+R B Leasing,,F,0,F,6395,1036 Bountiful,1036 Bountiful
+Renegade Oil,,F,0,F,5775,,"Either 9004 - 9004 Central Kitchen ( if it has 12184 S Business Park Drive) or Stores based on Invoices. Don't use 9001, 9002, 9003. "
+Resco - Restaurant & Store Equipment,Resco,F,0,F,5510, 9004 Central Kitchen, 9004 Central Kitchen
+Restaurant 365 - R365,Restaurant365,F,0,F,6380 - Dues & Subscriptions,,Based on Locations in Invoice
+Restaurant Systems,,F,0,T,6380,,Based on Locations in Invoice
+Rhett Morehouse,,F,0,F,5655,9004 Central Kitchen,9004 Central Kitchen
+Rico's Custom Upholstery,Ricos Custom Upholstery,F,0,F,5501,1021 - 1021 Saratoga Springs,1021 - 1021 Saratoga Springs
+Robinson Waste Services,robnson waste services,F,0,F,5950,1019 - 1019 Ogden 1,1019 - 1019 Ogden 1. It says Cupbop Ogden in the invoice
+Rockworth (Asana Partners Fund II REIT 17),Rockworth,F,0,F,6395,1029 - 1029 Foothill,1029 - 1029 Foothill
+RS Mobile Diesel Repair,,F,0,F,5671,1000 - 1000 Truck and Concessions,1000 - 1000 Truck and Concessions
+Savi Solutions,,F,0,F,ignore,,
+Second Life Method,2LM,F,0,F,7008,,9001 Corporate
+Servicestar,Servicestar Landmark,F,0,F,6395,1042 Ft Bliss,Based on Locations in Invoice
+Sharptek Supply,,F,0,F,ignore,,
+Skyline HIgh School,,F,0,F,7570,9001 Corporate,9001 Corporate
+Skyline Lacrosse SSO,Skyline Lacrosse,F,0,F,ignore,,
+SLCC - Salt Lake Community College,Salt Lake Community Collége,F,0,F,5810,,1032 SLCC
+South Valley Glass,,F,0,F,5671,1000 Truck and Concessions,1000 Truck and Concessions
+Southeast Township Days / WCTCC,Southeast Township Days,F,0,F,7012,1000 Truck and Concessions,1000 Truck and Concessions
+Standard Pest Control ,,F,0,F,5770,,Based on Locations in Invoice
+Standard Restaurant Equipment,,F,0,F,5685,,9004 Central Kitchen or 1011 Park City
+StateFire,State Fire,F,0,F,5780,,Based on Locations in Invoice
+Stevens Freight Enterprises,"Stevens Freight Enterprises, LLC",F,0,F,5655,,
+Stone Ground Bakery,,F,0,F,5070,,Based on Locations in Invoice
+Superorder,,F,0,F,6380,,Based on Locations in Invoice
+Supreme Heating and Air Conditioning,,F,0,F,5501,1011 Park City,1011 Park City
+TDS,,F,0,F,5911,1016 Washington,1016 Washington
+Thanx,,F,0,F,6380,9001 Corporate,9001 Corporate
+The Korean American Federation of Utah,,F,0,F,ignore,,
+The WEBstaurant Store,,F,0,T,5510,1040 Luke AFB,1040 Luke AFB
+Time To Reply Limited,,F,0,F,6380,9001 Corporate,9001 Corporate
+Touchstone Commercial Services,TCS Commercial Services,F,0,F,5501,,Based on Locations in Invoice
+TPark Retail One,,F,0,F,6395,1028 Lehi,1028 Lehi
+TRUST 1 RESTAURANT EQUIPMENT,Trust 1,F,0,T,1615,,Based on Locations in Invoice
+Trust 1 Sales,Trust 1,F,0,T,1615,,Based on Locations in Invoice
+TRUST1SALES TRUSTISALES,Trust 1,F,0,T,1615,,Based on Locations in Invoice
+Unik Studios,,F,0,F,7600,,9003 Marketing Fund
+United Angels Foundation,,F,0,F,7570,9001 Corporate,9001 Corporate
+United States Treasury,,F,0,F,2520,,Cupbop Franchise or 9004 Central Kitchen
+University of Utah,,F,0,F,ignore,,
+University of Utah Union,,F,0,F,ignore,,
+Utah Broadband,,F,0,F,5911,,1008 West Valley or 1019 Ogden 1
+Utah State Fair,,F,0,F,ignore,,
+Ute Conference Football,,F,0,F,6370,1000 Truck and Concessions,1000 Truck and Concessions
+Venture Electric,,F,0,F,5501,,Based on Locations in Invoice
+Visi Marketing,9001 Corporate,F,0,F,5400,9003 Marketing Fund,9003 Marketing Fund
+Wasatch Plaza Holdings,,F,0,F,5775,1007 Downtown SLC,1007 Downtown SLC
+Washington County Assessor,,F,0,F,6365,1016 Washington,1016 Washington
+Waste Harmonics Keter,,f,0,F,5950,,Based on Locations in Invoice
+Weber State University,,F,0,F,6370,1019 Ogden 1,1019 Ogden 1
+West Pest Control,West Pest Control,F,0,F,5770,,1016 Washington
+Woodbury Corporation,,F,0,F,6395,1004 Americain Fork,1004 Americain Fork
+Xcel Energy,,F,0,F,5930,,"Based on Locations in Invoice, Either 1013 Arvada , 1015 Highland Sq, or 1014 Aurora"
+YOUNGHA TRADING,,F,0,F,5070,9004 Central Kitchen,9004 Central Kitchen
+Valutec,,F,0,F,5651,,9001 Corporate 
+Standard Warewashing,,F,0,F,5685,,1011 Park City

@@ -6,12 +6,12 @@
   "dependencies": {
     "System.Xml.ReaderWriter": "[4.3.1]",
     "UiPath.DocumentUnderstanding.Activities": "[2.16.1]",
-    "UiPath.Excel.Activities": "[3.0.1]",
-    "UiPath.GSuite.Activities": "[3.1.21]",
-    "UiPath.System.Activities": "25.4.4",
-    "UiPath.Testing.Activities": "[25.4.0]",
-    "UiPath.UIAutomation.Activities": "[25.10.7]",
-    "UiPath.WebAPI.Activities": "[1.21.1]"
+    "UiPath.Excel.Activities": "[3.2.1]",
+    "UiPath.GSuite.Activities": "[3.4.10]",
+    "UiPath.System.Activities": "25.10.2",
+    "UiPath.Testing.Activities": "[25.10.0]",
+    "UiPath.UIAutomation.Activities": "[25.10.16]",
+    "UiPath.WebAPI.Activities": "[2.3.2]"
   },
   "webServices": [],
   "entitiesStores": [],

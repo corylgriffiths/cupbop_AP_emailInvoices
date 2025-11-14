@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="TextExtractionData" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor63InvoicesR365MultiLinesV19.Bundle;assembly=ExtendedExtractionRe.07UAT8bUtE1z2WXR3BUlHA4" xmlns:uisasecb1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor1InvoicesV1.Bundle;assembly=ExtendedExtractionRe.P0vq02QWlvA18UqeG1jcECc" xmlns:uisasecb2="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor63InvoicesV19.Bundle;assembly=ExtendedExtractionRe.MmGkh1enHuO1jTJqD1bHyg82" xmlns:uisasecb3="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor63InvoicesLineItemsV19.Bundle;assembly=ExtendedExtractionRe.UHxaL3eTNPQ1UnRzu3HRHOK4" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="TextExtractionData" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:p="http://schemas.uipath.com/workflow/activities/intelligentocr" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor63InvoicesV19.Bundle;assembly=ExtendedExtractionRe.MmGkh1enHuO1jTJqD1bHyg82" xmlns:uisasecb1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor1InvoicesV1.Bundle;assembly=ExtendedExtractionRe.P0vq02QWlvA18UqeG1jcECc" xmlns:uisasecb2="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor63InvoicesR365MultiLinesV19.Bundle;assembly=ExtendedExtractionRe.07UAT8bUtE1z2WXR3BUlHA4" xmlns:uisasecb3="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor63InvoicesLineItemsV19.Bundle;assembly=ExtendedExtractionRe.UHxaL3eTNPQ1UnRzu3HRHOK4" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:upr="clr-namespace:UiPath.Platform.ResourceHandling;assembly=UiPath.Platform" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="Browser_Restaurent36512" Type="InArgument(ui:UiElement)" />
   </x:Members>
@@ -186,7 +186,7 @@
       <AssemblyReference>ExtendedExtractionRe.UHxaL3eTNPQ1UnRzu3HRHOK4</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TextExtractionData" sap:VirtualizedContainerService.HintSize="1217,3269" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TextExtractionData" sap:VirtualizedContainerService.HintSize="1117,3269" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -195,30 +195,30 @@
     <Sequence DisplayName="Sequence Test Data for Extraction" sap:VirtualizedContainerService.HintSize="570,702" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="sd:DataTable" Name="LineItemTableData" />
-        <Variable x:TypeArguments="uisad:IDocumentData(uisasecb2:CupBopAPInvoiceProcessor63InvoicesV19)" Name="currentDocumentData_Invoice" />
-        <Variable x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor63InvoicesR365MultiLinesV19)" Name="currentDocumentData2_R365Multi" />
+        <Variable x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor63InvoicesV19)" Name="currentDocumentData_Invoice" />
+        <Variable x:TypeArguments="uisad:IDocumentData(uisasecb2:CupBopAPInvoiceProcessor63InvoicesR365MultiLinesV19)" Name="currentDocumentData2_R365Multi" />
         <Variable x:TypeArguments="uisad:IDocumentData(uisasecb3:CupBopAPInvoiceProcessor63InvoicesLineItemsV19)" Name="currentDocumentData_lineItems" />
-        <Variable x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor63InvoicesR365MultiLinesV19)" Name="currentDocumentData_R365_Multiline" />
+        <Variable x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor63InvoicesV19)" Name="currentDocumentData_R365_Multiline" />
       </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor63InvoicesR365MultiLinesV19" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="20db8da5-0a9b-f011-8e61-7c1e520ceb9a" GenerateData="True" sap:VirtualizedContainerService.HintSize="416,389" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_5" ModernDocumentTypeId="47a631ef-dd46-f011-8f7c-002248237461" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" ProjectTag="Production" ProjectVersionNumber="19" TimeoutInSeconds="3600">
+      <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor63InvoicesV19" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="25db8da5-0a9b-f011-8e61-7c1e520ceb9a" GenerateData="True" sap:VirtualizedContainerService.HintSize="416,389" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_5" ModernDocumentTypeId="5c170943-6400-f011-90cd-002248237549" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" ProjectTag="Production" ProjectVersionNumber="19" TimeoutInSeconds="3600">
         <p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
           <InArgument x:TypeArguments="s:Nullable(x:Int32)">
             <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />
           </InArgument>
         </p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
         <p:ExtractDocumentDataWithDocumentData.ExtractionResults>
-          <OutArgument x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor63InvoicesR365MultiLinesV19)">
-            <CSharpReference x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor63InvoicesR365MultiLinesV19)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_67">currentDocumentData_R365_Multiline</CSharpReference>
+          <OutArgument x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor63InvoicesV19)">
+            <CSharpReference x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor63InvoicesV19)" sap2010:WorkflowViewState.IdRef="CSharpReference`1_69">currentDocumentData_Invoice</CSharpReference>
           </OutArgument>
         </p:ExtractDocumentDataWithDocumentData.ExtractionResults>
         <p:ExtractDocumentDataWithDocumentData.FileInput>
           <InArgument x:TypeArguments="upr:IResource">
-            <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_71">LocalResource.FromPath("C:\\Users\\Praxio\\Downloads\\ns5baxkd.a5b.pdf")</CSharpValue>
+            <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_77">LocalResource.FromPath("C:\\Users\\Praxio\\Downloads\\Invoice_Invoice_1051_1600003026.pdf")</CSharpValue>
           </InArgument>
         </p:ExtractDocumentDataWithDocumentData.FileInput>
         <p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
