@@ -139,9 +139,10 @@
       <AssemblyReference>System.Linq.Queryable</AssemblyReference>
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
       <AssemblyReference>ExtendedExtractionRe.07UAT8bUtE1z2WXR3BUlHA4</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="AddR365Lines" sap:VirtualizedContainerService.HintSize="1217,5027" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="AddR365Lines" sap:VirtualizedContainerService.HintSize="1619,5483" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="ui:UiElement" Name="outputElement">
         <sap:WorkflowViewStateService.ViewState>
@@ -158,13 +159,13 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="725,5004" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="725,5460" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="691,4844" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="691,5300" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Boolean" Name="isNewVendorPopup" />
               <Variable x:TypeArguments="x:String" Name="variable1" />
@@ -197,14 +198,14 @@
                 <scg:Dictionary x:TypeArguments="x:String, InArgument(x:String)" />
               </p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
             </p:ExtractDocumentDataWithDocumentData>
-            <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="657,4286" sap2010:WorkflowViewState.IdRef="IfElseIfV2_2">
+            <ui:IfElseIfV2 DisplayName="Else If" sap:VirtualizedContainerService.HintSize="657,4742" sap2010:WorkflowViewState.IdRef="IfElseIfV2_2">
               <ui:IfElseIfV2.Condition>
                 <InArgument x:TypeArguments="x:Boolean">
                   <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">currentDocumentDataR365.Data.Items.Count() &lt;= 0</CSharpValue>
                 </InArgument>
               </ui:IfElseIfV2.Condition>
               <ui:IfElseIfV2.Else>
-                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="552,3598" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="552,4054" sap2010:WorkflowViewState.IdRef="Sequence_17">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -219,7 +220,7 @@
                   </ui:LogMessage>
                   <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Document Amount'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="518,286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="DebuggerApi" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
                     <uix:NTypeInto.Target>
-                      <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="5bc2dcee-7253-4a5f-a423-adfa05882179" ContentHash="5fcFQzJm80SrvWQwBIhPGA" CvElementArea="233, 434, 386, 39" CvType="InputBox" DesignTimeRectangle="237, 436, 381, 36" DesignTimeScaleFactor="1.25" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='APInvoiceAmount' tag='INPUT' type='text' class='k-textbox has-full-width ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty k-valid' aaname='                                     Document Amount                                 ' /&gt;" Guid="533fa2a3-d377-4157-ac65-1d0cf2f1eb2e" InformativeScreenshot="6f16b0eadbe2693c7b3b3e5d1e3a9d64.png" IsResponsive="True" Reference="sWPe-Uob5ka5MN8G-3WlKg/aw7PUim4Bk2YkOnxOEhHHw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                      <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="5bc2dcee-7253-4a5f-a423-adfa05882179" ContentHash="5fcFQzJm80SrvWQwBIhPGA" CvElementArea="233, 434, 386, 39" CvType="InputBox" DesignTimeRectangle="237, 436, 381, 36" DesignTimeScaleFactor="1.25" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='APInvoiceAmount' tag='INPUT' type='text' class='k-textbox has-full-width ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty k-valid' aaname='                                     Document Amount                                 ' /&gt;" Guid="533fa2a3-d377-4157-ac65-1d0cf2f1eb2e" InformativeScreenshot="6f16b0eadbe2693c7b3b3e5d1e3a9d64.png" IsResponsive="True" Reference="sWPe-Uob5ka5MN8G-3WlKg/aw7PUim4Bk2YkOnxOEhHHw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5">
                         <uix:TargetAnchorable.Anchors>
                           <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                             <uix:Target CVScreenId="5bc2dcee-7253-4a5f-a423-adfa05882179" CvTextArea="44, 446, 155, 17" CvTextArgument="Document Amount" CvType="Text" DesignTimeRectangle="9, 436, 209, 31" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='                                     Document Amount                                 ' parentid='KendoSplitter' tag='LABEL' type='' class='control-label col-sm-4' check:innerText='Document Amount' /&gt;" Guid="0b4c5717-35a6-432b-812d-f40207ea8086" SearchSteps="FuzzySelector, CV" />
@@ -243,13 +244,13 @@
                       </uix:VerifyExecutionTypeIntoOptions>
                     </uix:NTypeInto.VerifyOptions>
                   </uix:NTypeInto>
-                  <ui:ForEach x:TypeArguments="uisasecb:Items" CurrentIndex="{x:Null}" DisplayName="ForLoop- Extract Document Data - R365 - For Each currentItems" sap:VirtualizedContainerService.HintSize="518,3077" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
+                  <ui:ForEach x:TypeArguments="uisasecb:Items" CurrentIndex="{x:Null}" DisplayName="ForLoop- Extract Document Data - R365 - For Each currentItems" sap:VirtualizedContainerService.HintSize="518,3533" sap2010:WorkflowViewState.IdRef="ForEach`1_2">
                     <ui:ForEach.Body>
                       <ActivityAction x:TypeArguments="uisasecb:Items">
                         <ActivityAction.Argument>
                           <DelegateInArgument x:TypeArguments="uisasecb:Items" Name="currentItems" />
                         </ActivityAction.Argument>
-                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484,2940" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                        <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="484,3396" sap2010:WorkflowViewState.IdRef="Sequence_5">
                           <Sequence.Variables>
                             <Variable x:TypeArguments="x:String" Name="tmpR365Location" />
                           </Sequence.Variables>
@@ -315,7 +316,19 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                               </InArgument>
                             </Assign.Value>
                           </Assign>
-                          <Assign DisplayName="Assign - &quot;Hill Air Force Base&quot; check" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_6">
+                          <Assign DisplayName="Assign - &quot;Hill Air Force Base&quot; check" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_7">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_13">tmpR365Location</CSharpReference>
+                              </OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_24">tmpR365Location == "" || tmpR365Location == null ? "Corporate" : tmpR365Location</CSharpValue>
+                              </InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <Assign DisplayName="Spanish fork" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_6">
                             <Assign.To>
                               <OutArgument x:TypeArguments="x:String">
                                 <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_7">tmpR365Location</CSharpReference>
@@ -323,7 +336,43 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                             </Assign.To>
                             <Assign.Value>
                               <InArgument x:TypeArguments="x:String">
-                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_13">tmpR365Location == "" || tmpR365Location == null ? "Corporate" : tmpR365Location</CSharpValue>
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_25">currentItems.ItemsMemo.Value.ToLower().Contains("spanish fork") ? "1032 SLCC" : tmpR365Location</CSharpValue>
+                              </InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <Assign DisplayName="Spanish fork" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_8">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_14">tmpR365Location</CSharpReference>
+                              </OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_26">currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "1023 UVU" : tmpR365Location</CSharpValue>
+                              </InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <Assign DisplayName="Achorage" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_9">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_15">tmpR365Location</CSharpReference>
+                              </OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_27">currentItems.ItemsMemo.Value.ToLower().Contains("jber afb") || currentItems.ItemsMemo.Value.ToLower().Contains("anchorage")? "1043 JBER AFB" : tmpR365Location</CSharpValue>
+                              </InArgument>
+                            </Assign.Value>
+                          </Assign>
+                          <Assign DisplayName="Fort Bliss" sap:VirtualizedContainerService.HintSize="450,114" sap2010:WorkflowViewState.IdRef="Assign_10">
+                            <Assign.To>
+                              <OutArgument x:TypeArguments="x:String">
+                                <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_16">tmpR365Location</CSharpReference>
+                              </OutArgument>
+                            </Assign.To>
+                            <Assign.Value>
+                              <InArgument x:TypeArguments="x:String">
+                                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_28">currentItems.ItemsMemo.Value.ToLower().Contains("fort bliss")? "1042 Ft Bliss" : tmpR365Location</CSharpValue>
                               </InArgument>
                             </Assign.Value>
                           </Assign>
@@ -363,7 +412,7 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                           </If>
                           <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Clear' - 5 Sec Delay" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
                             <uix:NClick.Target>
-                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="946e8f59-a2a6-4b71-a67c-e7baea4dfee6" ContentHash="dKVv4lmxnkmzOdXnADzrDg" CvTextArea="1767, 664, 36, 13" CvTextArgument="Clear" CvType="Text" DesignTimeRectangle="1758, 657, 55, 29" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aaname='Clear' parentid='newRowButtonsContainer' tag='BUTTON' type='' class='btn btn-default' check:innerText='Clear' /&gt;" Guid="e960911b-b753-4974-aad2-fae66fd1adc1" InformativeScreenshot="6886343e8946a0f57ac1695b4c031895.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/FbV7ZN8mM0O-QGHlKRMs8A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - SI-179987' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="946e8f59-a2a6-4b71-a67c-e7baea4dfee6" ContentHash="dKVv4lmxnkmzOdXnADzrDg" CvTextArea="1767, 664, 36, 13" CvTextArgument="Clear" CvType="Text" DesignTimeRectangle="1758, 657, 55, 29" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Clear' parentid='newRowButtonsContainer' tag='BUTTON' type='' class='btn btn-default' check:innerText='Clear' /&gt;" Guid="e960911b-b753-4974-aad2-fae66fd1adc1" InformativeScreenshot="6886343e8946a0f57ac1695b4c031895.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/FbV7ZN8mM0O-QGHlKRMs8A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - SI-179987' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" />
                             </uix:NClick.Target>
                             <uix:NClick.VerifyOptions>
                               <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
@@ -378,7 +427,7 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                           </uix:NClick>
                           <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayAfter="2" DelayBefore="1" DisplayName="Type Into 'INPUT(3)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
                             <uix:NTypeInto.Target>
-                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="1cb0e2a5-17ef-4fc7-9b5d-8535d8764972" ContentHash="5Z2fC-w5pkiWW-R1zh9euw" CvTextArea="32, 516, 108, 15" CvTextArgument="Select Account" CvType="Text" DesignTimeRectangle="26, 575, 383, 29" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='newRowAccountFieldInput_input' tag='INPUT' type='text' class='k-input has-full-width ng-touched ng-dirty ng-empty ng-invalid ng-invalid-required k-invalid' placeholder='Select Account' aaname='' /&gt;" Guid="16d62eff-550d-4254-ad67-5b7a1abacea8" InformativeScreenshot="b21f89b3c28c7e57fd08485dd8d4a604.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/21hxgA5vx0ipeGDzZ3GFuQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="1cb0e2a5-17ef-4fc7-9b5d-8535d8764972" ContentHash="5Z2fC-w5pkiWW-R1zh9euw" CvTextArea="32, 516, 108, 15" CvTextArgument="Select Account" CvType="Text" DesignTimeRectangle="26, 575, 383, 29" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='newRowAccountFieldInput_input' tag='INPUT' type='text' class='k-input has-full-width ng-touched ng-dirty ng-empty ng-invalid ng-invalid-required k-invalid' placeholder='Select Account' aaname='' /&gt;" Guid="16d62eff-550d-4254-ad67-5b7a1abacea8" InformativeScreenshot="b21f89b3c28c7e57fd08485dd8d4a604.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/21hxgA5vx0ipeGDzZ3GFuQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5">
                                 <uix:TargetAnchorable.Anchors>
                                   <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                     <uix:Target CVScreenId="1cb0e2a5-17ef-4fc7-9b5d-8535d8764972" CvTextArea="532, 586, 43, 12" CvTextArgument="Amount" CvType="Text" DesignTimeRectangle="446, 574, 126, 29" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='newRowAmountInput' tag='INPUT' type='text' class='k-textbox has-full-width text-right ng-valid ng-isolate-scope ng-not-empty ng-touched ng-dirty k-valid' aaname='' /&gt;" Guid="969893cf-6381-4724-8f74-c0648bddbda9" SearchSteps="FuzzySelector, CV" />
@@ -406,7 +455,7 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                           </ui:SendHotkey>
                           <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into Amount'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,250" sap2010:WorkflowViewState.IdRef="NTypeInto_3" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
                             <uix:NTypeInto.Target>
-                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="057df7e7-5f53-4bfc-be6e-19956524a195" ContentHash="9BMOqdac_Emm8VplnAtdsQ" CvTextArea="535, 544, 28, 15" CvTextArgument="0.00" CvType="Text" DesignTimeRectangle="446, 537, 126, 29" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='newRowAmountInput' tag='INPUT' type='text' class='k-textbox has-full-width text-right ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty' aaname='' /&gt;" Guid="f5935818-62ab-4dfa-a452-4ecccc8081f2" InformativeScreenshot="2b082a7798beb5b2e4b0f43daeb806da.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/ahsH8fsJAkilIY-9vaDRZQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="057df7e7-5f53-4bfc-be6e-19956524a195" ContentHash="9BMOqdac_Emm8VplnAtdsQ" CvTextArea="535, 544, 28, 15" CvTextArgument="0.00" CvType="Text" DesignTimeRectangle="446, 537, 126, 29" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='newRowAmountInput' tag='INPUT' type='text' class='k-textbox has-full-width text-right ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty' aaname='' /&gt;" Guid="f5935818-62ab-4dfa-a452-4ecccc8081f2" InformativeScreenshot="2b082a7798beb5b2e4b0f43daeb806da.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/ahsH8fsJAkilIY-9vaDRZQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5">
                                 <uix:TargetAnchorable.Anchors>
                                   <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                     <uix:Target CVScreenId="057df7e7-5f53-4bfc-be6e-19956524a195" CvTextArea="32, 545, 108, 15" CvTextArgument="Select Account" CvType="Text" DesignTimeRectangle="26, 538, 383, 29" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='newRowAccountFieldInput_input' tag='INPUT' type='text' class='k-input has-full-width ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required' placeholder='Select Account' aaname='' /&gt;" Guid="c77e5eed-4acf-48e9-92ce-9bc87d1bc07c" SearchSteps="FuzzySelector, CV" />
@@ -422,12 +471,12 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                           </uix:NTypeInto>
                           <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '1013 - 1013 Arvada'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,189" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
                             <uix:NClick.Target>
-                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="946e8f59-a2a6-4b71-a67c-e7baea4dfee6" ContentHash="3PWICuPsfkq0FaiH_4z-nw" CvElementArea="925, 656, 365, 31" CvType="Button" DesignTimeRectangle="928, 656, 363, 29" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='apInvoiceMultiSelectLocationDropdown' tag='BUTTON' type='button' /&gt;" Guid="9c5de73d-ea1d-4a3f-b0d4-333e248c1e82" InformativeScreenshot="ec2810118280a8a150a9a41cb071651c.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/6L-qNAGKhUSI-pfgIAo0ew" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - SI-179987' /&gt;" SearchSteps="Selector, CV" Version="V5" Visibility="Interactive" />
+                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="946e8f59-a2a6-4b71-a67c-e7baea4dfee6" ContentHash="3PWICuPsfkq0FaiH_4z-nw" CvElementArea="925, 656, 365, 31" CvType="Button" DesignTimeRectangle="928, 656, 363, 29" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl parentid='apInvoiceMultiSelectLocationDropdown' tag='BUTTON' type='button' /&gt;" Guid="9c5de73d-ea1d-4a3f-b0d4-333e248c1e82" InformativeScreenshot="ec2810118280a8a150a9a41cb071651c.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/6L-qNAGKhUSI-pfgIAo0ew" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - SI-179987' /&gt;" SearchSteps="Selector, CV" Version="V5" />
                             </uix:NClick.Target>
                           </uix:NClick>
                           <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Select None'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,225" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
                             <uix:NClick.Target>
-                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="dfaef387-260a-42ba-8df7-365a8d3513dd" ContentHash="H2KMml0i90K8dHtkLlEX2Q" CvTextArea="961, 674, 95, 13" CvTextArgument="X Select None" CvType="Text" DesignTimeRectangle="942, 668, 348, 26" DesignTimeScaleFactor="1" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='deselectAll' tag='A' type='' class='ng-binding' aaname='   Select None' check:innerText='Select None' /&gt;" Guid="296727ef-160e-4e8c-bf34-2c50d7bc5111" InformativeScreenshot="69f53936adcf607550c41d27eb26c8cf.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/VFwCBjzO9kCVjEde-PwM6Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive">
+                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="dfaef387-260a-42ba-8df7-365a8d3513dd" ContentHash="H2KMml0i90K8dHtkLlEX2Q" CvTextArea="961, 674, 95, 13" CvTextArgument="X Select None" CvType="Text" DesignTimeRectangle="942, 668, 348, 26" DesignTimeScaleFactor="1" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='deselectAll' tag='A' type='' class='ng-binding' aaname='   Select None' check:innerText='Select None' /&gt;" Guid="296727ef-160e-4e8c-bf34-2c50d7bc5111" InformativeScreenshot="69f53936adcf607550c41d27eb26c8cf.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/VFwCBjzO9kCVjEde-PwM6Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5">
                                 <uix:TargetAnchorable.Anchors>
                                   <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                     <uix:Target CVScreenId="dfaef387-260a-42ba-8df7-365a8d3513dd" CvTextArea="979, 649, 58, 12" CvTextArgument="Select All" CvType="Text" DesignTimeRectangle="942, 642, 348, 26" ElementType="Text" FuzzySelectorArgument="&lt;webctrl id='selectAll' tag='A' type='' class='ng-binding' aaname='  Select All' check:innerText='Select All' /&gt;" Guid="de312714-e5ac-45bd-8db8-5fe9bd6d3280" SearchSteps="FuzzySelector, CV" />
@@ -448,7 +497,7 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                           </uix:NClick>
                           <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Select All'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
                             <uix:NTypeInto.Target>
-                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="946e8f59-a2a6-4b71-a67c-e7baea4dfee6" ContentHash="SPdMPDTu0k6PJZoemE8bMQ" DesignTimeRectangle="949, 696, 302, 29" DesignTimeScaleFactor="1" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl parentid='apInvoiceMultiSelectLocationDropdown' tag='INPUT' type='text' class='form-control searchField ng-pristine ng-valid ng-empty ng-touched' placeholder='Search...' aaname='' /&gt;" Guid="3a99f645-8a73-4b7e-b21d-5f3998754eab" InformativeScreenshot="a52fae2247f67e8b677e720c8d47442d.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/7GdwBz2h6Eitao3tiizkhQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - SI-179987' /&gt;" SearchSteps="FuzzySelector" Version="V5" Visibility="Interactive" />
+                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="946e8f59-a2a6-4b71-a67c-e7baea4dfee6" ContentHash="SPdMPDTu0k6PJZoemE8bMQ" DesignTimeRectangle="949, 696, 302, 29" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='apInvoiceMultiSelectLocationDropdown' tag='INPUT' type='text' class='form-control searchField ng-pristine ng-valid ng-empty ng-touched' placeholder='Search...' aaname='' /&gt;" Guid="3a99f645-8a73-4b7e-b21d-5f3998754eab" InformativeScreenshot="a52fae2247f67e8b677e720c8d47442d.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/7GdwBz2h6Eitao3tiizkhQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - SI-179987' /&gt;" SearchSteps="FuzzySelector" Version="V5" />
                             </uix:NTypeInto.Target>
                             <uix:NTypeInto.Text>
                               <InArgument x:TypeArguments="x:String">
@@ -470,7 +519,7 @@ currentItems.ItemsMemo.Value.ToLower().Contains("hill afb") ? "Hill Air Force Ba
                           </ui:SendHotkey>
                           <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="2" DisplayName="Click 'Add'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,216" sap2010:WorkflowViewState.IdRef="NClick_4" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
                             <uix:NClick.Target>
-                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="10dd43e3-666c-420d-9f36-4a39cd228ee6" ContentHash="z-ZPRoZre0GbZeJJm7_lOA" CvElementArea="1730, 550, 50, 32" CvTextArea="1741, 560, 26, 12" CvTextArgument="Add" CvType="Button" DesignTimeRectangle="1732, 551, 47, 29" DesignTimeScaleFactor="1" ElementType="Button" FuzzySelectorArgument="&lt;webctrl parentid='newRowButtonsContainer' tag='BUTTON' type='' class='btn btn-default grid-add-row-button' aaname='Add' check:innerText='Add' /&gt;" Guid="67e1fee3-1f50-450a-b3e8-34dfbb9b1f69" InformativeScreenshot="b21c32646406d9d2a83a4ec034c5e90c.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/YNxXJ7xY8Uqc9g9fJ-WF0A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" Visibility="Interactive" />
+                              <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="10dd43e3-666c-420d-9f36-4a39cd228ee6" ContentHash="z-ZPRoZre0GbZeJJm7_lOA" CvElementArea="1730, 550, 50, 32" CvTextArea="1741, 560, 26, 12" CvTextArgument="Add" CvType="Button" DesignTimeRectangle="1732, 551, 47, 29" DesignTimeScaleFactor="1" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl parentid='newRowButtonsContainer' tag='BUTTON' type='' class='btn btn-default grid-add-row-button' aaname='Add' check:innerText='Add' /&gt;" Guid="67e1fee3-1f50-450a-b3e8-34dfbb9b1f69" InformativeScreenshot="b21c32646406d9d2a83a4ec034c5e90c.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/YNxXJ7xY8Uqc9g9fJ-WF0A" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" />
                             </uix:NClick.Target>
                             <uix:NClick.VerifyOptions>
                               <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">

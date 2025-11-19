@@ -12,7 +12,6 @@
       "Path": "Gmail/ProcessGmails.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "test&Sequence_6",
         "configObject&Sequence_1",
         "locationList&Sequence_1",
         "ReportTable&Sequence_1",
@@ -33,6 +32,7 @@
         "currentInvoiceIndex&Sequence_27",
         "VendorSearchDataRow&Sequence_6",
         "tempFilePath&Sequence_6",
+        "test&Sequence_6",
         "currentShipLocation&Sequence_12",
         "invoiceException&Sequence_12",
         "currentVendorName&Sequence_12",
