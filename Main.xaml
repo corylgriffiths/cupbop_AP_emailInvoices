@@ -5,7 +5,7 @@
   </x:Members>
   <this:Main.in_StakeHolderList>
     <InArgument x:TypeArguments="scg:List(x:String)">
-      <CSharpValue x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">new List&lt;string&gt;{"cory.griffiths@praxio.io", "gabe.james@praxio.io"}</CSharpValue>
+      <CSharpValue x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">new List&lt;string&gt;{"cory.griffiths@praxio.io", "gabe.james@praxio.io", "tatikonda.koushik@praxio.io"}</CSharpValue>
     </InArgument>
   </this:Main.in_StakeHolderList>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
@@ -108,9 +108,10 @@
       <AssemblyReference>WindowsBase</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
       <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1131,1002.0239999999999" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1848,204.19542857142858" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor1InvoicesV1)" Name="currentDocumentData" />
     </Sequence.Variables>
@@ -119,7 +120,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ProcessGmails - Invoke Workflow File (Gmail\\ProcessGmails.xaml)" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Gmail\\ProcessGmails.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ProcessGmails - Invoke Workflow File (Gmail\\ProcessGmails.xaml)" sap:VirtualizedContainerService.HintSize="416,169.71428571428572" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Gmail\\ProcessGmails.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <InArgument x:TypeArguments="ui:UiElement" x:Key="Browser_Restaurent365" />
         <InArgument x:TypeArguments="scg:List(x:String)" x:Key="in_stakeholderlist" />

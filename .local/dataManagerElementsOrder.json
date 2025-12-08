@@ -53,7 +53,6 @@
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
         "isLoggedin&Sequence_1",
-        "outputElement&Sequence_1",
         "isNewVendorPopup&Sequence_5",
         "variable1&Sequence_5",
         "currentPageURL&Sequence_5",
@@ -65,18 +64,19 @@
         "accountCode&Sequence_6",
         "extractedAccountCodeForSLCC&Sequence_55",
         "lineItemNotExists&Sequence_7",
-        "tmpConfirmationExists&Sequence_49"
+        "tmpConfirmationExists&Sequence_49",
+        "outputElement&Sequence_1"
       ],
       "ArgumentsSectionElementsOrder": [
         "currentShipLocation",
         "exception",
         "filePath",
+        "currentVendorName",
         "VendorDataRow",
         "LocationList",
         "currentGmailAttachmentLocalItem",
         "currentDocumentData1",
-        "Browser_Restaurent365",
-        "currentVendorName"
+        "Browser_Restaurent365"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
@@ -134,6 +134,7 @@
       "Path": "TestExtraction/TextExtractionData.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "currentDocumentData_R365_Multiline&Sequence_2",
         "currentDocumentData_lineItems&Sequence_2",
         "currentDocumentData2_R365Multi&Sequence_2",
         "currentDocumentData_Invoice&Sequence_2",
@@ -293,6 +294,14 @@
         "VendorDataRow",
         "Browser_Restaurent365"
       ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "NW.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }

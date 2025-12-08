@@ -186,13 +186,13 @@
       <AssemblyReference>ExtendedExtractionRe.UHxaL3eTNPQ1UnRzu3HRHOK4</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="TextExtractionData" sap:VirtualizedContainerService.HintSize="1619,3277" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="TextExtractionData" sap:VirtualizedContainerService.HintSize="1300,3334.285714285714" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Sequence Test Data for Extraction" sap:VirtualizedContainerService.HintSize="570,702" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Sequence Test Data for Extraction" sap:VirtualizedContainerService.HintSize="571.4285714285714,732.5714285714286" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="sd:DataTable" Name="LineItemTableData" />
         <Variable x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor63InvoicesV19)" Name="currentDocumentData_Invoice" />
@@ -205,7 +205,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor63InvoicesV19" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="25db8da5-0a9b-f011-8e61-7c1e520ceb9a" GenerateData="True" sap:VirtualizedContainerService.HintSize="416,389" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_5" ModernDocumentTypeId="5c170943-6400-f011-90cd-002248237549" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" ProjectTag="Production" ProjectVersionNumber="19" TimeoutInSeconds="3600">
+      <p:ExtractDocumentDataWithDocumentData x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor63InvoicesV19" DocumentBounds="{x:Null}" DocumentObjectModel="{x:Null}" DocumentPath="{x:Null}" DocumentText="{x:Null}" ExtractorDocumentType="{x:Null}" ExtractorResult="{x:Null}" PersistenceId="{x:Null}" PredictionId="{x:Null}" Prompt="{x:Null}" ApplyAutoValidation="False" DisplayName="Extract Document Data" DocType="25db8da5-0a9b-f011-8e61-7c1e520ceb9a" GenerateData="True" sap:VirtualizedContainerService.HintSize="416,414.85714285714283" sap2010:WorkflowViewState.IdRef="ExtractDocumentDataWithDocumentData`1_5" ModernDocumentTypeId="5c170943-6400-f011-90cd-002248237549" ProjectId="4aab0c2c-6400-f011-90cd-00224830e0e8" ProjectTag="Production" ProjectVersionNumber="19" TimeoutInSeconds="3600">
         <p:ExtractDocumentDataWithDocumentData.AutoValidationConfidenceThreshold>
           <InArgument x:TypeArguments="s:Nullable(x:Int32)">
             <Literal x:TypeArguments="s:Nullable(x:Int32)" Value="0" />
@@ -218,7 +218,7 @@
         </p:ExtractDocumentDataWithDocumentData.ExtractionResults>
         <p:ExtractDocumentDataWithDocumentData.FileInput>
           <InArgument x:TypeArguments="upr:IResource">
-            <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_77">LocalResource.FromPath("C:\\Users\\Praxio\\Downloads\\Invoice_Invoice_1051_1600003026.pdf")</CSharpValue>
+            <CSharpValue x:TypeArguments="upr:IResource" sap2010:WorkflowViewState.IdRef="CSharpValue`1_80">LocalResource.FromPath("C:\\Users\\Praxio\\Downloads\\CUPBOP INV# 1165526 - WILL CALL 9.23.25.pdf")</CSharpValue>
           </InArgument>
         </p:ExtractDocumentDataWithDocumentData.FileInput>
         <p:ExtractDocumentDataWithDocumentData.GptPromptWithVariables>
@@ -235,7 +235,7 @@
           </InArgument>
         </p:ExtractDocumentDataWithDocumentData.RuntimeTenantUrl>
       </p:ExtractDocumentDataWithDocumentData>
-      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="416,57.142857142857146" sap2010:WorkflowViewState.IdRef="CommentOut_1">
         <ui:CommentOut.Body>
           <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="450,284" sap2010:WorkflowViewState.IdRef="Sequence_3">
             <sap:WorkflowViewStateService.ViewState>
@@ -263,7 +263,7 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </ui:CommentOut>
-      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,164" sap2010:WorkflowViewState.IdRef="LogMessage_1">
+      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168.57142857142858" sap2010:WorkflowViewState.IdRef="LogMessage_1">
         <ui:LogMessage.Message>
           <InArgument x:TypeArguments="x:Object">
             <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_18">""</CSharpValue>
@@ -271,20 +271,20 @@
         </ui:LogMessage.Message>
       </ui:LogMessage>
     </Sequence>
-    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Login - Invoke Workflow File (Restaurent365\\Login.xaml)" sap:VirtualizedContainerService.HintSize="570,177" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Restaurent365\\Login.xaml">
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Login - Invoke Workflow File (Restaurent365\\Login.xaml)" sap:VirtualizedContainerService.HintSize="571.4285714285714,178.85714285714286" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_2" UnSafe="False" WorkflowFileName="Restaurent365\\Login.xaml">
       <ui:InvokeWorkflowFile.Arguments>
         <OutArgument x:TypeArguments="ui:UiElement" x:Key="Browser_Restaurent365">
           <CSharpReference x:TypeArguments="ui:UiElement" sap2010:WorkflowViewState.IdRef="CSharpReference`1_20">Browser_Restaurent36512</CSharpReference>
         </OutArgument>
       </ui:InvokeWorkflowFile.Arguments>
     </ui:InvokeWorkflowFile>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="570,2375" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome AP Invoice" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="571.4285714285714,2400" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="c4107820-3024-45db-8ce5-d560c25fd100" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence sap:VirtualizedContainerService.HintSize="536,2215" sap2010:WorkflowViewState.IdRef="Sequence_11">
+          <Sequence sap:VirtualizedContainerService.HintSize="537.1428571428571,2237.1428571428573" sap2010:WorkflowViewState.IdRef="Sequence_11">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:Int32" Default="1" Name="tmpCounter" />
             </Sequence.Variables>
@@ -293,16 +293,16 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NGoToUrl DelayAfter="5" DisplayName="Go To URL - restaurant365.com" sap:VirtualizedContainerService.HintSize="502,122" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Url="https://cupbop.restaurant365.com/#/form/APInvoiceForm/00000000-0000-0000-0000-000000000000" Version="V4" />
-            <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="502,2031" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+            <uix:NGoToUrl DelayAfter="5" DisplayName="Go To URL - restaurant365.com" sap:VirtualizedContainerService.HintSize="502.85714285714283,124.57142857142857" sap2010:WorkflowViewState.IdRef="NGoToUrl_1" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Url="https://cupbop.restaurant365.com/#/form/APInvoiceForm/00000000-0000-0000-0000-000000000000" Version="V4" />
+            <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="502.85714285714283,2050.285714285714" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
               <ui:InterruptibleWhile.Body>
-                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468,1892" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="468.57142857142856,1908.5714285714287" sap2010:WorkflowViewState.IdRef="Sequence_12">
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                       <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
-                  <Assign sap:VirtualizedContainerService.HintSize="434,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+                  <Assign sap:VirtualizedContainerService.HintSize="434.2857142857143,117.14285714285714" sap2010:WorkflowViewState.IdRef="Assign_1">
                     <Assign.To>
                       <OutArgument x:TypeArguments="x:Int32">
                         <CSharpReference x:TypeArguments="x:Int32" sap2010:WorkflowViewState.IdRef="CSharpReference`1_22">tmpCounter</CSharpReference>
@@ -314,7 +314,7 @@
                       </InArgument>
                     </Assign.Value>
                   </Assign>
-                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT(3)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Text="6380" Version="V4">
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'INPUT(3)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434.2857142857143,254.85714285714286" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Text="6380" Version="V4">
                     <uix:NTypeInto.Target>
                       <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="1cb0e2a5-17ef-4fc7-9b5d-8535d8764972" ContentHash="5Z2fC-w5pkiWW-R1zh9euw" CvTextArea="32, 516, 108, 15" CvTextArgument="Select Account" CvType="Text" DesignTimeRectangle="26, 575, 383, 29" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='newRowAccountFieldInput_input' tag='INPUT' type='text' class='k-input has-full-width ng-touched ng-dirty ng-empty ng-invalid ng-invalid-required k-invalid' placeholder='Select Account' aaname='' /&gt;" Guid="16d62eff-550d-4254-ad67-5b7a1abacea8" InformativeScreenshot="b21f89b3c28c7e57fd08485dd8d4a604.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/21hxgA5vx0ipeGDzZ3GFuQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5">
                         <uix:TargetAnchorable.Anchors>
@@ -325,7 +325,7 @@
                       </uix:TargetAnchorable>
                     </uix:NTypeInto.Target>
                   </uix:NTypeInto>
-                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="434,169" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="tab" KeyModifiers="None" SpecialKey="True">
+                  <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="434.2857142857143,172" sap2010:WorkflowViewState.IdRef="SendHotkey_1" Key="tab" KeyModifiers="None" SpecialKey="True">
                     <ui:SendHotkey.Target>
                       <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="4f24e431-af79-44d6-88e4-68e391430108">
                         <ui:Target.TimeoutMS>
@@ -337,7 +337,7 @@
                       </ui:Target>
                     </ui:SendHotkey.Target>
                   </ui:SendHotkey>
-                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into Amount'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,250" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Text="123" Version="V4">
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into Amount'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434.2857142857143,254.85714285714286" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Text="123" Version="V4">
                     <uix:NTypeInto.Target>
                       <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="057df7e7-5f53-4bfc-be6e-19956524a195" ContentHash="9BMOqdac_Emm8VplnAtdsQ" CvTextArea="535, 544, 28, 15" CvTextArgument="0.00" CvType="Text" DesignTimeRectangle="446, 537, 126, 29" DesignTimeScaleFactor="1" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl id='newRowAmountInput' tag='INPUT' type='text' class='k-textbox has-full-width text-right ng-pristine ng-untouched ng-valid ng-isolate-scope ng-not-empty' aaname='' /&gt;" Guid="f5935818-62ab-4dfa-a452-4ecccc8081f2" InformativeScreenshot="2b082a7798beb5b2e4b0f43daeb806da.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/ahsH8fsJAkilIY-9vaDRZQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5">
                         <uix:TargetAnchorable.Anchors>
