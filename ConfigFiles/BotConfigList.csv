@@ -1,23 +1,24 @@
 ﻿VendorName,PossibleAlternativeName,AutoApprove,ToleranceAmount,LineItemEntry,AccountCode,DefaultAddress,Location
-A&R Glassworks,,F,0,F,5501,1011 Park City,1011 Park City
+A&R Glassworks,A&R Glassworks,F,0,F,5501,1011 Park City,1011 Park City
 A1 Disposal,A-1 Disposal,F,0,F,5950,9004 Central Kitchen,9004 Central Kitchen
+A1 Disposal,A-1,F,0,F,5950,9004 Central Kitchen,9004 Central Kitchen
 A1 Pumping,A-1 Pumping,F,0,F,5775,,Based on location in invoice
 AAFES,,F,0,F,5810,,"1034 HillAFB, 1046 LukeAFB, 1037 Mountian HomeAFB, or 1038 Fort Huachuca "
 Aardvark Waste Services,Aardvark Waste Services,F,0,F,5960,,1016 Washington
 ACE Recycling & Disposal,ACE Recycling,F,0,F,5950,1031 Cedar Hills,1031 Cedar Hills
-Action Sales,,F,0,T,1615,,Based on location in invoice
-Alliance Fire & Safety,,F,0,F,5780,,1016 Washington or 1003 Draper
-Alpha Brothers Glass,,F,0,F,5501,1011 Park City,1011 Park City
-American United,,F,0,F,7013,9001 Corporate,9001 Corporate
-Ampleo,,F,0,F,7600,9001 Corporate,9001 Corporate
-Analytical Resource Laboratories,,F,0,F,7650,9004 Central Kitchen,9004 Central Kitchen
-Anderson Express Cleaners,,F,0,F,7008,9001 Corporate ,9001 Corporate 
-Arizona Department of Revenue,,F,0,F,7012,9001 Corporate,9001 Corporate
-Article,,F,0,F,5510,1021 Saratoga Springs,1021 Saratoga Springs
+Action Sales,Action Sales,F,0,T,1615,,Based on location in invoice
+Alliance Fire & Safety,Alliance Fire & Safety,F,0,F,5780,,1016 Washington or 1003 Draper
+Alpha Brothers Glass,Alpha Brothers Glass,F,0,F,5501,1011 Park City,1011 Park City
+American United,American United,F,0,F,7013,9001 Corporate,9001 Corporate
+Ampleo,Ampleo,F,0,F,7600,9001 Corporate,9001 Corporate
+Analytical Resource Laboratories,Analytical Resource Laboratories,F,0,F,7650,9004 Central Kitchen,9004 Central Kitchen
+Anderson Express Cleaners,Anderson Express Cleaners,F,0,F,7008,9001 Corporate ,9001 Corporate 
+Arizona Department of Revenue,Arizona Department of Revenue,F,0,F,7012,9001 Corporate,9001 Corporate
+Article,Article,F,0,F,5510,1021 Saratoga Springs,1021 Saratoga Springs
 Arvada Prime 1,Arvada Prime,F,0,F,6395,1013 Arvada ,1013 Arvada 
 ASAP Freight,,F,0,F,5655,9003 Marketing Fund,9003 Marketing Fund
 Auraria Higher Education Center,,F,0,F,7570,9001 Corporate,9001 Corporate
-Auto-Chlor System,,F,0,F,5685,,"1015 Highland Square, 1014 Aurora, or 1013 Arvada "
+Auto-Chlor System,Auto-chor,F,0,F,5685,,"1015 Highland Square, 1014 Aurora, or 1013 Arvada "
 Auto-Chlor System of Las Vegas,"Auto-Chlor System of Las Vegas, Inc",F,0,F,5685,1016 Washington,1016 Washington
 B&B Western Properties,,F,0,F,6395,,Based on Locations in Invoice
 Backdoor Piping & HVAC Inc,Backdoor Piping and HVAC,F,0,F,5501,,Based on Locations in Invoice
@@ -87,7 +88,8 @@ JENSEN AND SULLIVAN,,F,0,F,2247,9001 Corporate,9001 Corporate
 Jersey Stainless,,F,0,F,1615,,Based on Locations in Invoice
 JFC International,International INC,F,0,T,5070,,Based on Locations in Invoice
 JLJ Law Group,,F,0,F,7600,9001 Corporate,9001 Corporate
-Jolt Software,Jolt Software,F,0,F,6380,,Based on Locations in Invoice
+Jolt Software,Jolt,F,0,F,6380,,Based on Locations in Invoice
+Jolt Software,Jo1t,F,0,F,6380,,Based on Locations in Invoice
 Julio Gamboni,,F,0,F,ignore,,
 KACCUT,,F,0,F,ignore,,
 KDK Accounting,,F,0,F,5975,,Based on Locations in Invoice
@@ -160,9 +162,8 @@ The WEBstaurant Store,,F,0,T,5510,1040 Luke AFB,1040 Luke AFB
 Time To Reply Limited,,F,0,F,6380,9001 Corporate,9001 Corporate
 Touchstone Commercial Services,TCS Commercial Services,F,0,F,5501,,Based on Locations in Invoice
 TPark Retail One,,F,0,F,6395,1028 Lehi,1028 Lehi
-TRUST 1 RESTAURANT EQUIPMENT,Trust 1,F,0,T,1615,,Based on Locations in Invoice
 Trust 1 Sales,Trust 1,F,0,T,1615,,Based on Locations in Invoice
-TRUST1SALES TRUSTISALES,Trust 1,F,0,T,1615,,Based on Locations in Invoice
+Trust 1 Sales,Trust1,F,0,T,1615,,Based on Locations in Invoice
 Unik Studios,,F,0,F,7600,,9003 Marketing Fund
 United Angels Foundation,,F,0,F,7570,9001 Corporate,9001 Corporate
 United States Treasury,,F,0,F,2520,,Cupbop Franchise or 9004 Central Kitchen
@@ -183,3 +184,12 @@ Xcel Energy,,F,0,F,5930,,"Based on Locations in Invoice, Either 1013 Arvada , 10
 YOUNGHA TRADING,,F,0,F,5070,9004 Central Kitchen,9004 Central Kitchen
 Valutec,,F,0,F,5651,,9001 Corporate 
 Standard Warewashing,,F,0,F,5685,,1011 Park City
+Brotherhood Cleaning,Brotherhood Cleaning,F,0,F,5675,,"If address 7450 W 52nd Ave
+Arvada, CO 80002 then use 1013 - 1013 Arvada. Else use 1014 Aurora"
+Stevens Freight Enterprises,"Stevens Freight Enterprises, LLC",F,0,F,5655,,9004
+Valley Plumbing,Valley Plumbing,F,0,F,5520,,Based on Invoices
+Lee's Appliance and Refrigeration,Lees Appliance and Refrigeration Service ,F,0,F,5520,1014 Aurora,Based on Invoices
+Wang Globalnet,Wang Globalnet,F,0,F,5405,,9003
+Oluwabukola,,F,0,F,ignore,,
+C&T Fire Protection,,F,0,F,ignore,,
+B&B Western,,F,0,F,ignore,,

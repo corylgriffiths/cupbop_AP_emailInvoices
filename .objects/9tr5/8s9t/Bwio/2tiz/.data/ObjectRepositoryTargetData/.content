@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7Ed9ONH89UePfG_qm92P6g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com/react/accounting/legacy/AllTransactions" CVScreenId="1403353e-3000-4916-908e-44f9cb91d31e" CvTextArea="1160, 412, 40, 12" CvTextArgument="182484" CvType="Text" DesignTimeRectangle="1155, 408, 86, 24" ElementType="ListItem" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl src='https://cupbop.restaurant365.com/#/standaloneGrid/AllTransactionsGrid/00000000-0000-0000-0000-000000000000' tag='IFRAME' /&gt;&lt;webctrl src='app/pages/grids/AllTransactionsGrid/AllTransactionsGrid.html?version=07397c9e8' tag='IFRAME' /&gt;&lt;webctrl aria-role='option' class='k-item' css-selector='body&amp;gt;div&amp;gt;div&amp;gt;ul&amp;gt;li' idx='8' isleaf='1' tag='LI' /&gt;" Guid="763078ce-24ad-4b3c-a312-febfde1ef950" ScopeSelectorArgument="&lt;html app='chrome.exe' title='All Transactions | Transactions' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="be4b464d21faf980085eb322a467239a.png" xmlns="">0ESMrIX_eXky3N5n4vMchbw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

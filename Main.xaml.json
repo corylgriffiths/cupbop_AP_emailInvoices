@@ -18,11 +18,11 @@
       "DataSourceItems": null
     },
     {
-      "Name": "argument1",
-      "DisplayName": "argument1",
+      "Name": "ClientName",
+      "DisplayName": "ClientName",
       "Category": null,
       "Tooltip": null,
-      "Placeholder": null,
+      "Placeholder": "CupBop",
       "Widget": null,
       "IsRequired": false,
       "IsPrincipal": true,

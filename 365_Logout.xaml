@@ -1,0 +1,164 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="_365_Logout" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.GSuite.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.IntelligentOCR.StudioWeb.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Web.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="_365_Logout" sap:VirtualizedContainerService.HintSize="1733.7142857142856,1137.142857142857" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450.2857142857143,177.71428571428572" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info">
+      <ui:LogMessage.Message>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">"365_logout_Start"</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Message>
+    </ui:LogMessage>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome All Transactions  Transactions" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="450.2857142857143,768" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="6d347700-6804-4bef-b49e-3c8d8cd1782e" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="416,516" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'svg'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="381.7142857142857,230.28571428571428" sap2010:WorkflowViewState.IdRef="NClick_2" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6d347700-6804-4bef-b49e-3c8d8cd1782e" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com/react/accounting/legacy/AllTransactions" CVScreenId="8896dd3f-79d4-498a-8cf0-110dd832d066" ContentHash="AfSiJy3BFEOEEQOf0zkhsQ" CvElementArea="3751, 247, 49, 48" CvType="Icon" DesignTimeRectangle="3756, 251, 42, 42" ElementType="Icon" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;header&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;button&amp;gt;svg' tag='svg' /&gt;" Guid="cb34f34d-742c-472f-8662-e716740c66ff" ImageBase64="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" InformativeScreenshot="0a72ada459378b568828d5adb8494af9.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/crhPO4IwDUCae5zaSZ1MQg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='All Transactions | Transactions' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Logout'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="381.7142857142857,223.42857142857142" sap2010:WorkflowViewState.IdRef="NClick_3" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="6d347700-6804-4bef-b49e-3c8d8cd1782e" Version="V5">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com/react/accounting/legacy/AllTransactions" CVScreenId="c951c315-e109-48de-a78a-59d298bada48" ContentHash="bmT6V8mRiUmkkivK9D--zQ" CvTextArea="3566, 671, 91, 31" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="3568, 664, 217, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Logout' tag='SPAN' type='' class='MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1ipqo4p' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Logout' /&gt;" Guid="fbaf7b77-76d5-41e9-b816-596c916e6a17" InformativeScreenshot="da3a8763ec8ac02dcc32bc79fd217f25.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/3dTrlQPpIk2JAfyCbY78PA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='All Transactions | Transactions' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="c951c315-e109-48de-a78a-59d298bada48" CvTextArea="3566, 671, 91, 31" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="3540, 643, 273, 84" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' class='MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root css-12dci43' tag='DIV' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Logout' /&gt;" Guid="818fdc12-ef96-4c5a-99cc-06d4d9a45090" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-12, -12, 3864, 2100" BrowserType="Chrome" ContentHash="4O3uxY0Qok6qiRPFL3atrg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAAPYAAAD2CAYAAADlEnrIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAABRhSURBVHhe7Z3rre22EUbdQHowYMB1uJP0knLST364jTSQYATygnuOODN8SdTWWsCH+7D2FkXOi0Od699+AwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgPf//+5x9///7nX0n//Pv3P/+V9G+l/xS/lr8vr8mfle+R75Pv/oe+JwBMIjlZdtzsiP9N+l+jzj6T/07/N/lzDgCl0+PwAC2I0yTnyU4sjqUd8G6VDi/O/od+DoDXkzJyduRdnNeTHqc4es7qZHR4J0VWLjPyN4lsDu+gcGad7b5dErxwcvgeijJ7RWYu97plgys3uUrJOLLKv8/Xlx313D1fEYCOTK7nCeARJKcRI9aG3aPswNn5uo6jeq5XR2m6mTei43n0PQG2JDnBqEOXHee/9D3upsj6MyoRCVryPZTpsB/JCUeMPGfk7RzZozhnH83o8nkcHO5n0KG/snM8IZvj4HAPAw79qg7x4EmAOHhTXwCgi6Ip1mKo7CPH+g8ydzg4zCd1iFuN8sjO5Xd8fus7KY4A9XxZ+phLgGFSpmnJ0BihQwqUPQ7O/hvG6DiL5uWLRpSDt/QsJNhSAUEbjZmELDKJxqakXPe440G4gZQ9ooYlDo1hLaBx+8MbbFCnIUuzh76Axj24rAlVE3zSsJfm6OViUq8jUkVJhifgQrj0zj+EQdl9Iw3Zm9L8zaR9nDaKM2EomxAMxCLeWnsjDdGfLL0hwa0T++43EXwlFKPYnIaKi+D87QQjPaX3Q2horNFU+0bSG04YwBfS8B4/a/ttBJyarvfDCfZNcO5vIRDNxanpoH4BwX03AfzpBJz63/oz8GzSvluvsxaZ+6ng1O8lObd38kHmfhoBp6bz/eUEX2bBuZ9CwKkpw15CoGMuWR3n3h1nEXHqFxJwbhHOvSuB4w4W78U4zi2ZmzcNdyNwzEGmfjmBl5T+oz8DNxI43qD7DQepoabt48NWeKdhE4xjjePnqPX18F5S1vYSAScmd5NKq6pj6+sBhMDWjX7MXQSaZTRD4JSUuT37oSS/mkA5RcQFF6fiYxt3NcZiiNgjQRhsaROc80iiLDQR6JSzpVuN0/SgWQZdOPttksVKUsPDKpvYV0M3TiVISb4KI6qKs/MSCgyREoe2rV82pq+HCTDpcAXOVo+sPRujTOLH7mAqhq2JaKTNwjmzJorCdIwfFqGRNgujYcYkwxKcZMJPCo6SGmY1x6YsgmU4JTmvm45gODVdcFiK07BlC9iLcbwlImLCcrDByRAtYRcqVSPvTvRgRErOrOFSnLNtsnYU46V8iZJka7gU599Kwx6jJMeWjJ0lEfP4vb4W4ArI2gBfiFFFijjXBngqxrk2fR+Ap+K8jcbPKwA8FaOJxuvNAE/FyNr8L4IAnkzlhRXR809tUpdQoteVknuK5FyRIwa4BePlqeeX40aH8Cod//ueNA6ZaHF8nB2W47zu/Owm2iaOXf6alR2d/U4HyWipihwM+3/2++PpwbRT7SYZ4+URNDlGfltOxiCVhdbtlUZyXrm/jCOPqwyYP6oi/R2zSfMm98v3vOL3zc/1tW+ipQnRD7SrZKxLJ7tw5tpxSKnsNOWfuwysh+KV3Uhg1pWRPJ98dsl8ntz/CnW9OWbM3yXruIRkiLUH21FikNMnPGU9MXR9v17JOJdsI9JYZwVkWfupXWDntc2V6nXs2lw+txw3Hmp3dS3iGU45NqrZTiMld6SaaFEu1adk7zRGfY8r1GUTlfU/qjF97WN4YMbOkjEPZ+6LAtuUyF8xwJmaUmVMrnxa1OvYVnd8eD5u4SLDXqnuLLMg81kacu4LnDprOGDeaFMjjl0b89SK6zIenLGzuhpqqnMcUe4qZ+Xus77OUlezqrG0LbvfpVqeV65rHmfGmZejxF2kLscWjCpjKCDfhhGpnqSmDNPwzHKdZMqjHDsz9sYuuqh1rFaZWErGan53+q7oWLvevnIaZ4eTpHFMlx5LC0bwlIAx9N238AUZWxQ2QmMBS7lOckZympw99HdmNTVkAk4o9xoZq/6+Us0VhrNl2LqsNeajeX5vpyF7ackk5HI0Ks/oRxRqcgTuP2R8KXt4zhgqGR0nEcl9mhyvJDjW0LxmjJJWtLWDGL4QWq+tcBbCUtfeIxmTZM38RpdnWFG5Dhl41ikLmJ7RCiChCmPGd0Qogq6+R/N9DOcQNQWJqzHso8vWb8VZCEvTHnbC2exRPejv1RjPKp93A0MLgZLfNHLDyLK6M/UZxvw3lfqzAsQdGGu2/dh/MLDHnubYGcPxIpJncI294jBLFs5wFpFZHThrYn62B8OoRaG1jjTOdsYYf8i2tmLAmZYslOMMnszMkhfnpHFkZs9enLmtzt8MJ+vhZO5ljuQZQvPj9ASmVkSrOJmDLNO2tmOnjC04xuEpnMmKxtGSbC04z1KdPycgLMscarxNJbjg2FLTd92FMfdh29oC40E8VQ1zhORw+l5RNWWFGeefFgOOXXOO6mdmke4jAS+UpUuMbPeYUrayVbtk7qfiRFlLyx7UMBBPzeeuK+lxbKcMX5710v2b59A5CVhWFc3mZJtmrte27JaxhQHHXjamHjodu7YeWzuHEZCOfbq+fleM59h6/n9glB6eli2WYdyelo2pB+c5TrcNRlA7vV6TOrv5PYEs+XNXJo7iBLHH7E+NrWDTG4O34xifpSVOlCa2Z0zbZQbDSU8bU8Zxi+jH9ZnktDJn+n66pJQ/yzUSzKvf14OzZlPvtZqTeTukr9uatCCnD+JomROdGGhUoax2BUZJJzqN/kbW+9F8SgFw9M09+eyUbJq+68yOfow9k54hVxNlZXH8I4z6+quoPYu+bmucSGtppWP/mNSgtnBsp5FUHWdlW3RkWXVdrcHTq2EHN8ZzNvbIj5Euqy48aj6hr9ua3TK2k+k8idHcFumFlG28LHo6xppB5UAwsE2J6jTgeDhrlsfeWl1km8y/DgefKLU51tdtTe0hApru2EV5qe8V1aWRvSQ4djHSqvMYAfZofDU6Rq+a19XYQhzfN3ncyx28to76uq3ZKWMbHcmoml+qiJDG9etllvT7svscDY7VOTOeXdZG7tHqHLmU1X8fUdPRzoANjagaIEf5Jsf+8RABVY20lwFDFDUZY5TkvNlJ5NcsfX9P8vnTElwwytno/Y5qoGw+FQEo/ysvLQ4Yns8BGxrVdBsUvsWxTx8ioGmTmgxv1DimjafEcLgWuWMbuM9HaWoFD6HYMkQc3B23UAQ9/fkrFA5AUWpbC33d1gw41FAplAwsn7/q727VUa7qe8xgwOFEof1gmotTY3LUvQbpnpG5j4y/p9LKHe/ymCu/UNO6Lw8FoCi1tdDXbU1jeVYqL0xE+YhDlBet5541nZ4Lz2CCY5sZNJPmRn/e0pRGYc2IlarP4LxUo5Vt5lcvxPnulsDfHeQ0tTnR121Nw8TVlB1U7z+je8MZcrNKL4OOnSVzXDVgocGxxTmmNQmLyknf5+Oe+nOZmhPoz6frzDmo0bBVWxrs9HVbM5Cxd9GybC0EjD4qmeOqYQcNVzTNqUtqxlyM/dRpAvbjBrUogeA3xRZqc6Gv25oGg9pVpwY3iyKjaeXtRXQ/mCuYUyMPrsOyykRwnuN0H+t9pva8vQSce3iOvsmxrYi7s6btq0ZobASeGnvgs9VyeBaB6uRj3Om5a7YT7i+04gST4Xn6Jsf+8RAP0GkGuYtsxMkoasae9ZFVkoN46zCciSI4TqPHnV+fPdOSLYMQaNgN3btWFejrtqb2EJtrK6fWJMOznPtHSe449pS9Y4Ratko6nffyWfRzrSIFj9ocD1VyNZ/Q122NY1A7amjRriKQVXT2szLlqUOtwBi3ONFwmTuLmvPNmK/ad+vrtuZBe+zjyESPf2ecoKl/nNG69tLnNoLMsn1zK04/YGictbXQ121N7SE20ZElUgTtXqi7cIxPVL6oYa3D0s6/xhnLFuvgNO6Gxll7fn3d1myesS/bW67CyH6i8h3vU2NK2smxhxpTM3Hmtnucte/V122Ns4g76BF76hq1/Zp+Nue6XRxbEkC3w8ym5oBJXeNMlcDp9+prt2YgY8vDy2c99Xy31qV7zJlEu8zOdTs5dneJO5uaAyaNOLb+ruPZ9bVbYyyip1Dn0eiytmobg2rBcdjSsa39+KVVixGMtzJuY5yiXseurcM2JwIhnBLQUsixBce4o3rWxCYMQ/l4JqcZFJ7rUZxAvM0aOOPsDkDGC0aXrcEUVmdsIfhmVUSPK8mdoPYxh0Zp2W2orTjjrVYOydEuWx9jnEPn7Uaiqz77lgzsg8OOLRh7l1ZNKcmTYXQbQBTDUETasWvGKrrEaRxbOB2DGvcl/QDHbptss8T43kc6tn6IiJomLzm2VT5FNBSNM2rxTo11Fs78fhhLIPhNCWo1nCD00TjLGfqkyrikuqg4X1Z3cDl5nuHvvAUjQnlqcuyMYzxRdUXPZIyycOXzLjPEQCD7YSxOIOia8wiBoKKDkFVdLBun4NhQ93oac7DVaUAIx5AsdS+eERVb9MMpLFITqxbAugKFR6sBBquaJRVGwA4+usxOs0/+ftWcWs1IUfd9je8erhIv5+qMLRgT2KIfjmHhOJlousM481qdv4CTTR1rYG5Ox+pk7RXj9H5qTtSdWY15OH3+rQkYUU1DDztw3+YxpOxiZZisaYYYqEqq56zBwDdlrIYxl6o6S+A5uzNoSZoT617DVYJhk1Pm+lKCC3umkFNZBBwtovCkBzKMSBa3asgeAQM87qE/pznpBZype6xFv0F/p5Y5v4Gtg0ju07R1Kgmu23C5bMx399hvw4hSnlzj9AhmpojCxh0wZlncI/pbWVWTniUaJN3xGo0craaxJkfMa14z5KxQBmywIblO5in6/Gdd95pCz1/DsMXnNc6ENNneAp9p2LGFBmewFI7WDQ7z67vTGMXIRGIAovxnmb+o8YlChi0YxlaTjCWPVT4rTpzHKn/fMs6maiBYYWTJdXmseT7Lcbba5HBGNaqCKXZ+OQ3RVmvaAzcaXE3R7JI7zy2G4yn6XaExlnQ4tyg6npq61rZhHUfHV0ocMhyAzkg2UfOD5jXbgo7omNW1+GcE92kRhcux5DBRQ5whc69qkcbas0Y9kozZ7SiGg6xQ95yWOFXccDVwCwMLMc2xhUkleesRWLnfXCVxyGEDbGh2jWh4nELKoisDkXz3NIczyvAme9qKHTJ2pnGfVlPzuBqbNC1q2qdGWOQ0Mk4JHNPGujBoDlUUZxg+0GxL2zAw+dMf2imJourOkBMdXOZ0WkbRpHlqbYad6RjnbEcpSd9fc5yo5DmnB5+MMbZla7icgRJ4umMLRlnUIlmobgNIxpi7sxHnyYYnY19ifDWKsUaqnY9x6u9aSQpG0VMEeQ65Jnf4l82n05xcdt+lON1AT0scWxgYU6kh586kOcrHRvlIJv8qf1/+S6PD9xulGGc5VtExzh3GKKR51fOZx3rZGA1bW2bfl1BkplYtOwYoAs6IJOI/t5Qa5ErneCrJzrRDZ10aYJaQHyA9aEj6O1ah7xuV/h4AjbENfW43HODtGD2JZdUoACzEaZpd2lgEgEkYnfnwzx0AwEY4rzC/tuEaonjzSBoUWjS34DaSXWqHFtE083CiIs0JuIV0aqLtEbtswThOYB8Dt+C82UglGcGJjl3vcwP0kuyx1jQjW7dgZG32M3ApTrbmiKsFJ2sTJeEyKi+kyN89+73wu0hdyNqksq+B5aTK8cwGRdhgD0bWJlrCcpL9nTk19jeKsdcWsb+BZRjn1iKy9SiVqCni+AuWwPsUF+C8eM8kw1Sc4y2SyUycsoiSHKaBrV2I0UgTEUVhCl51yN56AU4kpSSHIYwuuIgj1lU4WVvEj85BNySOG3Fe7+N1U+gCu9oAJ7Ly4gA04RxtiagEr8DZC4komyAMtrQRTvdSRJQFF6f647TlalLWtl43lSjMmSNUcexHhP3chfGGkIiIC6c4zTIR/6DHnQSOwGimwQeBbRz76h2ILBQvF4CQOuBWs4wqbxdS1qa0Ahdn68bbZTvidDhFdMpfTMA+aJbtSmDxcO4Xgl18AYFFpDnyEoqfrbb21Tj1U8C5wfkHE3Dqp4Jzv5dA91tEQ/WpBCI259xfRjr+FKe2HBunfjqBPZZkdo45voB07GmtNU79TQQWW5yf444HE3j3G6f+NoKNFBb+oaSqywve9FS+kQbnxgAeQmqSRdaUgP3tBLrlIrmG0nxjgvtpnPpNBPdjYjScc25IMDhLJmf93kbgB0eycxPxNyGV3lGn5qTjrRRnntowtCjNbyZYest/590E+NVUi2QBEY21i2nI0iKqK/gkuO8WsXe7gMC/a8eaQIxUmkeOT0SU54tIZXd4HfTnAX7QWJqLJKvg4IOkeW8JrGRpaKd4+cFr2GRJMMDQGilK7qhDiySj0/WGfhr2eVlkkgCFQ0cDp1zH3MI8GjuzWXI9XVpFmssWhxbxPgGso3EPmCXXv34fnuauNTiKXj93cBGNXdtSRxZ/y/6wyM69cyWff8VcwUZ0lJRZxxtS3+jkg84sogkJe9BhyGUwKJ38cSVncUyl56A14OHQsCcDJXqpvCff0tGVI4sztjqwlnwPDg37UzTZRo1eJN8jDpSdXb77kvI9ldXZiXNGzs808mzyWZpi8EyKY7LRLK4ljpFL+NLps+Nnyf1rytfkz2XnzeMdcdwz5XPor+srwItJBj2jdI3qqvt44rgPvp+0R81OPjuT7yKcGd6N6ijvkmVblfsAWzb8AG6lyOa7O3rpyHS0AVoojpays69qbNUk9yq78kdDLo9NjxcAOsjOlBw+d7bLjnZ2/laVny876jgvwM7gpAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwBf8HO1Bz40BQB+UAAAAASUVORK5CYII=" InformativeScreenshot="492eb7ade1ec2d3498bab755251d8e8d.jpg" Reference="sWPe-Uob5ka5MN8G-3WlKg/zgTWY-H6W06TpZHGnMZMIg" Selector="&lt;html app='chrome.exe' title='All Transactions | Transactions' /&gt;" Url="https://cupbop.restaurant365.com/react/accounting/legacy/AllTransactions" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450.2857142857143,168.57142857142858" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Info">
+      <ui:LogMessage.Message>
+        <InArgument x:TypeArguments="x:Object">
+          <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">"365_Logout_end"</CSharpValue>
+        </InArgument>
+      </ui:LogMessage.Message>
+    </ui:LogMessage>
+  </Sequence>
+</Activity>

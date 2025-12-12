@@ -211,38 +211,45 @@
       <AssemblyReference>ExtendedExtractionRe.MmGkh1enHuO1jTJqD1bHyg82</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1470.8571428571427,1935.182857142857" sap2010:WorkflowViewState.IdRef="Sequence_91">
+  <Sequence sap:VirtualizedContainerService.HintSize="1331,1856.04" sap2010:WorkflowViewState.IdRef="Sequence_91">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Sequence - Save Invoic details" sap:VirtualizedContainerService.HintSize="621.7142857142857,1506.857142857143" sap2010:WorkflowViewState.IdRef="Sequence_44">
+    <Sequence DisplayName="Sequence - Save Invoic details" sap:VirtualizedContainerService.HintSize="552,1097" sap2010:WorkflowViewState.IdRef="Sequence_44">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="invoice screen" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="587.4285714285714,1424" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="2b74db17-77bc-4a30-8eae-0b1c6d2bc84a" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="invoice screen" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,1014" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" OpenMode="Never" ScopeGuid="2b74db17-77bc-4a30-8eae-0b1c6d2bc84a" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="553.1428571428571,1181.142857142857" sap2010:WorkflowViewState.IdRef="Sequence_92">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="484,774" sap2010:WorkflowViewState.IdRef="Sequence_92">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="518.8571428571429,1118.857142857143" sap2010:WorkflowViewState.IdRef="Sequence_88">
+              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="450,175" sap2010:WorkflowViewState.IdRef="LogMessage_3">
+                <ui:LogMessage.Message>
+                  <InArgument x:TypeArguments="x:Object">
+                    <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">"Saving Invoice"</CSharpValue>
+                  </InArgument>
+                </ui:LogMessage.Message>
+              </ui:LogMessage>
+              <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="450,537" sap2010:WorkflowViewState.IdRef="Sequence_88">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <uix:NHover DisplayName="Hover 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="484.57142857142856,230.28571428571428" sap2010:WorkflowViewState.IdRef="NHover_2" InteractionMode="HardwareEvents" ScopeIdentifier="2b74db17-77bc-4a30-8eae-0b1c6d2bc84a" Version="V4">
+                <uix:NHover DisplayName="Hover 'Save'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NHover_2" InteractionMode="HardwareEvents" ScopeIdentifier="2b74db17-77bc-4a30-8eae-0b1c6d2bc84a" Version="V4">
                   <uix:NHover.Target>
                     <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="8034a230-3275-4a82-bb9c-f72c9d0d8bae" ContentHash="mADjv2nWzEuiXMjCe_iyHA" CvElementArea="90, 202, 23, 25" CvTextArea="45, 204, 43, 17" CvTextArgument="Save" CvType="ArrowButton" DesignTimeRectangle="28, 182, 98, 63" DesignTimeScaleFactor="1.25" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl tag='A' type='' class='dropdown-toggle' aaname='                                 Save                                                              ' check:innerText='Save' /&gt;" Guid="90250174-d1a6-4586-a36a-32869caa8a0e" InformativeScreenshot="05c1a28f363f5da37d54a0d177c00d0a.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/IaWYsVKkbEuVm-DTllZLgg" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - 830169' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5" />
                   </uix:NHover.Target>
@@ -257,17 +264,17 @@
                     </uix:VerifyExecutionOptions>
                   </uix:NHover.VerifyOptions>
                 </uix:NHover>
-                <uix:NCheckState DisplayName="check for save hover" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="484.57142857142856,801.1428571428571" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="2b74db17-77bc-4a30-8eae-0b1c6d2bc84a" Timeout="3" Version="V4">
+                <uix:NCheckState DisplayName="check for save hover" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="2b74db17-77bc-4a30-8eae-0b1c6d2bc84a" Timeout="3" Version="V4">
                   <uix:NCheckState.IfExists>
-                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450.2857142857143,281.14285714285717" sap2010:WorkflowViewState.IdRef="Sequence_85">
+                    <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="450,276" sap2010:WorkflowViewState.IdRef="Sequence_85">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="5" DisplayName="Click ''Save''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,221.14285714285714" sap2010:WorkflowViewState.IdRef="NClick_18" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2b74db17-77bc-4a30-8eae-0b1c6d2bc84a" Version="V4">
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DelayAfter="5" DisplayName="Click ''Save' and close'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,216" sap2010:WorkflowViewState.IdRef="NClick_18" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2b74db17-77bc-4a30-8eae-0b1c6d2bc84a" Version="V4">
                         <uix:NClick.Target>
-                          <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="d4acf065-1fa8-493d-bbca-3ce80035a6c3" DesignTimeRectangle="8, 121, 0, 0" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='A' data-toggle='dropdown' parentid='Save' idx='2' /&gt;" Guid="b3203399-d162-4013-ad4b-6075694f1e4f" InformativeScreenshot="286889b5a7dd4dfd6f478641a41c247b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - 1600003059' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None" />
+                          <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="7b7d10aa-575e-480c-8fce-f94765b323a2" ContentHash="qv3ZuPuwR0Si_JqkpyjRPQ" CvTextArea="73, 414, 187, 24" CvTextArgument="Save and Close" CvType="Text" DesignTimeRectangle="39, 404, 278, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='*Save and Close*' tag='A' /&gt;" Guid="e01d62e4-e6c5-4810-967b-ac79f1515c13" InformativeScreenshot="3e1ce5cf2e6602817da1b67fa778a60b.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/bLO6VYXtEkq2lQSYml4dLA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - 255301600583' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
                         </uix:NClick.Target>
                         <uix:NClick.VerifyOptions>
                           <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
@@ -283,13 +290,13 @@
                     </Sequence>
                   </uix:NCheckState.IfExists>
                   <uix:NCheckState.IfNotExists>
-                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450.2857142857143,230.85714285714286" sap2010:WorkflowViewState.IdRef="Sequence_86">
+                    <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="450,226" sap2010:WorkflowViewState.IdRef="Sequence_86">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,170.85714285714286" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Fatal">
+                      <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="Fatal">
                         <ui:LogMessage.Message>
                           <InArgument x:TypeArguments="x:Object">
                             <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_1">"Save button didnt work!!"</CSharpValue>
@@ -299,21 +306,28 @@
                     </Sequence>
                   </uix:NCheckState.IfNotExists>
                   <uix:NCheckState.Target>
-                    <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="d1801ff1-bb4e-43c4-8b38-e5ca7d197a9d" CvTextArea="43, 183, 36, 14" CvTextArgument="Save" CvType="Text" DesignTimeRectangle="24, 177, 158, 27" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='                     Save                   ' tag='A' /&gt;" Guid="2d167739-7097-4fae-8019-8615efe8ac74" InformativeScreenshot="4449020b40a8c19d575fafe11b359799.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - 1600003059' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                    <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="9ec79346-2c98-469b-9401-2ae40e284f1f" CvTextArea="73, 414, 187, 24" CvTextArgument="Save and Close" CvType="Text" DesignTimeRectangle="12, 211, 0, 0" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='*Save and Close*' tag='A' data-toggle='dropdown' parentid='Save' /&gt;" Guid="e11eca95-2639-47bb-9351-8e281ee22834" InformativeScreenshot="4ccbfe5601ad03e92c94cf2d0bcb4827.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - 759412879' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None" />
                   </uix:NCheckState.Target>
                   <sap:WorkflowViewStateService.ViewState>
                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                     </scg:Dictionary>
                   </sap:WorkflowViewStateService.ViewState>
                 </uix:NCheckState>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168" sap2010:WorkflowViewState.IdRef="LogMessage_2">
+                  <ui:LogMessage.Message>
+                    <InArgument x:TypeArguments="x:Object">
+                      <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">"Invoice Saved"</CSharpValue>
+                    </InArgument>
+                  </ui:LogMessage.Message>
+                </ui:LogMessage>
               </Sequence>
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>
         <uix:NApplicationCard.TargetApp>
-          <uix:TargetApp Area="1693, 162, 2131, 1732" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFLSURBVDhPzVK7SgNREN0kKFEMarRQFB+FIJJCVBTB9wNEsRA7LU5zJC5ncTXEq5Vio70/4E9Y+HkyMoHdRK1zYBjuvTNnZs7cKOo63D08R3EazIpxGipxGqpxGvrjNBTs7V/chqcIlNkkqD1Qu6A2QR2A2gA1dH1zHzUeX9pTc8lznlAFVfC7IqgpUEegRowkB2vNAytetexnsxaJ2biTl3Lj2MygFkC9g3oDte6Baxm/DWrLRxuznHaCHVAfTnIFasXJAqgLUA1Qx6CWQc3/RmAVPkF9edUlUK+gzkBdevI5qBPTKUfgGsyCOgR16jqY6rV60rRxFp1w1WNGcwQGUxZUH6h9UIMmWj1p/ryZdxFnvNPOP5HZxISvaxpUbz1p2gqNuObVBzrW2IKReCfDmU1YR+ZtjPKfHymLzHfuidNQjtNQsnNH212BbwyAxDpX6zTnAAAAAElFTkSuQmCC" InformativeScreenshot="d0522a681b88949bb393f0f868f3d194.jpg" Selector="&lt;html app='chrome.exe' url='https://cupbop.restaurant365.com/#/form/APInvoiceForm/*' /&gt;" Version="V2" />
+          <uix:TargetApp Area="1693, 162, 2131, 1732" BrowserType="Chrome" ContentHash="gRRCdvbN2UqxDGCuG8Hl9w" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFLSURBVDhPzVK7SgNREN0kKFEMarRQFB+FIJJCVBTB9wNEsRA7LU5zJC5ncTXEq5Vio70/4E9Y+HkyMoHdRK1zYBjuvTNnZs7cKOo63D08R3EazIpxGipxGqpxGvrjNBTs7V/chqcIlNkkqD1Qu6A2QR2A2gA1dH1zHzUeX9pTc8lznlAFVfC7IqgpUEegRowkB2vNAytetexnsxaJ2biTl3Lj2MygFkC9g3oDte6Baxm/DWrLRxuznHaCHVAfTnIFasXJAqgLUA1Qx6CWQc3/RmAVPkF9edUlUK+gzkBdevI5qBPTKUfgGsyCOgR16jqY6rV60rRxFp1w1WNGcwQGUxZUH6h9UIMmWj1p/ryZdxFnvNPOP5HZxISvaxpUbz1p2gqNuObVBzrW2IKReCfDmU1YR+ZtjPKfHymLzHfuidNQjtNQsnNH212BbwyAxDpX6zTnAAAAAElFTkSuQmCC" InformativeScreenshot="d0522a681b88949bb393f0f868f3d194.jpg" Reference="sWPe-Uob5ka5MN8G-3WlKg/eowZ70p2WEiZD3E0EvVdCQ" Selector="&lt;html app='chrome.exe' url='https://cupbop.restaurant365.com/#/form/APInvoiceForm/*' /&gt;" Version="V2" />
         </uix:NApplicationCard.TargetApp>
       </uix:NApplicationCard>
     </Sequence>

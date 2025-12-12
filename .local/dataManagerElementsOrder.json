@@ -52,6 +52,8 @@
       "Path": "Restaurent365/ProcessInvoice.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "isSaved&Sequence_109",
+        "Extract_Data&Sequence_1",
         "isLoggedin&Sequence_1",
         "isNewVendorPopup&Sequence_5",
         "variable1&Sequence_5",
@@ -104,7 +106,7 @@
       ],
       "ArgumentsSectionElementsOrder": [
         "in_StakeHolderList",
-        "argument1"
+        "ClientName"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
@@ -302,6 +304,60 @@
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Vendor_list.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dtBotcinfig&Sequence_1",
+        "variable1&Sequence_1",
+        "VendorSearchDataRow&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_VendorSearchName"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "365_Logout.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Test.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "Extract_Data&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Vendorlist.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "BotConfigList&Sequence_1",
+        "Invoice_VendorName&Sequence_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Restaurent365/R365_ValidateInvoiceSave.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_InvoiceNumber",
+        "out_isSuccessful"
+      ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }

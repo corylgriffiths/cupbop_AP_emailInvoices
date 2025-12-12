@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="l_RJHhROJUCnmzOWp_tRDw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com/react/accounting/ap-center" CVScreenId="77cb1727-d2ab-4cfe-9b22-79054f3ccf16" CvTextArea="204, 416, 113, 22" CvTextArgument="AP center" CvType="Text" DesignTimeRectangle="208, 411, 377, 37" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='AP center' tag='SPAN' /&gt;" Guid="e905ac81-cb88-41e7-b29f-25e9af028509" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Center | Accounts Payable' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="77cb1727-d2ab-4cfe-9b22-79054f3ccf16" CvTextArea="173, 342, 228, 31" CvTextArgument="Accounts payable" CvType="Text" DesignTimeRectangle="176, 335, 323, 42" ElementType="Text" FuzzySelectorArgument="&lt;webctrl aaname='Accounts payable' tag='SPAN' type='' class='MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1ipqo4p' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Accounts payable' /&gt;" Guid="936d62cc-fe36-4534-bdb7-9e964e577c85" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="-3" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="0e8e9eed200748b498b5a7d829e8c918.png" xmlns="">0tB0JClUulEeh_GDtwbYXKg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

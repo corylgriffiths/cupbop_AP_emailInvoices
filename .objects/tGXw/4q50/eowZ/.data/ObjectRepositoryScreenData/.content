@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="gRRCdvbN2UqxDGCuG8Hl9w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="1693, 162, 2131, 1732" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFLSURBVDhPzVK7SgNREN0kKFEMarRQFB+FIJJCVBTB9wNEsRA7LU5zJC5ncTXEq5Vio70/4E9Y+HkyMoHdRK1zYBjuvTNnZs7cKOo63D08R3EazIpxGipxGqpxGvrjNBTs7V/chqcIlNkkqD1Qu6A2QR2A2gA1dH1zHzUeX9pTc8lznlAFVfC7IqgpUEegRowkB2vNAytetexnsxaJ2biTl3Lj2MygFkC9g3oDte6Baxm/DWrLRxuznHaCHVAfTnIFasXJAqgLUA1Qx6CWQc3/RmAVPkF9edUlUK+gzkBdevI5qBPTKUfgGsyCOgR16jqY6rV60rRxFp1w1WNGcwQGUxZUH6h9UIMmWj1p/ryZdxFnvNPOP5HZxISvaxpUbz1p2gqNuObVBzrW2IKReCfDmU1YR+ZtjPKfHymLzHfuidNQjtNQsnNH212BbwyAxDpX6zTnAAAAAElFTkSuQmCC" Selector="&lt;html app='chrome.exe' url='https://cupbop.restaurant365.com/#/form/APInvoiceForm/*' /&gt;" Version="V2">
+      <imageRef attrName="InformativeScreenshot" originalValue="d0522a681b88949bb393f0f868f3d194.jpg" xmlns="">01iRbF3f3kUKccQ1wscETJQ</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

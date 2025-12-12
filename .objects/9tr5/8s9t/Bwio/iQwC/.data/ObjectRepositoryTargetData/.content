@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HFsTSNwSLUq5qAqeqUxH_Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com/react/accounting/legacy/AllTransactions" CVScreenId="c21a1dec-d658-4225-a16b-aaf612c92354" CvElementArea="1151, 332, 108, 28" CvType="InputBox" DesignTimeRectangle="1153, 334, 105, 23" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl src='https://cupbop.restaurant365.com/#/standaloneGrid/AllTransactionsGrid/00000000-0000-0000-0000-000000000000' matching:src='fuzzy' fuzzylevel:src='0.0' tag='IFRAME' /&gt;&lt;webctrl src='app/pages/grids/AllTransactionsGrid/AllTransactionsGrid.html?version=07397c9e8' matching:src='fuzzy' fuzzylevel:src='0.0' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl class='k-input' matching:class='fuzzy' fuzzylevel:class='0.0' tag='INPUT' type='text' /&gt;" Guid="6441a0ba-204b-466e-9057-12e83e924288" ScopeSelectorArgument="&lt;html app='chrome.exe' title='All Transactions | Transactions' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c21a1dec-d658-4225-a16b-aaf612c92354" CvTextArea="1161, 301, 45, 12" CvTextArgument="Number" CvType="Text" DesignTimeRectangle="1152, 295, 149, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://cupbop.restaurant365.com/#/standaloneGrid/AllTransactionsGrid/00000000-0000-0000-0000-000000000000' matching:src='fuzzy' fuzzylevel:src='0.0' tag='IFRAME' /&gt;&lt;webctrl src='app/pages/grids/AllTransactionsGrid/AllTransactionsGrid.html?version=07397c9e8' matching:src='fuzzy' fuzzylevel:src='0.0' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Number' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' class='k-link' matching:class='fuzzy' fuzzylevel:class='0.0' type='' tag='A' check:innerText='Number' /&gt;" Guid="cdf0b0fb-cdbf-437d-a8ba-b4e61e9c874b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="72bb7c9e0ca788c2ca66ffdad4fd8376.png" xmlns="">0dc--yCIh6UCCDfBJgoMUKA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -230,19 +230,19 @@
       <AssemblyReference>mscorlib</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="2278,855.024" sap2010:WorkflowViewState.IdRef="Sequence_72">
+  <Sequence sap:VirtualizedContainerService.HintSize="1454.857142857143,928.8971428571427" sap2010:WorkflowViewState.IdRef="Sequence_72">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="check data" sap:VirtualizedContainerService.HintSize="450,371" sap2010:WorkflowViewState.IdRef="Sequence_71">
+    <Sequence DisplayName="check data" sap:VirtualizedContainerService.HintSize="450.2857142857143,376" sap2010:WorkflowViewState.IdRef="Sequence_71">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uisad:CreateValidationAction x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor62InvoicesV18" BucketId="{x:Null}" BucketName="{x:Null}" ContainsDocument="{x:Null}" ContainsTaxonomy="{x:Null}" FieldsValidationConfidence="{x:Null}" OrchestratorFolderId="{x:Null}" OriginalFilePath="{x:Null}" ActionCatalogue="default_du_actions" ActionPriority="Medium" ActionTitle="validate data" DisplayName="Create Validation Task" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="CreateValidationAction`1_1" OrchestratorBucketName="du_storage_bucket" OrchestratorFolderName="cory.griffiths@connectwithsky.com's workspace">
+      <uisad:CreateValidationAction x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor62InvoicesV18" BucketId="{x:Null}" BucketName="{x:Null}" ContainsDocument="{x:Null}" ContainsTaxonomy="{x:Null}" FieldsValidationConfidence="{x:Null}" OrchestratorFolderId="{x:Null}" OriginalFilePath="{x:Null}" ActionCatalogue="default_du_actions" ActionPriority="Medium" ActionTitle="validate data" DisplayMode="Classic" DisplayName="Create Validation Task" EnableRTLControls="False" sap:VirtualizedContainerService.HintSize="416,177.71428571428572" sap2010:WorkflowViewState.IdRef="CreateValidationAction`1_1" OrchestratorBucketName="du_storage_bucket" OrchestratorFolderName="cory.griffiths@connectwithsky.com's workspace">
         <uisad:CreateValidationAction.AutomaticExtractionResults>
           <InArgument x:TypeArguments="uisad1:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesV18)">
             <CSharpValue x:TypeArguments="uisad1:IDocumentData(uisasecb:CupBopAPInvoiceProcessor62InvoicesV18)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_421">currentDocumentData0</CSharpValue>
@@ -254,7 +254,7 @@
           </OutArgument>
         </uisad:CreateValidationAction.CreatedValidationAction>
       </uisad:CreateValidationAction>
-      <uisad:WaitForValidationAction x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor62InvoicesV18" RemoveDataAfterProcessing="{x:Null}" ValidatedExtractionResults="{x:Null}" WaitItemDataObject="{x:Null}" DisplayName="Wait for Validation Task and Resume" sap:VirtualizedContainerService.HintSize="416,113" sap2010:WorkflowViewState.IdRef="WaitForValidationAction`1_1">
+      <uisad:WaitForValidationAction x:TypeArguments="uisasecb:CupBopAPInvoiceProcessor62InvoicesV18" RemoveDataAfterProcessing="{x:Null}" ValidatedExtractionResults="{x:Null}" WaitItemDataObject="{x:Null}" DisplayName="Wait for Validation Task and Resume" sap:VirtualizedContainerService.HintSize="416,115.42857142857143" sap2010:WorkflowViewState.IdRef="WaitForValidationAction`1_1">
         <uisad:WaitForValidationAction.CreatedValidationAction>
           <InArgument x:TypeArguments="uisad:CreatedValidationAction(uisasecb:CupBopAPInvoiceProcessor62InvoicesV18)">
             <CSharpValue x:TypeArguments="uisad:CreatedValidationAction(uisasecb:CupBopAPInvoiceProcessor62InvoicesV18)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_422">validateData</CSharpValue>

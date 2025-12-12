@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bmT6V8mRiUmkkivK9D--zQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com/react/accounting/legacy/AllTransactions" CVScreenId="c951c315-e109-48de-a78a-59d298bada48" CvTextArea="3566, 671, 91, 31" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="3568, 664, 217, 42" ElementType="Text" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aaname='Logout' tag='SPAN' type='' class='MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1ipqo4p' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Logout' /&gt;" Guid="fbaf7b77-76d5-41e9-b816-596c916e6a17" ScopeSelectorArgument="&lt;html app='chrome.exe' title='All Transactions | Transactions' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c951c315-e109-48de-a78a-59d298bada48" CvTextArea="3566, 671, 91, 31" CvTextArgument="Logout" CvType="Text" DesignTimeRectangle="3540, 643, 273, 84" ElementType="Button" FuzzySelectorArgument="&lt;webctrl aria-role='button' type='' class='MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root css-12dci43' tag='DIV' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Logout' /&gt;" Guid="818fdc12-ef96-4c5a-99cc-06d4d9a45090" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="da3a8763ec8ac02dcc32bc79fd217f25.png" xmlns="">0awgJ5HmvkU2DYGCjzcC-Eg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

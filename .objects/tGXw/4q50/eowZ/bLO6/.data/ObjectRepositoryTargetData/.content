@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="qv3ZuPuwR0Si_JqkpyjRPQ" Reference="sWPe-Uob5ka5MN8G-3WlKg/bLO6VYXtEkq2lQSYml4dLA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="7b7d10aa-575e-480c-8fce-f94765b323a2" CvTextArea="73, 414, 187, 24" CvTextArgument="Save and Close" CvType="Text" DesignTimeRectangle="39, 404, 278, 48" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='*Save and Close*' tag='A' /&gt;" Guid="e01d62e4-e6c5-4810-967b-ac79f1515c13" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - 255301600583' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3e1ce5cf2e6602817da1b67fa778a60b.png" xmlns="">0MHpohHlkpUCs8z87Dk_vaw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

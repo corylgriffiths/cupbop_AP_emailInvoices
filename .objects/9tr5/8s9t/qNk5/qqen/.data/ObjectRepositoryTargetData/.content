@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tf4zJTnlj0WNjvEstMnWkg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com/react/accounting/ap-center" CVScreenId="3b0d064c-3398-4a16-9722-4624eb15c20e" CvElementArea="3523, 373, 265, 71" CvType="Button" DesignTimeRectangle="3528, 377, 258, 63" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='New Invoice' tag='BUTTON' /&gt;" Guid="fc3c357a-9c6a-4893-8555-dd5e6e2926fc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Center | Accounts Payable' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1dc5b9655c42fcbf2143ec03a56392ad.png" xmlns="">0tZ7X9aMe1Ua-OgCglLUpoQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

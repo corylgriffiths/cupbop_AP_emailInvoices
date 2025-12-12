@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="X1og7FHgD0ehjcV2tWPYdA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="95XUzKVcUU6kQ_FsfApGTA" Reference="sWPe-Uob5ka5MN8G-3WlKg/ybBktLyhlkuQgHRKcUW1-Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="identity.restaurant365.com/Account/Login" CVScreenId="d9fede66-d4ea-4e5f-92d5-93b9e6f0064a" CvTextArea="972, 624, 184, 27" CvTextArgument="Log in to Cupbop" CvType="Text" DesignTimeRectangle="850, 623, 428, 26" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" Guid="f6ef2080-332e-4d60-9c03-8d502a8e5baf" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="identity.restaurant365.com/Account/Login" CVScreenId="d9fede66-d4ea-4e5f-92d5-93b9e6f0064a" CvTextArea="972, 624, 184, 27" CvTextArgument="Log in to Cupbop" CvType="Text" DesignTimeRectangle="1138, 902, 749, 46" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='H3' /&gt;" Guid="f6ef2080-332e-4d60-9c03-8d502a8e5baf" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Restaurant365' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="None">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="d9fede66-d4ea-4e5f-92d5-93b9e6f0064a" CvElementArea="903, 680, 322, 58" CvType="InputBox" DesignTimeRectangle="904, 681, 320, 56" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='Username' tag='INPUT' /&gt;" Guid="ba2de99e-be32-4fb1-99c5-d808b7782ead" SearchSteps="Selector, CV" />
+          <Target CVScreenId="9e132b41-c4c3-4e2e-b28c-12af0322a158" CvElementArea="1446, 1329, 131, 77" CvTextArea="1476, 1354, 70, 29" CvTextArgument="Log in" CvType="Button" DesignTimeRectangle="1451, 1333, 122, 70" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='login' tag='BUTTON' type='submit' class='submit-btn login-button' aaname='Log in' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Log in' /&gt;" Guid="7963bea7-89ca-4ee0-afb3-748bdcfcc8f1" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="23a28bc9a2d274e3f5edd97e27cbe1ff.png" xmlns="">0gWRQTd7Dtk2zkHaZ2fRqzA</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="b5259373ebb233fea0b2bf4330bb98c3.png" xmlns="">0dGmTzY-R4kKZ9yTzPdBgig</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>
