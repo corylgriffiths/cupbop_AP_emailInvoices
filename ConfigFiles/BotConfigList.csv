@@ -130,7 +130,7 @@ Priority1,,F,0,F,ignore,,
 PROFESSIONAL FUN HAVERS ASSOCIATION,,F,0,F,6395,9001 Corporate,9001 Corporate
 Qu POS,,F,0,F,6353,,Based on Locations in Invoice
 R B Leasing,,F,0,F,6395,1036 Bountiful,1036 Bountiful
-Renegade Oil,,F,0,F,5775,,"Either 9004 - 9004 Central Kitchen ( if it has 12184 S Business Park Drive) or Stores based on Invoices. Don't use 9001, 9002, 9003. "
+Renegade Oil,Renegade,F,0,F,5775,,"Either 9004 - 9004 Central Kitchen ( if it has 12184 S Business Park Drive) or Stores based on Invoices. Don't use 9001, 9002, 9003. "
 Resco - Restaurant & Store Equipment,Resco,F,0,F,5510, 9004 Central Kitchen, 9004 Central Kitchen
 Restaurant 365 - R365,Restaurant365,F,0,F,6380 - Dues & Subscriptions,,Based on Locations in Invoice
 Restaurant Systems,,F,0,T,6380,,Based on Locations in Invoice

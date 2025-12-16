@@ -223,8 +223,8 @@
       "Path": "Restaurent365/AddR365Lines.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "currentDocumentDataR365&Sequence_1",
         "outputElement&Sequence_1",
+        "currentDocumentDataR365&Sequence_1",
         "isNewVendorPopup&Sequence_2",
         "variable1&Sequence_2",
         "currentPageURL&Sequence_2",
@@ -358,6 +358,14 @@
         "in_InvoiceNumber",
         "out_isSuccessful"
       ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Save_test.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     }

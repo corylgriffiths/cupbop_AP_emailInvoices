@@ -213,13 +213,13 @@
       <AssemblyReference>mscorlib</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1018,2478" sap2010:WorkflowViewState.IdRef="Sequence_111">
+  <Sequence sap:VirtualizedContainerService.HintSize="1338,2475" sap2010:WorkflowViewState.IdRef="Sequence_111">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="validate the save" sap:VirtualizedContainerService.HintSize="672,2455" sap2010:WorkflowViewState.IdRef="Sequence_110">
+    <Sequence DisplayName="validate the save" sap:VirtualizedContainerService.HintSize="672,2452" sap2010:WorkflowViewState.IdRef="Sequence_110">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -232,7 +232,7 @@
           </InArgument>
         </ui:LogMessage.Message>
       </ui:LogMessage>
-      <Assign DisplayName="Assign return value" sap:VirtualizedContainerService.HintSize="638,114" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign DisplayName="Assign return value" sap:VirtualizedContainerService.HintSize="638,113" sap2010:WorkflowViewState.IdRef="Assign_1">
         <Assign.To>
           <OutArgument x:TypeArguments="x:Boolean">
             <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_49">out_isSuccessful</CSharpReference>
@@ -242,33 +242,32 @@
           <InArgument x:TypeArguments="x:Boolean">False</InArgument>
         </Assign.Value>
       </Assign>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="R365 All Trans" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="638,2085" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="6a66014c-0632-4db7-8bcf-374a5a8dd544" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="R365 All Trans" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="638,2083" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="6a66014c-0632-4db7-8bcf-374a5a8dd544" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="604,1880" sap2010:WorkflowViewState.IdRef="Sequence_112">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="604,1878" sap2010:WorkflowViewState.IdRef="Sequence_112">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NCheckState DisplayName="Check App State 'Number'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="570,1820" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="6a66014c-0632-4db7-8bcf-374a5a8dd544" Version="V5">
+              <uix:NCheckState DisplayName="Check App State 'Number'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="570,1818" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="6a66014c-0632-4db7-8bcf-374a5a8dd544" Timeout="15" Version="V5">
                 <uix:NCheckState.IfExists>
-                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="536,1286" sap2010:WorkflowViewState.IdRef="Sequence_113">
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="536,1284" sap2010:WorkflowViewState.IdRef="Sequence_113">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'select'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="502,240" sap2010:WorkflowViewState.IdRef="NTypeInto_14" InteractionMode="SameAsCard" ScopeIdentifier="6a66014c-0632-4db7-8bcf-374a5a8dd544" Version="V5">
+                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DelayAfter="0.75" DisplayName="Type Into 'select'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="502,240" sap2010:WorkflowViewState.IdRef="NTypeInto_14" InteractionMode="SameAsCard" ScopeIdentifier="6a66014c-0632-4db7-8bcf-374a5a8dd544" Version="V5">
                       <uix:NTypeInto.Target>
-                        <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com/react/accounting/legacy/AllTransactions" CVScreenId="8a00480a-48d7-41ee-8661-e838589c7aeb" ContentHash="dfXxfgQo_0-q5v8WhO90Jg" CvElementArea="2008, 588, 195, 48" CvType="InputBox" DesignTimeRectangle="2014, 592, 186, 40" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl src='https://cupbop.restaurant365.com/#/standaloneGrid/AllTransactionsGrid/00000000-0000-0000-0000-000000000000' tag='IFRAME' matching:src='fuzzy' fuzzylevel:src='0.0' /&gt;&lt;webctrl src='app/pages/grids/AllTransactionsGrid/AllTransactionsGrid.html?version=07397c9e8' tag='IFRAME' matching:src='fuzzy' fuzzylevel:src='0.0' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl class='k-input' aaname='' tag='INPUT' type='text' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="9ec0d6d4-bfd4-47a6-ad1e-7e83d0d1f785" InformativeScreenshot="ed73d722bd97fc4c242db70875e08227.png" IsResponsive="True" Reference="sWPe-Uob5ka5MN8G-3WlKg/mYargB3MEEShmBMExlBXdw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='All Transactions | Transactions' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                        <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com/react/accounting/legacy/AllTransactions" CVScreenId="8a00480a-48d7-41ee-8661-e838589c7aeb" ContentHash="LE218BXQDEyQwxXbd8sPyg" CvElementArea="2008, 588, 195, 48" CvType="InputBox" DesignTimeRectangle="1153, 334, 105, 23" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl src='https://cupbop.restaurant365.com/#/standaloneGrid/AllTransactionsGrid/00000000-0000-0000-0000-000000000000' tag='IFRAME' matching:src='fuzzy' fuzzylevel:src='0.0' /&gt;&lt;webctrl src='app/pages/grids/AllTransactionsGrid/AllTransactionsGrid.html?version=07397c9e8' tag='IFRAME' matching:src='fuzzy' fuzzylevel:src='0.0' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl class='k-input' aaname='' tag='INPUT' type='text' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="9ec0d6d4-bfd4-47a6-ad1e-7e83d0d1f785" InformativeScreenshot="4bb9e77e88b356604acdcf053d6882a3.png" Reference="sWPe-Uob5ka5MN8G-3WlKg/mYargB3MEEShmBMExlBXdw" ScopeSelectorArgument="&lt;html app='chrome.exe' title='All Transactions | Transactions' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
                           <uix:TargetAnchorable.Anchors>
-                            <scg:List x:TypeArguments="uix:ITarget" Capacity="2">
-                              <uix:Target CVScreenId="8a00480a-48d7-41ee-8661-e838589c7aeb" CvElementArea="1883, 589, 47, 46" CvType="Button" DesignTimeRectangle="1895, 600, 28, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://cupbop.restaurant365.com/#/standaloneGrid/AllTransactionsGrid/00000000-0000-0000-0000-000000000000' tag='IFRAME' matching:src='fuzzy' fuzzylevel:src='0.0' /&gt;&lt;webctrl src='app/pages/grids/AllTransactionsGrid/AllTransactionsGrid.html?version=07397c9e8' tag='IFRAME' matching:src='fuzzy' fuzzylevel:src='0.0' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='select' type='' class='k-icon k-filter' tag='SPAN' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='select' /&gt;" Guid="edf900af-533b-495b-875c-38e48dc7aa9f" SearchSteps="FuzzySelector, CV" />
-                              <uix:Target CVScreenId="8a00480a-48d7-41ee-8661-e838589c7aeb" CvTextArea="2028, 538, 78, 19" CvTextArgument="Number" CvType="Text" DesignTimeRectangle="2013, 524, 261, 48" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://cupbop.restaurant365.com/#/standaloneGrid/AllTransactionsGrid/00000000-0000-0000-0000-000000000000' tag='IFRAME' matching:src='fuzzy' fuzzylevel:src='0.0' /&gt;&lt;webctrl src='app/pages/grids/AllTransactionsGrid/AllTransactionsGrid.html?version=07397c9e8' tag='IFRAME' matching:src='fuzzy' fuzzylevel:src='0.0' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Number' class='k-link' type='' tag='A' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Number' /&gt;" Guid="d6e43240-1b1f-48c2-b08a-4462929034eb" SearchSteps="FuzzySelector, CV" />
+                            <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                              <uix:Target CVScreenId="8a00480a-48d7-41ee-8661-e838589c7aeb" CvTextArea="2028, 538, 78, 19" CvTextArgument="Number" CvType="Text" DesignTimeRectangle="1152, 295, 149, 27" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://cupbop.restaurant365.com/#/standaloneGrid/AllTransactionsGrid/00000000-0000-0000-0000-000000000000' tag='IFRAME' matching:src='fuzzy' fuzzylevel:src='0.0' /&gt;&lt;webctrl src='app/pages/grids/AllTransactionsGrid/AllTransactionsGrid.html?version=07397c9e8' tag='IFRAME' matching:src='fuzzy' fuzzylevel:src='0.0' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Number' class='k-link' type='' tag='A' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' check:innerText='Number' /&gt;" Guid="d6e43240-1b1f-48c2-b08a-4462929034eb" SearchSteps="FuzzySelector, CV" />
                             </scg:List>
                           </uix:TargetAnchorable.Anchors>
                         </uix:TargetAnchorable>
@@ -289,9 +288,9 @@
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <uix:NCheckState DisplayName="Check App State '182484'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="502,986" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="6a66014c-0632-4db7-8bcf-374a5a8dd544" Timeout="5" Version="V5">
+                    <uix:NCheckState DisplayName="Check App State '182484'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="502,984" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="6a66014c-0632-4db7-8bcf-374a5a8dd544" Timeout="5" Version="V5">
                       <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="468,338" sap2010:WorkflowViewState.IdRef="Sequence_115">
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="468,337" sap2010:WorkflowViewState.IdRef="Sequence_115">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -304,7 +303,7 @@
                               </InArgument>
                             </ui:LogMessage.Message>
                           </ui:LogMessage>
-                          <Assign DisplayName="Assign return value" sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_2">
+                          <Assign DisplayName="Assign return value" sap:VirtualizedContainerService.HintSize="434,104" sap2010:WorkflowViewState.IdRef="Assign_2">
                             <Assign.To>
                               <OutArgument x:TypeArguments="x:Boolean">
                                 <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_50">out_isSuccessful</CSharpReference>
@@ -317,7 +316,7 @@
                         </Sequence>
                       </uix:NCheckState.IfExists>
                       <uix:NCheckState.IfNotExists>
-                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="468,338" sap2010:WorkflowViewState.IdRef="Sequence_116">
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="468,337" sap2010:WorkflowViewState.IdRef="Sequence_116">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -330,7 +329,7 @@
                               </InArgument>
                             </ui:LogMessage.Message>
                           </ui:LogMessage>
-                          <Assign DisplayName="Assign return value" sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_3">
+                          <Assign DisplayName="Assign return value" sap:VirtualizedContainerService.HintSize="434,104" sap2010:WorkflowViewState.IdRef="Assign_3">
                             <Assign.To>
                               <OutArgument x:TypeArguments="x:Boolean">
                                 <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_51">out_isSuccessful</CSharpReference>

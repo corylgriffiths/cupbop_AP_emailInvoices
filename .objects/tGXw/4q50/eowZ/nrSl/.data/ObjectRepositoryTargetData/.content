@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DQa_krbWTk2R5uAce-OUxQ" Reference="sWPe-Uob5ka5MN8G-3WlKg/nrSljxfBNkeo9oVos2BGiA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="bd459f21-4245-4e10-b7cf-3465749dcef1" CvTextArea="73, 426, 187, 24" CvTextArgument="Save and Close" CvType="Text" DesignTimeRectangle="74, 425, 186, 30" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl aaname='Save and Close' class='ng-binding' parentid='Save' tag='SPAN' /&gt;" Guid="dbcfb932-cd91-4857-a099-f65aabf99bbc" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="bd459f21-4245-4e10-b7cf-3465749dcef1" CvTextArea="314, 425, 77, 22" CvTextArgument="lendor" CvType="Text" DesignTimeRectangle="306, 422, 91, 30" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='ng-scope' parentid='KendoSplitter' tag='A' type='' aaname='         Vendor       ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Vendor' /&gt;" Guid="a55c2e2b-7d74-4c9a-9bd9-7723709b6fd0" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d1f329a96e3972011a0246a89dc82f41.png" xmlns="">0OFTTjaV7TUmqdsE7LKD3kA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
