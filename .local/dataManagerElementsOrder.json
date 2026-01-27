@@ -12,20 +12,6 @@
       "Path": "Gmail/ProcessGmails.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "configObject&Sequence_1",
-        "locationList&Sequence_1",
-        "ReportTable&Sequence_1",
-        "StatusNotProcessed&Sequence_1",
-        "StatusProcessed&Sequence_1",
-        "LineMappingTable&Sequence_1",
-        "BotConfigTable&Sequence_1",
-        "testRemove&Sequence_1",
-        "dateToProcessEmailsAfter&Sequence_1",
-        "tempNoOfEmailsProcessed&Sequence_1",
-        "LocationTable&Sequence_1",
-        "Browser_Restaurent365&Sequence_1",
-        "currentDocumentData0&Sequence_1",
-        "stringList&Sequence_19",
         "currentEmailAttachments&Sequence_4",
         "folderExists&Sequence_4",
         "variable1&Sequence_27",
@@ -39,9 +25,26 @@
         "validateData&Sequence_12",
         "tmpItemDesc&Sequence_55",
         "tempLocationExists&Sequence_13",
-        "locationList&Sequence_3"
+        "locationList&Sequence_3",
+        "dateToProcessEmailsAfter&Sequence_1",
+        "in_emailAge&Sequence_1",
+        "configObject&Sequence_1",
+        "locationList&Sequence_1",
+        "ReportTable&Sequence_1",
+        "StatusNotProcessed&Sequence_1",
+        "StatusProcessed&Sequence_1",
+        "LineMappingTable&Sequence_1",
+        "BotConfigTable&Sequence_1",
+        "testRemove&Sequence_1",
+        "tempNoOfEmailsProcessed&Sequence_1",
+        "LocationTable&Sequence_1",
+        "Browser_Restaurent365&Sequence_1",
+        "currentDocumentData0&Sequence_1",
+        "stringList&Sequence_19"
       ],
       "ArgumentsSectionElementsOrder": [
+        "in_EmailAge",
+        "in_ErrorNotivications",
         "in_stakeholderlist",
         "Browser_Restaurent365"
       ],
@@ -52,9 +55,9 @@
       "Path": "Restaurent365/ProcessInvoice.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
-        "isSaved&Sequence_109",
-        "Extract_Data&Sequence_1",
         "isLoggedin&Sequence_1",
+        "outputElement&Sequence_1",
+        "Extract_Data&Sequence_1",
         "isNewVendorPopup&Sequence_5",
         "variable1&Sequence_5",
         "currentPageURL&Sequence_5",
@@ -66,8 +69,8 @@
         "accountCode&Sequence_6",
         "extractedAccountCodeForSLCC&Sequence_55",
         "lineItemNotExists&Sequence_7",
-        "tmpConfirmationExists&Sequence_49",
-        "outputElement&Sequence_1"
+        "isSaved&Sequence_109",
+        "tmpConfirmationExists&Sequence_49"
       ],
       "ArgumentsSectionElementsOrder": [
         "currentShipLocation",
@@ -106,7 +109,9 @@
       ],
       "ArgumentsSectionElementsOrder": [
         "in_StakeHolderList",
-        "ClientName"
+        "ClientName",
+        "in_ErrorEmailDistributionList",
+        "in_EmailAge"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
@@ -152,12 +157,10 @@
     {
       "Path": "Restaurent365/CalculateSLCCAccountCode.xaml",
       "SortBy": 0,
-      "VariablesSectionElementsOrder": [
-        "tmpItemDesc&Sequence_1"
-      ],
+      "VariablesSectionElementsOrder": [],
       "ArgumentsSectionElementsOrder": [
-        "extractedAccountCode",
-        "currentDocumentData"
+        "ItemsDescriptions",
+        "extractedAccountCode"
       ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null

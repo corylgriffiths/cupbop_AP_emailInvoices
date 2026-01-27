@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="jv94vDQKJEGBTSRaMto6MA" Reference="sWPe-Uob5ka5MN8G-3WlKg/1xkruxuEs0Kp5Dd6vIrxjw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="4zpu6iQHmEqQi0gD6egA2Q" Reference="sWPe-Uob5ka5MN8G-3WlKg/1xkruxuEs0Kp5Dd6vIrxjw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="7f68b1a8-0ffb-47e4-b8bb-a49a7437d257" DesignTimeRectangle="113, 1000, 113, 16" ElementType="Text" FullSelectorArgument="&lt;webctrl class='ng-binding' parentid='KendoSplitter' tag='A' /&gt;" Guid="32a07170-5058-44e8-a2d5-e7101eb6767e" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - 1508365' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="cupbop.restaurant365.com" CVScreenId="b6da8207-efd9-4ad0-b34e-99d502c83c1a" CvTextArea="112, 970, 108, 16" CvTextArgument="m0fm4rvh.enz.pdf" CvType="Text" DesignTimeRectangle="113, 969, 112, 16" ElementType="Text" ElementVisibilityArgument="Interactive" Guid="213892ff-e76e-4617-a9bb-0789c93cd938" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice - 6088' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="None">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="1">
-          <Target CVScreenId="7f68b1a8-0ffb-47e4-b8bb-a49a7437d257" CvElementArea="35, 919, 107, 42" CvTextArea="52, 933, 72, 16" CvTextArgument="Upload File" CvType="Button" DesignTimeRectangle="38, 922, 101, 36" ElementType="Button" FuzzySelectorArgument="&lt;webctrl id='attachmentsModuleInputButton' parentid='KendoSplitter' tag='BUTTON' type='' class='k-button k-upload-button ng-binding' aaname='Upload File' matching:id='fuzzy' fuzzylevel:id='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Upload File' /&gt;" Guid="e8962123-fb1a-41aa-97a8-2c22a2883150" SearchSteps="FuzzySelector, CV" />
+          <Target CVScreenId="b6da8207-efd9-4ad0-b34e-99d502c83c1a" CvElementArea="34, 887, 109, 44" CvTextArea="52, 902, 72, 16" CvTextArgument="Upload File" CvType="Button" DesignTimeRectangle="38, 891, 101, 36" ElementType="Button" FuzzyAccuracy="0.79" FuzzySelectorArgument="&lt;webctrl id='attachmentsModuleInputButton' matching:id='fuzzy' fuzzylevel:id='0.0' parentid='KendoSplitter' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' tag='BUTTON' aaname='Upload File' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Upload File' /&gt;" Guid="0acc857c-2a36-4397-8c32-58c92fb65519" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <TargetAnchorable.FuzzySelectorArgument>
+      <TargetAnchorable.FullSelectorArgument>
         <p:InArgument x:TypeArguments="x:String">
-          <p:CSharpValue x:TypeArguments="x:String">"&lt;webctrl class='ng-binding' parentid='KendoSplitter' tag='A' type='' aaname='"+fileName+"' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='"+fileName+"' /&gt;"</p:CSharpValue>
+          <p:CSharpValue x:TypeArguments="x:String">"&lt;webctrl class='ng-binding' parentid='KendoSplitter' tag='A' aaname='"+fileName+"' /&gt;"</p:CSharpValue>
         </p:InArgument>
-      </TargetAnchorable.FuzzySelectorArgument>
-      <imageRef attrName="InformativeScreenshot" originalValue="21f9ae56fd589e6ee5c63951f7954e31.png" xmlns="">0VUr7rk2FqUWj1nbxBno9hg</imageRef>
+      </TargetAnchorable.FullSelectorArgument>
+      <imageRef attrName="InformativeScreenshot" originalValue="7f7def6abd9b79a7fe30a4890c0c3f27.png" xmlns="">0cE-oybPy-U2EAOyLiGLEXA</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">CheckState</x:String>
   </ObjectRepositoryTargetData.Data>

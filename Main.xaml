@@ -7,12 +7,12 @@
   </x:Members>
   <this:Main.in_StakeHolderList>
     <InArgument x:TypeArguments="scg:List(x:String)">
-      <CSharpValue x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">new List&lt;string&gt;{"cory.griffiths@praxio.io", "gabe.james@praxio.io", "tatikonda.koushik@praxio.io"}</CSharpValue>
+      <CSharpValue x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_8">new List&lt;string&gt;{"cory.griffiths@praxio.io"}</CSharpValue>
     </InArgument>
   </this:Main.in_StakeHolderList>
   <this:Main.in_ErrorEmailDistributionList>
     <InArgument x:TypeArguments="scg:List(x:String)">
-      <CSharpValue x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">new List&lt;string&gt;{"cory.griffiths@praxio.io", "gabe.james@praxio.io", "tatikonda.koushik@praxio.io"}</CSharpValue>
+      <CSharpValue x:TypeArguments="scg:List(x:String)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_9">new List&lt;string&gt;{"cory.griffiths@praxio.io"}</CSharpValue>
     </InArgument>
   </this:Main.in_ErrorEmailDistributionList>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
@@ -120,7 +120,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1139,1113.624" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1053,951.6239999999999" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor1InvoicesV1)" Name="currentDocumentData" />
     </Sequence.Variables>

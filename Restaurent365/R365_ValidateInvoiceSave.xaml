@@ -213,13 +213,13 @@
       <AssemblyReference>mscorlib</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="1338,2475" sap2010:WorkflowViewState.IdRef="Sequence_111">
+  <Sequence sap:VirtualizedContainerService.HintSize="1019,2478" sap2010:WorkflowViewState.IdRef="Sequence_111">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="validate the save" sap:VirtualizedContainerService.HintSize="672,2452" sap2010:WorkflowViewState.IdRef="Sequence_110">
+    <Sequence DisplayName="validate the save" sap:VirtualizedContainerService.HintSize="672,2455" sap2010:WorkflowViewState.IdRef="Sequence_110">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -232,7 +232,7 @@
           </InArgument>
         </ui:LogMessage.Message>
       </ui:LogMessage>
-      <Assign DisplayName="Assign return value" sap:VirtualizedContainerService.HintSize="638,113" sap2010:WorkflowViewState.IdRef="Assign_1">
+      <Assign DisplayName="Assign return value" sap:VirtualizedContainerService.HintSize="638,114" sap2010:WorkflowViewState.IdRef="Assign_1">
         <Assign.To>
           <OutArgument x:TypeArguments="x:Boolean">
             <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_49">out_isSuccessful</CSharpReference>
@@ -242,21 +242,21 @@
           <InArgument x:TypeArguments="x:Boolean">False</InArgument>
         </Assign.Value>
       </Assign>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="R365 All Trans" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="638,2083" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="6a66014c-0632-4db7-8bcf-374a5a8dd544" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="R365 All Trans" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="638,2085" sap2010:WorkflowViewState.IdRef="NApplicationCard_5" InteractionMode="DebuggerApi" OpenMode="IfNotOpen" ScopeGuid="6a66014c-0632-4db7-8bcf-374a5a8dd544" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="604,1878" sap2010:WorkflowViewState.IdRef="Sequence_112">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="604,1880" sap2010:WorkflowViewState.IdRef="Sequence_112">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NCheckState DisplayName="Check App State 'Number'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="570,1818" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="6a66014c-0632-4db7-8bcf-374a5a8dd544" Timeout="15" Version="V5">
+              <uix:NCheckState DisplayName="Check App State 'Number'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="570,1820" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="6a66014c-0632-4db7-8bcf-374a5a8dd544" Timeout="30" Version="V5">
                 <uix:NCheckState.IfExists>
-                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="536,1284" sap2010:WorkflowViewState.IdRef="Sequence_113">
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="536,1286" sap2010:WorkflowViewState.IdRef="Sequence_113">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -288,9 +288,9 @@
                         </uix:VerifyExecutionTypeIntoOptions>
                       </uix:NTypeInto.VerifyOptions>
                     </uix:NTypeInto>
-                    <uix:NCheckState DisplayName="Check App State '182484'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="502,984" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="6a66014c-0632-4db7-8bcf-374a5a8dd544" Timeout="5" Version="V5">
+                    <uix:NCheckState DisplayName="Check App State '182484'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="502,986" sap2010:WorkflowViewState.IdRef="NCheckState_2" ScopeIdentifier="6a66014c-0632-4db7-8bcf-374a5a8dd544" Timeout="5" Version="V5">
                       <uix:NCheckState.IfExists>
-                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="468,337" sap2010:WorkflowViewState.IdRef="Sequence_115">
+                        <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="468,338" sap2010:WorkflowViewState.IdRef="Sequence_115">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -303,7 +303,7 @@
                               </InArgument>
                             </ui:LogMessage.Message>
                           </ui:LogMessage>
-                          <Assign DisplayName="Assign return value" sap:VirtualizedContainerService.HintSize="434,104" sap2010:WorkflowViewState.IdRef="Assign_2">
+                          <Assign DisplayName="Assign return value" sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_2">
                             <Assign.To>
                               <OutArgument x:TypeArguments="x:Boolean">
                                 <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_50">out_isSuccessful</CSharpReference>
@@ -316,7 +316,7 @@
                         </Sequence>
                       </uix:NCheckState.IfExists>
                       <uix:NCheckState.IfNotExists>
-                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="468,337" sap2010:WorkflowViewState.IdRef="Sequence_116">
+                        <Sequence DisplayName="Target does not appear" sap:VirtualizedContainerService.HintSize="468,338" sap2010:WorkflowViewState.IdRef="Sequence_116">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -329,7 +329,7 @@
                               </InArgument>
                             </ui:LogMessage.Message>
                           </ui:LogMessage>
-                          <Assign DisplayName="Assign return value" sap:VirtualizedContainerService.HintSize="434,104" sap2010:WorkflowViewState.IdRef="Assign_3">
+                          <Assign DisplayName="Assign return value" sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_3">
                             <Assign.To>
                               <OutArgument x:TypeArguments="x:Boolean">
                                 <CSharpReference x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpReference`1_51">out_isSuccessful</CSharpReference>
