@@ -91,7 +91,7 @@
       <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Vendorlist" sap:VirtualizedContainerService.HintSize="1437.7142857142858,618.2857142857143" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Vendorlist" sap:VirtualizedContainerService.HintSize="642,606" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="BotConfigList" />
     </Sequence.Variables>
@@ -100,7 +100,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:ReadCsvFile FilePath="{x:Null}" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read CSV" sap:VirtualizedContainerService.HintSize="504.57142857142856,173.14285714285714" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1">
+    <ui:ReadCsvFile FilePath="{x:Null}" Delimitator="Comma" DelimitatorForViewModel="Comma" DisplayName="Read CSV" sap:VirtualizedContainerService.HintSize="502,168" sap2010:WorkflowViewState.IdRef="ReadCsvFile_1">
       <ui:ReadCsvFile.DataTable>
         <OutArgument x:TypeArguments="sd:DataTable">
           <CSharpReference x:TypeArguments="sd:DataTable" sap2010:WorkflowViewState.IdRef="CSharpReference`1_1">BotConfigList</CSharpReference>
@@ -112,10 +112,10 @@
         </InArgument>
       </ui:ReadCsvFile.PathResource>
     </ui:ReadCsvFile>
-    <If DisplayName="Fix ServiceStar" sap:VirtualizedContainerService.HintSize="504.57142857142856,422.2857142857143" sap2010:WorkflowViewState.IdRef="If_1">
+    <If DisplayName="Fix ServiceStar" sap:VirtualizedContainerService.HintSize="502,415" sap2010:WorkflowViewState.IdRef="If_1">
       <If.Condition>
         <InArgument x:TypeArguments="x:Boolean">
-          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_2">BotConfigList.AsEnumerable().Any(row =&gt; !string.IsNullOrEmpty(row.Field&lt;string&gt;("Invoice_VendorName")) &amp;&amp; row.Field&lt;string&gt;("Invoice_VendorName").ToLower().Contains("freedom crossing at fort bliss"))</CSharpValue>
+          <CSharpValue x:TypeArguments="x:Boolean" sap2010:WorkflowViewState.IdRef="CSharpValue`1_4">BotConfigList.Rows.Cast&lt;System.Data.DataRow&gt;().Any(row =&gt; !string.IsNullOrEmpty(row.Field&lt;string&gt;("Invoice_VendorName")) &amp;&amp; row.Field&lt;string&gt;("Invoice_VendorName").ToLower().Contains("freedom crossing at fort bliss"))</CSharpValue>
         </InArgument>
       </If.Condition>
       <sap:WorkflowViewStateService.ViewState>
@@ -125,7 +125,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <If.Then>
-        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="470.2857142857143,168" sap2010:WorkflowViewState.IdRef="Sequence_2">
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="468,165" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <Sequence.Variables>
             <Variable x:TypeArguments="x:String" Name="Invoice_VendorName" />
           </Sequence.Variables>
@@ -134,7 +134,7 @@
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <Assign DisplayName="Assign - check if Vendor name has any mathing vendor from list" sap:VirtualizedContainerService.HintSize="436,108" sap2010:WorkflowViewState.IdRef="Assign_1">
+          <Assign DisplayName="Assign - check if Vendor name has any mathing vendor from list" sap:VirtualizedContainerService.HintSize="434,105" sap2010:WorkflowViewState.IdRef="Assign_1">
             <Assign.To>
               <OutArgument x:TypeArguments="x:String">
                 <CSharpReference x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpReference`1_2">Invoice_VendorName</CSharpReference>
@@ -142,14 +142,14 @@
             </Assign.To>
             <Assign.Value>
               <InArgument x:TypeArguments="x:String">
-                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_3">BotConfigList.AsEnumerable().Any(r =&gt; !string.IsNullOrWhiteSpace(r.Field&lt;string&gt;("Invoice_VendorName")) &amp;&amp; (r.Field&lt;string&gt;("Invoice_VendorName").ToLower().Contains(Invoice_VendorName.ToLower()) || r.Field&lt;string&gt;("365_VendorName").ToLower().Contains(Invoice_VendorName.ToLower()))).ToString()</CSharpValue>
+                <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_5">BotConfigList.Rows.Cast&lt;System.Data.DataRow&gt;().Any(r =&gt; !string.IsNullOrWhiteSpace(r.Field&lt;string&gt;("Invoice_VendorName")) &amp;&amp; (r.Field&lt;string&gt;("Invoice_VendorName").ToLower().Contains(Invoice_VendorName.ToLower()) || r.Field&lt;string&gt;("365_VendorName").ToLower().Contains(Invoice_VendorName.ToLower()))).ToString()</CSharpValue>
               </InArgument>
             </Assign.Value>
           </Assign>
         </Sequence>
       </If.Then>
       <If.Else>
-        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,90.85714285714286" sap2010:WorkflowViewState.IdRef="Sequence_3">
+        <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="416,89" sap2010:WorkflowViewState.IdRef="Sequence_3">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>

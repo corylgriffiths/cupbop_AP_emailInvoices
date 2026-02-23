@@ -343,7 +343,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="ProcessInvoice" sap:VirtualizedContainerService.HintSize="1385,15156" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ProcessInvoice" sap:VirtualizedContainerService.HintSize="1540,15156" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="isLoggedin" />
       <Variable x:TypeArguments="ui:UiElement" Name="outputElement">
@@ -1903,7 +1903,7 @@
                                 </If.Else>
                               </If>
                             </Sequence>
-                            <Sequence sap2010:Annotation.AnnotationText=" • R365 (make sure correct location flow)&#xA; • Qu POS (Same as above)&#xA; • JFC (make sure correct unit of measure)&#xA; • Jolt (make sure correct location flow)&#xA; • Coca-Cola of Southern Utah&#xA; • Auto-Chlor System: Make sure it takes the total due amount, not the total balance&#xA;&#xA; • Wasatch Plaza Holdings |  City Centre Shoppes - Wasatch Commercial Management: &#xA;        If it has the word Rent in invoices, it needs to hit CAM. The rest can hit 5775 for now  CAM = 6395 " DisplayName="pause and double check data for a list of invoices:" sap:VirtualizedContainerService.HintSize="484,240" sap2010:WorkflowViewState.IdRef="Sequence_81">
+                            <Sequence sap2010:Annotation.AnnotationText=" • R365 (make sure correct location flow)&#xA; • Qu POS (Same as above)&#xA; • JFC (make sure correct unit of measure)&#xA; • Jolt (make sure correct location flow)&#xA; • Coca-Cola of Southern Utah&#xA; • Auto-Chlor System: Make sure it takes the total due amount, not the total balance&#xA;&#xA; • Wasatch Plaza Holdings |  City Centre Shoppes - Wasatch Commercial Management: &#xA;        If it has the word Rent in invoices, it needs to hit CAM. The rest can hit 5775 for now  CAM = 6395 " DisplayName="pause and double check data for a list of invoices:" sap:VirtualizedContainerService.HintSize="484,675" sap2010:WorkflowViewState.IdRef="Sequence_81">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1925,7 +1925,7 @@
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
-                                    <ui:MessageBox ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" Buttons="Ok" Caption="Data Validation Check" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="382,113" sap2010:WorkflowViewState.IdRef="MessageBox_1">
+                                    <ui:MessageBox ChosenButton="{x:Null}" AutoCloseAfter="00:00:02" Buttons="Ok" Caption="Data Validation Check" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="382,113" sap2010:WorkflowViewState.IdRef="MessageBox_1">
                                       <ui:MessageBox.Text>
                                         <InArgument x:TypeArguments="x:Object">
                                           <CSharpValue x:TypeArguments="x:Object" sap2010:WorkflowViewState.IdRef="CSharpValue`1_178" xml:space="preserve">"Validate the following: " + Environment.NewLine +
