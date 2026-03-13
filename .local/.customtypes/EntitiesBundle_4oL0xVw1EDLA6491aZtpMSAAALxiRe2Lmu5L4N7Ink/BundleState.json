@@ -54,6 +54,15 @@
         "assemblyName": "ExtendedExtractionRe.vNclvAWfrE1cspXj1K4Quh2"
       }
     },
+    "ExtendedExtractionRe.l68cR2QXYTB1d7kVs3ligG": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor64InvoicesR365MultiLinesV20.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor64InvoicesR365MultiLinesV20",
+        "hash": "Mzg1NjkxMjY0",
+        "assemblyName": "ExtendedExtractionRe.l68cR2QXYTB1d7kVs3ligG"
+      }
+    },
     "ExtendedExtractionRe.P0vq02QWlvA18UqeG1jcECc": {
       "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor1InvoicesV1.Bundle",
       "providerName": "CustomEntities",
@@ -306,6 +315,15 @@
         "assemblyName": "ExtendedExtractionRe.zYFNuoq9NN1iPyfV2e1ino2"
       }
     },
+    "ExtendedExtractionRe.UHxaL3eTNPQ1UnRzu3HRHOK4": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor63InvoicesLineItemsV19.Bundle",
+      "providerName": "CustomEntities",
+      "key": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor63InvoicesLineItemsV19",
+        "hash": "OTA3Mjk3OTc5",
+        "assemblyName": "ExtendedExtractionRe.UHxaL3eTNPQ1UnRzu3HRHOK4"
+      }
+    },
     "ExtendedExtractionRe.07UAT8bUtE1z2WXR3BUlHA4": {
       "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor63InvoicesR365MultiLinesV19.Bundle",
       "providerName": "CustomEntities",
@@ -342,13 +360,13 @@
         "assemblyName": "ExtendedExtractionRe.cqGZXg4WFR1ecai41Hr6fv2"
       }
     },
-    "ExtendedExtractionRe.UHxaL3eTNPQ1UnRzu3HRHOK4": {
-      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor63InvoicesLineItemsV19.Bundle",
+    "ExtendedExtractionRe.zFPf34GEGLJ1fnhPH2csqSg1": {
+      "namespace": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor64InvoicesV20.Bundle",
       "providerName": "CustomEntities",
       "key": {
-        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor63InvoicesLineItemsV19",
-        "hash": "OTA3Mjk3OTc5",
-        "assemblyName": "ExtendedExtractionRe.UHxaL3eTNPQ1UnRzu3HRHOK4"
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor64InvoicesV20",
+        "hash": "LTEwOTY2NjA5MDQ",
+        "assemblyName": "ExtendedExtractionRe.zFPf34GEGLJ1fnhPH2csqSg1"
       }
     }
   }

@@ -68,6 +68,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -246,12 +247,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -326,6 +329,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -468,12 +472,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -548,6 +554,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -690,12 +697,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -770,6 +779,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -912,12 +922,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -992,6 +1004,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -1134,12 +1147,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -1214,6 +1229,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -1356,12 +1372,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -1436,6 +1454,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -1578,12 +1597,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -1658,6 +1679,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -1800,12 +1822,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -1874,6 +1898,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -1938,12 +1963,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -2018,6 +2045,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -2160,12 +2188,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -2240,6 +2270,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -2382,12 +2413,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -2462,6 +2495,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -2526,12 +2560,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -2606,6 +2642,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -2712,12 +2749,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -2792,6 +2831,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -2934,12 +2974,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -3014,6 +3056,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -3078,12 +3121,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -3158,6 +3203,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -3300,12 +3346,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -3380,6 +3428,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -3444,12 +3493,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -3524,6 +3575,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -3630,12 +3682,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -3710,6 +3764,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -3774,12 +3829,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -3854,6 +3911,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -3996,12 +4054,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -4076,6 +4136,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -4182,12 +4243,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -4262,6 +4325,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -4404,12 +4468,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -4484,6 +4550,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -4548,12 +4615,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -4628,6 +4697,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -4734,12 +4804,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -4778,6 +4850,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -4848,12 +4921,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -4928,6 +5003,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -4998,12 +5074,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -5078,6 +5156,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -5184,12 +5263,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -5264,6 +5345,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -5406,12 +5488,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -5486,6 +5570,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -5550,12 +5635,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -5594,6 +5681,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -5664,12 +5752,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -5744,6 +5834,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -5886,12 +5977,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -5966,6 +6059,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -6036,12 +6130,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -6116,6 +6212,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -6180,12 +6277,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -6260,6 +6359,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -6366,12 +6466,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -6446,6 +6548,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -6516,12 +6619,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -6596,6 +6701,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -6738,12 +6844,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -6818,6 +6926,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -6924,12 +7033,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -6968,6 +7079,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -7038,12 +7150,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -7118,6 +7232,7 @@
                   }
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
@@ -7182,12 +7297,14 @@
                   "isCollection": true
                 }
               ],
+              "values": [],
               "baseType": {
                 "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
               },
               "generateChangeNotifications": true
             }
           },
+          "Metadata": {},
           "version": 1
         }
       },
@@ -7195,6 +7312,384 @@
         "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor63InvoicesLineItemsV19",
         "hash": "OTA3Mjk3OTc5",
         "assemblyName": "ExtendedExtractionRe.UHxaL3eTNPQ1UnRzu3HRHOK4"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "385691264",
+        "bundleName": "ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor64InvoicesR365MultiLinesV20",
+        "entitiesBundle": {
+          "Types": {
+            "Items": {
+              "name": "Items",
+              "properties": [
+                {
+                  "name": "ItemsDescriptions",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ItemsShippingLocation",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ItemsMemo",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ItemsQuantities",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ItemsUnitPrices",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ItemsAmount",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ItemsTaxRate",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ItemsTax",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ItemsTotalAmounts",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                }
+              ],
+              "values": [],
+              "baseType": {
+                "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
+              },
+              "generateChangeNotifications": true
+            },
+            "CupBopAPInvoiceProcessor64InvoicesR365MultiLinesV20": {
+              "name": "CupBopAPInvoiceProcessor64InvoicesR365MultiLinesV20",
+              "properties": [
+                {
+                  "name": "VendorName",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "VendorAddress",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "BillingName",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "BillingAddress",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "InvoiceNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "DocumentDate",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.DateTime, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "NetAmount",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "TaxAmount",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "TotalAmount",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Items",
+                  "type": {
+                    "definitionName": "Items"
+                  },
+                  "isCollection": true
+                }
+              ],
+              "values": [],
+              "baseType": {
+                "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
+              },
+              "generateChangeNotifications": true
+            }
+          },
+          "Metadata": {},
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor64InvoicesR365MultiLinesV20",
+        "hash": "Mzg1NjkxMjY0",
+        "assemblyName": "ExtendedExtractionRe.l68cR2QXYTB1d7kVs3ligG"
+      }
+    },
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "-1096660904",
+        "bundleName": "ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor64InvoicesV20",
+        "entitiesBundle": {
+          "Types": {
+            "Items": {
+              "name": "Items",
+              "properties": [
+                {
+                  "name": "ItemsQuantityCase",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ItemsItemDate",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.Nullable`1[[System.DateTime, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ItemsSizeOrQuantity",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ItemsDescriptions",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ItemsQuantities",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ItemsUnitPrices",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ItemsLineAmounts",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ItemsLineNumbers",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "ItemsPartNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedFieldNoMultivalues`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                }
+              ],
+              "values": [],
+              "baseType": {
+                "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
+              },
+              "generateChangeNotifications": true
+            },
+            "CupBopAPInvoiceProcessor64InvoicesV20": {
+              "name": "CupBopAPInvoiceProcessor64InvoicesV20",
+              "properties": [
+                {
+                  "name": "VendorName",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "VendorAddress",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "BillingName",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "BillingAddress",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "InvoiceNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "PurchaseOrderNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "VendorVATNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "DocumentDate",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.DateTime, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "TaxAmount",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "TotalAmount",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "PaymentTerms",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "NetAmount",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "DueDate",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.DateTime, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "DiscountAmount",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "BankName",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "BankAccountNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "BankIBAN",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "SWIFTCode",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "BankAddress",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "BankRoutingNumber",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.String, System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "TaxRate",
+                  "type": {
+                    "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtractedField`1[[System.Nullable`1[[System.Double, System.Private.CoreLib]], System.Private.CoreLib]], UiPath.IntelligentOCR.StudioWeb.Activities"
+                  }
+                },
+                {
+                  "name": "Items",
+                  "type": {
+                    "definitionName": "Items"
+                  },
+                  "isCollection": true
+                }
+              ],
+              "values": [],
+              "baseType": {
+                "ClrType": "UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction.ExtendedExtractionResultsForDocumentData, UiPath.IntelligentOCR.StudioWeb.Activities"
+              },
+              "generateChangeNotifications": true
+            }
+          },
+          "Metadata": {},
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor64InvoicesV20",
+        "hash": "LTEwOTY2NjA5MDQ",
+        "assemblyName": "ExtendedExtractionRe.zFPf34GEGLJ1fnhPH2csqSg1"
       }
     }
   ]

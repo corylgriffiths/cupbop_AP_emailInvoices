@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="ProcessInvoice" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:sc1="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd2="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uggm="clr-namespace:UiPath.GSuite.Gmail.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor63InvoicesV19.Bundle;assembly=ExtendedExtractionRe.MmGkh1enHuO1jTJqD1bHyg82" xmlns:uisasecb1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcesor20InvoicesV2.Bundle;assembly=ExtendedExtractionRe.GwoC92mSffN1cn8GO4ZwEIG4" xmlns:uisasecb2="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesR365MultiLinesV18.Bundle;assembly=ExtendedExtractionRe.Qax3e4PeJcF1MIsgj197uIu3" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="ProcessInvoice" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:sc="clr-namespace:System.ComponentModel;assembly=System.ComponentModel.TypeConverter" xmlns:sc1="clr-namespace:System.Collections;assembly=System.Private.CoreLib" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd2="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:uggm="clr-namespace:UiPath.GSuite.Gmail.Models;assembly=UiPath.GSuite" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uisad="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.DataExtraction;assembly=UiPath.IntelligentOCR.StudioWeb.Activities" xmlns:uisasecb="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor64InvoicesV20.Bundle;assembly=ExtendedExtractionRe.zFPf34GEGLJ1fnhPH2csqSg1" xmlns:uisasecb1="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor63InvoicesV19.Bundle;assembly=ExtendedExtractionRe.MmGkh1enHuO1jTJqD1bHyg82" xmlns:uisasecb2="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcesor20InvoicesV2.Bundle;assembly=ExtendedExtractionRe.GwoC92mSffN1cn8GO4ZwEIG4" xmlns:uisasecb3="clr-namespace:UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor62InvoicesR365MultiLinesV18.Bundle;assembly=ExtendedExtractionRe.Qax3e4PeJcF1MIsgj197uIu3" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <x:Members>
     <x:Property Name="currentShipLocation" Type="InArgument(x:String)" />
     <x:Property Name="exception" Type="OutArgument(x:String)" />
@@ -7,7 +7,7 @@
     <x:Property Name="VendorDataRow" Type="InArgument(sd:DataRow)" />
     <x:Property Name="LocationList" Type="InArgument(scg:List(x:String))" />
     <x:Property Name="currentGmailAttachmentLocalItem" Type="InArgument(uggm:GmailAttachmentLocalItem)" />
-    <x:Property Name="currentDocumentData1" Type="InArgument(uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor63InvoicesV19))" />
+    <x:Property Name="currentDocumentData1" Type="InArgument(uisad:IDocumentData(uisasecb:CupBopAPInvoiceProcessor64InvoicesV20))" />
     <x:Property Name="Browser_Restaurent365" Type="InArgument(ui:UiElement)" />
   </x:Members>
   <sap2010:ExpressionActivityEditor.ExpressionActivityEditor>C#</sap2010:ExpressionActivityEditor.ExpressionActivityEditor>
@@ -177,6 +177,7 @@
       <x:String>UiPath.Workflow.Runtime</x:String>
       <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor63InvoicesV19.Bundle</x:String>
       <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.IntelligentOCR.StudioWeb.Activities.SWEntities.ExtendedExtractionResultsForDocumentData.CupBopAPInvoiceProcessor64InvoicesV20.Bundle</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -336,6 +337,7 @@
       <AssemblyReference>ExtendedExtractionRe.OJeY3bHfZB1OTWMX2IlOdS4</AssemblyReference>
       <AssemblyReference>System.Reflection.MetadataLoadContext</AssemblyReference>
       <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>ExtendedExtractionRe.zFPf34GEGLJ1fnhPH2csqSg1</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -343,7 +345,7 @@
       <x:Boolean x:Key="ShouldExpandAll">False</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="ProcessInvoice" sap:VirtualizedContainerService.HintSize="1540,15156" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="ProcessInvoice" sap:VirtualizedContainerService.HintSize="1668,15156" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="isLoggedin" />
       <Variable x:TypeArguments="ui:UiElement" Name="outputElement">
@@ -378,6 +380,7 @@
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                <x:Boolean x:Key="IsPinned">False</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <uix:NGetAttributeGeneric x:TypeArguments="x:String" Attribute="url" DisplayName="Get Attribute" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="800,175" sap2010:WorkflowViewState.IdRef="NGetAttributeGeneric`1_1" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
@@ -692,10 +695,10 @@
               </If>
               <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayAfter="3" DelayBefore="1" DisplayName="Type Into 'Vendor'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="450,240" sap2010:WorkflowViewState.IdRef="NTypeInto_2" InteractionMode="DebuggerApi" ScopeIdentifier="c4107820-3024-45db-8ce5-d560c25fd100" Version="V4">
                 <uix:NTypeInto.Target>
-                  <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="78d426e1-44b5-41f8-a425-816a239568e4" ContentHash="S8qQrOdQpkW_WaSEdLxzeQ" CvElementArea="233, 248, 369, 38" CvType="InputBox" DesignTimeRectangle="238, 251, 330, 33" DesignTimeScaleFactor="1.25" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='vendor_input' tag='INPUT' type='text' class='k-input has-full-width ng-valid-parse ng-touched ng-dirty ng-empty ng-invalid ng-invalid-required' placeholder='Select Vendor' aaname='' /&gt;" Guid="0b418829-9ac1-4b6d-874b-2dfda0effd82" InformativeScreenshot="56ac46f4581188eb00e4494c7d7cf4e7.png" IsResponsive="True" Reference="sWPe-Uob5ka5MN8G-3WlKg/5ImGM35dQEi3FX6F6G0n5Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector, CV" Version="V5">
+                  <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com" CVScreenId="78d426e1-44b5-41f8-a425-816a239568e4" ContentHash="W8RE8aD9tUaxCoKa5-UlZQ" DesignTimeRectangle="198, 229, 252, 26" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl aria-role='combobox' name='vendor_input' tag='INPUT' type='text' class='k-input has-full-width ng-valid-parse ng-touched ng-dirty ng-empty ng-invalid ng-invalid-required' placeholder='Select Vendor' aaname='' matching:aria-role='fuzzy' fuzzylevel:aria-role='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="0b418829-9ac1-4b6d-874b-2dfda0effd82" InformativeScreenshot="27ba2625848d75e36650c201f02ed131.png" IsResponsive="True" Reference="sWPe-Uob5ka5MN8G-3WlKg/5ImGM35dQEi3FX6F6G0n5Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='AP Invoice' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
                     <uix:TargetAnchorable.Anchors>
                       <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                        <uix:Target CVScreenId="78d426e1-44b5-41f8-a425-816a239568e4" CvTextArea="125, 260, 62, 16" CvTextArgument="Vendor" CvType="Text" DesignTimeRectangle="127, 258, 65, 21" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='ng-scope' parentid='KendoSplitter' tag='A' type='' aaname='         Vendor       ' check:innerText='Vendor' /&gt;" Guid="eed33b6a-d312-4aae-9307-e11008208de8" SearchSteps="FuzzySelector, CV" />
+                        <uix:Target CVScreenId="736e59a5-f7b4-440d-b39d-4520b573a850" DesignTimeRectangle="110, 235, 51, 17" ElementType="Text" FuzzySelectorArgument="&lt;webctrl class='ng-scope' parentid='KendoSplitter' tag='A' type='' aaname='         Vendor       ' matching:class='fuzzy' fuzzylevel:class='0.0' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Vendor' /&gt;" Guid="eed33b6a-d312-4aae-9307-e11008208de8" SearchSteps="FuzzySelector" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
                   </uix:TargetAnchorable>
@@ -973,7 +976,7 @@
                     </sap:WorkflowViewStateService.ViewState>
                     <Sequence DisplayName="Sequence - Add Invoice Line items" sap:VirtualizedContainerService.HintSize="698,6008" sap2010:WorkflowViewState.IdRef="Sequence_43">
                       <Sequence.Variables>
-                        <Variable x:TypeArguments="uisad:IDocumentData(uisasecb2:CupBopAPInvoiceProcessor62InvoicesR365MultiLinesV18)" Name="currentDocumentDataR365" />
+                        <Variable x:TypeArguments="uisad:IDocumentData(uisasecb3:CupBopAPInvoiceProcessor62InvoicesR365MultiLinesV18)" Name="currentDocumentDataR365" />
                       </Sequence.Variables>
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -1116,11 +1119,11 @@
                                             <InArgument x:TypeArguments="x:String">5900</InArgument>
                                           </Assign.Value>
                                         </Assign>
-                                        <ui:ForEach x:TypeArguments="uisasecb:Items" CurrentIndex="{x:Null}" DisplayName="For Each currentIinetems in currentDocumentData1.Data.Items" sap:VirtualizedContainerService.HintSize="576,815" sap2010:WorkflowViewState.IdRef="ForEach`1_1">
+                                        <ui:ForEach x:TypeArguments="uisasecb1:Items" CurrentIndex="{x:Null}" DisplayName="For Each currentIinetems in currentDocumentData1.Data.Items" sap:VirtualizedContainerService.HintSize="576,815" sap2010:WorkflowViewState.IdRef="ForEach`1_1">
                                           <ui:ForEach.Body>
-                                            <ActivityAction x:TypeArguments="uisasecb:Items">
+                                            <ActivityAction x:TypeArguments="uisasecb1:Items">
                                               <ActivityAction.Argument>
-                                                <DelegateInArgument x:TypeArguments="uisasecb:Items" Name="currentIinetems" />
+                                                <DelegateInArgument x:TypeArguments="uisasecb1:Items" Name="currentIinetems" />
                                               </ActivityAction.Argument>
                                               <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="542,669" sap2010:WorkflowViewState.IdRef="Sequence_100">
                                                 <sap:WorkflowViewStateService.ViewState>
@@ -1528,8 +1531,8 @@
                                               </sap:WorkflowViewStateService.ViewState>
                                               <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="ConvertLineItemFromMappings - Invoke Workflow File (Restaurent365\\ConvertLineItemFromMappings.xaml)" sap:VirtualizedContainerService.HintSize="382,224" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Restaurent365\\ConvertLineItemFromMappings.xaml">
                                                 <ui:InvokeWorkflowFile.Arguments>
-                                                  <InArgument x:TypeArguments="uisad:IDocumentData(uisasecb1:CupBopAPInvoiceProcesor20InvoicesV2)" x:Key="currentDocumentData">
-                                                    <CSharpValue x:TypeArguments="uisad:IDocumentData(uisasecb1:CupBopAPInvoiceProcesor20InvoicesV2)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_77">currentDocumentData1</CSharpValue>
+                                                  <InArgument x:TypeArguments="uisad:IDocumentData(uisasecb2:CupBopAPInvoiceProcesor20InvoicesV2)" x:Key="currentDocumentData">
+                                                    <CSharpValue x:TypeArguments="uisad:IDocumentData(uisasecb2:CupBopAPInvoiceProcesor20InvoicesV2)" sap2010:WorkflowViewState.IdRef="CSharpValue`1_77">currentDocumentData1</CSharpValue>
                                                   </InArgument>
                                                   <InArgument x:TypeArguments="x:String" x:Key="currentVendorName">
                                                     <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_65">currentVendorName</CSharpValue>
@@ -1903,7 +1906,7 @@
                                 </If.Else>
                               </If>
                             </Sequence>
-                            <Sequence sap2010:Annotation.AnnotationText=" • R365 (make sure correct location flow)&#xA; • Qu POS (Same as above)&#xA; • JFC (make sure correct unit of measure)&#xA; • Jolt (make sure correct location flow)&#xA; • Coca-Cola of Southern Utah&#xA; • Auto-Chlor System: Make sure it takes the total due amount, not the total balance&#xA;&#xA; • Wasatch Plaza Holdings |  City Centre Shoppes - Wasatch Commercial Management: &#xA;        If it has the word Rent in invoices, it needs to hit CAM. The rest can hit 5775 for now  CAM = 6395 " DisplayName="pause and double check data for a list of invoices:" sap:VirtualizedContainerService.HintSize="484,675" sap2010:WorkflowViewState.IdRef="Sequence_81">
+                            <Sequence sap2010:Annotation.AnnotationText=" • R365 (make sure correct location flow)&#xA; • Qu POS (Same as above)&#xA; • JFC (make sure correct unit of measure)&#xA; • Jolt (make sure correct location flow)&#xA; • Coca-Cola of Southern Utah&#xA; • Auto-Chlor System: Make sure it takes the total due amount, not the total balance&#xA;&#xA; • Wasatch Plaza Holdings |  City Centre Shoppes - Wasatch Commercial Management: &#xA;        If it has the word Rent in invoices, it needs to hit CAM. The rest can hit 5775 for now  CAM = 6395 " DisplayName="pause and double check data for a list of invoices:" sap:VirtualizedContainerService.HintSize="484,240" sap2010:WorkflowViewState.IdRef="Sequence_81">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">False</x:Boolean>
