@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Memorized Template Conf…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "eGHD9VNirEaFdT3ulIBsqw",
+  "Reference": "sWPe-Uob5ka5MN8G-3WlKg/eGHD9VNirEaFdT3ulIBsqw",
+  "ParentRef": "sWPe-Uob5ka5MN8G-3WlKg/qNk5ak_Gt0GmVs4M4WTUXw",
+  "Created": "2026-04-07T16:12:46.9397602Z",
+  "Updated": "2026-04-07T16:12:46.9397602Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

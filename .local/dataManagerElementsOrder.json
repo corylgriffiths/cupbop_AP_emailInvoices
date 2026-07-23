@@ -23,9 +23,9 @@
         "tempNoOfEmailsProcessed&Sequence_1",
         "LocationTable&Sequence_1",
         "Browser_Restaurent365&Sequence_1",
-        "currentDocumentData0&Sequence_1",
         "in_emailAge&Sequence_1",
         "dateToProcessEmailsAfter&Sequence_1",
+        "currentDocumentData0&Sequence_1",
         "stringList&Sequence_19",
         "currentEmailAttachments&Sequence_4",
         "folderExists&Sequence_4",
@@ -111,6 +111,7 @@
         "in_StakeHolderList",
         "ClientName",
         "in_ErrorEmailDistributionList",
+        "in_FullDLList",
         "in_EmailAge"
       ],
       "ConstantsSectionElementsOrder": [],
@@ -328,7 +329,17 @@
       "Path": "365_Logout.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [],
-      "ArgumentsSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "currentShipLocation",
+        "exception",
+        "filePath",
+        "currentVendorName",
+        "VendorDataRow",
+        "LocationList",
+        "currentGmailAttachmentLocalItem",
+        "currentDocumentData1",
+        "Browser_Restaurent365"
+      ],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
     },

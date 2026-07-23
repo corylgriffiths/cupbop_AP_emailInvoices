@@ -213,7 +213,7 @@
       <AssemblyReference>mscorlib</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="672,2535" sap2010:WorkflowViewState.IdRef="Sequence_111">
+  <Sequence sap:VirtualizedContainerService.HintSize="1459,2535" sap2010:WorkflowViewState.IdRef="Sequence_111">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -262,7 +262,7 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </uix:NWindowOperation>
-              <uix:NCheckState DelayBefore="2" DisplayName="Check App State 'Number'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="570,1820" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="6a66014c-0632-4db7-8bcf-374a5a8dd544" Timeout="30" Version="V5">
+              <uix:NCheckState DelayBefore="2" DisplayName="Check App State 'Number'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="570,1820" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="6a66014c-0632-4db7-8bcf-374a5a8dd544" Timeout="60" Version="V5">
                 <uix:NCheckState.IfExists>
                   <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="536,1286" sap2010:WorkflowViewState.IdRef="Sequence_113">
                     <sap:WorkflowViewStateService.ViewState>
@@ -385,7 +385,7 @@
                 <uix:NCheckState.Target>
                   <uix:TargetAnchorable BrowserURL="cupbop.restaurant365.com/react/accounting/legacy/AllTransactions" CVScreenId="c21a1dec-d658-4225-a16b-aaf612c92354" DesignTimeRectangle="1013, 338, 73, 24" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;webctrl src='https://cupbop.restaurant365.com/#/standaloneGrid/AllTransactionsGrid/00000000-0000-0000-0000-000000000000' matching:src='fuzzy' fuzzylevel:src='0.0' tag='IFRAME' /&gt;&lt;webctrl src='app/pages/grids/AllTransactionsGrid/AllTransactionsGrid.html?version=07397c9e8' matching:src='fuzzy' fuzzylevel:src='0.0' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl class='k-input' matching:class='fuzzy' fuzzylevel:class='0.0' tag='INPUT' type='text' /&gt;" Guid="6441a0ba-204b-466e-9057-12e83e924288" InformativeScreenshot="6c86613bf5492c67dfab8eb851b874d7.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='All Transactions*Transactions' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="None">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target CVScreenId="13995cec-f96f-47c3-b92d-29e5201aad3c" DesignTimeRectangle="1012, 299, 99, 28" ElementType="Text" FuzzySelectorArgument="&lt;webctrl src='https://cupbop.restaurant365.com/#/standaloneGrid/AllTransactionsGrid/00000000-0000-0000-0000-000000000000' matching:src='fuzzy' fuzzylevel:src='0.0' tag='IFRAME' /&gt;&lt;webctrl src='app/pages/grids/AllTransactionsGrid/AllTransactionsGrid.html?version=07397c9e8' matching:src='fuzzy' fuzzylevel:src='0.0' tag='IFRAME' /&gt;&lt;webctrl tag='TABLE' /&gt;&lt;webctrl aaname='Number' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' class='k-link' matching:class='fuzzy' fuzzylevel:class='0.0' type='' tag='A' check:innerText='Number' /&gt;" Guid="cdf0b0fb-cdbf-437d-a8ba-b4e61e9c874b" SearchSteps="FuzzySelector" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
